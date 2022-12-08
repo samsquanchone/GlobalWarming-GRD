@@ -19,8 +19,8 @@ public class PlayerInput : MonoBehaviour
             //If rayhit hits object, output hit variable
             if (Physics.Raycast(ray, out hit, 10000f))
             {
-                //Debug.Log("hello");
-                //If the object that is hit is of tag "City" get the values for the houseByPriceRegion dictionary (from DataManager instance) for the current slider UI year value
+                
+                //If the object that is hit is of tag "UNCountry" get the dataScript for the selected country and send necessary parameters to the UIManager to set country pop up data
                 if (hit.transform.CompareTag("UNCountry") && !UIManager.instance.countryPanel.activeSelf) 
                 {
 
