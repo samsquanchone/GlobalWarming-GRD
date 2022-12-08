@@ -18,6 +18,7 @@ public class CountryData : MonoBehaviour
     {
         double currentContribution = gdp / percentageGDPContributed; //Get percentage alocated from GDP
 
+        Debug.Log("Current Contribution: " + name + ": " + currentContribution);
         return currentContribution;
     }
 

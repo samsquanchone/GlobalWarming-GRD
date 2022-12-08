@@ -203,6 +203,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86379352}
   m_CullTransparentMesh: 1
+--- !u!1 &101181245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101181246}
+  - component: {fileID: 101181248}
+  - component: {fileID: 101181247}
+  m_Layer: 0
+  m_Name: CountryCurrentContributionText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &101181246
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101181245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 28.255, y: -171.451}
+  m_SizeDelta: {x: 176.51, y: 51.0981}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &101181247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101181245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Current Contribution: $'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -54.832214, y: 0, z: 2.1959229, w: -3.9269104}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &101181248
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101181245}
+  m_CullTransparentMesh: 1
 --- !u!1 &103457787
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +547,313 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &172173531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172173532}
+  - component: {fileID: 172173534}
+  - component: {fileID: 172173533}
+  m_Layer: 0
+  m_Name: CountryPopulationText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &172173532
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172173531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: 50}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &172173533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172173531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Population: '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -54.832214, y: 0, z: 0, w: -3.9269104}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &172173534
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172173531}
+  m_CullTransparentMesh: 1
+--- !u!1 &356124596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 356124597}
+  m_Layer: 0
+  m_Name: Fill Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &356124597
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356124596}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1181228369}
+  m_Father: {fileID: 1568447264}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: -5, y: 0}
+  m_SizeDelta: {x: -20, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &358604169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358604170}
+  - component: {fileID: 358604172}
+  - component: {fileID: 358604171}
+  m_Layer: 0
+  m_Name: CountryGDPText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &358604170
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358604169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: 100}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &358604171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358604169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'GDP: $ '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -53.73413, y: 0, z: 0, w: -3.9269104}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &358604172
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358604169}
+  m_CullTransparentMesh: 1
 --- !u!1 &493812035
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +956,141 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &507126801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507126802}
+  - component: {fileID: 507126804}
+  - component: {fileID: 507126803}
+  m_Layer: 0
+  m_Name: CountryPykreteProductionText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &507126802
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507126801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: -50}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &507126803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507126801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Pykrete Production (KG): '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -55.930237, y: 0, z: 25.254883, w: -3.9269104}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &507126804
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507126801}
+  m_CullTransparentMesh: 1
 --- !u!1 &586508567
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,9 +1236,86 @@ Transform:
   m_Children:
   - {fileID: 1423683694}
   - {fileID: 1977125969}
+  - {fileID: 1660024317}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &640777997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640777998}
+  - component: {fileID: 640778000}
+  - component: {fileID: 640777999}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &640777998
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640777997}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1568447264}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMax: {x: 1, y: 0.75}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &640777999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640777997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &640778000
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640777997}
+  m_CullTransparentMesh: 1
 --- !u!1 &670028987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,6 +1708,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826725036}
   m_CullTransparentMesh: 1
+--- !u!1 &861858252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861858253}
+  - component: {fileID: 861858255}
+  - component: {fileID: 861858254}
+  m_Layer: 0
+  m_Name: CountryCo2ProductionText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &861858253
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861858252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &861858254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861858252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Co2 Production (Tons):'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -54.832214, y: 0, z: 26.352905, w: -3.9269104}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &861858255
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861858252}
+  m_CullTransparentMesh: 1
 --- !u!1 &893109163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,6 +1977,167 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893109163}
+  m_CullTransparentMesh: 1
+--- !u!1 &1181228368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1181228369}
+  - component: {fileID: 1181228371}
+  - component: {fileID: 1181228370}
+  m_Layer: 0
+  m_Name: Fill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1181228369
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181228368}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 356124597}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1181228370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181228368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1181228371
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181228368}
+  m_CullTransparentMesh: 1
+--- !u!1 &1211527493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1211527494}
+  - component: {fileID: 1211527496}
+  - component: {fileID: 1211527495}
+  m_Layer: 0
+  m_Name: CountryPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1211527494
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211527493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1510631840}
+  - {fileID: 358604170}
+  - {fileID: 172173532}
+  - {fileID: 861858253}
+  - {fileID: 507126802}
+  - {fileID: 1543016318}
+  - {fileID: 1568447264}
+  - {fileID: 101181246}
+  - {fileID: 2036969723}
+  m_Father: {fileID: 1276741011}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 392.3247, y: -46.2137}
+  m_SizeDelta: {x: -823.9805, y: -237.9514}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1211527495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211527493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8773585, g: 0.79045033, b: 0.79045033, a: 0.7607843}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1211527496
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211527493}
   m_CullTransparentMesh: 1
 --- !u!1 &1268312612
 GameObject:
@@ -1478,6 +2428,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 86379353}
+  - {fileID: 1211527494}
+  - {fileID: 1286084807}
   m_Father: {fileID: 1902584208}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1670,6 +2622,178 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277321231}
   m_CullTransparentMesh: 1
+--- !u!1 &1286084806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1286084807}
+  - component: {fileID: 1286084809}
+  - component: {fileID: 1286084808}
+  m_Layer: 0
+  m_Name: UNWealthText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1286084807
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286084806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1276741011}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2, y: -9}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1286084808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286084806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'UN Wealth: $'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1286084809
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286084806}
+  m_CullTransparentMesh: 1
+--- !u!1 &1292289538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292289539}
+  m_Layer: 0
+  m_Name: Handle Slide Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1292289539
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292289538}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1714070109}
+  m_Father: {fileID: 1568447264}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1310889404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,6 +2892,379 @@ MonoBehaviour:
   Normal_Speed_BUTTON: {fileID: 1277321233}
   Fast_Speed_BUTTON: {fileID: 1268312614}
   Stop_Indication_Canvas: {fileID: 493812039}
+--- !u!1 &1510631839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510631840}
+  - component: {fileID: 1510631842}
+  - component: {fileID: 1510631841}
+  m_Layer: 0
+  m_Name: CountryNameText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1510631840
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510631839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 55, y: 162}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1510631841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510631839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Country
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 5
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -66.232056, y: 0, z: 43.012573, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1510631842
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510631839}
+  m_CullTransparentMesh: 1
+--- !u!1 &1543016317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543016318}
+  - component: {fileID: 1543016320}
+  - component: {fileID: 1543016319}
+  m_Layer: 0
+  m_Name: CountryUNContributionText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1543016318
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543016317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40, y: -100}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1543016319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543016317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'UN Climate Contribution (%): '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 5
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -75.69495, y: 0, z: 0, w: -3.9269104}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1543016320
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543016317}
+  m_CullTransparentMesh: 1
+--- !u!1 &1568447263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568447264}
+  - component: {fileID: 1568447265}
+  m_Layer: 0
+  m_Name: UNContributionSlider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1568447264
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568447263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 640777998}
+  - {fileID: 356124597}
+  - {fileID: 1292289539}
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -120}
+  m_SizeDelta: {x: 160, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1568447265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568447263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1714070110}
+  m_FillRect: {fileID: 1181228369}
+  m_HandleRect: {fileID: 1714070109}
+  m_Direction: 0
+  m_MinValue: 0
+  m_MaxValue: 100
+  m_WholeNumbers: 0
+  m_Value: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1660024318}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: SetInspectedContribution
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1590325145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,6 +3392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1660024317}
+  - component: {fileID: 1660024318}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -1909,14 +3407,111 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660024316}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.4008912, y: 0.036442757, z: -41.716984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 639597249}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1660024318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660024316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9916ffb2d94724b8bdc798311083f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryPanel: {fileID: 1211527493}
+  playerWealthText: {fileID: 1286084808}
+  countryName: {fileID: 1510631841}
+  countryGDP: {fileID: 358604171}
+  countryPopulation: {fileID: 172173533}
+  countryCo2Production: {fileID: 861858254}
+  countryPykreteProduction: {fileID: 507126803}
+  countryGDPContribution: {fileID: 101181247}
+  contributionSlider: {fileID: 1568447265}
+--- !u!1 &1714070108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714070109}
+  - component: {fileID: 1714070111}
+  - component: {fileID: 1714070110}
+  m_Layer: 0
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1714070109
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714070108}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1292289539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1714070110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714070108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1714070111
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714070108}
+  m_CullTransparentMesh: 1
 --- !u!1 &1732160358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,6 +3656,139 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0248eb8dc8fda042ab41efe36185a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2036969722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2036969723}
+  - component: {fileID: 2036969726}
+  - component: {fileID: 2036969725}
+  - component: {fileID: 2036969724}
+  m_Layer: 0
+  m_Name: ExitPopUpButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2036969723
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036969722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2875, y: 1.2318751, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1211527494}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 99.9, y: 201.6}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2036969724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036969722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2036969725}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1660024318}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: DisableCountryUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2036969725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036969722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 70e3ce8ad01f39248a3ea97a35bcf238, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2036969726
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036969722}
+  m_CullTransparentMesh: 1
 --- !u!1 &2039540312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,7 +3818,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2047429868
 GameObject:
@@ -2199,7 +3927,7 @@ GameObject:
   - component: {fileID: 1208912373063598557}
   m_Layer: 0
   m_Name: Togo
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2219,7 +3947,7 @@ GameObject:
   - component: {fileID: 6132505612376452332}
   m_Layer: 0
   m_Name: Zimbabwe
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2281,7 +4009,7 @@ GameObject:
   - component: {fileID: 8842193270061621055}
   m_Layer: 0
   m_Name: Madagascar
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2485,7 +4213,7 @@ GameObject:
   - component: {fileID: 8050093662301957438}
   m_Layer: 0
   m_Name: Kenya
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2513,7 +4241,7 @@ GameObject:
   - component: {fileID: 8604869484763951530}
   m_Layer: 0
   m_Name: Costa Rica
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2575,7 +4303,7 @@ GameObject:
   - component: {fileID: 6083754517341329444}
   m_Layer: 0
   m_Name: Sweden
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2679,7 +4407,7 @@ GameObject:
   - component: {fileID: 6152735861789147207}
   m_Layer: 0
   m_Name: Yemen
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2978,7 +4706,7 @@ GameObject:
   - component: {fileID: 6506496685253598444}
   m_Layer: 0
   m_Name: Morocco
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3224,7 +4952,7 @@ GameObject:
   - component: {fileID: 4985955443313829038}
   m_Layer: 0
   m_Name: Cameroon
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3404,7 +5132,7 @@ GameObject:
   - component: {fileID: 9124615928599291021}
   m_Layer: 0
   m_Name: Haiti
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3531,7 +5259,7 @@ GameObject:
   - component: {fileID: 8880448629240728902}
   m_Layer: 0
   m_Name: Jordan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3726,7 +5454,7 @@ GameObject:
   - component: {fileID: 8080134837426875753}
   m_Layer: 0
   m_Name: Holy See
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3901,7 +5629,7 @@ GameObject:
   - component: {fileID: 3792231438100692053}
   m_Layer: 0
   m_Name: Argentina
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4220,7 +5948,7 @@ GameObject:
   - component: {fileID: 8799719928825325068}
   m_Layer: 0
   m_Name: Kyrgyzstan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4248,7 +5976,7 @@ GameObject:
   - component: {fileID: 6797206865502748344}
   m_Layer: 0
   m_Name: Bermuda
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4397,7 +6125,7 @@ GameObject:
   - component: {fileID: 8520885955005498386}
   m_Layer: 0
   m_Name: Solomon Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4432,7 +6160,7 @@ GameObject:
   - component: {fileID: 7755775121744253210}
   m_Layer: 0
   m_Name: "R\xE9union"
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4502,7 +6230,7 @@ GameObject:
   - component: {fileID: 8574446679631175407}
   m_Layer: 0
   m_Name: Denmark
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4671,7 +6399,7 @@ GameObject:
   - component: {fileID: 8200437678987357570}
   m_Layer: 0
   m_Name: Chad
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4706,7 +6434,7 @@ GameObject:
   - component: {fileID: 9066168642713432274}
   m_Layer: 0
   m_Name: Moldova
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4726,7 +6454,7 @@ GameObject:
   - component: {fileID: 7353068747190365397}
   m_Layer: 0
   m_Name: Niger
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4811,7 +6539,7 @@ GameObject:
   - component: {fileID: 7047346482256578036}
   m_Layer: 0
   m_Name: Kuwait
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4873,7 +6601,7 @@ GameObject:
   - component: {fileID: 4348200247701978360}
   m_Layer: 0
   m_Name: United Arab Emirates
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4935,7 +6663,7 @@ GameObject:
   - component: {fileID: 5530195323722410092}
   m_Layer: 0
   m_Name: Senegal
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4997,7 +6725,7 @@ GameObject:
   - component: {fileID: 8995957358819420646}
   m_Layer: 0
   m_Name: Montserrat
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5074,7 +6802,7 @@ GameObject:
   - component: {fileID: 8959375583655812214}
   m_Layer: 0
   m_Name: Tuvalu
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5114,7 +6842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Togo
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -5149,7 +6877,7 @@ GameObject:
   - component: {fileID: 8311050673677943774}
   m_Layer: 0
   m_Name: Gibraltar
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5211,7 +6939,7 @@ GameObject:
   - component: {fileID: 3516686448516380250}
   m_Layer: 0
   m_Name: Cocos Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5246,7 +6974,7 @@ GameObject:
   - component: {fileID: 6692445117139288971}
   m_Layer: 0
   m_Name: Djibouti
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5404,7 +7132,7 @@ GameObject:
   - component: {fileID: 6293469048604546791}
   m_Layer: 0
   m_Name: Portugal
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5424,7 +7152,7 @@ GameObject:
   - component: {fileID: 8696975887163336710}
   m_Layer: 0
   m_Name: Tonga
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5513,7 +7241,7 @@ GameObject:
   - component: {fileID: 6228954983613633929}
   m_Layer: 0
   m_Name: Bhutan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5750,7 +7478,7 @@ GameObject:
   - component: {fileID: 7190226765039027987}
   m_Layer: 0
   m_Name: Jamaica
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5885,7 +7613,7 @@ GameObject:
   - component: {fileID: 1652871244542334509}
   m_Layer: 0
   m_Name: Republic of Korea
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5962,7 +7690,7 @@ GameObject:
   - component: {fileID: 7216831413281448416}
   m_Layer: 0
   m_Name: India
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5990,7 +7718,7 @@ GameObject:
   - component: {fileID: 9042572624887014028}
   m_Layer: 0
   m_Name: Isle of Man
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6175,7 +7903,7 @@ GameObject:
   - component: {fileID: 9181962916246459586}
   m_Layer: 0
   m_Name: Belgium
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6203,7 +7931,7 @@ GameObject:
   - component: {fileID: 8270835633212527700}
   m_Layer: 0
   m_Name: Chile
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6373,7 +8101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Republic of Korea
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -6416,7 +8144,7 @@ GameObject:
   - component: {fileID: 4860118865986438770}
   m_Layer: 0
   m_Name: Thailand
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6444,7 +8172,7 @@ GameObject:
   - component: {fileID: 8620110766209041309}
   m_Layer: 0
   m_Name: Eritrea
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6464,7 +8192,7 @@ GameObject:
   - component: {fileID: 7271061884136023945}
   m_Layer: 0
   m_Name: Ireland
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6484,7 +8212,7 @@ GameObject:
   - component: {fileID: 3183927384444060400}
   m_Layer: 0
   m_Name: "C\xF4te d'Ivoire"
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6504,7 +8232,7 @@ GameObject:
   - component: {fileID: 6750732726797256686}
   m_Layer: 0
   m_Name: Saint Vincent and the Grenadines
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6558,7 +8286,7 @@ GameObject:
   - component: {fileID: 8886778108280145838}
   m_Layer: 0
   m_Name: "\xC5land Islands"
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6654,7 +8382,7 @@ GameObject:
   - component: {fileID: 3214574756452300143}
   m_Layer: 0
   m_Name: Christmas Island
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6847,7 +8575,7 @@ GameObject:
   - component: {fileID: 8221119057756666556}
   m_Layer: 0
   m_Name: Georgia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6883,7 +8611,7 @@ GameObject:
   - component: {fileID: 5222944179654488261}
   m_Layer: 0
   m_Name: Faroe Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6903,7 +8631,7 @@ GameObject:
   - component: {fileID: 5894731859362788562}
   m_Layer: 0
   m_Name: Somalia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7159,7 +8887,7 @@ GameObject:
   - component: {fileID: 3729534565609877566}
   m_Layer: 0
   m_Name: Tokelau
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7179,7 +8907,7 @@ GameObject:
   - component: {fileID: 8618840745855796300}
   m_Layer: 0
   m_Name: Norway
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7256,7 +8984,7 @@ GameObject:
   - component: {fileID: 9147543001296713878}
   m_Layer: 0
   m_Name: "Saint Barth\xE9lemy"
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7276,7 +9004,7 @@ GameObject:
   - component: {fileID: 8894500534227488138}
   m_Layer: 0
   m_Name: Barbados
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7326,7 +9054,7 @@ GameObject:
   - component: {fileID: 5076979357481449848}
   m_Layer: 0
   m_Name: South Sudan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7346,7 +9074,7 @@ GameObject:
   - component: {fileID: 8847085882101398205}
   m_Layer: 0
   m_Name: Zambia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7366,7 +9094,7 @@ GameObject:
   - component: {fileID: 2780625372592657045}
   m_Layer: 0
   m_Name: Austria
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7478,7 +9206,7 @@ GameObject:
   - component: {fileID: 8719946838613098007}
   m_Layer: 0
   m_Name: Cuba
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7620,7 +9348,7 @@ GameObject:
   - component: {fileID: 7665679274628411832}
   m_Layer: 0
   m_Name: Dominican Republic
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7724,7 +9452,7 @@ GameObject:
   - component: {fileID: 7427250243414511636}
   m_Layer: 0
   m_Name: Mauritius
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7744,7 +9472,7 @@ GameObject:
   - component: {fileID: 9212487939696372566}
   m_Layer: 0
   m_Name: Italy
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8116,7 +9844,7 @@ GameObject:
   - component: {fileID: 8439248952236571640}
   m_Layer: 0
   m_Name: Pitcairn
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8151,7 +9879,7 @@ GameObject:
   - component: {fileID: 8301062526844017241}
   m_Layer: 0
   m_Name: China
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8281,7 +10009,7 @@ GameObject:
   - component: {fileID: 8871621783304910222}
   m_Layer: 0
   m_Name: Libya
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8637,7 +10365,7 @@ GameObject:
   - component: {fileID: 8775635167486397526}
   m_Layer: 0
   m_Name: Guyana
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8699,7 +10427,7 @@ GameObject:
   - component: {fileID: 9166014410286019040}
   m_Layer: 0
   m_Name: Equatorial Guinea
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8846,7 +10574,7 @@ GameObject:
   - component: {fileID: 8867397393231602997}
   m_Layer: 0
   m_Name: Papua New Guinea
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9122,7 +10850,7 @@ GameObject:
   - component: {fileID: 7491840159856487428}
   m_Layer: 0
   m_Name: South Georgia and the South Sandwich Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9192,7 +10920,7 @@ GameObject:
   - component: {fileID: 7910164486191454788}
   m_Layer: 0
   m_Name: Ecuador
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9509,7 +11237,7 @@ GameObject:
   - component: {fileID: 2752982583139061308}
   m_Layer: 0
   m_Name: Andorra
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9526,7 +11254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Andora
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -9631,7 +11359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Austria
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -9738,7 +11466,7 @@ GameObject:
   - component: {fileID: 8381364801093561700}
   m_Layer: 0
   m_Name: Guinea
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9873,7 +11601,7 @@ GameObject:
   - component: {fileID: 8152581029331718951}
   m_Layer: 0
   m_Name: Samoa
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9927,7 +11655,7 @@ GameObject:
   - component: {fileID: 7890620488545002828}
   m_Layer: 0
   m_Name: Czechia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10111,7 +11839,7 @@ GameObject:
   - component: {fileID: 8221375692342607321}
   m_Layer: 0
   m_Name: Dominica
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10146,7 +11874,7 @@ GameObject:
   - component: {fileID: 8787788099430083395}
   m_Layer: 0
   m_Name: Namibia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10255,7 +11983,7 @@ GameObject:
   - component: {fileID: 7123413180167446134}
   m_Layer: 0
   m_Name: Oman
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10317,7 +12045,7 @@ GameObject:
   - component: {fileID: 4273345248701480561}
   m_Layer: 0
   m_Name: Fiji
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10337,7 +12065,7 @@ GameObject:
   - component: {fileID: 9034911747716224927}
   m_Layer: 0
   m_Name: Puerto Rico
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10357,7 +12085,7 @@ GameObject:
   - component: {fileID: 8714737999196500441}
   m_Layer: 0
   m_Name: Afghanistan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10385,7 +12113,7 @@ GameObject:
   - component: {fileID: 7118745008919122554}
   m_Layer: 0
   m_Name: Monaco
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10405,7 +12133,7 @@ GameObject:
   - component: {fileID: 7957839843748009761}
   m_Layer: 0
   m_Name: Guam
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10581,7 +12309,7 @@ GameObject:
   - component: {fileID: 9055679164459040568}
   m_Layer: 0
   m_Name: France
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10601,7 +12329,7 @@ GameObject:
   - component: {fileID: 6819261278057603366}
   m_Layer: 0
   m_Name: Paraguay
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10621,7 +12349,7 @@ GameObject:
   - component: {fileID: 6527221080555993049}
   m_Layer: 0
   m_Name: Eswatini
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10641,7 +12369,7 @@ GameObject:
   - component: {fileID: 7388629384212824308}
   m_Layer: 0
   m_Name: Bouvet Island
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10661,7 +12389,7 @@ GameObject:
   - component: {fileID: 4767779435855482226}
   m_Layer: 0
   m_Name: Anguilla
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10815,7 +12543,7 @@ GameObject:
   - component: {fileID: 8276804174931280605}
   m_Layer: 0
   m_Name: Malta
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10835,7 +12563,7 @@ GameObject:
   - component: {fileID: 8512301133366458654}
   m_Layer: 0
   m_Name: Palau
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10867,7 +12595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cote d'Ivoire
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -11093,7 +12821,7 @@ GameObject:
   - component: {fileID: 7729129768068003229}
   m_Layer: 0
   m_Name: Bonaire, Sint Eustatius and Saba
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11125,7 +12853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Christmas Island
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -11305,7 +13033,7 @@ GameObject:
   - component: {fileID: 8351915704908756548}
   m_Layer: 0
   m_Name: Azerbaijan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11348,7 +13076,7 @@ GameObject:
   - component: {fileID: 7796286682379257561}
   m_Layer: 0
   m_Name: Sri Lanka
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11418,7 +13146,7 @@ GameObject:
   - component: {fileID: 6949878102255397572}
   m_Layer: 0
   m_Name: French Guiana
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11438,7 +13166,7 @@ GameObject:
   - component: {fileID: 8198836034354983733}
   m_Layer: 0
   m_Name: Virgin Islands US
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11523,7 +13251,7 @@ GameObject:
   - component: {fileID: 8935731875182330726}
   m_Layer: 0
   m_Name: Tajikistan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11657,7 +13385,7 @@ GameObject:
   - component: {fileID: 8555267261966886003}
   m_Layer: 0
   m_Name: Martinique
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11692,7 +13420,7 @@ GameObject:
   - component: {fileID: 7214398160924398478}
   m_Layer: 0
   m_Name: Slovakia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11781,7 +13509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cocos Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -11873,7 +13601,7 @@ GameObject:
   - component: {fileID: 6728197544843027382}
   m_Layer: 0
   m_Name: Mexico
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11893,7 +13621,7 @@ GameObject:
   - component: {fileID: 7703476955584494246}
   m_Layer: 0
   m_Name: Guadeloupe
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11963,7 +13691,7 @@ GameObject:
   - component: {fileID: 9009060915856824424}
   m_Layer: 0
   m_Name: Hungary
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12013,7 +13741,7 @@ GameObject:
   - component: {fileID: 3617020833297838577}
   m_Layer: 0
   m_Name: Uganda
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12030,7 +13758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Uganda
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -12122,7 +13850,7 @@ GameObject:
   - component: {fileID: 6579746687780688477}
   m_Layer: 0
   m_Name: Gambia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12192,7 +13920,7 @@ GameObject:
   - component: {fileID: 7184640541377029964}
   m_Layer: 0
   m_Name: French Polynesia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12212,7 +13940,7 @@ GameObject:
   - component: {fileID: 8135789997493507607}
   m_Layer: 0
   m_Name: Lesotho
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12247,7 +13975,7 @@ GameObject:
   - component: {fileID: 5164333933242900776}
   m_Layer: 0
   m_Name: Montenegro
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12279,7 +14007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Tokelau
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -12352,7 +14080,7 @@ GameObject:
   - component: {fileID: 7666837414184487621}
   m_Layer: 0
   m_Name: San Marino
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12387,7 +14115,7 @@ GameObject:
   - component: {fileID: 4226358175044598256}
   m_Layer: 0
   m_Name: Norfolk Island
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12454,7 +14182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Argentina
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -12589,7 +14317,7 @@ GameObject:
   - component: {fileID: 8850751723128152241}
   m_Layer: 0
   m_Name: Mali
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12681,7 +14409,7 @@ GameObject:
   - component: {fileID: 8775937737764271366}
   m_Layer: 0
   m_Name: Romania
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12701,7 +14429,7 @@ GameObject:
   - component: {fileID: 8406886902512975273}
   m_Layer: 0
   m_Name: Sao Tome and Principe
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12931,7 +14659,7 @@ GameObject:
   - component: {fileID: 8859062630793652454}
   m_Layer: 0
   m_Name: Republic of North Macedonia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13070,7 +14798,7 @@ GameObject:
   - component: {fileID: 4027076389896171352}
   m_Layer: 0
   m_Name: Bosnia and Herzegovina
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13087,7 +14815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bosnia and Herzegovina
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -13256,7 +14984,7 @@ GameObject:
   - component: {fileID: 8172110453191267914}
   m_Layer: 0
   m_Name: Benin
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13299,7 +15027,7 @@ GameObject:
   - component: {fileID: 4839672876732314256}
   m_Layer: 0
   m_Name: Palestine
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13475,7 +15203,7 @@ GameObject:
   - component: {fileID: 7301127989476621754}
   m_Layer: 0
   m_Name: Sint Maarten
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13560,7 +15288,7 @@ GameObject:
   - component: {fileID: 7722169636882485247}
   m_Layer: 0
   m_Name: Serbia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13619,7 +15347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Norfolk Island
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -13669,7 +15397,7 @@ GameObject:
   - component: {fileID: 7383446717300079135}
   m_Layer: 0
   m_Name: Nepal
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13689,7 +15417,7 @@ GameObject:
   - component: {fileID: 8947397282871930240}
   m_Layer: 0
   m_Name: Bolivia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13793,7 +15521,7 @@ GameObject:
   - component: {fileID: 8639667045912848061}
   m_Layer: 0
   m_Name: Pakistan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13852,7 +15580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Fiji
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -14017,7 +15745,7 @@ GameObject:
   - component: {fileID: 7165849847351635834}
   m_Layer: 0
   m_Name: Colombia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14052,7 +15780,7 @@ GameObject:
   - component: {fileID: 8198161660207551831}
   m_Layer: 0
   m_Name: Syrian Arab Republic
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14263,7 +15991,7 @@ GameObject:
   - component: {fileID: 8754354336780202133}
   m_Layer: 0
   m_Name: Saudi Arabia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14303,7 +16031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: United Arab Emirates
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -14353,7 +16081,7 @@ GameObject:
   - component: {fileID: 7937995552845565576}
   m_Layer: 0
   m_Name: Mongolia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14431,7 +16159,7 @@ GameObject:
   - component: {fileID: 4382878451918563953}
   m_Layer: 0
   m_Name: Wallis and Futuna
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14448,7 +16176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Wallis and Futuna
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -14483,7 +16211,7 @@ GameObject:
   - component: {fileID: 7126125292757313459}
   m_Layer: 0
   m_Name: Albania
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14503,7 +16231,7 @@ GameObject:
   - component: {fileID: 4389071671352943930}
   m_Layer: 0
   m_Name: Niue
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14520,7 +16248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Niue
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -14700,7 +16428,7 @@ GameObject:
   - component: {fileID: 7678892142830883580}
   m_Layer: 0
   m_Name: Democratic People's Republic of Korea
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14720,7 +16448,7 @@ GameObject:
   - component: {fileID: 8294853208973340162}
   m_Layer: 0
   m_Name: New Zealand
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14790,7 +16518,7 @@ GameObject:
   - component: {fileID: 8414455666200486013}
   m_Layer: 0
   m_Name: Nigeria
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14810,7 +16538,7 @@ GameObject:
   - component: {fileID: 4519529702728172220}
   m_Layer: 0
   m_Name: Iceland
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14827,12 +16555,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  name: Iceland
+  gdp: 20000
+  population: 2000
+  tonsOfCo2Produced: 20
+  amountOfPykreteProduced: 30
+  percentageGDPContributed: 50
 --- !u!64 &4519529702728172221
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14862,7 +16590,7 @@ GameObject:
   - component: {fileID: 8742556442430379789}
   m_Layer: 0
   m_Name: Antigua and Barbuda
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14966,7 +16694,7 @@ GameObject:
   - component: {fileID: 8879716229924766701}
   m_Layer: 0
   m_Name: Suriname
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15043,7 +16771,7 @@ GameObject:
   - component: {fileID: 4841073627240781371}
   m_Layer: 0
   m_Name: Japan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15220,7 +16948,7 @@ GameObject:
   - component: {fileID: 8999692207644092683}
   m_Layer: 0
   m_Name: Trinidad and Tobago
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15297,7 +17025,7 @@ GameObject:
   - component: {fileID: 7902841790146023890}
   m_Layer: 0
   m_Name: Saint Martin
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15317,7 +17045,7 @@ GameObject:
   - component: {fileID: 8994090130709480559}
   m_Layer: 0
   m_Name: Nauru
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15337,7 +17065,7 @@ GameObject:
   - component: {fileID: 6304757834275863094}
   m_Layer: 0
   m_Name: Egypt
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15362,7 +17090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Anguilla
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -15397,7 +17125,7 @@ GameObject:
   - component: {fileID: 8821042139119670779}
   m_Layer: 0
   m_Name: Bulgaria
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15496,7 +17224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Palestine
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -15552,7 +17280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Japan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -15587,7 +17315,7 @@ GameObject:
   - component: {fileID: 9040970354201443520}
   m_Layer: 0
   m_Name: Finland
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15619,7 +17347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Thailand
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -15726,7 +17454,7 @@ GameObject:
   - component: {fileID: 7385627793724909283}
   m_Layer: 0
   m_Name: Kosovo
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15761,7 +17489,7 @@ GameObject:
   - component: {fileID: 7222605589169003451}
   m_Layer: 0
   m_Name: Jersey
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15823,7 +17551,7 @@ GameObject:
   - component: {fileID: 7827723393980941114}
   m_Layer: 0
   m_Name: Slovenia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15885,7 +17613,7 @@ GameObject:
   - component: {fileID: 8575992679239396788}
   m_Layer: 0
   m_Name: Antarctica
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15905,7 +17633,7 @@ GameObject:
   - component: {fileID: 8347669571654510079}
   m_Layer: 0
   m_Name: Bahrain
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15925,7 +17653,7 @@ GameObject:
   - component: {fileID: 8940140963204998566}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15953,7 +17681,7 @@ GameObject:
   - component: {fileID: 9021404796103465633}
   m_Layer: 0
   m_Name: Saint Helena, Ascension and Tristan da Cunha
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16077,7 +17805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cameroon
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -16184,7 +17912,7 @@ GameObject:
   - component: {fileID: 7905637563266363980}
   m_Layer: 0
   m_Name: New Caledonia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16212,7 +17940,7 @@ GameObject:
   - component: {fileID: 8955261909131503172}
   m_Layer: 0
   m_Name: Tanzania
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16358,7 +18086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: South Sudan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -16435,7 +18163,7 @@ GameObject:
   - component: {fileID: 7144766375004664068}
   m_Layer: 0
   m_Name: Belize
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16474,7 +18202,7 @@ GameObject:
   - component: {fileID: 9014488206105362211}
   m_Layer: 0
   m_Name: Greenland
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16526,7 +18254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Montenegro
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -16561,7 +18289,7 @@ GameObject:
   - component: {fileID: 7651471114711152503}
   m_Layer: 0
   m_Name: Israel
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16930,7 +18658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Faroe Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -17095,7 +18823,7 @@ GameObject:
   - component: {fileID: 6377131614684072971}
   m_Layer: 0
   m_Name: Guinea-Bissau
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17357,7 +19085,7 @@ GameObject:
   - component: {fileID: 8436869925962931876}
   m_Layer: 0
   m_Name: Ukraine
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17377,7 +19105,7 @@ GameObject:
   - component: {fileID: 6730613608896685946}
   m_Layer: 0
   m_Name: Nicaragua
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17470,7 +19198,7 @@ GameObject:
   - component: {fileID: 7965196910648751490}
   m_Layer: 0
   m_Name: Croatia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17689,7 +19417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Senegal
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -17781,7 +19509,7 @@ GameObject:
   - component: {fileID: 8070491155156286923}
   m_Layer: 0
   m_Name: Estonia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17824,7 +19552,7 @@ GameObject:
   - component: {fileID: 5584724983333168968}
   m_Layer: 0
   m_Name: Svalbard and Jan Mayen
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17841,7 +19569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Svakbard and Jan Mayen
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -17891,7 +19619,7 @@ GameObject:
   - component: {fileID: 7182260763926276920}
   m_Layer: 0
   m_Name: Viet Nam
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17926,7 +19654,7 @@ GameObject:
   - component: {fileID: 6330267866510128102}
   m_Layer: 0
   m_Name: Seychelles
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17946,7 +19674,7 @@ GameObject:
   - component: {fileID: 6309083694054995338}
   m_Layer: 0
   m_Name: South Africa
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18004,7 +19732,7 @@ GameObject:
   - component: {fileID: 7796874748637135517}
   m_Layer: 0
   m_Name: Ghana
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18024,7 +19752,7 @@ GameObject:
   - component: {fileID: 8694915824140822441}
   m_Layer: 0
   m_Name: Malaysia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18082,7 +19810,7 @@ GameObject:
   - component: {fileID: 6777782038229338661}
   m_Layer: 0
   m_Name: Liberia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18102,7 +19830,7 @@ GameObject:
   - component: {fileID: 7904009471888515566}
   m_Layer: 0
   m_Name: Brunei Darussalam
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18160,7 +19888,7 @@ GameObject:
   - component: {fileID: 8794227223148228262}
   m_Layer: 0
   m_Name: Micronesia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18195,7 +19923,7 @@ GameObject:
   - component: {fileID: 7559950337960092032}
   m_Layer: 0
   m_Name: United States of America
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18327,7 +20055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Somalia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -18362,7 +20090,7 @@ GameObject:
   - component: {fileID: 8046449532932807517}
   m_Layer: 0
   m_Name: Mauritania
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18546,7 +20274,7 @@ GameObject:
   - component: {fileID: 6331894138942102524}
   m_Layer: 0
   m_Name: Central African Republic
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18566,7 +20294,7 @@ GameObject:
   - component: {fileID: 8426162239799329240}
   m_Layer: 0
   m_Name: Turkmenistan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18586,7 +20314,7 @@ GameObject:
   - component: {fileID: 5941622485233388582}
   m_Layer: 0
   m_Name: Gabon
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18603,7 +20331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Gabon
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -18752,7 +20480,7 @@ GameObject:
   - component: {fileID: 7301364739028027786}
   m_Layer: 0
   m_Name: Burkina Faso
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18829,7 +20557,7 @@ GameObject:
   - component: {fileID: 8288545572337839818}
   m_Layer: 0
   m_Name: Bahamas
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18854,7 +20582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Sweden
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -18908,7 +20636,7 @@ GameObject:
   - component: {fileID: 6091717172785072117}
   m_Layer: 0
   m_Name: Saint Pierre and Miquelon
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18925,7 +20653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Saint Pierre and Miquelon
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -18960,7 +20688,7 @@ GameObject:
   - component: {fileID: 6107124453197249945}
   m_Layer: 0
   m_Name: Qatar
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18977,7 +20705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Quatar
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19056,10 +20784,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
+  name: Zimbabwe
+  gdp: 200000
+  population: 2000000
+  tonsOfCo2Produced: 100
   amountOfPykreteProduced: 0
   percentageGDPContributed: 0
 --- !u!64 &6132505612376452332
@@ -19091,7 +20819,7 @@ GameObject:
   - component: {fileID: 9155106428558529351}
   m_Layer: 0
   m_Name: Spain
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19134,7 +20862,7 @@ GameObject:
   - component: {fileID: 7496735797668509369}
   m_Layer: 0
   m_Name: Tunisia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19154,7 +20882,7 @@ GameObject:
   - component: {fileID: 9106910290284556870}
   m_Layer: 0
   m_Name: Latvia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19194,7 +20922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Yemen
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19306,7 +21034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bhutan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19356,7 +21084,7 @@ GameObject:
   - component: {fileID: 6268495691802788651}
   m_Layer: 0
   m_Name: Panama
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19373,7 +21101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Panama
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19408,7 +21136,7 @@ GameObject:
   - component: {fileID: 8954506528521629461}
   m_Layer: 0
   m_Name: Liechtenstein
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19455,7 +21183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Portugal
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19503,7 +21231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Egypt
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19607,7 +21335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: South Africa
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19723,7 +21451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Seychelles
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19770,7 +21498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Centeral African Republic
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19805,7 +21533,7 @@ GameObject:
   - component: {fileID: 7168584885132798055}
   m_Layer: 0
   m_Name: Hong Kong
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19872,7 +21600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Guinea-Bissau
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -19938,7 +21666,7 @@ GameObject:
   - component: {fileID: 9172062858507566363}
   m_Layer: 0
   m_Name: Object
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20009,7 +21737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Morocco
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20099,7 +21827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Eswatini
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20265,7 +21993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Gambia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20300,7 +22028,7 @@ GameObject:
   - component: {fileID: 6871873603908281459}
   m_Layer: 0
   m_Name: Russian Federation
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20377,7 +22105,7 @@ GameObject:
   - component: {fileID: 7186921707926804465}
   m_Layer: 0
   m_Name: Grenada
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20466,7 +22194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Dijibouti
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20555,7 +22283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Mexico
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20629,7 +22357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Nicaragua
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20669,7 +22397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Sain Vincent and the Grenadines
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20719,7 +22447,7 @@ GameObject:
   - component: {fileID: 6757607121640368205}
   m_Layer: 0
   m_Name: Marshall Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20736,7 +22464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Marshal Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20771,7 +22499,7 @@ GameObject:
   - component: {fileID: 6763439537220670320}
   m_Layer: 0
   m_Name: Lebanon
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20788,7 +22516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: 'Lebanon '
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20915,7 +22643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Liberia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -20992,7 +22720,7 @@ GameObject:
   - component: {fileID: 6815599906220972262}
   m_Layer: 0
   m_Name: Brazil
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21040,7 +22768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bermuda
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21145,7 +22873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Brazil
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21185,7 +22913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Paraguay
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21228,7 +22956,7 @@ GameObject:
   - component: {fileID: 6848625172458192165}
   m_Layer: 0
   m_Name: Heard Island and McDonald Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21245,7 +22973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Hear Island and McDonald Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21285,7 +23013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Russian Federation
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21523,7 +23251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: French Guiana
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21677,7 +23405,7 @@ GameObject:
   - component: {fileID: 7036350362976640722}
   m_Layer: 0
   m_Name: Philippines
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21694,7 +23422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Philippines
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21771,7 +23499,7 @@ GameObject:
   - component: {fileID: 7041851383944771748}
   m_Layer: 0
   m_Name: Turkey
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21788,7 +23516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Turkey
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21828,7 +23556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Kuwait
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21863,7 +23591,7 @@ GameObject:
   - component: {fileID: 7080035211496516193}
   m_Layer: 0
   m_Name: Botswana
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21880,7 +23608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Botswana
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -21915,7 +23643,7 @@ GameObject:
   - component: {fileID: 8274305174409095631}
   m_Layer: 0
   m_Name: Peru
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22035,7 +23763,7 @@ GameObject:
   - component: {fileID: 7106911995399792977}
   m_Layer: 0
   m_Name: Turks and Caicos Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22052,7 +23780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: 'Turks and Caicos Islands '
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22107,7 +23835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Monaco
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22147,7 +23875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Oman
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22221,7 +23949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Albania
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22256,7 +23984,7 @@ GameObject:
   - component: {fileID: 8704283982734461223}
   m_Layer: 0
   m_Name: American Samoa
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22330,7 +24058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: 'Belize '
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22365,7 +24093,7 @@ GameObject:
   - component: {fileID: 7154126648499966787}
   m_Layer: 0
   m_Name: Netherlands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22382,7 +24110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Netherlands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22422,7 +24150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Colombia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22496,7 +24224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Hong Kong
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22570,7 +24298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Viet Nam
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22610,7 +24338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: French Polynesia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22684,7 +24412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Grenada
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22731,7 +24459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Jamaica
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22870,7 +24598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Slovakia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22910,7 +24638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: India
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -22957,7 +24685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Jersey
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23035,7 +24763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Ireland
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23082,7 +24810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Sint Maarten
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23129,7 +24857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Burkina Faso
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23194,7 +24922,7 @@ GameObject:
   - component: {fileID: 8387363627947200001}
   m_Layer: 0
   m_Name: Western Sahara
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23251,7 +24979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Niger
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23328,7 +25056,7 @@ GameObject:
   - component: {fileID: 8669568566491933442}
   m_Layer: 0
   m_Name: Belarus
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23361,7 +25089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Nepal
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23435,7 +25163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Kosovo
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23475,7 +25203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bouvet Island
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23510,7 +25238,7 @@ GameObject:
   - component: {fileID: 7394189251523576475}
   m_Layer: 0
   m_Name: Armenia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23527,7 +25255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Aremania
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23577,7 +25305,7 @@ GameObject:
   - component: {fileID: 7401814321479983514}
   m_Layer: 0
   m_Name: Iran
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23594,7 +25322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Iran
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23689,7 +25417,7 @@ GameObject:
   - component: {fileID: 8789089806572572994}
   m_Layer: 0
   m_Name: Kazakhstan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23721,7 +25449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Mauritius
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23798,7 +25526,7 @@ GameObject:
   - component: {fileID: 8890299322830450613}
   m_Layer: 0
   m_Name: Singapore
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23826,7 +25554,7 @@ GameObject:
   - component: {fileID: 7485385829451455595}
   m_Layer: 0
   m_Name: Lao People's Democratic Republic
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23843,7 +25571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Lao People's Democratic Republic
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23883,7 +25611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: South Georgia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -23918,7 +25646,7 @@ GameObject:
   - component: {fileID: 8085295929103160738}
   m_Layer: 0
   m_Name: Northern Mariana Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23985,7 +25713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Tunisia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24112,7 +25840,7 @@ GameObject:
   - component: {fileID: 8616525648149928822}
   m_Layer: 0
   m_Name: Angola
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24132,7 +25860,7 @@ GameObject:
   - component: {fileID: 7545184757162388787}
   m_Layer: 0
   m_Name: Honduras
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24149,7 +25877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Honduras
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24184,7 +25912,7 @@ GameObject:
   - component: {fileID: 7681213382034498820}
   m_Layer: 0
   m_Name: Mozambique
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24217,9 +25945,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  gdp: 0
-  population: 0
+  name: USA
+  gdp: 100000000
+  population: 20000000
   tonsOfCo2Produced: 0
   amountOfPykreteProduced: 0
   percentageGDPContributed: 0
@@ -24352,7 +26080,7 @@ GameObject:
   - component: {fileID: 9133583001655314859}
   m_Layer: 0
   m_Name: Algeria
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24372,7 +26100,7 @@ GameObject:
   - component: {fileID: 8479676738643702476}
   m_Layer: 0
   m_Name: Vanuatu
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24473,7 +26201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Isreal
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24520,7 +26248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Dominican Republic
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24594,7 +26322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: San Marino
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24629,7 +26357,7 @@ GameObject:
   - component: {fileID: 7667907696503392889}
   m_Layer: 0
   m_Name: Malawi
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24646,7 +26374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Malawi
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24681,7 +26409,7 @@ GameObject:
   - component: {fileID: 7675925956414823216}
   m_Layer: 0
   m_Name: Saint Lucia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24698,7 +26426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Saint Lucia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24733,7 +26461,7 @@ GameObject:
   - component: {fileID: 9074487549218873386}
   m_Layer: 0
   m_Name: Sierra Leone
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24807,7 +26535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Democratic People's Republic of Korea
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24896,7 +26624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Mozambique
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -24943,7 +26671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Guadeloupe
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25051,7 +26779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Serbia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25098,7 +26826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bonaire
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25154,7 +26882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Reunion
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25221,7 +26949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Sri Lanka
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25295,7 +27023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Ghana
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25330,7 +27058,7 @@ GameObject:
   - component: {fileID: 7798638357756343193}
   m_Layer: 0
   m_Name: Uruguay
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25347,7 +27075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Uruguay
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25382,7 +27110,7 @@ GameObject:
   - component: {fileID: 7808502603781505732}
   m_Layer: 0
   m_Name: Lithuania
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25399,7 +27127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Lithuania
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25547,7 +27275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Slovenia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25582,7 +27310,7 @@ GameObject:
   - component: {fileID: 7882744642201910350}
   m_Layer: 0
   m_Name: Greece
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25599,7 +27327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Greece
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25671,7 +27399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Czechia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25753,7 +27481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Saint Martin
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25800,7 +27528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Brunei Darussalam
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25840,7 +27568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: 'New Caledonia '
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25914,7 +27642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Ecuador
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -25969,7 +27697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Mongolia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26004,7 +27732,7 @@ GameObject:
   - component: {fileID: 8892653029837630184}
   m_Layer: 0
   m_Name: Canada
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26110,7 +27838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Guam
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26150,7 +27878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Croatia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26185,7 +27913,7 @@ GameObject:
   - component: {fileID: 8645039824371752157}
   m_Layer: 0
   m_Name: El Salvador
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26360,7 +28088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Mauritania
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26434,7 +28162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Kenya
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26469,7 +28197,7 @@ GameObject:
   - component: {fileID: 8050968835948256904}
   m_Layer: 0
   m_Name: Switzerland
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26486,7 +28214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Switzerland
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26521,7 +28249,7 @@ GameObject:
   - component: {fileID: 8058146230963221816}
   m_Layer: 0
   m_Name: Macao
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26538,7 +28266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Macao
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26586,7 +28314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Estonia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26621,7 +28349,7 @@ GameObject:
   - component: {fileID: 8074795972161844792}
   m_Layer: 0
   m_Name: Iraq
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26638,7 +28366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Iraq
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26712,7 +28440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Holy Sea
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26786,7 +28514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Northern Mariana Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26821,7 +28549,7 @@ GameObject:
   - component: {fileID: 8096530858071026954}
   m_Layer: 0
   m_Name: Cyprus
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26838,7 +28566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cyprus
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -26974,7 +28702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Lesotho
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27056,7 +28784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Samoa
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27103,7 +28831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Benin
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27153,7 +28881,7 @@ GameObject:
   - component: {fileID: 8193347688215464068}
   m_Layer: 0
   m_Name: Cabo Verde
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27170,7 +28898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cabo Verde
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27217,7 +28945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Syrian Arab Republic
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27257,7 +28985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Virgin Islands US
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27297,7 +29025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Chad
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27340,7 +29068,7 @@ GameObject:
   - component: {fileID: 8213170125090646793}
   m_Layer: 0
   m_Name: Cook Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27357,7 +29085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cook islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27404,7 +29132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Georgia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27478,7 +29206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Dominca
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27555,7 +29283,7 @@ GameObject:
   - component: {fileID: 8236505446791067746}
   m_Layer: 0
   m_Name: Falkland Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27572,7 +29300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Falkland Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27615,7 +29343,7 @@ GameObject:
   - component: {fileID: 8255930410513021383}
   m_Layer: 0
   m_Name: Maldives
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27632,7 +29360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Maldives
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27679,7 +29407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Chile
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27753,7 +29481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Peru
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27800,7 +29528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Malta
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27835,7 +29563,7 @@ GameObject:
   - component: {fileID: 8283813876826225302}
   m_Layer: 0
   m_Name: Uzbekistan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27852,7 +29580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Uzbekistan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27907,7 +29635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bahamas
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27954,7 +29682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: New Zealand
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -27994,7 +29722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: China
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28053,7 +29781,7 @@ GameObject:
   - component: {fileID: 8696216555861796930}
   m_Layer: 0
   m_Name: Ethiopia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28112,7 +29840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Gibraltar
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28147,7 +29875,7 @@ GameObject:
   - component: {fileID: 8317777253920629669}
   m_Layer: 0
   m_Name: Kiribati
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28164,7 +29892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Kiribati
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28257,7 +29985,7 @@ GameObject:
   - component: {fileID: 8329452962616678291}
   m_Layer: 0
   m_Name: Poland
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28274,7 +30002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Poland
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28314,7 +30042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bahrain
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28403,7 +30131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Azerbaijan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28438,7 +30166,7 @@ GameObject:
   - component: {fileID: 8352873470857722456}
   m_Layer: 0
   m_Name: Rwanda
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28455,7 +30183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Rwanda
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28526,7 +30254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Guinea
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28600,7 +30328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Western Sahara
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28650,7 +30378,7 @@ GameObject:
   - component: {fileID: 8394904390987391599}
   m_Layer: 0
   m_Name: French Southern Territories
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28667,7 +30395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: French Southern Terriotories
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28702,7 +30430,7 @@ GameObject:
   - component: {fileID: 8405864590182899989}
   m_Layer: 0
   m_Name: British Indian Ocean Territory
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28719,7 +30447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: British Indian Ocean Territory
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28759,7 +30487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Sao Tome and Principe
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28833,7 +30561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Nigeria
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28880,7 +30608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Turkmenistan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28915,7 +30643,7 @@ GameObject:
   - component: {fileID: 8429185620080329469}
   m_Layer: 0
   m_Name: Saint Kitts and Nevis
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28932,7 +30660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Saint Kitts and Nevis
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -28972,7 +30700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Ukraine
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29046,7 +30774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Pitcairn
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29081,7 +30809,7 @@ GameObject:
   - component: {fileID: 8447293596163681878}
   m_Layer: 0
   m_Name: Congo
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29098,7 +30826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Congo
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29133,7 +30861,7 @@ GameObject:
   - component: {fileID: 8895060877649480418}
   m_Layer: 0
   m_Name: Sudan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29165,7 +30893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Venuatu
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29200,7 +30928,7 @@ GameObject:
   - component: {fileID: 8849675240222751251}
   m_Layer: 0
   m_Name: Democratic Republic of Congo
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29262,7 +30990,7 @@ GameObject:
   - component: {fileID: 8759387806345334181}
   m_Layer: 0
   m_Name: Comoros
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29324,7 +31052,7 @@ GameObject:
   - component: {fileID: 9079320949938727546}
   m_Layer: 0
   m_Name: "Cura\xE7ao"
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29349,7 +31077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Palau
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29432,7 +31160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Solomon Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29598,7 +31326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Martinique
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29680,7 +31408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Denmark
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29754,7 +31482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Antartica
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29809,7 +31537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Costa Rica
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29864,7 +31592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Angola
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29904,7 +31632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Norway
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -29978,7 +31706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Eritrea
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30033,7 +31761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Pakistan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30068,7 +31796,7 @@ GameObject:
   - component: {fileID: 8644290227503358230}
   m_Layer: 0
   m_Name: Bangladesh
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30085,7 +31813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bangladesh
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30132,7 +31860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: El Salvado
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30203,7 +31931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Belarus
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30238,7 +31966,7 @@ GameObject:
   - component: {fileID: 8687270170963502899}
   m_Layer: 0
   m_Name: Myanmar
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30255,7 +31983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Mynamar
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30290,7 +32018,7 @@ GameObject:
   - component: {fileID: 8691550273586292202}
   m_Layer: 0
   m_Name: Virgin Islands UK
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30307,7 +32035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Virgin Islands UK
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30354,7 +32082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Malaysia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30394,7 +32122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: 'Ethiopia '
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30441,7 +32169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Tonga
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30481,7 +32209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: America Somoa
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30563,7 +32291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Afghanistan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30598,7 +32326,7 @@ GameObject:
   - component: {fileID: 8937918350618231654}
   m_Layer: 0
   m_Name: Luxembourg
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30623,7 +32351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cuba
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30663,7 +32391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Antigua and Barbuda
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30698,7 +32426,7 @@ GameObject:
   - component: {fileID: 8742910664235172411}
   m_Layer: 0
   m_Name: Australia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30715,7 +32443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Australia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30750,7 +32478,7 @@ GameObject:
   - component: {fileID: 8751884584069450274}
   m_Layer: 0
   m_Name: Mayotte
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30767,7 +32495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Maycotte
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30807,7 +32535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Saudi Arabia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30847,7 +32575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Comoros
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30921,7 +32649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Guyana
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30961,7 +32689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: 'Romania '
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -30996,7 +32724,7 @@ GameObject:
   - component: {fileID: 8777030510935413488}
   m_Layer: 0
   m_Name: Cambodia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31013,7 +32741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cambodia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31060,7 +32788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Nambia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31100,7 +32828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Kazakhstan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31140,7 +32868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Micronesia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31187,7 +32915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Kyrgyzstan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31234,7 +32962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bulgaria
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31269,7 +32997,7 @@ GameObject:
   - component: {fileID: 8827926007078339082}
   m_Layer: 0
   m_Name: Taiwan
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31286,7 +33014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Taiwan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31333,7 +33061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Madagascar
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31388,7 +33116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Zambia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31462,7 +33190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Democratic Republic of Congo
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31536,7 +33264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Mali
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31610,7 +33338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Republic of North Macedonia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31645,7 +33373,7 @@ GameObject:
   - component: {fileID: 8863284069982145044}
   m_Layer: 0
   m_Name: Venezuela
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31662,7 +33390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Venezuela
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31709,7 +33437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Papua New Guinea
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31749,7 +33477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Libya
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31784,7 +33512,7 @@ GameObject:
   - component: {fileID: 8874446792680002705}
   m_Layer: 0
   m_Name: Indonesia
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31801,7 +33529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Indoonesia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31841,7 +33569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Suriname
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31881,7 +33609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Jordan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -31928,12 +33656,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  name: Aland Islands
+  gdp: 20000
+  population: 10000
+  tonsOfCo2Produced: 5
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 2
 --- !u!64 &8886778108280145838
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32003,7 +33731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Singapore
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32077,7 +33805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Canada
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32151,7 +33879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Barbados
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32191,7 +33919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Sudan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32238,7 +33966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Tajikistan
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32285,7 +34013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Luxembourg
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32332,7 +34060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cube
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32379,7 +34107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Bolivia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32426,7 +34154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Liechtenstein
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32500,7 +34228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Tanzania
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32574,7 +34302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Tuvalu
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32614,7 +34342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Nauru
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32654,7 +34382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Montserrat
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32728,7 +34456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Trinidad and Tobago
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32775,7 +34503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Hungary
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32810,7 +34538,7 @@ GameObject:
   - component: {fileID: 9010036398319452174}
   m_Layer: 0
   m_Name: Burundi
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32827,7 +34555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Burundi
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -32867,12 +34595,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  name: Greenland
+  gdp: 2000000
+  population: 200000
+  tonsOfCo2Produced: 20
+  amountOfPykreteProduced: 30
+  percentageGDPContributed: 30
 --- !u!64 &9014488206105362212
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32907,7 +34635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Saint Helena
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33012,7 +34740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Puerto Rico
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33086,7 +34814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Finland
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33126,7 +34854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Isle of Man
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33166,12 +34894,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  name: France
+  gdp: 20000000
+  population: 1000
+  tonsOfCo2Produced: 20
+  amountOfPykreteProduced: 5
+  percentageGDPContributed: 5
 --- !u!64 &9055679164459040569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33206,7 +34934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Moldova
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33280,7 +35008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Sierra Leone
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33354,7 +35082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Curacao
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33389,7 +35117,7 @@ GameObject:
   - component: {fileID: 9081213955059694949}
   m_Layer: 0
   m_Name: Timor-Leste
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33406,7 +35134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Timor-Leste
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33441,7 +35169,7 @@ GameObject:
   - component: {fileID: 9088025007546148312}
   m_Layer: 0
   m_Name: Guatemala
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33458,7 +35186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Guatemala
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33493,7 +35221,7 @@ GameObject:
   - component: {fileID: 9106530267653055320}
   m_Layer: 0
   m_Name: Cayman Islands
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33510,7 +35238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Cayman Islands
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33584,7 +35312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Latvia
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33631,7 +35359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Haiti
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33671,7 +35399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Algeria
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33780,7 +35508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Saint Barthelemy
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -33820,12 +35548,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  name: Spain
+  gdp: 100000
+  population: 100000
+  tonsOfCo2Produced: 20
+  amountOfPykreteProduced: 30
+  percentageGDPContributed: 10
 --- !u!64 &9155106428558529352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33860,7 +35588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Equatorial Guinea
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -34036,7 +35764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Belgium
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -34071,7 +35799,7 @@ GameObject:
   - component: {fileID: 9203952220224397333}
   m_Layer: 0
   m_Name: Germany
-  m_TagString: Country
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34088,7 +35816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Germany
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0
@@ -34162,7 +35890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Italy
   gdp: 0
   population: 0
   tonsOfCo2Produced: 0

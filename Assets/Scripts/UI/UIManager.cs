@@ -11,8 +11,9 @@ public class UIManager : MonoBehaviour
 
     private GameObject inspectedObject;
 
+   
     //Canvas's////
-    [SerializeField] private GameObject countryPanel;
+    [SerializeField] public GameObject countryPanel;
 
 
     //PLayerUI////
@@ -51,15 +52,20 @@ public class UIManager : MonoBehaviour
     public void DisplayCountryData(string name, double gdp, double population, float tonsOfCo2Produced, float amountOfPykreteProduced, double gdpContribution, float percentGDPContributed)
     {
         //Set country UI panel to active, then set UI values based off of what was passed from CountryData from clicked mesh
-        countryPanel.SetActive(true);
-        countryName.text = name;
-        countryGDP.text = "GDP: $" + gdp.ToString();
-        countryPopulation.text = "Population: " + population.ToString();
-        countryCo2Production.text = "Co2 Production (Tons): " + tonsOfCo2Produced.ToString();
-        countryPykreteProduction.text = "Pykrete Production (KG): " + amountOfPykreteProduced.ToString();
-        countryGDPContribution.text = "Current Contribution: $" + string.Format("{0:0.00}", gdpContribution);// gdpContribution.ToString();
 
-        contributionSlider.value = percentGDPContributed;
+        if (!countryPanel.activeSelf)
+        {
+            countryPanel.SetActive(true);
+            countryName.text = name;
+            countryGDP.text = "GDP: $" + gdp.ToString();
+            countryPopulation.text = "Population: " + population.ToString();
+            countryCo2Production.text = "Co2 Production (Tons): " + tonsOfCo2Produced.ToString();
+            countryPykreteProduction.text = "Pykrete Production (KG): " + amountOfPykreteProduced.ToString();
+            countryGDPContribution.text = "Current Contribution: $" + string.Format("{0:0.00}", gdpContribution);// gdpContribution.ToString();
+
+            contributionSlider.value = percentGDPContributed;
+
+        }
     }
 
     public void UpdateCountryContributionUI()
@@ -67,7 +73,7 @@ public class UIManager : MonoBehaviour
         if (inspectedObject != null)
         {
             //Update contribution value when slider is changed (Trigger from slider UI inspector value change )
-            countryGDPContribution.text = "Current Contribution: $" + string.Format("{0:0.00}", inspectedObject.GetComponent<CountryData>().GetGDPContribution().ToString());
+            countryGDPContribution.text = "Current Contribution: $" + inspectedObject.GetComponent<CountryData>().GetGDPContribution().ToString();
 
         }
     }
@@ -76,6 +82,7 @@ public class UIManager : MonoBehaviour
     {
         //Called when X button is pressed on top right of country UI Panel 
         countryPanel.SetActive(false);
+        
     }
 
     public void SetInspected(GameObject gameObject)
@@ -85,14 +92,16 @@ public class UIManager : MonoBehaviour
 
     }
 
-    public void SetInspectedContribution()
+    public void SetInspectedContribution(float value)
     {
 
         //On slider value change set the percentage variable of CountryData script attached to the country's gameObject that has been selected
-        inspectedObject.GetComponent<CountryData>().percentageGDPContributed = contributionSlider.value;
-
-
+        inspectedObject.GetComponent<CountryData>().percentageGDPContributed = value;
+        Debug.Log(inspectedObject.GetComponent<CountryData>().percentageGDPContributed);
+        UpdateCountryContributionUI();
     }
+
+   
 
 
 }
