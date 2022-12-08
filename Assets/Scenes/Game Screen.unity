@@ -363,17 +363,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101181245}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.255, y: -171.451}
+  m_AnchoredPosition: {x: 56.854927, y: -175.5}
   m_SizeDelta: {x: 176.51, y: 51.0981}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &101181247
@@ -423,14 +423,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -54.832214, y: 0, z: 2.1959229, w: -3.9269104}
+  m_margin: {x: -63.891403, y: 0, z: 49.419704, w: 20.780022}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -707,17 +707,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172173531}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 50}
+  m_AnchoredPosition: {x: 68.600006, y: 28.656355}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &172173533
@@ -767,8 +767,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -803,7 +803,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -54.832214, y: 0, z: 0, w: -3.9269104}
+  m_margin: {x: -60.605682, y: 0, z: 80.10711, w: 4.0116463}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -879,18 +879,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358604169}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 100}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 29.6186, y: 78.65636}
+  m_SizeDelta: {x: 122.0372, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358604171
 MonoBehaviour:
@@ -939,8 +939,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -975,7 +975,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -53.73413, y: 0, z: 0, w: -3.9269104}
+  m_margin: {x: -53.73413, y: 0, z: -0.20026588, w: 4.0116234}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1116,17 +1116,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507126801}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: -50}
+  m_AnchoredPosition: {x: 61.4, y: -71.34364}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507126803
@@ -1176,8 +1176,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -55.930237, y: 0, z: 25.254883, w: -3.9269104}
+  m_margin: {x: -55.930237, y: 0, z: 66.39096, w: 15.5586405}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1869,18 +1869,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861858252}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 32.711, y: -20.1799}
+  m_SizeDelta: {x: 128.22, y: 47.673}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861858254
 MonoBehaviour:
@@ -1929,8 +1929,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1965,7 +1965,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -54.832214, y: 0, z: 26.352905, w: -3.9269104}
+  m_margin: {x: -62.049088, y: 0, z: 1.5053768, w: -0.82860273}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2189,91 +2189,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181228368}
-  m_CullTransparentMesh: 1
---- !u!1 &1211527493
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1211527494}
-  - component: {fileID: 1211527496}
-  - component: {fileID: 1211527495}
-  m_Layer: 0
-  m_Name: CountryPanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1211527494
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211527493}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1510631840}
-  - {fileID: 358604170}
-  - {fileID: 172173532}
-  - {fileID: 861858253}
-  - {fileID: 507126802}
-  - {fileID: 1543016318}
-  - {fileID: 1568447264}
-  - {fileID: 101181246}
-  - {fileID: 2036969723}
-  m_Father: {fileID: 1276741011}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 392.3247, y: -46.2137}
-  m_SizeDelta: {x: -823.9805, y: -237.9514}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1211527495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211527493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8773585, g: 0.79045033, b: 0.79045033, a: 0.7607843}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1211527496
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211527493}
   m_CullTransparentMesh: 1
 --- !u!1 &1268312612
 GameObject:
@@ -2564,9 +2479,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 86379353}
-  - {fileID: 1211527494}
   - {fileID: 1286084807}
   - {fileID: 1516985432}
+  - {fileID: 1691243355}
   m_Father: {fileID: 1902584208}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2604,7 +2519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2860,7 +2775,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -3054,18 +2969,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510631839}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 55, y: 162}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 56.350014, y: 136.8}
+  m_SizeDelta: {x: 198.5, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510631841
 MonoBehaviour:
@@ -3150,7 +3065,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -66.232056, y: 0, z: 43.012573, w: 0}
+  m_margin: {x: -50.986313, y: 3.8114605, z: 61.434513, w: 6.1388435}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3323,17 +3238,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543016317}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: -100}
+  m_AnchoredPosition: {x: 57.1, y: -121.34364}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1543016319
@@ -3383,8 +3298,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3419,7 +3334,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -75.69495, y: 0, z: 0, w: -3.9269104}
+  m_margin: {x: -48.99257, y: 0, z: 61.343292, w: -3.9269104}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3457,7 +3372,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568447263}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3465,12 +3380,12 @@ RectTransform:
   - {fileID: 640777998}
   - {fileID: 356124597}
   - {fileID: 1292289539}
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -120}
+  m_AnchoredPosition: {x: -0.3, y: -133.1}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1568447265
@@ -3698,7 +3613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9916ffb2d94724b8bdc798311083f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countryPanel: {fileID: 1211527493}
+  countryPanel: {fileID: 1691243354}
   playerWealthText: {fileID: 1286084808}
   countryName: {fileID: 1510631841}
   countryGDP: {fileID: 358604171}
@@ -3707,6 +3622,91 @@ MonoBehaviour:
   countryPykreteProduction: {fileID: 507126803}
   countryGDPContribution: {fileID: 101181247}
   contributionSlider: {fileID: 1568447265}
+--- !u!1 &1691243354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691243355}
+  - component: {fileID: 1691243357}
+  - component: {fileID: 1691243356}
+  m_Layer: 0
+  m_Name: CountryPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1691243355
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691243354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1510631840}
+  - {fileID: 358604170}
+  - {fileID: 172173532}
+  - {fileID: 861858253}
+  - {fileID: 507126802}
+  - {fileID: 1543016318}
+  - {fileID: 1568447264}
+  - {fileID: 101181246}
+  - {fileID: 2036969723}
+  m_Father: {fileID: 1276741011}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 271.1, y: -98.3362}
+  m_SizeDelta: {x: -606.3565, y: -244.0439}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1691243356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691243354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8490566, g: 0.81301177, b: 0.81301177, a: 0.85882354}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1691243357
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691243354}
+  m_CullTransparentMesh: 1
 --- !u!1 &1714070108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3953,17 +3953,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036969722}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2875, y: 1.2318751, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1211527494}
+  m_Father: {fileID: 1691243355}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99.9, y: 201.6}
+  m_AnchoredPosition: {x: 78.5, y: 172}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036969724
@@ -4105,6 +4105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d24a17e60677e740a7952962b3c3931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countryArray: []
 --- !u!114 &2039540315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7140,11 +7141,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Togo
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &1208912373063598558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8036,7 +8037,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3630511620036162878}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8399,11 +8400,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Republic of Korea
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &1652871244542334510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11552,11 +11553,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Andora
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &2752982583139061309
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11657,11 +11658,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Austria
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &2780625372592657046
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12893,11 +12894,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cote d'Ivoire
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &3183927384444060401
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13151,11 +13152,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Christmas Island
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &3214574756452300144
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13807,11 +13808,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cocos Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &3516686448516380251
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14056,11 +14057,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Uganda
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &3617020833297838578
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14305,11 +14306,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Tokelau
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &3729534565609877567
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14480,11 +14481,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Argentina
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &3792231438100692054
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15113,11 +15114,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bosnia and Herzegovina
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4027076389896171353
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15645,11 +15646,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Norfolk Island
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4226358175044598257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15878,11 +15879,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Fiji
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4273345248701480562
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16329,11 +16330,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: United Arab Emirates
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4348200247701978361
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16474,11 +16475,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Wallis and Futuna
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4382878451918563953
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16546,11 +16547,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Niue
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4389071671352943931
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16853,11 +16854,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Iceland
-  gdp: 20000
-  population: 2000
-  tonsOfCo2Produced: 20
-  amountOfPykreteProduced: 30
-  percentageGDPContributed: 50
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4519529702728172221
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17388,11 +17389,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Anguilla
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4767779435855482227
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17522,11 +17523,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Palestine
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4839672876732314257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17578,11 +17579,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Japan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4841073627240781372
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17645,11 +17646,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Thailand
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4860118865986438771
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18103,11 +18104,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cameroon
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &4985955443313829039
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18384,11 +18385,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: South Sudan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &5076979357481449849
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18552,11 +18553,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Montenegro
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &5164333933242900777
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18956,11 +18957,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Faroe Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &5222944179654488262
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19715,11 +19716,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Senegal
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &5530195323722410093
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19867,11 +19868,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Svakbard and Jan Mayen
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &5584724983333168969
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20353,11 +20354,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Somalia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &5894731859362788563
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20629,11 +20630,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Gabon
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &5941622485233388583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20880,11 +20881,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sweden
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6083754517341329445
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20951,11 +20952,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Saint Pierre and Miquelon
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6091717172785072118
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21003,11 +21004,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Quatar
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6107124453197249946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21082,11 +21083,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Zimbabwe
-  gdp: 200000
-  population: 2000000
-  tonsOfCo2Produced: 100
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6132505612376452332
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21220,11 +21221,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Yemen
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6152735861789147207
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21332,11 +21333,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bhutan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6228954983613633930
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21399,11 +21400,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Panama
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6268495691802788652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21481,11 +21482,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Portugal
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6293469048604546792
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21529,11 +21530,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Egypt
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6304757834275863095
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21633,11 +21634,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: South Africa
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6309083694054995339
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21749,11 +21750,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Seychelles
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6330267866510128103
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21796,11 +21797,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Centeral African Republic
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6331894138942102525
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21898,11 +21899,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Guinea-Bissau
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6377131614684072972
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22035,11 +22036,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Morocco
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6506496685253598445
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22125,11 +22126,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Eswatini
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6527221080555993050
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22291,11 +22292,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Gambia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6579746687780688478
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22492,11 +22493,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Dijibouti
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6692445117139288972
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22581,11 +22582,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mexico
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6728197544843027383
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22655,11 +22656,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Nicaragua
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6730613608896685947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22695,11 +22696,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sain Vincent and the Grenadines
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6750732726797256687
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22762,11 +22763,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Marshal Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6757607121640368206
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22814,11 +22815,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 'Lebanon '
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6763439537220670321
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22941,11 +22942,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Liberia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6777782038229338662
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23066,11 +23067,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bermuda
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6797206865502748345
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23171,11 +23172,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Brazil
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6815599906220972263
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23211,11 +23212,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Paraguay
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6819261278057603367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23271,11 +23272,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Hear Island and McDonald Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6848625172458192166
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23311,11 +23312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Russian Federation
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6871873603908281460
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23549,11 +23550,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: French Guiana
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &6949878102255397573
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23720,11 +23721,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Philippines
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7036350362976640723
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23814,11 +23815,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Turkey
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7041851383944771749
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23854,11 +23855,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Kuwait
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7047346482256578037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23906,11 +23907,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Botswana
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7080035211496516194
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24078,11 +24079,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 'Turks and Caicos Islands '
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7106911995399792978
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24133,11 +24134,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Monaco
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7118745008919122555
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24173,11 +24174,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Oman
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7123413180167446135
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24247,11 +24248,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Albania
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7126125292757313460
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24356,11 +24357,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 'Belize '
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7144766375004664069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24408,11 +24409,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Netherlands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7154126648499966788
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24448,11 +24449,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Colombia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7165849847351635835
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24522,11 +24523,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Hong Kong
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7168584885132798056
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24596,11 +24597,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Viet Nam
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7182260763926276920
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24636,11 +24637,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: French Polynesia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7184640541377029965
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24710,11 +24711,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Grenada
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7186921707926804466
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24757,11 +24758,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Jamaica
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7190226765039027988
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24896,11 +24897,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Slovakia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7214398160924398479
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24936,11 +24937,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: India
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7216831413281448417
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24983,11 +24984,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Jersey
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7222605589169003452
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25061,11 +25062,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Ireland
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7271061884136023946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25108,11 +25109,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sint Maarten
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7301127989476621755
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25155,11 +25156,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Burkina Faso
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7301364739028027787
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25277,11 +25278,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Niger
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7353068747190365398
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25387,11 +25388,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Nepal
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7383446717300079136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25461,11 +25462,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Kosovo
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7385627793724909284
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25501,11 +25502,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bouvet Island
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7388629384212824309
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25553,11 +25554,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Aremania
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7394189251523576476
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25620,11 +25621,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Iran
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7401814321479983515
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25686,11 +25687,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: UK
-  gdp: 1000000
-  population: 10000000
-  tonsOfCo2Produced: 20
-  amountOfPykreteProduced: 40
-  percentageGDPContributed: 10
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!33 &7411694489999620911
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25747,11 +25748,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mauritius
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7427250243414511637
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25869,11 +25870,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Lao People's Democratic Republic
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7485385829451455596
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25909,11 +25910,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: South Georgia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7491840159856487429
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26011,11 +26012,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Tunisia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7496735797668509370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26175,11 +26176,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Honduras
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7545184757162388788
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26243,11 +26244,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: USA
-  gdp: 100000000
-  population: 20000000
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7559950337960092032
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26499,11 +26500,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Isreal
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7651471114711152504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26546,11 +26547,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Dominican Republic
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7665679274628411833
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26620,11 +26621,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: San Marino
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7666837414184487622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26672,11 +26673,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Malawi
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7667907696503392890
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26724,11 +26725,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Saint Lucia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7675925956414823217
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26833,11 +26834,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Democratic People's Republic of Korea
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7678892142830883581
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26922,11 +26923,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mozambique
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7681213382034498821
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26969,11 +26970,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Guadeloupe
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7703476955584494247
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27077,11 +27078,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Serbia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7722169636882485248
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27124,11 +27125,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bonaire
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7729129768068003230
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27180,11 +27181,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Reunion
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7755775121744253211
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27247,11 +27248,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sri Lanka
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7796286682379257562
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27321,11 +27322,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Ghana
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7796874748637135518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27373,11 +27374,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Uruguay
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7798638357756343193
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27425,11 +27426,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Lithuania
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7808502603781505733
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27573,11 +27574,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Slovenia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7827723393980941115
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27625,11 +27626,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Greece
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7882744642201910351
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27697,11 +27698,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Czechia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7890620488545002829
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27779,11 +27780,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Saint Martin
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7902841790146023891
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27826,11 +27827,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Brunei Darussalam
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7904009471888515567
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27866,11 +27867,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 'New Caledonia '
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7905637563266363981
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27940,11 +27941,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Ecuador
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7910164486191454789
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -27995,11 +27996,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mongolia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7937995552845565577
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28136,11 +28137,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Guam
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7957839843748009762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28176,11 +28177,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Croatia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &7965196910648751491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28386,11 +28387,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mauritania
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8046449532932807518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28460,11 +28461,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Kenya
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8050093662301957439
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28512,11 +28513,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Switzerland
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8050968835948256905
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28564,11 +28565,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Macao
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8058146230963221817
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28612,11 +28613,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Estonia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8070491155156286924
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28664,11 +28665,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Iraq
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8074795972161844793
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28738,11 +28739,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Holy Sea
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8080134837426875754
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28812,11 +28813,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Northern Mariana Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8085295929103160739
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28864,11 +28865,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cyprus
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8096530858071026955
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29000,11 +29001,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Lesotho
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8135789997493507608
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29082,11 +29083,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Samoa
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8152581029331718952
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29129,11 +29130,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Benin
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8172110453191267915
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29196,11 +29197,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cabo Verde
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8193347688215464069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29243,11 +29244,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Syrian Arab Republic
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8198161660207551832
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29283,11 +29284,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Virgin Islands US
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8198836034354983733
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29323,11 +29324,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Chad
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8200437678987357571
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29383,11 +29384,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cook islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8213170125090646794
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29430,11 +29431,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Georgia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8221119057756666557
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29504,11 +29505,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Dominca
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8221375692342607322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29598,11 +29599,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Falkland Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8236505446791067747
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29658,11 +29659,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Maldives
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8255930410513021384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29705,11 +29706,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Chile
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8270835633212527701
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29779,11 +29780,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Peru
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8274305174409095632
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29826,11 +29827,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Malta
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8276804174931280606
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29878,11 +29879,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Uzbekistan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8283813876826225302
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29933,11 +29934,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bahamas
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8288545572337839819
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29980,11 +29981,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: New Zealand
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8294853208973340163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30020,11 +30021,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: China
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8301062526844017242
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30138,11 +30139,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Gibraltar
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8311050673677943775
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30190,11 +30191,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Kiribati
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8317777253920629670
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30300,11 +30301,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Poland
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8329452962616678292
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30340,11 +30341,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bahrain
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8347669571654510080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30429,11 +30430,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Azerbaijan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8351915704908756549
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30481,11 +30482,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Rwanda
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8352873470857722457
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30552,11 +30553,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Guinea
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8381364801093561701
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30626,11 +30627,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Western Sahara
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8387363627947200001
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30693,11 +30694,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: French Southern Terriotories
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8394904390987391600
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30745,11 +30746,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: British Indian Ocean Territory
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8405864590182899990
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30785,11 +30786,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sao Tome and Principe
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8406886902512975274
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30859,11 +30860,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Nigeria
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8414455666200486014
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30906,11 +30907,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Turkmenistan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8426162239799329241
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30958,11 +30959,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Saint Kitts and Nevis
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8429185620080329470
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30998,11 +30999,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Ukraine
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8436869925962931877
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31072,11 +31073,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Pitcairn
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8439248952236571641
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31124,11 +31125,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Congo
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8447293596163681879
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31191,11 +31192,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Venuatu
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8479676738643702476
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31375,11 +31376,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Palau
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8512301133366458655
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31458,11 +31459,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Solomon Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8520885955005498387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31624,11 +31625,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Martinique
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8555267261966886004
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31706,11 +31707,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Denmark
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8574446679631175408
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31780,11 +31781,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Antartica
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8575992679239396789
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31835,11 +31836,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Costa Rica
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8604869484763951531
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31890,11 +31891,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Angola
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8616525648149928823
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31930,11 +31931,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Norway
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8618840745855796301
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32004,11 +32005,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Eritrea
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8620110766209041310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32059,11 +32060,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Pakistan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8639667045912848062
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32111,11 +32112,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bangladesh
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8644290227503358231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32158,11 +32159,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: El Salvado
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8645039824371752158
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32229,11 +32230,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Belarus
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8669568566491933443
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32281,11 +32282,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mynamar
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8687270170963502900
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32333,11 +32334,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Virgin Islands UK
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8691550273586292202
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32380,11 +32381,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Malaysia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8694915824140822442
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32420,11 +32421,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 'Ethiopia '
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8696216555861796931
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32467,11 +32468,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Tonga
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8696975887163336711
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32507,11 +32508,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: America Somoa
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8704283982734461224
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32589,11 +32590,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Afghanistan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8714737999196500442
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32649,11 +32650,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cuba
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8719946838613098008
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32689,11 +32690,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Antigua and Barbuda
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8742556442430379790
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32741,11 +32742,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Australia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8742910664235172412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32793,11 +32794,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Maycotte
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8751884584069450275
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32833,11 +32834,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Saudi Arabia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8754354336780202134
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32873,11 +32874,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Comoros
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8759387806345334182
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32947,11 +32948,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Guyana
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8775635167486397527
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32987,11 +32988,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 'Romania '
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8775937737764271367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33039,11 +33040,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cambodia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8777030510935413489
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33086,11 +33087,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Nambia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8787788099430083396
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33126,11 +33127,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Kazakhstan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8789089806572572995
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33166,11 +33167,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Micronesia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8794227223148228263
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33213,11 +33214,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Kyrgyzstan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8799719928825325069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33260,11 +33261,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bulgaria
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8821042139119670780
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33312,11 +33313,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Taiwan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8827926007078339083
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33359,11 +33360,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Madagascar
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8842193270061621056
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33414,11 +33415,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Zambia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8847085882101398205
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33488,11 +33489,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Democratic Republic of Congo
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8849675240222751252
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33562,11 +33563,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mali
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8850751723128152242
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33636,11 +33637,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Republic of North Macedonia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8859062630793652455
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33688,11 +33689,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Venezuela
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8863284069982145044
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33735,11 +33736,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Papua New Guinea
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8867397393231602998
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33775,11 +33776,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Libya
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8871621783304910223
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33827,11 +33828,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Indoonesia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8874446792680002706
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33867,11 +33868,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Suriname
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8879716229924766702
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33907,11 +33908,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Jordan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8880448629240728903
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33954,11 +33955,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Aland Islands
-  gdp: 20000
-  population: 10000
-  tonsOfCo2Produced: 5
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
   amountOfPykreteProduced: 1
-  percentageGDPContributed: 2
+  percentageGDPContributed: 1
 --- !u!64 &8886778108280145838
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34029,11 +34030,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Singapore
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8890299322830450614
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34103,11 +34104,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Canada
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8892653029837630185
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34177,11 +34178,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Barbados
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8894500534227488139
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34217,11 +34218,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sudan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8895060877649480419
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34264,11 +34265,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Tajikistan
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8935731875182330727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34311,11 +34312,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Luxembourg
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8937918350618231655
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34358,11 +34359,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cube
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8940140963204998567
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34405,11 +34406,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Bolivia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8947397282871930241
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34452,11 +34453,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Liechtenstein
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8954506528521629462
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34526,11 +34527,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Tanzania
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8955261909131503173
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34600,11 +34601,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Tuvalu
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8959375583655812215
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34640,11 +34641,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Nauru
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8994090130709480560
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34680,11 +34681,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Montserrat
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8995957358819420647
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34754,11 +34755,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Trinidad and Tobago
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &8999692207644092684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34801,11 +34802,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Hungary
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9009060915856824425
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34853,11 +34854,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Burundi
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9010036398319452175
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34894,10 +34895,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Greenland
   gdp: 2000000
-  population: 200000
-  tonsOfCo2Produced: 20
-  amountOfPykreteProduced: 30
-  percentageGDPContributed: 30
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9014488206105362212
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -34933,11 +34934,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Saint Helena
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9021404796103465634
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35038,11 +35039,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Puerto Rico
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9034911747716224928
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35112,11 +35113,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Finland
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9040970354201443521
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35152,11 +35153,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Isle of Man
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9042572624887014029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35192,11 +35193,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: France
-  gdp: 20000000
-  population: 1000
-  tonsOfCo2Produced: 20
-  amountOfPykreteProduced: 5
-  percentageGDPContributed: 5
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9055679164459040569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35232,11 +35233,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Moldova
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9066168642713432275
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35306,11 +35307,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Sierra Leone
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9074487549218873387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35380,11 +35381,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Curacao
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9079320949938727547
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35432,11 +35433,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Timor-Leste
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9081213955059694950
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35484,11 +35485,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Guatemala
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9088025007546148313
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35536,11 +35537,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Cayman Islands
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9106530267653055321
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35610,11 +35611,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Latvia
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9106910290284556871
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35657,11 +35658,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Haiti
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9124615928599291022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35697,11 +35698,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Algeria
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9133583001655314860
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35806,11 +35807,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Saint Barthelemy
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9147543001296713879
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35846,11 +35847,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Spain
-  gdp: 100000
+  gdp: 2000000
   population: 100000
-  tonsOfCo2Produced: 20
-  amountOfPykreteProduced: 30
-  percentageGDPContributed: 10
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9155106428558529352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35886,11 +35887,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Equatorial Guinea
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9166014410286019041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35957,11 +35958,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9172062858507566364
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36062,11 +36063,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Belgium
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9181962916246459587
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36114,11 +36115,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Germany
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9203952220224397334
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36188,11 +36189,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Italy
-  gdp: 0
-  population: 0
-  tonsOfCo2Produced: 0
-  amountOfPykreteProduced: 0
-  percentageGDPContributed: 0
+  gdp: 2000000
+  population: 100000
+  tonsOfCo2Produced: 30
+  amountOfPykreteProduced: 1
+  percentageGDPContributed: 1
 --- !u!64 &9212487939696372567
 MeshCollider:
   m_ObjectHideFlags: 0

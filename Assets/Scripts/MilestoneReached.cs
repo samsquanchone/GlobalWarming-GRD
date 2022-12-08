@@ -17,7 +17,7 @@ public class MilestoneReached : MonoBehaviour
         //Reset variable
         amountToIncrement = 0;
         //Iterate over countries, adding their contribution 
-        for (int i = 0; i < countryArray.Length; i++)
+        for (int i = 1; i < countryArray.Length; i++)
         {
            
                 amountToIncrement += countryArray[i].GetComponent<CountryData>().GetGDPContribution();
