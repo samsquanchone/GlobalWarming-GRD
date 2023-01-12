@@ -36,8 +36,9 @@ public class PersistentManagerScript : MonoBehaviour
 
     public void Save()
     {
+        
         //Keep track of amount of objects save, so we can load the correct amount 
-        PlayerPrefs.SetInt("ObjectCount", saveableObjects.Count);
+        PlayerPrefs.SetInt(Application.loadedLevel.ToString(), saveableObjects.Count);
 
         for (int i = 0; i < saveableObjects.Count; i++)
         {
@@ -61,11 +62,11 @@ public class PersistentManagerScript : MonoBehaviour
         saveableObjects.Clear();
 
 
-        int objectCount = PlayerPrefs.GetInt("ObjectCount");
+        int objectCount = PlayerPrefs.GetInt(Application.loadedLevel.ToString());
 
         for (int i = 0; i < objectCount; i++)
         {
-            string[] values = PlayerPrefs.GetString(i.ToString()).Split('_');
+            string[] values = PlayerPrefs.GetString(Application.loadedLevel + "-" + i.ToString()).Split('_');
             GameObject tmp = null;
 
             switch (values[0])
@@ -89,6 +90,18 @@ public class PersistentManagerScript : MonoBehaviour
 
     public Vector3 StringToVector(string value)
     {
+        //Convert passed string and return array of values
+        string[] pos = FormatString(value);
+
+        //Parse string array of position values into a Vector3, then return the new Vector3
+        return new Vector3(float.Parse(pos[0]), float.Parse(pos[1]), float.Parse(pos[2]));
+    }
+
+    private string[] FormatString(string value)
+    {
+        //This function trims a string and formats it so it can be pased as an array of values,
+        //for quaternion or vector 3
+
         //Trim brackets from Vector3 to string conversion
         value = value.Trim(new char[] { '(', ')' });
 
@@ -98,13 +111,16 @@ public class PersistentManagerScript : MonoBehaviour
         //Convert string value into an array of values for X,Y,Z positions
         string[] pos = value.Split(',');
 
-        //Parse string array of position values into a Vector3, then return the new Vector3
-        return new Vector3(float.Parse(pos[0]), float.Parse(pos[1]), float.Parse(pos[2]));
+        return pos;
     }
 
     public Quaternion StringToQuaternion(string value)
     {
-        return Quaternion.identity;
+        //Format passed string and return array of string values
+        string[] rotation = FormatString(value);
+
+        //Format array of string values into quaternion and return it
+        return new Quaternion(float.Parse(rotation[0]), float.Parse(rotation[1]), float.Parse(rotation[2]), float.Parse(rotation[3]));
     }
 
     public void AddObjectToPersistentDataList(GameObject gameObject)

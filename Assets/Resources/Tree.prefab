@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2222111361403691372}
   - component: {fileID: 2222111361402594220}
   - component: {fileID: 6601886996393371248}
-  - component: {fileID: 5230813864439785948}
   - component: {fileID: -2097991294769667292}
   m_Layer: 0
   m_Name: Tree
@@ -30,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2222111361404534124}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,18 +99,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 6c7eaede4efc960409fb9ef2dfb77f29, type: 3}
---- !u!114 &5230813864439785948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2222111361404534124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbca2e13b9fa82e4b8f6209de71b7d17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-2097991294769667292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,6 +108,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2222111361404534124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3387997fbdafac04c9112c134a0f63a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9160602e889eef247ab01f181074f848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectType: 0
+  yield: 20

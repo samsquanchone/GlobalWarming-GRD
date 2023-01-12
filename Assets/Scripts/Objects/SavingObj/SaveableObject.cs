@@ -12,7 +12,7 @@ enum ObjectType {Tree, Factory} //Enum for object ypes
 /// </summary>
 public abstract class SaveableObject : MonoBehaviour
 {
-    protected string save;
+    protected string saveStats;
     [SerializeField] private ObjectType objectType;
     // Start is called before the first frame update
     private void Start()
@@ -25,18 +25,22 @@ public abstract class SaveableObject : MonoBehaviour
     public virtual void Save(int id)
     {
        
-        //Convert to string for vector3 for object position
-        PlayerPrefs.SetString(id.ToString(), objectType + "_" + transform.position.ToString());
+        //save object properties(position, scale, rotation), as well as specific data in this object e.g. wood yield
+        PlayerPrefs.SetString(Application.loadedLevel + "-" + id.ToString(), objectType + "_" + transform.position.ToString() + "_" + transform.localScale + "_" + transform.localRotation + "_" + saveStats);
     }
 
     //Any classes that inherit this class must override this function
     public virtual void Load(string[] values)
     {
+        //Converting saved object properties from string into vector3 and quaternion, and setting the objects properties for re-instantiation
         transform.localPosition = PersistentManagerScript.instance.StringToVector(values[1]);
+        transform.localScale = PersistentManagerScript.instance.StringToVector(values[2]);
+        transform.localRotation = PersistentManagerScript.instance.StringToQuaternion(values[3]);
     }
 
     public void DestroySaveable()
     {
-        
+        PersistentManagerScript.instance.saveableObjects.Remove(this);
+        Destroy(gameObject);
     }
 }
