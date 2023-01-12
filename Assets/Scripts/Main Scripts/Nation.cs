@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Nation : MonoBehaviour
 {
@@ -45,8 +46,10 @@ public class Nation : MonoBehaviour
         
     }
 
+
     public void Colour_All_Teritories_According_to_the_Nation_Colour()
     {
+        int Randomness_For_Colour = Random.Range(-100, +100);
         //Colour all tiles according to the national colour
         for (int i = 0; i < Nations_Territories.Length; i++)
         {
