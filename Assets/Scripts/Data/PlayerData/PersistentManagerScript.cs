@@ -8,7 +8,7 @@ public class PersistentManagerScript : MonoBehaviour
     //any objects built will be stored in a list with Vector3 for position, on reload these objects will then be reinstantiated 
     public static PersistentManagerScript instance { get; private set; }
     private double playerWealth = 0;
-    [SerializeField] private List<GameObject> playerObjectsList = new List<GameObject>(); //Will be used to store any objects that player builds for re-load of a save file
+    
 
     public List<SaveableObject> saveableObjects { get; private set; }
 
@@ -136,11 +136,6 @@ public class PersistentManagerScript : MonoBehaviour
 
         //Format array of string values into quaternion and return it
         return new Quaternion(float.Parse(rotation[0]), float.Parse(rotation[1]), float.Parse(rotation[2]), float.Parse(rotation[3]));
-    }
-
-    public void AddObjectToPersistentDataList(GameObject gameObject)
-    {
-        playerObjectsList.Add(gameObject);
     }
 
     public void AddWealth(double wealth)
