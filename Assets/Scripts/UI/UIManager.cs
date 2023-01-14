@@ -6,8 +6,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public static UIManager instance => m_instance;
-    private static UIManager m_instance;
+    public static UIManager instance { get; private set; }
 
     private GameObject inspectedObject;
 
@@ -38,7 +37,18 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_instance = this;
+        //Non-lazy instantiation of singleton 
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+
+        else
+        {
+            Destroy(gameObject);
+        }
+
         countryPanel.SetActive(false);
     }
 

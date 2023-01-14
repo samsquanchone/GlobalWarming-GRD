@@ -1746,7 +1746,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 73}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &574463010
 MonoBehaviour:
@@ -2854,7 +2854,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildingTypeSOList:
   - {fileID: 11400000, guid: b45befcd160307c4c9032fafd1312caf, type: 2}
+  - {fileID: 11400000, guid: 354534b3247aa4e429d4a9c7d40e231b, type: 2}
+  - {fileID: 11400000, guid: 6b9e02ce0280f534cb60710469fb0645, type: 2}
   - {fileID: 11400000, guid: 4988835417a7c14469476c2f0b58ad35, type: 2}
+  - {fileID: 11400000, guid: 0283056d798029440bb22cf96cba01cc, type: 2}
+  - {fileID: 11400000, guid: 09e39ea34819fee43837e6955b0f1e6d, type: 2}
+  - {fileID: 11400000, guid: f4d7f64f1058f0b46997c7045780d60e, type: 2}
   buildingManager: {fileID: 781867167}
 --- !u!1 &1004712279
 GameObject:
@@ -5250,7 +5255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e98f0b9844267e4fa9b72e05aa667a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerObjectsList: []
 --- !u!1 &2047429868
 GameObject:
   m_ObjectHideFlags: 0
@@ -19081,10 +19085,9 @@ GameObject:
   - component: {fileID: 426877995238413114}
   - component: {fileID: 8136490145345015781}
   - component: {fileID: 8940140963204998567}
-  - component: {fileID: 8940140963204998566}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: UNCountry
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35479,24 +35482,6 @@ Transform:
   m_Father: {fileID: 5215278615444176577}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8940140963204998566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4928836529570376526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac7aca324dab8c4429a37060d4482a98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Cube
-  gdp: 2000000
-  population: 100000
-  tonsOfCo2Produced: 30
-  amountOfPykreteProduced: 1
-  percentageGDPContributed: 1
 --- !u!64 &8940140963204998567
 MeshCollider:
   m_ObjectHideFlags: 0

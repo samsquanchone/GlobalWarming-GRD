@@ -4,21 +4,31 @@ using UnityEngine;
 
 public class BuildingManager : MonoBehaviour
 {
-    public static BuildingManager instance => m_Instance; //Singleton for global access, public get, private set
-    private static BuildingManager m_Instance;
+    //Singleton for global access, public get, private set
+    public static BuildingManager instance { get; private set; }
 
     [SerializeField] private BuildingTypeSO activeBuildingType;
     
 
-    public void Awake()
+    public void Start()
     {
-        m_Instance = this;
+        //Non-lazy instantiation of singleton 
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
 
     public void SpawnBuilding(Vector3 position)
     {
-        //Instantiate constructoin prefab for respective object that will be build, based off Vector 3 of raycast hit passed from playerInteraction script
+        //Instantiate constructoin prefab for respective object that will be built, based off Vector 3 of raycast hit passed from playerInteraction script
         Instantiate(activeBuildingType.constructionPrefab, position, Quaternion.identity);
     }
 
@@ -62,6 +72,8 @@ public class BuildingManager : MonoBehaviour
             //Check for collision
             if (hasBuilding || hasWater)
             {
+                //Could trigger UI here that indicates you can't build 
+                
                 return true;
             }
         }
