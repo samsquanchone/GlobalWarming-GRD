@@ -35,7 +35,8 @@ public class BuildingManager : MonoBehaviour
 
     private bool CanSpawnBuilding(BuildingTypeSO buildingTypeSO, Vector3 position) 
     {
-         //This function is used for placement validation
+         //This function is used for placement validation, currently just to check if there are any other buildings on chose area, however down the liine it should include checks
+        //for e.g. if country in UN, or if near water for dock/shipping yard 
         
       
         BoxCollider buildingBoxCollider = buildingTypeSO.constructionPrefab.GetComponent<BoxCollider>();
@@ -47,20 +48,19 @@ public class BuildingManager : MonoBehaviour
 
 
         //Building of type within radius: this is used to check if there is a building of tag Building in a certain radius,
-        // or for checking if there is water where trying to place object 
+        // will be useful for putting lumber mills near trees for example
 
         float maxBuildingRadius = 15f;
 
         Collider[] colliderArray = Physics.OverlapSphere(position, maxBuildingRadius);
 
         foreach (Collider collider in colliderArray)
-        
-            //Create variables that are equal to any tags we don't want to place objects on, set from the colliderArray
+        {
+            //Create bool variable of a tag you want to check for in collision arrray
             bool hasBuilding = collider.tag == "Building";
             bool hasWater = collider.tag == "Water";
 
-
-            //Check if anyunwated tagged objects are present where trying to place an object
+            //Check for collision
             if (hasBuilding || hasWater)
             {
                 return true;
