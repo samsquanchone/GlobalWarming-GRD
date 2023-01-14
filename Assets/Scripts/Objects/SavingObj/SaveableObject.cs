@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-enum ObjectType {Tree, Factory} //Enum for object ypes
+enum ObjectType {Oak, Bamboo, Willow, Factory, Dock, Airport, TrainStation} //Enum for object ypes
 
 
 /// <summary>
@@ -18,14 +18,14 @@ public abstract class SaveableObject : MonoBehaviour
     private void Start()
     {
         PersistentManagerScript.instance.saveableObjects.Add(this);
-      //  PlayerPrefs.setInt
+      
     }
 
     //Any classes that inherit this class must override this function
     public virtual void Save(int id)
     {
        
-        //save object properties(position, scale, rotation), as well as specific data in this object e.g. wood yield
+        //save object scene index, properties(position, scale, rotation), as well as specific data in this object e.g. wood yield
         PlayerPrefs.SetString(Application.loadedLevel + "-" + id.ToString(), objectType + "_" + transform.position.ToString() + "_" + transform.localScale + "_" + transform.localRotation + "_" + saveStats);
     }
 

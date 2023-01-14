@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 3213084360709085941}
   - component: {fileID: 1405772690453605515}
   m_Layer: 0
-  m_Name: ConstructionPrefabFactory
+  m_Name: AirportConstruction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,5 +155,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e880a79e509324a96314d7e0d0878c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constructedBuildingPrefab: {fileID: 4000013603223344, guid: 65feeeb562c61c744aa87b8eb394ffcf,
+  constructedBuildingPrefab: {fileID: 1667250388416686627, guid: e5e89242c0cd3e948a8e74593d46869c,
     type: 3}

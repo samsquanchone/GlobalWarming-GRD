@@ -25,7 +25,7 @@ public class BuildingTypeSelectUI : MonoBehaviour
             Transform objectButtonTransform = Instantiate(objectButtonTemplate, transform);
             objectButtonTransform.gameObject.SetActive(true);
 
-            objectButtonTransform.GetComponent<RectTransform>().anchoredPosition += new Vector2(0, index * -60);
+            objectButtonTransform.GetComponent<RectTransform>().anchoredPosition += new Vector2(0, index * -30);
 
             objectButtonTransform.Find("BuildingImage").GetComponent<Image>().sprite = buildingTypeSO.sprite;
             objectButtonTransform.GetComponent<Button>().onClick.AddListener(() =>

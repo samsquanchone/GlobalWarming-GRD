@@ -71,11 +71,26 @@ public class PersistentManagerScript : MonoBehaviour
 
             switch (values[0])
             {
-                case "Tree":
-                    tmp = Instantiate(Resources.Load("Tree") as GameObject);
+                case "Oak":
+                    tmp = Instantiate(Resources.Load("Oak") as GameObject);
+                    break;
+                case "Willow":
+                    tmp = Instantiate(Resources.Load("Willow") as GameObject);
+                    break;
+                case "Bamboo":
+                    tmp = Instantiate(Resources.Load("Bamboo") as GameObject);
                     break;
                 case "Factory":
                     tmp = Instantiate(Resources.Load("Factory") as GameObject);
+                    break;
+                case "Dock":
+                    tmp = Instantiate(Resources.Load("Dock") as GameObject);
+                    break;
+                case "TrainStation":
+                    tmp = Instantiate(Resources.Load("TrainStation") as GameObject);
+                    break;
+                case "Airport":
+                    tmp = Instantiate(Resources.Load("Airport") as GameObject);
                     break;
             }
 
