@@ -33,15 +33,14 @@ public class BuildingManager : MonoBehaviour
         return activeBuildingType;
     }
 
+    //This function is used for placement validation, currently just to check if there are any other buildings on chose area, however down the liine it should include checks
+    //for e.g. if country in UN, or if near water for dock/shipping yard 
     private bool CanSpawnBuilding(BuildingTypeSO buildingTypeSO, Vector3 position) 
     {
-         //This function is used for placement validation, currently just to check if there are any other buildings on chose area, however down the liine it should include checks
-        //for e.g. if country in UN, or if near water for dock/shipping yard 
-        
-      
+         
         BoxCollider buildingBoxCollider = buildingTypeSO.constructionPrefab.GetComponent<BoxCollider>();
 
-        bool isAreaClear = Physics.OverlapBox(position, buildingBoxCollider.size, Quaternion.identity) != null; //Variable is equal to no collider overlap with other buildingss
+        bool isAreaClear = Physics.OverlapBox(position, buildingBoxCollider.size, Quaternion.identity) != null; 
 
 
         if (!isAreaClear) return false;
@@ -67,9 +66,7 @@ public class BuildingManager : MonoBehaviour
             }
         }
 
-        return false;
-        
-        
+        return false;  
       
     }
 }
