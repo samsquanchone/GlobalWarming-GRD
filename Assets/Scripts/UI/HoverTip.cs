@@ -39,6 +39,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     }
 
     //This is set on initialization, essentially creating tooltip data to be able to show object placement info from hovering over buttons
+    // NOTE: THIS IS JUST AN OFF THE CUFF WAY OF DOING THIS, SOME DATA IS SIMILAR, COULD BUNCH SIMILAR CLASSES UP INTO MORE GENERAL OBJECT TYPE, SIMILAR TO THE TREE OBJECT TYPE CLASS
     public void SetToolTipData(BuildingTypeSO buildingType)
     {
         float cost;
