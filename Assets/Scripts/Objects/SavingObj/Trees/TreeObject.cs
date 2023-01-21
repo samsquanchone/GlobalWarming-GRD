@@ -5,7 +5,36 @@ using UnityEngine;
 public class TreeObject : SaveableObject
 {
     //Variables that will passed into the save string variable to be serialized
-    [SerializeField] private int yield;
+    
+
+    [SerializeField]
+    public int cost
+    {
+        get { return m_cost; }
+        private set { m_cost = value; }
+    }
+
+    public int m_cost;
+
+    [SerializeField]
+    public int yield
+    {
+        get { return m_yield; }
+        private set { m_yield = value; }
+    }
+
+    public int m_yield;
+
+    [SerializeField]
+    public int timeToGrow
+    {
+        get { return m_timeToGrow; }
+        private set { m_timeToGrow = value; }
+    }
+
+    public int m_timeToGrow;
+
+
 
     // Update is called once per frame
     void RemoveObject()

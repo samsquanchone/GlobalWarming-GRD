@@ -5,8 +5,13 @@ using UnityEngine.UI;
 
 public class BuildingTypeSelectUI : MonoBehaviour
 {
+    //Maybe create two lists and go through them, one for infrastructure and other for tree projects, #
+    //could allow more flexibility with UI
+
     [SerializeField] private List<BuildingTypeSO> buildingTypeSOList;
     [SerializeField] private BuildingManager buildingManager;
+
+    
 
     private Dictionary<BuildingTypeSO, Transform> objectBtnDictionary;
 
@@ -24,6 +29,12 @@ public class BuildingTypeSelectUI : MonoBehaviour
         {
             Transform objectButtonTransform = Instantiate(objectButtonTemplate, transform);
             objectButtonTransform.gameObject.SetActive(true);
+
+            //Name the new object
+            objectButtonTransform.gameObject.name = buildingTypeSO.name;
+
+            //Provide SO to ToolTip script attached to button instantiated, so we can extrapolate data within the tooltip script 
+            objectButtonTransform.GetComponent<HoverTip>().SetToolTipData(buildingTypeSO);
 
             objectButtonTransform.GetComponent<RectTransform>().anchoredPosition += new Vector2(0, index * -30);
 

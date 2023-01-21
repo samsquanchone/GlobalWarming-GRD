@@ -111,4 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 4
-  transportationCapacityKG: 0
+  cost: 80
+  transportationCapacityKG: 500
+  numberOfShips: 5

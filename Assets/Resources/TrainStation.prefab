@@ -111,4 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 6
-  transportationCapacityKG: 0
+  cost: 50
+  transportationCapacityKG: 100
+  numberOfTrains: 3

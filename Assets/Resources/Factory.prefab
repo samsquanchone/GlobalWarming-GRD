@@ -111,4 +111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 3
-  pykreteProductionKG: 50
+  cost: 100
+  pykreteProductionRate: 10
+  pykreteCapacity: 100

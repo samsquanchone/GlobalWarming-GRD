@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
-  m_Name: Airport
+  m_Name: Lumbermill
   m_EditorClassIdentifier: 
-  buildingPrefab: {fileID: 1667250388416686627, guid: e5e89242c0cd3e948a8e74593d46869c,
+  buildingPrefab: {fileID: 5928039867557269207, guid: 744cfcfeb8fc2bc4888dee7a1db3d725,
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: 339ed4aa64624fb46b92035bb96e8551,
     type: 3}

@@ -89,8 +89,8 @@ public class PersistentManagerScript : MonoBehaviour
                 case "TrainStation":
                     tmp = Instantiate(Resources.Load("TrainStation") as GameObject);
                     break;
-                case "Airport":
-                    tmp = Instantiate(Resources.Load("Airport") as GameObject);
+                case "Lumbermill":
+                    tmp = Instantiate(Resources.Load("Lumbermill") as GameObject);
                     break;
             }
 
