@@ -8,15 +8,16 @@ using UnityEngine.EventSystems;
 //Maybe inherit this class for Nation UI hover ability, then get different components from Object: E.g. Name, GDP, Pykrete Production
 public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    private string tipToShow;
-    private float timeToWait = 0.5f;
-    private string dataToShow;
+    protected string tipToShow;
+    protected float timeToWait = 0.5f;
+    protected string dataToShow;
 
 
     public void OnPointerEnter(PointerEventData eventData)
     {
         StopAllCoroutines();
         StartCoroutine(StartTimer());
+        
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -25,18 +26,19 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         UIHoverManager.OnLoseFocus();
     }
 
-    private void ShowMessage()
+    protected virtual void ShowMessage()
     {
         tipToShow = gameObject.name + " Project" + dataToShow;
         UIHoverManager.OnMouseHover(tipToShow, Input.mousePosition);
     }
 
-    private IEnumerator StartTimer()
+    protected IEnumerator StartTimer()
     {
         yield return new WaitForSeconds(timeToWait);
 
         ShowMessage();
     }
+
 
     //This is set on initialization, essentially creating tooltip data to be able to show object placement info from hovering over buttons
     // NOTE: THIS IS JUST AN OFF THE CUFF WAY OF DOING THIS, SOME DATA IS SIMILAR, COULD BUNCH SIMILAR CLASSES UP INTO MORE GENERAL OBJECT TYPE, SIMILAR TO THE TREE OBJECT TYPE CLASS
@@ -47,7 +49,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         if (buildingType.buildingPrefab.GetComponent<TreeObject>() != null)
         {
-            
+
             int yieldKg;
             int timeToGrow;
 

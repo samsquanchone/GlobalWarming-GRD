@@ -16,7 +16,7 @@ public class UIHoverManager : MonoBehaviour
 
 
     //Subscribe to events
-    protected virtual void OnEnable()
+    protected void OnEnable()
     {
         
         OnMouseHover += ShowTip;
@@ -24,7 +24,7 @@ public class UIHoverManager : MonoBehaviour
     }
 
     //Un-subscribe to events (MUST BE DONE TO AVOID NULL REFERENCES OR DATA LEAKS)
-    protected virtual void OnDisable()
+    protected void OnDisable()
     {
         //Un-subscribe to mouseover and lose focus events
         OnMouseHover -= ShowTip;
@@ -48,7 +48,7 @@ public class UIHoverManager : MonoBehaviour
         tipWindow.transform.position = new Vector2(mousePos.x + tipWindow.sizeDelta.x, mousePos.y);
     }
 
-    protected virtual void HideTip()
+    protected void HideTip()
     {
         tipText.text = default;
         tipWindow.gameObject.SetActive(false);
