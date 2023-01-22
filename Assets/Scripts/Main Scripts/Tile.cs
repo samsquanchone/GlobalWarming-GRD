@@ -8,7 +8,10 @@ public class Tile : MonoBehaviour
     [SerializeField] public string Territory_Name;
     [SerializeField] public Nation Occupiant_Nation;
 
-    
+    //Sam addition: when an object is spawned it will add itself to this list 
+    public List<GameObject> nationPlacedObjectsList;
+
+
 
     [SerializeField] public int Habitability; //Between 0-100%
         /*
@@ -33,4 +36,8 @@ public class Tile : MonoBehaviour
     [SerializeField] public bool Autobahn;
     [SerializeField] public bool Railway;
     [SerializeField] public bool Airport;
+
+    
+
+
 }

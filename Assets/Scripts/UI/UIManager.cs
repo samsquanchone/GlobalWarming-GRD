@@ -55,7 +55,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         //Set total wealth UI text
-        playerWealthText.text = "UN Wealth: $" + PersistentManagerScript.instance.GetWealth().ToString();
+       // playerWealthText.text = "UN Wealth: $" + PersistentManagerScript.instance.GetWealth().ToString();
     }
 
     //Set country UI Canvas Element
