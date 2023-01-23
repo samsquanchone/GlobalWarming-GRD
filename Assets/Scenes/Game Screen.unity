@@ -258,120 +258,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41171977}
   m_CullTransparentMesh: 1
---- !u!1 &71089559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 71089560}
-  - component: {fileID: 71089561}
-  m_Layer: 0
-  m_Name: Scandinavia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &71089560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71089559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &71089561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71089559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8574446679631175409}
-  - {fileID: 9040970354201443522}
-  - {fileID: 8618840745855796302}
-  - {fileID: 6083754517341329446}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4292464938
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &84953717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 84953718}
-  - component: {fileID: 84953719}
-  m_Layer: 0
-  m_Name: Oceana
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &84953718
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84953717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &84953719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84953717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8742910664235172413}
-  - {fileID: 8294853208973340164}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4292595311
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &86379352
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,183 +743,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103457787}
   m_CullTransparentMesh: 1
---- !u!1 &109593605
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 109593606}
-  - component: {fileID: 109593607}
-  m_Layer: 0
-  m_Name: Austria, Switzerland and Check
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &109593606
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109593605}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &109593607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109593605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 2780625372592657047}
-  - {fileID: 7890620488545002830}
-  - {fileID: 8050968835948256906}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4293243028
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &114519950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 114519951}
-  - component: {fileID: 114519952}
-  m_Layer: 0
-  m_Name: South Africa and Madagascar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &114519951
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114519950}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114519952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114519950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7080035211496516195}
-  - {fileID: 8842193270061621057}
-  - {fileID: 7681213382034498822}
-  - {fileID: 8787788099430083397}
-  - {fileID: 6309083694054995340}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4289439541
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &119397512
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 119397513}
-  - component: {fileID: 119397514}
-  m_Layer: 0
-  m_Name: Middle East
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &119397513
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119397512}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &119397514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119397512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 6304757834275863096}
-  - {fileID: 8074795972161844794}
-  - {fileID: 7651471114711152505}
-  - {fileID: 8880448629240728904}
-  - {fileID: 6763439537220670322}
-  - {fileID: 8198161660207551833}
-  - {fileID: 4839672876732314258}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4283002515
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1001 &130758953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1194,61 +903,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &167173296
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 167173297}
-  - component: {fileID: 167173298}
-  m_Layer: 0
-  m_Name: Chile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &167173297
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167173296}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &167173298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167173296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8270835633212527702}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4294926264
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &172173531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,7 +1971,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &586508570
 MonoBehaviour:
@@ -2372,8 +2026,8 @@ RectTransform:
   - {fileID: 1775714897}
   - {fileID: 1244474905}
   - {fileID: 1726246735}
-  m_Father: {fileID: 509009509}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -2418,62 +2072,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610973833}
   m_CullTransparentMesh: 1
---- !u!1 &635539543
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 635539544}
-  - component: {fileID: 635539545}
-  m_Layer: 0
-  m_Name: Japan and Korea
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &635539544
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635539543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &635539545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635539543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 4841073627240781373}
-  - {fileID: 1652871244542334511}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4285387483
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &639597248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,7 +2105,7 @@ Transform:
   - {fileID: 2039540313}
   - {fileID: 781867166}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &640777997
 GameObject:
@@ -2585,61 +2183,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640777997}
   m_CullTransparentMesh: 1
---- !u!1 &647153105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 647153106}
-  - component: {fileID: 647153107}
-  m_Layer: 0
-  m_Name: Argentina
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &647153106
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647153105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &647153107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647153105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 3792231438100692055}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4294950292
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &670028987
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,64 +2696,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826725036}
   m_CullTransparentMesh: 1
---- !u!1 &832549683
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832549684}
-  - component: {fileID: 832549685}
-  m_Layer: 0
-  m_Name: Indonesia and Taiwan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &832549684
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832549683}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &832549685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832549683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8874446792680002707}
-  - {fileID: 8694915824140822443}
-  - {fileID: 8867397393231602999}
-  - {fileID: 8827926007078339084}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4282465147
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &861858252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3902,62 +3387,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181228368}
   m_CullTransparentMesh: 1
---- !u!1 &1187606596
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1187606597}
-  - component: {fileID: 1187606598}
-  m_Layer: 0
-  m_Name: Ukraine and Beulorussia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1187606597
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187606596}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187606598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187606596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8669568566491933444}
-  - {fileID: 8436869925962931878}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4286272024
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1194821538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3985,166 +3414,10 @@ Transform:
   m_LocalPosition: {x: -0.31882095, y: -5.580306, z: 68.90646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 224722484}
-  - {fileID: 452637187}
-  - {fileID: 89693875}
-  - {fileID: 1492369552}
-  - {fileID: 1222540285}
-  - {fileID: 1069034885}
-  - {fileID: 167173297}
-  - {fileID: 1476091007}
-  - {fileID: 647153106}
-  - {fileID: 1569518217}
-  - {fileID: 1132433913}
-  - {fileID: 298428398}
-  - {fileID: 71089560}
-  - {fileID: 1195656023}
-  - {fileID: 1801920621}
-  - {fileID: 930366088}
-  - {fileID: 199096237}
-  - {fileID: 1447720749}
-  - {fileID: 1520021830}
-  - {fileID: 1514038273}
-  - {fileID: 1187606597}
-  - {fileID: 794362044}
-  - {fileID: 1404743827}
-  - {fileID: 2025213924}
-  - {fileID: 119397513}
-  - {fileID: 1609854316}
-  - {fileID: 1562302257}
-  - {fileID: 790122658}
-  - {fileID: 109593606}
-  - {fileID: 456845300}
-  - {fileID: 1605135176}
-  - {fileID: 374865353}
-  - {fileID: 114519951}
-  - {fileID: 402285829}
-  - {fileID: 940024119}
-  - {fileID: 290322529}
-  - {fileID: 832549684}
-  - {fileID: 84953718}
-  - {fileID: 635539544}
-  - {fileID: 1340316916}
+  m_Children: []
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1195656022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1195656023}
-  - component: {fileID: 1195656024}
-  m_Layer: 0
-  m_Name: Netherlands and Belgium
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1195656023
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195656022}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1195656024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195656022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 9181962916246459588}
-  - {fileID: 7154126648499966789}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4282561494
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &1222540284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1222540285}
-  - component: {fileID: 1222540286}
-  m_Layer: 0
-  m_Name: South-Western America
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1222540285
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222540284}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1222540286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222540284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8947397282871930242}
-  - {fileID: 7165849847351635836}
-  - {fileID: 7910164486191454790}
-  - {fileID: 8274305174409095633}
-  - {fileID: 6819261278057603368}
-  - {fileID: 7798638357756343194}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4286236756
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1244474904
 GameObject:
   m_ObjectHideFlags: 0
@@ -4176,7 +3449,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2086794015}
-  - {fileID: 290036865}
   m_Father: {fileID: 610973834}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4738,7 +4010,7 @@ RectTransform:
   m_LocalScale: {x: 1.6725001, y: 1.6725001, z: 1.6725001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 407526044}
+  m_Father: {fileID: 1276741011}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -4922,124 +4194,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1340316915
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1340316916}
-  - component: {fileID: 1340316917}
-  m_Layer: 0
-  m_Name: Pakistan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1340316916
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340316915}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1340316917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340316915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8639667045912848063}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4280270350
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &1404743826
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1404743827}
-  - component: {fileID: 1404743828}
-  m_Layer: 0
-  m_Name: Asia Minors
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1404743827
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404743826}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1404743828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404743826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8714737999196500443}
-  - {fileID: 8789089806572572996}
-  - {fileID: 8799719928825325070}
-  - {fileID: 7937995552845565578}
-  - {fileID: 8935731875182330728}
-  - {fileID: 8426162239799329242}
-  - {fileID: 8283813876826225303}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4279780489
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1423683693
 GameObject:
   m_ObjectHideFlags: 0
@@ -5216,176 +4372,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1447720748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1447720749}
-  - component: {fileID: 1447720750}
-  m_Layer: 0
-  m_Name: Baltic States
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1447720749
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447720748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1447720750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447720748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8070491155156286925}
-  - {fileID: 9106910290284556872}
-  - {fileID: 7808502603781505734}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4290337320
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &1476091006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1476091007}
-  - component: {fileID: 1476091008}
-  m_Layer: 0
-  m_Name: Venezualla and Guena
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1476091007
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476091006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1476091008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476091006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 6949878102255397574}
-  - {fileID: 8775635167486397528}
-  - {fileID: 8879716229924766703}
-  - {fileID: 8863284069982145045}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4280997557
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &1492369551
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1492369552}
-  - component: {fileID: 1492369553}
-  m_Layer: 0
-  m_Name: Brazil
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1492369552
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492369551}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1492369553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492369551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 6815599906220972264}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4283082268
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1001 &1493333298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5397,7 +4383,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 33e7223c6d6505a46b4b96fb3c10533d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 33e7223c6d6505a46b4b96fb3c10533d,
         type: 3}
@@ -5607,61 +4593,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510631839}
   m_CullTransparentMesh: 1
---- !u!1 &1514038272
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1514038273}
-  - component: {fileID: 1514038274}
-  m_Layer: 0
-  m_Name: Turkey
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1514038273
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514038272}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1514038274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514038272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7041851383944771750}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4279635055
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1516985431
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,7 +4625,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 41171978}
-  m_Father: {fileID: 407526044}
+  m_Father: {fileID: 1276741011}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
@@ -5796,74 +4727,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516985431}
   m_CullTransparentMesh: 1
---- !u!1 &1520021829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1520021830}
-  - component: {fileID: 1520021831}
-  m_Layer: 0
-  m_Name: Balkhans
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1520021830
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520021829}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1520021831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520021829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7126125292757313461}
-  - {fileID: 4027076389896171354}
-  - {fileID: 8821042139119670781}
-  - {fileID: 7965196910648751492}
-  - {fileID: 7882744642201910352}
-  - {fileID: 9009060915856824426}
-  - {fileID: 9066168642713432276}
-  - {fileID: 5164333933242900778}
-  - {fileID: 8859062630793652456}
-  - {fileID: 8775937737764271368}
-  - {fileID: 7722169636882485249}
-  - {fileID: 7214398160924398480}
-  - {fileID: 7827723393980941116}
-  - {fileID: 7385627793724909285}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4289747344
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1543016317
 GameObject:
   m_ObjectHideFlags: 0
@@ -5999,63 +4862,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543016317}
   m_CullTransparentMesh: 1
---- !u!1 &1562302256
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1562302257}
-  - component: {fileID: 1562302258}
-  m_Layer: 0
-  m_Name: Arabia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1562302257
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562302256}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1562302258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562302256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7123413180167446136}
-  - {fileID: 8754354336780202135}
-  - {fileID: 6152735861789147208}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4281104412
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1568447263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6159,62 +4965,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &1569518216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1569518217}
-  - component: {fileID: 1569518218}
-  m_Layer: 0
-  m_Name: UK and Ireland
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1569518217
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569518216}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1569518218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569518216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7271061884136023947}
-  - {fileID: 7403467953013185051}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4281739449
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1590325145
 GameObject:
   m_ObjectHideFlags: 0
@@ -6299,7 +5049,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 47.023, y: 0, z: 0}
 --- !u!114 &1590325149
 MonoBehaviour:
@@ -6393,128 +5143,6 @@ MonoBehaviour:
   rotateLeftKey: 122
   useMouseRotation: 0
   mouseRotationKey: 324
---- !u!1 &1605135175
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1605135176}
-  - component: {fileID: 1605135177}
-  m_Layer: 0
-  m_Name: Lower Africa
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1605135176
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605135175}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1605135177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605135175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8616525648149928824}
-  - {fileID: 4985955443313829040}
-  - {fileID: 8447293596163681880}
-  - {fileID: 8849675240222751253}
-  - {fileID: 5941622485233388584}
-  - {fileID: 8050093662301957440}
-  - {fileID: 7667907696503392891}
-  - {fileID: 8955261909131503174}
-  - {fileID: 8847085882101398206}
-  - {fileID: 6132505612376452333}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4284459924
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &1609854315
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1609854316}
-  - component: {fileID: 1609854317}
-  m_Layer: 0
-  m_Name: Northern Africa
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1609854316
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609854315}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1609854317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609854315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 9133583001655314861}
-  - {fileID: 8871621783304910224}
-  - {fileID: 6506496685253598446}
-  - {fileID: 7496735797668509371}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4287344060
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1660024316
 GameObject:
   m_ObjectHideFlags: 0
@@ -6709,7 +5337,7 @@ RectTransform:
   - {fileID: 1568447264}
   - {fileID: 101181246}
   - {fileID: 2036969723}
-  m_Father: {fileID: 407526044}
+  m_Father: {fileID: 1276741011}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6862,7 +5490,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2131934064}
-  - {fileID: 565741326}
   m_Father: {fileID: 610973834}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6974,7 +5601,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1764812349
 GameObject:
@@ -7160,8 +5787,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 997101130}
+  m_Children: []
   m_Father: {fileID: 1775714897}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7238,8 +5864,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 565741326}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7343,61 +5969,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787421003}
   m_CullTransparentMesh: 1
---- !u!1 &1801920620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1801920621}
-  - component: {fileID: 1801920622}
-  m_Layer: 0
-  m_Name: Germany
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1801920621
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801920620}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1801920622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801920620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 9203952220224397335}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4285953654
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1846122323
 GameObject:
   m_ObjectHideFlags: 0
@@ -7562,7 +6133,7 @@ Transform:
   - {fileID: 493812036}
   - {fileID: 1670611328}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2005126874
 GameObject:
@@ -7699,61 +6270,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005126874}
   m_CullTransparentMesh: 1
---- !u!1 &2025213923
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2025213924}
-  - component: {fileID: 2025213925}
-  m_Layer: 0
-  m_Name: Iran
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2025213924
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025213923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2025213925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025213923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7401814321479983516}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4285432225
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &2036969722
 GameObject:
   m_ObjectHideFlags: 0
@@ -8033,7 +6549,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4f9137af50a286d4cbd3911be6f2bf3c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4f9137af50a286d4cbd3911be6f2bf3c,
         type: 3}
@@ -8137,8 +6653,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 381873003}
+  m_Children: []
   m_Father: {fileID: 1244474905}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8214,8 +6729,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 709212459}
+  m_Children: []
   m_Father: {fileID: 1726246735}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
