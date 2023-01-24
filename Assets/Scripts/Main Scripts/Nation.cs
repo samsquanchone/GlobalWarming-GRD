@@ -1,59 +1,74 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
-public class Nation : ScriptableObject
+public class Nation : MonoBehaviour
 {
-    [SerializeField] public string Nation_Name;
-
+    [Header("Nation Data")]
+    [SerializeField] Nation_Data Attached_Nations_Data;
+    [Space]
     [Header("Tiles")]
-    //Nation's Tiles
+    //Pull tiles from Tiles -> Tile Data and give it to Nation Data 
     [SerializeField] public Tile[] Nations_Territories;
 
-    [Header("Colour")]
-    //Nation Color
-    [SerializeField] public Color32 Nation_Colour;
-
-    [Header("Nation Properties")]
-    //GDP
-    [SerializeField] public int GDP; //Each nation has its starting GDP tied to its cumulative population from the nation’s tiles. If nothing happens, nation GDP’s increases because of the steady increase of the population of its tiles.
-
-    //Population
-    [SerializeField] public int Cumilative_Population_From_Territories; //Nations does not affect populations, but populations effect the nation by increasing/decreasing its GDP and Awareness.
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    [Space]
+    [Header("DEBUG - GIVE on New Game")]
+    //Calculate from tiles and give to nation data at the start of the game
+    [SerializeField] public int Woodland_Count;
     [SerializeField] public int Starting_Population;
+    [SerializeField] public int Cumilative_Population_From_Territories;
+    //Calculate from awareness and give to nation data at the start of the game
+    [SerializeField] public int GDP_Contribution;
 
-    //Awereness
-    [SerializeField] public float Awareness; //From 0.0 to 1.0
-    //At 1 awareness nations contribute all of their resources.
+    //Also Tiles
 
-    //GDP Contribution
-    [SerializeField] public int GDP_Contribution; //Current GDP * Awareness
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    [Header("DEBUG - TAKE on New Game")]
+    [SerializeField] public string Nation_Name;
+    [SerializeField] public Color32 Nation_Colour;
+    [SerializeField] public int GDP;
+    [SerializeField] public float Awareness;
 
-    //Pykerete production
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    [Header("DEBUG - NEUTRAL on New Game")]
     [SerializeField] public int National_Pykerete_Production;
-
-    /*Nations produce pykrete according to their GDP and Awareness. 
-     * (GDP represents the industrial capacity of the nation.) 
-     * Nations pull wood from wood stockpile of the player and produce pykrete.*/
-
-    //Production Building Counts
-    [Header("Production Building Counts")]
     [SerializeField] public int LEVEL_1_Lumbermill_Factory_Count;
     [SerializeField] public int LEVEL_2_Lumbermill_Factory_Count;
     [SerializeField] public int LEVEL_3_Lumbermill_Factory_Count;
-
     [SerializeField] public int LEVEL_1_Tera_Factory_Count;
     [SerializeField] public int LEVEL_2_Tera_Factory_Count;
     [SerializeField] public int LEVEL_3_Tera_Factory_Count;
 
-    [Header("Country's Total Avaliable Woodland ")]
-    [SerializeField] public int Woodland_Count;
-
-
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///
     private void Start()
     {
+        //Pull Nation Data
+        this.Nation_Name = Attached_Nations_Data.Nation_Name;
+        this.Nation_Colour = Attached_Nations_Data.Nation_Colour;
+        this.GDP = Attached_Nations_Data.GDP;
+        this.Awareness = Attached_Nations_Data.Awareness;
+
+        //Give Nation Data its territories
+        Attached_Nations_Data.Nations_Territories = this.Nations_Territories;
+
+        //Give territories its nation
+        if(this.Attached_Nations_Data.Nations_Territories != null)
+        {
+
+        }
+
+        //Calculate Starting Woodland and Give it to Nation Data Holder and Nation
+        Calculate_Starting_Woodland(); // -> Updates this and nation data
+
+
+        //Calculate Population and Give it to Nation Data Holder
+        Calculate_Starting_Population(); // -> Updates this and nation data
+
+
+
+
         //At the start of the game colour all territories according to the national colours.
         Colour_All_Teritories_According_to_the_Nation_Colour();
 
@@ -61,20 +76,33 @@ public class Nation : ScriptableObject
         Calculate_Starting_Population();
     }
 
+    #region On Month Pass Calculations
     public void Produce_Pykerete()
     {
-        
+        //Produce pykerete from nation data properities
+
+        //Update game state
     }
 
     public void Produce_Timber()
     {
+        //Produce timber from nation data properities
+
+        //Update game state
+    }
+
+    public void Calculate_Monthly_Population()
+    {
+        //Calculate pop from game state
+
+        //Update this.
+
+        //Update nation data statistics
 
     }
 
-
     public void Colour_All_Teritories_According_to_the_Nation_Colour()
     {
-        int Randomness_For_Colour = Random.Range(-100, +100);
         //Colour all tiles according to the national colour
         for (int i = 0; i < Nations_Territories.Length; i++)
         {
@@ -82,23 +110,10 @@ public class Nation : ScriptableObject
             {
                 Nations_Territories[i].GetComponent<Renderer>().material.color = this.Nation_Colour;
             }
-            catch (Exception e)
+            catch (System.Exception e)
             {
                 Debug.Log(e);
             }
-        }
-    }
-
-    public void Calculate_Starting_Population()
-    {
-        if(this.Nations_Territories != null)
-        {
-            for(int i =0; i< Nations_Territories.Length; i++)
-            {
-                this.Starting_Population += Nations_Territories[i].Population;
-            
-            }
-            this.Cumilative_Population_From_Territories = Starting_Population;
         }
     }
 
@@ -106,4 +121,31 @@ public class Nation : ScriptableObject
     {
 
     }
+    #endregion
+
+    #region Starting Calculations
+    public void Calculate_Starting_Woodland()
+    {
+        if (this.Nations_Territories != null)
+        {
+            for (int i = 0; i < Nations_Territories.Length; i++)
+            {
+                this.Woodland_Count += Nations_Territories[i].Avaliable_Woodland;
+                this.Attached_Nations_Data.Woodland_Count += Nations_Territories[i].Avaliable_Woodland;
+            }
+        }
+    }
+
+    public void Calculate_Starting_Population()
+    {
+        if (this.Nations_Territories != null)
+        {
+            for (int i = 0; i < Nations_Territories.Length; i++)
+            {
+                this.Starting_Population += Nations_Territories[i].Population;
+                this.Attached_Nations_Data.Starting_Population += Nations_Territories[i].Population;
+            }
+        }
+    }
+    #endregion
 }

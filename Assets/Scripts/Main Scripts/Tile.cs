@@ -4,41 +4,52 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    //Tile Inits
-    [SerializeField] public string Territory_Name;
+    [SerializeField] Tile_Data Attached_Tiles_Data;
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    [Space]
+    [Header("DEBUG - GIVE on New Game")]
     [SerializeField] public Nation Occupiant_Nation;
 
-    
-
-    [SerializeField] public int Climate_Support; //Between 0-100%
-    /*Represents total max population allowance for the tile and life support. If the climate support gets reduced, pops on that tile starts to die.*/
-
-
-    //Average Heat Level
-    [SerializeField] public int Average_Heat_Level; //Global Warming, Events and Neutral Disasters effect heat levels. Heat levels directly effects Habitability level. 
-
-    //Pop
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    [Header("DEBUG - TAKE on New Game")]
+    [SerializeField] public string Territory_Name;
+    [SerializeField] public int Avaliable_Woodland = 0;
+    [SerializeField] public int Climate_Support;
+    [SerializeField] public int Average_Heat_Level;
     [SerializeField] public int Population;
-
-    //Tree Type and Growth
-    [SerializeField] public Tree tree;
-    [SerializeField] public int Tree_Age;
-
-    //Is Avaliable
     [SerializeField] public bool Tera_Factory_Avaliable;
     [SerializeField] public bool Harbor_Avaliable;
-
-    //Buildigns and levels
-    //Production Buildings
     [SerializeField] public int Lumbermill_Level = 0;
     [SerializeField] public int Tera_Factory_Level = 0;
-
-    //Logistics Buildings
     [SerializeField] public int Harbour_Level = 0;
     [SerializeField] public int Railway_Level = 0;
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    [Header("DEBUG - NEUTRAL on New Game")]
+    [SerializeField] public Tree Tree_Plantation;
+    [SerializeField] public int Tree_Age;
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     private void Start()
     {
-        this.Territory_Name = this.name;
+        //Pull Tile Data
+        this.Territory_Name = Attached_Tiles_Data.Territory_Name;
+        this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
+        this.Climate_Support = Attached_Tiles_Data.Climate_Support;
+        this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
+        this.Population = Attached_Tiles_Data.Population;
+        this.Tera_Factory_Avaliable = Attached_Tiles_Data.Tera_Factory_Avaliable;
+        this.Harbor_Avaliable = Attached_Tiles_Data.Harbor_Avaliable;
+        this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level = 0;
+        this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
+        this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
+        this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
+
+        //Occupiant Nation is given at the start of the game by the occupiant nation.
+
     }
+
+
 }
