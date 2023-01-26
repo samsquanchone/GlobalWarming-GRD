@@ -47,7 +47,7 @@ public class NationToolTip : MonoBehaviour
        
     }
 
-    public void ShowMessage(string dataToShow)
+    public virtual void ShowMessage(string dataToShow)
     {
         
         UIHoverManager.OnMouseHover(dataToShow, Input.mousePosition);

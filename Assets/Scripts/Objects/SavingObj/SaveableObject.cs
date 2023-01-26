@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-enum ObjectType {Oak, Bamboo, Willow, Factory, Dock, Lumbermill, TrainStation} //Enum for object ypes
+enum ObjectType {Oak, Bamboo, Willow, Pine, Factory, Dock, Lumbermill, TrainStation} //Enum for object ypes
 
 
 /// <summary>
