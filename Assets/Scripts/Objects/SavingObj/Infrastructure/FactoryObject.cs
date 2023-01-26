@@ -7,7 +7,9 @@ public class FactoryObject : SaveableObject
 
 
     //Variables that will passed into the save string variable to be serialized
-    [SerializeField] private int pykreteProductionKG;
+    public int cost;
+    public int pykreteProductionRate;
+    public int pykreteCapacity;
 
     // Update is called once per frame
     void RemoveObject()
@@ -19,14 +21,14 @@ public class FactoryObject : SaveableObject
     public override void Save(int id)
     {
         //Set savestats of this object to be serialized, note if adding another variable add + "_" + newVar.ToString()
-        saveStats = pykreteProductionKG.ToString();
+        saveStats = pykreteProductionRate.ToString();
         base.Save(id);
     }
 
     public override void Load(string[] values)
     {
         //Getting data from saved object in list, first variable is index 4 of values array, if another varaible is added it would be index 5 and so on
-        pykreteProductionKG = int.Parse(values[4]);
+        pykreteProductionRate = int.Parse(values[4]);
         base.Load(values);
     }
 }

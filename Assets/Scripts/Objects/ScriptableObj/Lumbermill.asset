@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
+  m_Name: Lumbermill
+  m_EditorClassIdentifier: 
+  buildingPrefab: {fileID: 5928039867557269207, guid: 744cfcfeb8fc2bc4888dee7a1db3d725,
+    type: 3}
+  constructionPrefab: {fileID: 3213084360709085941, guid: 339ed4aa64624fb46b92035bb96e8551,
+    type: 3}
+  sprite: {fileID: 21300000, guid: a4846a9d0da0f1649b2f0965a2d1f4da, type: 3}

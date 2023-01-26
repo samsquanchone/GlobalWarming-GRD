@@ -5,7 +5,9 @@ using UnityEngine;
 public class DockObject : SaveableObject
 {
     //Variables that will passed into the save string variable to be serialized
-    [SerializeField] private int transportationCapacityKG;
+    public float cost; 
+    public int transportationCapacityKG;
+    public int numberOfShips; 
 
     // Update is called once per frame
     void RemoveObject()

@@ -5,7 +5,9 @@ using UnityEngine;
 public class TrainStationObject : SaveableObject
 {
     //Variables that will passed into the save string variable to be serialized
-    [SerializeField] private int transportationCapacityKG;
+    public int cost;
+    public int transportationCapacityKG;
+    public int numberOfTrains;
 
     // Update is called once per frame
     void RemoveObject()

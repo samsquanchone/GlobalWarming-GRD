@@ -6,6 +6,8 @@ using Random = UnityEngine.Random;
 
 public class Nation : MonoBehaviour
 {
+    
+
     [SerializeField] public string Nation_Name;
 
     //Nation's Tiles
