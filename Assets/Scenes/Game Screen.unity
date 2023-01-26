@@ -258,120 +258,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41171977}
   m_CullTransparentMesh: 1
---- !u!1 &71089559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 71089560}
-  - component: {fileID: 71089561}
-  m_Layer: 0
-  m_Name: Scandinavia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &71089560
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71089559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &71089561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71089559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8574446679631175409}
-  - {fileID: 9040970354201443522}
-  - {fileID: 8618840745855796302}
-  - {fileID: 6083754517341329446}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4292464938
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &84953717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 84953718}
-  - component: {fileID: 84953719}
-  m_Layer: 0
-  m_Name: Oceana
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &84953718
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84953717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &84953719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84953717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8742910664235172413}
-  - {fileID: 8294853208973340164}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4292595311
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &86379352
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,183 +743,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103457787}
   m_CullTransparentMesh: 1
---- !u!1 &109593605
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 109593606}
-  - component: {fileID: 109593607}
-  m_Layer: 0
-  m_Name: Austria, Switzerland and Check
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &109593606
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109593605}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &109593607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109593605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 2780625372592657047}
-  - {fileID: 7890620488545002830}
-  - {fileID: 8050968835948256906}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4293243028
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &114519950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 114519951}
-  - component: {fileID: 114519952}
-  m_Layer: 0
-  m_Name: South Africa and Madagascar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &114519951
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114519950}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114519952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114519950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7080035211496516195}
-  - {fileID: 8842193270061621057}
-  - {fileID: 7681213382034498822}
-  - {fileID: 8787788099430083397}
-  - {fileID: 6309083694054995340}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4289439541
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &119397512
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 119397513}
-  - component: {fileID: 119397514}
-  m_Layer: 0
-  m_Name: Middle East
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &119397513
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119397512}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &119397514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119397512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 6304757834275863096}
-  - {fileID: 8074795972161844794}
-  - {fileID: 7651471114711152505}
-  - {fileID: 8880448629240728904}
-  - {fileID: 6763439537220670322}
-  - {fileID: 8198161660207551833}
-  - {fileID: 4839672876732314258}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4283002515
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1001 &130758953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1194,61 +903,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &167173296
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 167173297}
-  - component: {fileID: 167173298}
-  m_Layer: 0
-  m_Name: Chile
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &167173297
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167173296}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &167173298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167173296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8270835633212527702}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4294926264
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &172173531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,7 +1984,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &586508570
 MonoBehaviour:
@@ -2431,62 +2085,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610973833}
   m_CullTransparentMesh: 1
---- !u!1 &635539543
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 635539544}
-  - component: {fileID: 635539545}
-  m_Layer: 0
-  m_Name: Japan and Korea
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &635539544
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635539543}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &635539545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635539543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 4841073627240781373}
-  - {fileID: 1652871244542334511}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4285387483
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &639597248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,61 +2197,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640777997}
   m_CullTransparentMesh: 1
---- !u!1 &647153105
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 647153106}
-  - component: {fileID: 647153107}
-  m_Layer: 0
-  m_Name: Argentina
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &647153106
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647153105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &647153107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647153105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 3792231438100692055}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4294950292
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &670028987
 GameObject:
   m_ObjectHideFlags: 0
@@ -3167,64 +2710,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826725036}
   m_CullTransparentMesh: 1
---- !u!1 &832549683
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832549684}
-  - component: {fileID: 832549685}
-  m_Layer: 0
-  m_Name: Indonesia and Taiwan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &832549684
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832549683}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &832549685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832549683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8874446792680002707}
-  - {fileID: 8694915824140822443}
-  - {fileID: 8867397393231602999}
-  - {fileID: 8827926007078339084}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4282465147
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &861858252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,6 +2980,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893109163}
   m_CullTransparentMesh: 1
+--- !u!1 &916957987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 916957988}
+  - component: {fileID: 916957989}
+  m_Layer: 0
+  m_Name: USA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &916957988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916957987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &916957989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916957987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: d85977c7d40dcc849803cb61dcae10dc,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 7559950337960092033}
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &947117652
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,62 +3590,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181228368}
   m_CullTransparentMesh: 1
---- !u!1 &1187606596
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1187606597}
-  - component: {fileID: 1187606598}
-  m_Layer: 0
-  m_Name: Ukraine and Beulorussia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1187606597
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187606596}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187606598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187606596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8669568566491933444}
-  - {fileID: 8436869925962931878}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4286272024
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1194821538
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,122 +3645,6 @@ Transform:
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1195656022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1195656023}
-  - component: {fileID: 1195656024}
-  m_Layer: 0
-  m_Name: Netherlands and Belgium
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1195656023
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195656022}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1195656024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195656022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 9181962916246459588}
-  - {fileID: 7154126648499966789}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4282561494
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
---- !u!1 &1222540284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1222540285}
-  - component: {fileID: 1222540286}
-  m_Layer: 0
-  m_Name: South-Western America
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1222540285
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222540284}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1222540286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222540284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 8947397282871930242}
-  - {fileID: 7165849847351635836}
-  - {fileID: 7910164486191454790}
-  - {fileID: 8274305174409095633}
-  - {fileID: 6819261278057603368}
-  - {fileID: 7798638357756343194}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4286236756
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1244474904
 GameObject:
   m_ObjectHideFlags: 0
@@ -4466,6 +3844,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268312612}
   m_CullTransparentMesh: 1
+--- !u!1 &1273992084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1273992085}
+  - component: {fileID: 1273992086}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1273992085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273992084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 639597249}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1273992086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273992084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756081b43ece08c41b00afa2f814a79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Player_Data: {fileID: 11400000, guid: ade876d2cf4068041a37cd0958084f81,
+    type: 2}
+  Money: 0
+  Political_Power: 0
+  Wood: 0
+  Pykerete: 0
+  Logistics: 0
+  Logistics_Coverage: 0
 --- !u!1 &1275264646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5386,6 +4816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c864cf2b9b939d3478d54f8181d81618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TimeData: {fileID: 11400000, guid: aeebfb838308edf42ab1dd6ed2880946, type: 2}
   Date_Text: {fileID: 1275264648}
   Year: 2023
   Month: 1
@@ -5644,7 +5075,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 33e7223c6d6505a46b4b96fb3c10533d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 33e7223c6d6505a46b4b96fb3c10533d,
         type: 3}
@@ -5854,61 +5285,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510631839}
   m_CullTransparentMesh: 1
---- !u!1 &1514038272
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1514038273}
-  - component: {fileID: 1514038274}
-  m_Layer: 0
-  m_Name: Turkey
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1514038273
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514038272}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1514038274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514038272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7041851383944771750}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4279635055
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1516985431
 GameObject:
   m_ObjectHideFlags: 0
@@ -6043,74 +5419,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516985431}
   m_CullTransparentMesh: 1
---- !u!1 &1520021829
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1520021830}
-  - component: {fileID: 1520021831}
-  m_Layer: 0
-  m_Name: Balkhans
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1520021830
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520021829}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1520021831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520021829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7126125292757313461}
-  - {fileID: 4027076389896171354}
-  - {fileID: 8821042139119670781}
-  - {fileID: 7965196910648751492}
-  - {fileID: 7882744642201910352}
-  - {fileID: 9009060915856824426}
-  - {fileID: 9066168642713432276}
-  - {fileID: 5164333933242900778}
-  - {fileID: 8859062630793652456}
-  - {fileID: 8775937737764271368}
-  - {fileID: 7722169636882485249}
-  - {fileID: 7214398160924398480}
-  - {fileID: 7827723393980941116}
-  - {fileID: 7385627793724909285}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4289747344
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1543016317
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,63 +5554,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543016317}
   m_CullTransparentMesh: 1
---- !u!1 &1562302256
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1562302257}
-  - component: {fileID: 1562302258}
-  m_Layer: 0
-  m_Name: Arabia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1562302257
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562302256}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1562302258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1562302256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7123413180167446136}
-  - {fileID: 8754354336780202135}
-  - {fileID: 6152735861789147208}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4281104412
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1568447263
 GameObject:
   m_ObjectHideFlags: 0
@@ -6406,62 +5657,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &1569518216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1569518217}
-  - component: {fileID: 1569518218}
-  m_Layer: 0
-  m_Name: UK and Ireland
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1569518217
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569518216}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1569518218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569518216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7271061884136023947}
-  - {fileID: 7403467953013185051}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4281739449
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1590325145
 GameObject:
   m_ObjectHideFlags: 0
@@ -7518,61 +6713,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787421003}
   m_CullTransparentMesh: 1
---- !u!1 &1801920620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1801920621}
-  - component: {fileID: 1801920622}
-  m_Layer: 0
-  m_Name: Germany
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1801920621
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801920620}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1801920622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801920620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 9203952220224397335}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4285953654
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &1846122323
 GameObject:
   m_ObjectHideFlags: 0
@@ -7872,61 +7012,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005126874}
   m_CullTransparentMesh: 1
---- !u!1 &2025213923
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2025213924}
-  - component: {fileID: 2025213925}
-  m_Layer: 0
-  m_Name: Iran
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2025213924
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025213923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194821539}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2025213925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025213923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories:
-  - {fileID: 7401814321479983516}
-  Nation_Colour:
-    serializedVersion: 2
-    rgba: 4285432225
-  GDP: 0
-  Cumilative_Population_From_Territories: 0
-  Awareness: 0
-  GDP_Contribution: 0
-  National_Pykerete_Production: 0
 --- !u!1 &2036969722
 GameObject:
   m_ObjectHideFlags: 0
@@ -11401,17 +10486,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 24558068910251504}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -12680,17 +11764,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1449721967080145217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -15942,17 +15025,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1961841459713662587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -17196,17 +16278,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1690299730140702695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -18729,17 +17810,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 601048666788898127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -19383,17 +18463,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4027076389896171350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -21688,17 +20767,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4114446945780663379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -21762,17 +20840,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4644417493806337847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -21848,17 +20925,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1663756047057140864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -22116,7 +21192,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6953894213166776114}
-  - component: {fileID: 8575992679239396790}
   - component: {fileID: 1834530929527720599}
   - component: {fileID: 8575992679239396786}
   - component: {fileID: 8575992679239396789}
@@ -22322,17 +21397,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 356799569347014793}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -22771,17 +21845,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3709995786842805322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -23835,17 +22908,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1153471735308032218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -24476,17 +23548,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1850640488974850465}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -24772,17 +23843,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5941622485233388580}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -25043,17 +24113,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 114504992564238779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -25225,17 +24294,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 26631298382997750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -25384,17 +24452,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 133526945191587242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -25564,17 +24631,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6268495691802788649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -25665,17 +24731,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1314155645097006450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -25731,17 +24796,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4762840738966413734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -25853,17 +24917,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5680869270642593297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -26217,17 +25280,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 251773888624236860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -26727,17 +25789,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3546360759888065101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -26819,17 +25880,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5460340042609491982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -26960,17 +26020,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6763439537220670318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -27105,17 +26164,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5737346280356094304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -27336,17 +26394,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6783252851667008699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -27394,17 +26451,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3149397281645652809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -27493,17 +26549,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6584933014346508794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -27749,17 +26804,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3371579296949912615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -27939,17 +26993,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7036350362976640720}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28052,17 +27105,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7041851383944771746}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28145,17 +27197,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7080035211496516191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28372,17 +27423,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3120306903592063326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28430,17 +27480,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3103372437278799068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28522,17 +27571,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4388706289623015652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28648,17 +27696,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5083436964589965841}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28719,17 +27766,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7154126648499966785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28777,17 +27823,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4292948127517476702}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -28925,17 +27970,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5596744582357464577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29068,17 +28112,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1395568841643437554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29225,17 +28268,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3485320549313017613}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29283,17 +28325,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1458594735646638513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29408,17 +28449,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1683638969522880448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29502,17 +28542,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6009561029451642536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29641,17 +28680,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1087595324860307852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29826,17 +28864,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4882871225814254166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -29919,17 +28956,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7394189251523576473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -30005,17 +29041,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7401814321479983512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -30077,17 +29112,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7403467953013185048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -30287,17 +29321,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7485385829451455593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -30428,17 +29461,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6144076427213373874}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -30612,17 +29644,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7545184757162388785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -30699,17 +29730,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 5822913052716381029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 11400000, guid: 31f322aaefec2944b87cd1a901ae133e,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -30973,17 +30004,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5167166470098600620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31038,17 +30068,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1996654667172110300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31130,17 +30159,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3768786002935038579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31201,17 +30229,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7667907696503392887}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31433,17 +30460,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7545586527803758664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31588,17 +30614,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4208524507030768695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31740,17 +30765,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3340792331838275724}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31832,17 +30856,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5704593779565761301}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31903,17 +30926,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7798638357756343190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -31974,17 +30996,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7808502603781505730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -32140,17 +31161,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4904348642963218611}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -32211,17 +31231,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7882744642201910348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -32301,17 +31320,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2919265762000473124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -32508,17 +31526,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2602989985734631046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -32581,17 +31598,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4369274951278762574}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -32763,17 +31779,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5474755858825821207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -32992,17 +32007,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5896477110802864551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -33084,17 +32098,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 99658852640915401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -33155,17 +32168,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8050968835948256902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -33254,17 +32266,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5568244412246251897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -33325,17 +32336,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8074795972161844790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -33417,17 +32427,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 508602526295812725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -33830,17 +32839,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4307087702314987032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -33910,17 +32918,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1025305783993779033}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34016,17 +33023,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1821326394333648027}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34253,17 +33259,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1559188401520606289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34345,17 +33350,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7085562294910514233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34445,17 +33449,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8283813876826225299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34518,17 +33521,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6051467829862716779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34583,17 +33585,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4504209456808853603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34641,17 +33642,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2121332694048852610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34778,17 +33778,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1211155205872541941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -34940,17 +33939,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8329452962616678289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -35069,17 +34067,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3320350635753485526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -35191,17 +34188,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2822208309736380158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -35442,17 +34438,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4518758632377592657}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -35507,17 +34502,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5936398044821033136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -35598,17 +34592,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5456025535586635907}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -35725,17 +34718,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8447293596163681876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36253,17 +35245,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 888252403968649785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36406,17 +35397,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 106769615982038731}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36479,17 +35469,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7538880424066474025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36537,17 +35526,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1925651394080603312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36629,17 +35617,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1681586273887813973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36702,17 +35689,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4259845077750885725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36800,17 +35786,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8033451293811498898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36889,17 +35874,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7379160931572203347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -36960,17 +35944,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8687270170963502897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37058,17 +36041,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5707568682879884954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37116,17 +36098,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8305835041755238195}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37267,17 +36248,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3112590004828443123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37344,17 +36324,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1973814496337559237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37437,17 +36416,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8742910664235172409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37528,17 +36506,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4335677493523855122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37642,17 +36619,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2357809340939810327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37700,17 +36676,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3911357460482270013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37771,17 +36746,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8777030510935413486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37836,17 +36810,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3036477432839243001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37894,17 +36867,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7420330962184864847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -37981,17 +36953,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 762922307186334484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38046,17 +37017,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4773653655102809651}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38117,17 +37087,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8827926007078339080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38182,17 +37151,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 44000904491512060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38255,17 +37223,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1958936724932253609}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38347,17 +37314,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8486006243683955402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38439,17 +37405,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3880852010201582958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38531,17 +37496,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3973814146307187172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38602,17 +37566,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8863284069982145041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38667,17 +37630,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2467859835876591005}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38725,17 +37687,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2195941098167326433}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38796,17 +37757,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8874446792680002703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38854,17 +37814,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4630845504581708511}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -38912,17 +37871,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 466268845385388486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39090,17 +38048,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7942492357113338806}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39204,17 +38161,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8475381975172255675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39269,17 +38225,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3432359597852645220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39392,17 +38347,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4236757209311610019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39457,17 +38411,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6268749693252063404}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39549,17 +38502,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5036524695089167614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39770,17 +38722,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3587609837038122827}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -39970,17 +38921,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3111851632606250401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40062,17 +39012,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 4850178014873526765}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40142,17 +39091,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 3147914948886566350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40200,17 +39148,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1062777127585525273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40292,17 +39239,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7676845202635832082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40452,17 +39398,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 9088025007546148310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40577,17 +39522,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6146852657810775398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40642,17 +39586,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 429393516387609586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40700,17 +39643,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7618852089802172735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -40849,17 +39791,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6136572588349305494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -41047,17 +39988,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1548300265683444647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -41118,17 +40058,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 9203952220224397331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
@@ -41210,17 +40149,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2021717523301598498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
+  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Territory_Name: 
+  Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
   nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
   Autobahn: 0
   Railway: 0
