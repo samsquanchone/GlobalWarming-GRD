@@ -2519,6 +2519,7 @@ Transform:
   - {fileID: 1660024317}
   - {fileID: 2039540313}
   - {fileID: 781867166}
+  - {fileID: 1289755490}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4965,6 +4966,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286084806}
   m_CullTransparentMesh: 1
+--- !u!1 &1289755489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1289755490}
+  - component: {fileID: 1289755491}
+  m_Layer: 0
+  m_Name: NavMeshManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1289755490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289755489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 639597249}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1289755491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289755489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ab898cab49e5843b72eed268d183bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1292289538
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,7 +5493,7 @@ GameObject:
   - component: {fileID: 1434815329}
   m_Layer: 0
   m_Name: --- World ---
-  m_TagString: Untagged
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7105,7 +7150,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1764812349
 GameObject:
@@ -11361,6 +11406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -12639,6 +12685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -15900,6 +15947,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -17153,6 +17201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -18685,6 +18734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -19338,6 +19388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -21642,6 +21693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -21715,6 +21767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -21800,6 +21853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -22104,7 +22158,7 @@ GameObject:
   - component: {fileID: 426877995238413114}
   - component: {fileID: 8136490145345015781}
   - component: {fileID: 8940140963204998567}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Ocean
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -22273,6 +22327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -22721,6 +22776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -23784,6 +23840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -24424,6 +24481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -24719,6 +24777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -24989,6 +25048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -25170,6 +25230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -25328,6 +25389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -25507,6 +25569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -25607,6 +25670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -25672,6 +25736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -25793,6 +25858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -26156,6 +26222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -26665,6 +26732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -26756,6 +26824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -26896,6 +26965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -27040,6 +27110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -27270,6 +27341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -27327,6 +27399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -27425,6 +27498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -27680,6 +27754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -27869,6 +27944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -27981,6 +28057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28073,6 +28150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28299,6 +28377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28356,6 +28435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28447,6 +28527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28572,6 +28653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28642,6 +28724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28699,6 +28782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28846,6 +28930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -28988,6 +29073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29144,6 +29230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29201,6 +29288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29325,6 +29413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29418,6 +29507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29556,6 +29646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29740,6 +29831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29832,6 +29924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29917,6 +30010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -29988,6 +30082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -30197,6 +30292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -30337,6 +30433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -30520,6 +30617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -30606,6 +30704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -30879,6 +30978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -30943,6 +31043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31034,6 +31135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31104,6 +31206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31335,6 +31438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31489,6 +31593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31640,6 +31745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31731,6 +31837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31801,6 +31908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -31871,6 +31979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32036,6 +32145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32106,6 +32216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32195,6 +32306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32401,6 +32513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32473,6 +32586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32654,6 +32768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32882,6 +32997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -32973,6 +33089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -33043,6 +33160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -33141,6 +33259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -33211,6 +33330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -33302,6 +33422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -33714,6 +33835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -33793,6 +33915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -33898,6 +34021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34134,6 +34258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34225,6 +34350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34324,6 +34450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34396,6 +34523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34460,6 +34588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34517,6 +34646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34653,6 +34783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34814,6 +34945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -34942,6 +35074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -35063,6 +35196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -35313,6 +35447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -35377,6 +35512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -35467,6 +35603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -35593,6 +35730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36120,6 +36258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36211,6 +36350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36271,6 +36411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36343,6 +36484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36400,6 +36542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36491,6 +36634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36563,6 +36707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36660,6 +36805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36748,6 +36894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36818,6 +36965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36915,6 +37063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -36972,6 +37121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37122,6 +37272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37198,6 +37349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37290,6 +37442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37380,6 +37533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37493,6 +37647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37550,6 +37705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37620,6 +37776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37684,6 +37841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37741,6 +37899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37827,6 +37986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37891,6 +38051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -37961,6 +38122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38025,6 +38187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38097,6 +38260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38188,6 +38352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38279,6 +38444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38370,6 +38536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38440,6 +38607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38504,6 +38672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38561,6 +38730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38631,6 +38801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38688,6 +38859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38745,6 +38917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -38922,6 +39095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39035,6 +39209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39099,6 +39274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39157,7 +39333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4928836529570376526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48288727, y: -0.47, z: 17.866585}
+  m_LocalPosition: {x: -0.48288727, y: -0.67, z: 17.866585}
   m_LocalScale: {x: 4233.551, y: 73.47961, z: 3278.3193}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39221,6 +39397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39285,6 +39462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39376,6 +39554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39596,6 +39775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39795,6 +39975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39886,6 +40067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -39965,6 +40147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40022,6 +40205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40113,6 +40297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40272,6 +40457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40396,6 +40582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40460,6 +40647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40517,6 +40705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40665,6 +40854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40862,6 +41052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -40932,6 +41123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0
@@ -41023,6 +41215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
+  nationPlacedObjectsList: []
   Habitability: 0
   Average_Heat_Level: 0
   Population: 0

@@ -5,6 +5,16 @@ using UnityEngine;
 public class LumberMillNationInteraction : MonoBehaviour
 {
     private bool nationFound = false;
+
+    void Start()
+    {
+        if (gameObject.name == "Dock(Clone)")
+        {
+            Debug.Log("dOCK ADDED TO NAV LIST");
+            NavMeshManager.instance.SetDestination(gameObject.transform);
+        }
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Placed on" + collision.gameObject.name);
