@@ -1984,7 +1984,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &586508570
 MonoBehaviour:
@@ -2118,6 +2118,7 @@ Transform:
   - {fileID: 2039540313}
   - {fileID: 781867166}
   - {fileID: 1289755490}
+  - {fileID: 1273992085}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3618,30 +3619,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1222540285}
-  - {fileID: 167173297}
   - {fileID: 1476091007}
-  - {fileID: 647153106}
-  - {fileID: 1569518217}
-  - {fileID: 71089560}
-  - {fileID: 1195656023}
-  - {fileID: 1801920621}
   - {fileID: 1447720749}
-  - {fileID: 1520021830}
-  - {fileID: 1514038273}
-  - {fileID: 1187606597}
   - {fileID: 1404743827}
-  - {fileID: 2025213924}
-  - {fileID: 119397513}
   - {fileID: 1609854316}
-  - {fileID: 1562302257}
-  - {fileID: 109593606}
   - {fileID: 1605135176}
-  - {fileID: 114519951}
-  - {fileID: 832549684}
-  - {fileID: 84953718}
-  - {fileID: 635539544}
   - {fileID: 1340316916}
+  - {fileID: 916957988}
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4573,9 +4557,17 @@ MonoBehaviour:
     rgba: 4280270350
   GDP: 0
   Cumilative_Population_From_Territories: 0
+  Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+  Woodland_Count: 0
 --- !u!1 &1357195496
 GameObject:
   m_ObjectHideFlags: 0
@@ -4769,9 +4761,17 @@ MonoBehaviour:
     rgba: 4279780489
   GDP: 0
   Cumilative_Population_From_Territories: 0
+  Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+  Woodland_Count: 0
 --- !u!1 &1423683693
 GameObject:
   m_ObjectHideFlags: 0
@@ -5003,9 +5003,17 @@ MonoBehaviour:
     rgba: 4290337320
   GDP: 0
   Cumilative_Population_From_Territories: 0
+  Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+  Woodland_Count: 0
 --- !u!1 &1476091006
 GameObject:
   m_ObjectHideFlags: 0
@@ -5061,9 +5069,17 @@ MonoBehaviour:
     rgba: 4280997557
   GDP: 0
   Cumilative_Population_From_Territories: 0
+  Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+  Woodland_Count: 0
 --- !u!1001 &1493333298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5075,7 +5091,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 33e7223c6d6505a46b4b96fb3c10533d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 33e7223c6d6505a46b4b96fb3c10533d,
         type: 3}
@@ -5928,9 +5944,17 @@ MonoBehaviour:
     rgba: 4284459924
   GDP: 0
   Cumilative_Population_From_Territories: 0
+  Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+  Woodland_Count: 0
 --- !u!1 &1609854315
 GameObject:
   m_ObjectHideFlags: 0
@@ -5986,9 +6010,17 @@ MonoBehaviour:
     rgba: 4287344060
   GDP: 0
   Cumilative_Population_From_Territories: 0
+  Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+  Woodland_Count: 0
 --- !u!1 &1660024316
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,7 +7559,7 @@ Transform:
   m_GameObject: {fileID: 2919265762000473124}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -8099,7 +8131,7 @@ Transform:
   m_GameObject: {fileID: 3371579296949912615}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -8114,7 +8146,7 @@ Transform:
   m_GameObject: {fileID: 1973814496337559237}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -8271,7 +8303,7 @@ Transform:
   m_GameObject: {fileID: 8486006243683955402}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -8676,7 +8708,7 @@ Transform:
   m_GameObject: {fileID: 2752982583139061306}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -8691,7 +8723,7 @@ Transform:
   m_GameObject: {fileID: 4027076389896171350}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -8785,7 +8817,7 @@ Transform:
   m_GameObject: {fileID: 5460340042609491982}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -9023,7 +9055,7 @@ Transform:
   m_GameObject: {fileID: 8255930410513021381}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -9241,7 +9273,7 @@ Transform:
   m_GameObject: {fileID: 5456025535586635907}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -9277,7 +9309,7 @@ Transform:
   m_GameObject: {fileID: 7403467953013185048}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -9416,7 +9448,7 @@ Transform:
   m_GameObject: {fileID: 3485320549313017613}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -9446,7 +9478,7 @@ Transform:
   m_GameObject: {fileID: 4549308167104383110}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -9461,7 +9493,7 @@ Transform:
   m_GameObject: {fileID: 1681586273887813973}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -9632,7 +9664,7 @@ Transform:
   m_GameObject: {fileID: 2581742893463617985}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -9647,7 +9679,7 @@ Transform:
   m_GameObject: {fileID: 24558068910251504}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -9723,7 +9755,7 @@ Transform:
   m_GameObject: {fileID: 8236505446791067744}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -9738,7 +9770,7 @@ Transform:
   m_GameObject: {fileID: 3784925933734576619}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -9772,7 +9804,7 @@ Transform:
   m_GameObject: {fileID: 7126286387936961404}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -9877,7 +9909,7 @@ Transform:
   m_GameObject: {fileID: 3456898348594604493}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -9969,7 +10001,7 @@ Transform:
   m_GameObject: {fileID: 601048666788898127}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -10047,7 +10079,7 @@ Transform:
   m_GameObject: {fileID: 8874446792680002703}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -10154,7 +10186,7 @@ Transform:
   m_GameObject: {fileID: 5596744582357464577}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -10415,7 +10447,7 @@ Transform:
   m_GameObject: {fileID: 5796697053396003816}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -10449,7 +10481,7 @@ Transform:
   m_GameObject: {fileID: 1958936724932253609}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -10491,15 +10523,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &1208912373063598560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10679,7 +10716,7 @@ Transform:
   m_GameObject: {fileID: 1961841459713662587}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -10718,7 +10755,7 @@ Transform:
   m_GameObject: {fileID: 5627711270685529764}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -10903,7 +10940,7 @@ Transform:
   m_GameObject: {fileID: 1449721967080145217}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -10926,7 +10963,7 @@ Transform:
   m_GameObject: {fileID: 3617020833297838575}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -10941,7 +10978,7 @@ Transform:
   m_GameObject: {fileID: 2822208309736380158}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -11090,7 +11127,7 @@ Transform:
   m_GameObject: {fileID: 5680869270642593297}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -11105,7 +11142,7 @@ Transform:
   m_GameObject: {fileID: 888252403968649785}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -11149,7 +11186,7 @@ Transform:
   m_GameObject: {fileID: 3880852010201582958}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -11277,7 +11314,7 @@ Transform:
   m_GameObject: {fileID: 6584933014346508794}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -11390,7 +11427,7 @@ Transform:
   m_GameObject: {fileID: 3630511620036162878}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -11605,7 +11642,7 @@ Transform:
   m_GameObject: {fileID: 7379160931572203347}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -11620,7 +11657,7 @@ Transform:
   m_GameObject: {fileID: 4761638562624465785}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -11677,7 +11714,7 @@ Transform:
   m_GameObject: {fileID: 8777030510935413486}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -11769,15 +11806,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &1652871244542334512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11971,7 +12013,7 @@ Transform:
   m_GameObject: {fileID: 4920756748087999149}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -12009,7 +12051,7 @@ Transform:
   m_GameObject: {fileID: 4882871225814254166}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -12032,7 +12074,7 @@ Transform:
   m_GameObject: {fileID: 3699868434006060192}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -12150,7 +12192,7 @@ Transform:
   m_GameObject: {fileID: 1025305783993779033}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -12400,7 +12442,7 @@ Transform:
   m_GameObject: {fileID: 6107124453197249943}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -12465,7 +12507,7 @@ Transform:
   m_GameObject: {fileID: 6654940419886570491}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -12495,7 +12537,7 @@ Transform:
   m_GameObject: {fileID: 5167166470098600620}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -12592,7 +12634,7 @@ Transform:
   m_GameObject: {fileID: 1087595324860307852}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -12687,7 +12729,7 @@ Transform:
   m_GameObject: {fileID: 2121332694048852610}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -12702,7 +12744,7 @@ Transform:
   m_GameObject: {fileID: 4850178014873526765}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -12983,7 +13025,7 @@ Transform:
   m_GameObject: {fileID: 874695385249629531}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -12998,7 +13040,7 @@ Transform:
   m_GameObject: {fileID: 7041851383944771746}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -13529,7 +13571,7 @@ Transform:
   m_GameObject: {fileID: 7545184757162388785}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -13565,7 +13607,7 @@ Transform:
   m_GameObject: {fileID: 8644290227503358228}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -13580,7 +13622,7 @@ Transform:
   m_GameObject: {fileID: 3709995786842805322}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -13595,7 +13637,7 @@ Transform:
   m_GameObject: {fileID: 4630845504581708511}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -13660,7 +13702,7 @@ Transform:
   m_GameObject: {fileID: 8447293596163681876}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -13754,7 +13796,7 @@ Transform:
   m_GameObject: {fileID: 8827926007078339080}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -13937,7 +13979,7 @@ Transform:
   m_GameObject: {fileID: 4382878451918563950}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -13952,7 +13994,7 @@ Transform:
   m_GameObject: {fileID: 6268495691802788649}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -14017,7 +14059,7 @@ Transform:
   m_GameObject: {fileID: 7106911995399792975}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -14122,7 +14164,7 @@ Transform:
   m_GameObject: {fileID: 1168779307745084526}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -14145,7 +14187,7 @@ Transform:
   m_GameObject: {fileID: 3151629219212275957}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -14210,7 +14252,7 @@ Transform:
   m_GameObject: {fileID: 251773888624236860}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -14281,7 +14323,7 @@ Transform:
   m_GameObject: {fileID: 3394774965184899367}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -14330,7 +14372,7 @@ Transform:
   m_GameObject: {fileID: 8050968835948256902}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -14650,7 +14692,7 @@ Transform:
   m_GameObject: {fileID: 99658852640915401}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -14791,7 +14833,7 @@ Transform:
   m_GameObject: {fileID: 5896477110802864551}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -14848,7 +14890,7 @@ Transform:
   m_GameObject: {fileID: 3147914948886566350}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -14973,7 +15015,7 @@ Transform:
   m_GameObject: {fileID: 3106309002868587266}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -14988,7 +15030,7 @@ Transform:
   m_GameObject: {fileID: 4389071671352943928}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -15030,15 +15072,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &2780625372592657048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15060,7 +15107,7 @@ Transform:
   m_GameObject: {fileID: 2021717523301598498}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -15117,7 +15164,7 @@ Transform:
   m_GameObject: {fileID: 6136572588349305494}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -15306,7 +15353,7 @@ Transform:
   m_GameObject: {fileID: 4493021863684603545}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -15392,7 +15439,7 @@ Transform:
   m_GameObject: {fileID: 8074795972161844790}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -15407,7 +15454,7 @@ Transform:
   m_GameObject: {fileID: 5822913052716381029}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -15525,7 +15572,7 @@ Transform:
   m_GameObject: {fileID: 5584724983333168966}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -15619,7 +15666,7 @@ Transform:
   m_GameObject: {fileID: 6091717172785072115}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -15906,7 +15953,7 @@ Transform:
   m_GameObject: {fileID: 1691164004025994318}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -15963,7 +16010,7 @@ Transform:
   m_GameObject: {fileID: 6763439537220670318}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -16249,7 +16296,7 @@ Transform:
   m_GameObject: {fileID: 1690299730140702695}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -16283,15 +16330,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &3183927384444060403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16447,7 +16499,7 @@ Transform:
   m_GameObject: {fileID: 7493477805481125257}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -16523,7 +16575,7 @@ Transform:
   m_GameObject: {fileID: 1750380582652634017}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -16617,7 +16669,7 @@ Transform:
   m_GameObject: {fileID: 4756981893453336800}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -16682,7 +16734,7 @@ Transform:
   m_GameObject: {fileID: 3181897589876665737}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -16718,7 +16770,7 @@ Transform:
   m_GameObject: {fileID: 880215653545130043}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -16852,7 +16904,7 @@ Transform:
   m_GameObject: {fileID: 4519529702728172218}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -16980,7 +17032,7 @@ Transform:
   m_GameObject: {fileID: 7667907696503392887}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17037,7 +17089,7 @@ Transform:
   m_GameObject: {fileID: 7485385829451455593}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17071,7 +17123,7 @@ Transform:
   m_GameObject: {fileID: 6783252851667008699}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17107,7 +17159,7 @@ Transform:
   m_GameObject: {fileID: 508602526295812725}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17164,7 +17216,7 @@ Transform:
   m_GameObject: {fileID: 1220668811665043059}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -17193,7 +17245,7 @@ Transform:
   m_GameObject: {fileID: 5941622485233388580}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17361,7 +17413,7 @@ Transform:
   m_GameObject: {fileID: 7085562294910514233}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17376,7 +17428,7 @@ Transform:
   m_GameObject: {fileID: 3912722517018925368}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -17424,7 +17476,7 @@ Transform:
   m_GameObject: {fileID: 2372527373961030180}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -17588,7 +17640,7 @@ Transform:
   m_GameObject: {fileID: 1153471735308032218}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17624,7 +17676,7 @@ Transform:
   m_GameObject: {fileID: 1921851822218633008}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -17653,7 +17705,7 @@ Transform:
   m_GameObject: {fileID: 7882744642201910348}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17668,7 +17720,7 @@ Transform:
   m_GameObject: {fileID: 1947286363442819779}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -17712,7 +17764,7 @@ Transform:
   m_GameObject: {fileID: 8283813876826225299}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -17815,15 +17867,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &3792231438100692056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18008,7 +18065,7 @@ Transform:
   m_GameObject: {fileID: 7154126648499966785}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -18023,7 +18080,7 @@ Transform:
   m_GameObject: {fileID: 7452951178559345364}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18078,7 +18135,7 @@ Transform:
   m_GameObject: {fileID: 4114446945780663379}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -18151,7 +18208,7 @@ Transform:
   m_GameObject: {fileID: 1835478363380967703}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18208,7 +18265,7 @@ Transform:
   m_GameObject: {fileID: 8751884584069450272}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18231,7 +18288,7 @@ Transform:
   m_GameObject: {fileID: 3157426316152425038}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18468,15 +18525,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &4027076389896171355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18571,7 +18633,7 @@ Transform:
   m_GameObject: {fileID: 9081213955059694947}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18586,7 +18648,7 @@ Transform:
   m_GameObject: {fileID: 6757607121640368203}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18601,7 +18663,7 @@ Transform:
   m_GameObject: {fileID: 2862544398471287931}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18651,7 +18713,7 @@ Transform:
   m_GameObject: {fileID: 5083436964589965841}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -18737,7 +18799,7 @@ Transform:
   m_GameObject: {fileID: 9106530267653055318}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -18794,7 +18856,7 @@ Transform:
   m_GameObject: {fileID: 8475381975172255675}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -18870,7 +18932,7 @@ Transform:
   m_GameObject: {fileID: 4208524507030768695}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -19012,7 +19074,7 @@ Transform:
   m_GameObject: {fileID: 3154447531928797462}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -19343,7 +19405,7 @@ Transform:
   m_GameObject: {fileID: 4644417493806337847}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -19379,7 +19441,7 @@ Transform:
   m_GameObject: {fileID: 5568244412246251897}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -19457,7 +19519,7 @@ Transform:
   m_GameObject: {fileID: 5101560616904641713}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -19635,7 +19697,7 @@ Transform:
   m_GameObject: {fileID: 1117793417660479721}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -19664,7 +19726,7 @@ Transform:
   m_GameObject: {fileID: 8317777253920629667}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -19887,7 +19949,7 @@ Transform:
   m_GameObject: {fileID: 1211155205872541941}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -19902,7 +19964,7 @@ Transform:
   m_GameObject: {fileID: 1458594735646638513}
   m_LocalRotation: {x: -0.7071068, y: 8.231808e-11, z: -8.231807e-11, w: 0.7071067}
   m_LocalPosition: {x: -0.0002, y: 0, z: -0.0003}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -19917,7 +19979,7 @@ Transform:
   m_GameObject: {fileID: 3677901619053720962}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -20161,7 +20223,7 @@ Transform:
   m_GameObject: {fileID: 1953650165060598979}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -20176,7 +20238,7 @@ Transform:
   m_GameObject: {fileID: 5704593779565761301}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -20191,7 +20253,7 @@ Transform:
   m_GameObject: {fileID: 8329452962616678289}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -20222,7 +20284,7 @@ Transform:
   m_GameObject: {fileID: 4762840738966413734}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -20300,7 +20362,7 @@ Transform:
   m_GameObject: {fileID: 1110560241654826657}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -20386,7 +20448,7 @@ Transform:
   m_GameObject: {fileID: 3111851632606250401}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -20512,7 +20574,7 @@ Transform:
   m_GameObject: {fileID: 9010036398319452172}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -20772,15 +20834,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &4839672876732314259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20845,15 +20912,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &4841073627240781374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20896,7 +20968,7 @@ Transform:
   m_GameObject: {fileID: 1663756047057140864}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -20930,15 +21002,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &4860118865986438773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21002,7 +21079,7 @@ Transform:
   m_GameObject: {fileID: 466268845385388486}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21017,7 +21094,7 @@ Transform:
   m_GameObject: {fileID: 4518758632377592657}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21053,7 +21130,7 @@ Transform:
   m_GameObject: {fileID: 7036350362976640720}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21195,6 +21272,7 @@ GameObject:
   - component: {fileID: 1834530929527720599}
   - component: {fileID: 8575992679239396786}
   - component: {fileID: 8575992679239396789}
+  - component: {fileID: 8575992679239396790}
   m_Layer: 0
   m_Name: Antarctica
   m_TagString: UNCountry
@@ -21311,7 +21389,7 @@ Transform:
   m_GameObject: {fileID: 26631298382997750}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21368,7 +21446,7 @@ Transform:
   m_GameObject: {fileID: 356799569347014793}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21402,15 +21480,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &4985955443313829041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21432,7 +21515,7 @@ Transform:
   m_GameObject: {fileID: 106769615982038731}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21489,7 +21572,7 @@ Transform:
   m_GameObject: {fileID: 7618852089802172735}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21552,7 +21635,7 @@ Transform:
   m_GameObject: {fileID: 7420330962184864847}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21567,7 +21650,7 @@ Transform:
   m_GameObject: {fileID: 7401814321479983512}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -21666,7 +21749,7 @@ Transform:
   m_GameObject: {fileID: 1958291587161564470}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -21850,15 +21933,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &5164333933242900779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22120,7 +22208,7 @@ Transform:
   m_GameObject: {fileID: 7538880424066474025}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -22165,7 +22253,7 @@ Transform:
   m_GameObject: {fileID: 5474755858825821207}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -22791,7 +22879,7 @@ Transform:
   m_GameObject: {fileID: 7808502603781505730}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -22848,7 +22936,7 @@ Transform:
   m_GameObject: {fileID: 114504992564238779}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -22871,7 +22959,7 @@ Transform:
   m_GameObject: {fileID: 8863284069982145041}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -22913,15 +23001,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &5530195323722410095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22985,7 +23078,7 @@ Transform:
   m_GameObject: {fileID: 4259845077750885725}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23029,7 +23122,7 @@ Transform:
   m_GameObject: {fileID: 7676845202635832082}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23077,7 +23170,7 @@ Transform:
   m_GameObject: {fileID: 9088025007546148310}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23113,7 +23206,7 @@ Transform:
   m_GameObject: {fileID: 8502973402973779449}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -23168,7 +23261,7 @@ Transform:
   m_GameObject: {fileID: 6333690287183081906}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -23191,7 +23284,7 @@ Transform:
   m_GameObject: {fileID: 3112590004828443123}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23263,7 +23356,7 @@ Transform:
   m_GameObject: {fileID: 4335677493523855122}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23326,7 +23419,7 @@ Transform:
   m_GameObject: {fileID: 8352873470857722454}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -23383,7 +23476,7 @@ Transform:
   m_GameObject: {fileID: 5357637067435927144}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -23427,7 +23520,7 @@ Transform:
   m_GameObject: {fileID: 2602989985734631046}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23519,7 +23612,7 @@ Transform:
   m_GameObject: {fileID: 1850640488974850465}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23553,15 +23646,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &5894731859362788565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23688,7 +23786,7 @@ Transform:
   m_GameObject: {fileID: 7080035211496516191}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23745,7 +23843,7 @@ Transform:
   m_GameObject: {fileID: 3149397281645652809}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -23848,15 +23946,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &5941622485233388585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23920,7 +24023,7 @@ Transform:
   m_GameObject: {fileID: 2996242272550530435}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -23977,7 +24080,7 @@ Transform:
   m_GameObject: {fileID: 8394904390987391597}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -24013,7 +24116,7 @@ Transform:
   m_GameObject: {fileID: 1062777127585525273}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24118,15 +24221,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6083754517341329447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24257,7 +24365,7 @@ Transform:
   m_GameObject: {fileID: 4388706289623015652}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24299,15 +24407,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6132505612376452334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24358,7 +24471,7 @@ Transform:
   m_GameObject: {fileID: 3911357460482270013}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24423,7 +24536,7 @@ Transform:
   m_GameObject: {fileID: 133526945191587242}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24457,15 +24570,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6152735861789147209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24537,7 +24655,7 @@ Transform:
   m_GameObject: {fileID: 4730145230794359995}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -24552,7 +24670,7 @@ Transform:
   m_GameObject: {fileID: 1320531301207985807}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -24581,7 +24699,7 @@ Transform:
   m_GameObject: {fileID: 6144076427213373874}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24636,15 +24754,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6268495691802788654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24687,7 +24810,7 @@ Transform:
   m_GameObject: {fileID: 7394189251523576473}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24702,7 +24825,7 @@ Transform:
   m_GameObject: {fileID: 1314155645097006450}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24736,15 +24859,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6293469048604546794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24801,15 +24929,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6304757834275863097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24831,7 +24964,7 @@ Transform:
   m_GameObject: {fileID: 3973814146307187172}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24846,7 +24979,7 @@ Transform:
   m_GameObject: {fileID: 5036524695089167614}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -24922,15 +25055,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6309083694054995341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25050,7 +25188,7 @@ Transform:
   m_GameObject: {fileID: 5929246065324736679}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -25178,7 +25316,7 @@ Transform:
   m_GameObject: {fileID: 8096530858071026952}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -25212,7 +25350,7 @@ Transform:
   m_GameObject: {fileID: 2357809340939810327}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -25243,7 +25381,7 @@ Transform:
   m_GameObject: {fileID: 4234547904846767102}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -25285,15 +25423,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6506496685253598447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25350,7 +25493,7 @@ Transform:
   m_GameObject: {fileID: 6848625172458192163}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -25387,7 +25530,7 @@ Transform:
   m_GameObject: {fileID: 1548300265683444647}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -25556,7 +25699,7 @@ Transform:
   m_GameObject: {fileID: 8490170944067270955}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -25579,7 +25722,7 @@ Transform:
   m_GameObject: {fileID: 1925651394080603312}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -25674,7 +25817,7 @@ Transform:
   m_GameObject: {fileID: 7798638357756343190}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -25689,7 +25832,7 @@ Transform:
   m_GameObject: {fileID: 1232262321120109307}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -25760,7 +25903,7 @@ Transform:
   m_GameObject: {fileID: 3546360759888065101}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -25794,15 +25937,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6728197544843027385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25885,15 +26033,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6730613608896685949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25937,7 +26090,7 @@ Transform:
   m_GameObject: {fileID: 8742910664235172409}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -26025,15 +26178,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6763439537220670323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26105,7 +26263,7 @@ Transform:
   m_GameObject: {fileID: 4963249775492724480}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -26120,7 +26278,7 @@ Transform:
   m_GameObject: {fileID: 7675925956414823214}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -26135,7 +26293,7 @@ Transform:
   m_GameObject: {fileID: 5737346280356094304}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -26169,15 +26327,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6777782038229338664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26278,7 +26441,7 @@ Transform:
   m_GameObject: {fileID: 773563991952569310}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -26323,7 +26486,7 @@ Transform:
   m_GameObject: {fileID: 8193347688215464066}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -26399,15 +26562,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6815599906220972265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26456,15 +26624,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6819261278057603369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26554,15 +26727,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6871873603908281462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26603,7 +26781,7 @@ Transform:
   m_GameObject: {fileID: 4292948127517476702}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -26618,7 +26796,7 @@ Transform:
   m_GameObject: {fileID: 3120436711177274937}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -26641,7 +26819,7 @@ Transform:
   m_GameObject: {fileID: 3103372437278799068}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -26809,15 +26987,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &6949878102255397575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26904,7 +27087,7 @@ Transform:
   m_GameObject: {fileID: 8691550273586292199}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -26943,7 +27126,7 @@ Transform:
   m_GameObject: {fileID: 3768786002935038579}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -26998,15 +27181,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7036350362976640725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27110,15 +27298,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7041851383944771751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27202,15 +27395,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7080035211496516196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27394,7 +27592,7 @@ Transform:
   m_GameObject: {fileID: 3120306903592063326}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -27428,15 +27626,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7118745008919122557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27485,15 +27688,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7123413180167446137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27576,15 +27784,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7126125292757313462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27625,7 +27838,7 @@ Transform:
   m_GameObject: {fileID: 1164352699034807797}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -27701,15 +27914,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7144766375004664071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27771,15 +27989,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7154126648499966790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27828,15 +28051,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7165849847351635837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27975,15 +28203,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7182260763926276922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28083,7 +28316,7 @@ Transform:
   m_GameObject: {fileID: 1395568841643437554}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -28117,15 +28350,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7190226765039027990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28189,7 +28427,7 @@ Transform:
   m_GameObject: {fileID: 5015772042809476243}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -28273,15 +28511,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7214398160924398481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28330,15 +28573,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7216831413281448419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28360,7 +28608,7 @@ Transform:
   m_GameObject: {fileID: 4890622670959699703}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -28405,7 +28653,7 @@ Transform:
   m_GameObject: {fileID: 8305835041755238195}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -28420,7 +28668,7 @@ Transform:
   m_GameObject: {fileID: 1683638969522880448}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -28454,15 +28702,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7271061884136023948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28484,7 +28737,7 @@ Transform:
   m_GameObject: {fileID: 4185881081748883493}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -28513,7 +28766,7 @@ Transform:
   m_GameObject: {fileID: 6009561029451642536}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -28547,15 +28800,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7301364739028027789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28577,7 +28835,7 @@ Transform:
   m_GameObject: {fileID: 8429185620080329467}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -28592,7 +28850,7 @@ Transform:
   m_GameObject: {fileID: 7942492357113338806}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -28685,15 +28943,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7353068747190365400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28869,15 +29132,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7385627793724909286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28961,15 +29229,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7394189251523576478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28991,7 +29264,7 @@ Transform:
   m_GameObject: {fileID: 8213170125090646791}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -29046,15 +29319,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7401814321479983517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29117,15 +29395,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7403467953013185052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29188,7 +29471,7 @@ Transform:
   m_GameObject: {fileID: 2016811485956618911}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -29326,15 +29609,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7485385829451455598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29466,15 +29754,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7496735797668509372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29649,15 +29942,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7545184757162388790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29736,15 +30034,20 @@ MonoBehaviour:
   Attached_Tiles_Data: {fileID: 11400000, guid: 31f322aaefec2944b87cd1a901ae133e,
     type: 2}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7559950337960092034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29766,7 +30069,7 @@ Transform:
   m_GameObject: {fileID: 6051467829862716779}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -30009,15 +30312,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7651471114711152506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30039,7 +30347,7 @@ Transform:
   m_GameObject: {fileID: 1996654667172110300}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -30073,15 +30381,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7665679274628411835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30164,15 +30477,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7666837414184487624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30234,15 +30552,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7667907696503392892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30318,7 +30641,7 @@ Transform:
   m_GameObject: {fileID: 2107531599966513167}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -30431,7 +30754,7 @@ Transform:
   m_GameObject: {fileID: 7545586527803758664}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -30465,15 +30788,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7681213382034498823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30495,7 +30823,7 @@ Transform:
   m_GameObject: {fileID: 3560479893277824039}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -30524,7 +30852,7 @@ Transform:
   m_GameObject: {fileID: 3340792331838275724}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -30619,15 +30947,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7722169636882485250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30649,7 +30982,7 @@ Transform:
   m_GameObject: {fileID: 3213246582451797789}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -30770,15 +31103,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7796286682379257564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30861,15 +31199,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7796874748637135520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30931,15 +31274,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7798638357756343195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31001,15 +31349,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7808502603781505735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31132,7 +31485,7 @@ Transform:
   m_GameObject: {fileID: 4904348642963218611}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -31166,15 +31519,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7827723393980941117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31236,15 +31594,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7882744642201910353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31325,15 +31688,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7890620488545002831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31419,7 +31787,7 @@ Transform:
   m_GameObject: {fileID: 5741148571152798676}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -31531,15 +31899,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7910164486191454791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31569,7 +31942,7 @@ Transform:
   m_GameObject: {fileID: 4369274951278762574}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -31603,15 +31976,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7937995552845565579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31720,7 +32098,7 @@ Transform:
   m_GameObject: {fileID: 8058146230963221814}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -31784,15 +32162,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &7965196910648751493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32012,15 +32395,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8046449532932807520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32103,15 +32491,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8050093662301957441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32173,15 +32566,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8050968835948256907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32271,15 +32669,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8070491155156286926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32341,15 +32744,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8074795972161844795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32432,15 +32840,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8080134837426875756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32617,7 +33030,7 @@ Transform:
   m_GameObject: {fileID: 7314399340811320876}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -32632,7 +33045,7 @@ Transform:
   m_GameObject: {fileID: 8687270170963502897}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -32733,7 +33146,7 @@ Transform:
   m_GameObject: {fileID: 4073713838754242161}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -32762,7 +33175,7 @@ Transform:
   m_GameObject: {fileID: 6146852657810775398}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -32810,7 +33223,7 @@ Transform:
   m_GameObject: {fileID: 4307087702314987032}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -32844,15 +33257,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8198161660207551834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32923,15 +33341,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8200437678987357573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32994,7 +33417,7 @@ Transform:
   m_GameObject: {fileID: 1821326394333648027}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -33028,15 +33451,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8221119057756666559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33230,7 +33658,7 @@ Transform:
   m_GameObject: {fileID: 1559188401520606289}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -33264,15 +33692,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8270835633212527703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33355,15 +33788,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8274305174409095634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33385,7 +33823,7 @@ Transform:
   m_GameObject: {fileID: 3181370653909331251}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -33454,15 +33892,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8283813876826225304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33484,7 +33927,7 @@ Transform:
   m_GameObject: {fileID: 3320350635753485526}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -33526,15 +33969,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8288545572337839821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33556,7 +34004,7 @@ Transform:
   m_GameObject: {fileID: 4504209456808853603}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -33590,15 +34038,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8294853208973340165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33647,15 +34100,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8301062526844017244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33783,15 +34241,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8311050673677943777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33944,15 +34407,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8329452962616678294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33996,7 +34464,7 @@ Transform:
   m_GameObject: {fileID: 8405864590182899987}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -34072,15 +34540,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8351915704908756551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34193,15 +34666,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8381364801093561703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34279,7 +34757,7 @@ Transform:
   m_GameObject: {fileID: 1491385748299533443}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -34443,15 +34921,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8414455666200486016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34473,7 +34956,7 @@ Transform:
   m_GameObject: {fileID: 5936398044821033136}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -34507,15 +34990,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8426162239799329243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34597,15 +35085,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8436869925962931879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34723,15 +35216,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8447293596163681881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34774,7 +35272,7 @@ Transform:
   m_GameObject: {fileID: 7632922762202192487}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -35250,15 +35748,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8574446679631175410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35341,16 +35844,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
-  tree: {fileID: 0}
+  Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Avaliable_Woodland: 0
+  Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!4 &8591063676310954858
 Transform:
   m_ObjectHideFlags: 0
@@ -35402,15 +35907,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8604869484763951533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35432,7 +35942,7 @@ Transform:
   m_GameObject: {fileID: 2195941098167326433}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -35474,15 +35984,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8616525648149928825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35531,15 +36046,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8618840745855796303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35622,15 +36142,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8620110766209041312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35652,7 +36177,7 @@ Transform:
   m_GameObject: {fileID: 9203952220224397331}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -35694,15 +36219,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8639667045912848064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35757,7 +36287,7 @@ Transform:
   m_GameObject: {fileID: 8033451293811498898}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -35791,15 +36321,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8645039824371752160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35879,15 +36414,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8669568566491933445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35949,15 +36489,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8687270170963502902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36012,7 +36557,7 @@ Transform:
   m_GameObject: {fileID: 5707568682879884954}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -36046,15 +36591,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8694915824140822444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36103,15 +36653,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8696216555861796933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36133,7 +36688,7 @@ Transform:
   m_GameObject: {fileID: 1314545257717444569}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -36253,15 +36808,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8714737999196500444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36329,15 +36889,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8719946838613098010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36421,15 +36986,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8742910664235172414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36511,15 +37081,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8754354336780202136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36624,15 +37199,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8775635167486397529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36681,15 +37261,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8775937737764271369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36751,15 +37336,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8777030510935413491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36781,7 +37371,7 @@ Transform:
   m_GameObject: {fileID: 3036477432839243001}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -36815,15 +37405,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8787788099430083398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36872,15 +37467,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8789089806572572997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36924,7 +37524,7 @@ Transform:
   m_GameObject: {fileID: 762922307186334484}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -36958,15 +37558,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8799719928825325071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36988,7 +37593,7 @@ Transform:
   m_GameObject: {fileID: 4773653655102809651}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -37022,15 +37627,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8821042139119670782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37092,15 +37702,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8827926007078339085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37122,7 +37737,7 @@ Transform:
   m_GameObject: {fileID: 44000904491512060}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -37156,15 +37771,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8842193270061621058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37228,15 +37848,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8847085882101398207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37319,15 +37944,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8849675240222751254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37410,15 +38040,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8850751723128152244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37501,15 +38136,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8859062630793652457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37571,15 +38211,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8863284069982145046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37601,7 +38246,7 @@ Transform:
   m_GameObject: {fileID: 2467859835876591005}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -37635,15 +38280,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8867397393231603000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37692,15 +38342,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8871621783304910225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37762,15 +38417,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8874446792680002708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37819,15 +38479,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8879716229924766704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37876,15 +38541,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8880448629240728905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37906,7 +38576,7 @@ Transform:
   m_GameObject: {fileID: 1705385023564663919}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -38053,15 +38723,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8892653029837630187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38166,15 +38841,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8895060877649480421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38196,7 +38876,7 @@ Transform:
   m_GameObject: {fileID: 3432359597852645220}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -38230,15 +38910,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8935731875182330729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38260,7 +38945,7 @@ Transform:
   m_GameObject: {fileID: 8718418838948933956}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -38288,7 +38973,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4928836529570376526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48288727, y: -0.67, z: 17.866585}
+  m_LocalPosition: {x: -0.48288727, y: -0.56, z: 17.866585}
   m_LocalScale: {x: 4233.551, y: 73.47961, z: 3278.3193}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38318,7 +39003,7 @@ Transform:
   m_GameObject: {fileID: 4236757209311610019}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -38352,15 +39037,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8947397282871930243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38382,7 +39072,7 @@ Transform:
   m_GameObject: {fileID: 6268749693252063404}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -38416,15 +39106,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8954506528521629464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38507,15 +39202,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &8955261909131503175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38693,7 +39393,7 @@ Transform:
   m_GameObject: {fileID: 3587609837038122827}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -38727,15 +39427,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9009060915856824427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38926,15 +39631,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9034911747716224930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39017,15 +39727,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9040970354201443523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39096,15 +39811,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9055679164459040571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39153,15 +39873,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9066168642713432277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39244,15 +39969,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9074487549218873389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39403,15 +40133,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9088025007546148315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39527,15 +40262,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9106910290284556873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39557,7 +40297,7 @@ Transform:
   m_GameObject: {fileID: 429393516387609586}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0.33864674}
+  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5215278615444176577}
@@ -39591,15 +40331,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9124615928599291024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39648,15 +40393,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9133583001655314862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39796,15 +40546,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9155106428558529354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39872,7 +40627,7 @@ Transform:
   m_GameObject: {fileID: 6438009573849644853}
   m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
   m_LocalPosition: {x: -25.187, y: 5.5803, z: -31.379}
-  m_LocalScale: {x: 176.94789, y: 178.73523, z: 60.528103}
+  m_LocalScale: {x: 176.94789, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1846122324}
@@ -39993,15 +40748,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9181962916246459589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40063,15 +40823,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9203952220224397336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40154,15 +40919,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Tiles_Data: {fileID: 0}
   Occupiant_Nation: {fileID: 0}
-  nationPlacedObjectsList: []
-  Habitability: 0
+  Territory_Name: 
+  Avaliable_Woodland: 0
+  Climate_Support: 0
   Average_Heat_Level: 0
   Population: 0
   Tera_Factory_Avaliable: 0
   Harbor_Avaliable: 0
-  Autobahn: 0
-  Railway: 0
-  Airport: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+  nationPlacedObjectsList: []
+  Tree_Plantation: {fileID: 0}
+  Tree_Age: 0
 --- !u!114 &9212487939696372569
 MonoBehaviour:
   m_ObjectHideFlags: 0
