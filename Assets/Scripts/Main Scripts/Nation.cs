@@ -56,7 +56,10 @@ public class Nation : MonoBehaviour
         //Give territories its nation
         if(this.Attached_Nations_Data.Nations_Territories != null)
         {
-
+            for(int i = 0; i < Attached_Nations_Data.Nations_Territories.Length; i++)
+            {
+                Attached_Nations_Data.Nations_Territories[i].Occupiant_Nation = this;
+            }
         }
 
         //Calculate Starting Woodland and Give it to Nation Data Holder and Nation
@@ -65,9 +68,6 @@ public class Nation : MonoBehaviour
 
         //Calculate Population and Give it to Nation Data Holder
         Calculate_Starting_Population(); // -> Updates this and nation data
-
-
-
 
         //At the start of the game colour all territories according to the national colours.
         Colour_All_Teritories_According_to_the_Nation_Colour();

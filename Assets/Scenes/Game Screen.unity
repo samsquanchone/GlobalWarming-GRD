@@ -2104,6 +2104,7 @@ Transform:
   - {fileID: 1660024317}
   - {fileID: 2039540313}
   - {fileID: 781867166}
+  - {fileID: 1273992085}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3683,6 +3684,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268312612}
   m_CullTransparentMesh: 1
+--- !u!1 &1273992084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1273992085}
+  - component: {fileID: 1273992086}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1273992085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273992084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 639597249}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1273992086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273992084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756081b43ece08c41b00afa2f814a79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Player_Data: {fileID: 11400000, guid: ade876d2cf4068041a37cd0958084f81,
+    type: 2}
+  Money: 0
+  Political_Power: 0
+  Wood: 0
+  Pykerete: 0
+  Logistics: 0
+  Logistics_Coverage: 0
 --- !u!1 &1275264646
 GameObject:
   m_ObjectHideFlags: 0
@@ -20361,7 +20414,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6953894213166776114}
-  - component: {fileID: 8575992679239396790}
   - component: {fileID: 1834530929527720599}
   - component: {fileID: 8575992679239396786}
   - component: {fileID: 8575992679239396789}
@@ -33748,31 +33800,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7470976148797787953, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!114 &8575992679239396790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4908880528194450586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85f669fd3db48404886d27586805efdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Territory_Name: 
-  Occupiant_Nation: {fileID: 0}
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  tree: {fileID: 0}
-  Tree_Age: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
 --- !u!4 &8591063676310954858
 Transform:
   m_ObjectHideFlags: 0
