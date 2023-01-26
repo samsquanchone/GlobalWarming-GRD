@@ -25,7 +25,7 @@ public class TruckNavMesh : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Placed on" + collision.gameObject.name);
+       
 
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
         if (collision.gameObject.name == "Dock(Clone)")

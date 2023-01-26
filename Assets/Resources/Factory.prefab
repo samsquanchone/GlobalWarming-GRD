@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23000010562118286}
   - component: {fileID: 65000012652471258}
   - component: {fileID: 4840032182947282125}
+  - component: {fileID: 5565345267706085721}
   m_Layer: 0
   m_Name: Factory
   m_TagString: Untagged
@@ -114,3 +115,15 @@ MonoBehaviour:
   cost: 100
   pykreteProductionRate: 10
   pykreteCapacity: 100
+--- !u!114 &5565345267706085721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012260637608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4feb7a1cb66c24c488853d1d3476ada8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

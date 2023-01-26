@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 3771371898466651566}
   - component: {fileID: 5416423246828459134}
   - component: {fileID: 7937281864304711070}
+  - component: {fileID: -1054759964773377275}
   m_Layer: 0
   m_Name: Lumbermill
   m_TagString: Untagged
@@ -181,6 +182,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &-1054759964773377275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6417471643495076973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4feb7a1cb66c24c488853d1d3476ada8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &737939867570914279
 PrefabInstance:
   m_ObjectHideFlags: 0

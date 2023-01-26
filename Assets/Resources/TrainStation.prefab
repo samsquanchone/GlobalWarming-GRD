@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4756283543108505600}
   - component: {fileID: -725710967567354057}
   - component: {fileID: 7280797537569181904}
+  - component: {fileID: 1710339990211922098}
   m_Layer: 0
   m_Name: TrainStation
   m_TagString: Untagged
@@ -144,3 +145,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &1710339990211922098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105541024787292093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4feb7a1cb66c24c488853d1d3476ada8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

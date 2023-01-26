@@ -34,13 +34,7 @@ public class TreeObject : SaveableObject
 
     public int m_timeToGrow;
 
-    void Awake()
-    {
-        if (gameObject.name == "Pine")
-        {
-            gameObject.transform.Rotate(-90f, 0f, 0f, Space.World);
-        }
-    }
+    
 
     // Update is called once per frame
     void RemoveObject()
