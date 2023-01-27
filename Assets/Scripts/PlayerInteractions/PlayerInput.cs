@@ -23,7 +23,7 @@ public class PlayerInput : MonoBehaviour
 
             var objHit = PlayerRayCast();
 
-            if (objHit.transform.CompareTag("Tree"))
+            if (objHit.transform.CompareTag("Tree") || objHit.transform.CompareTag("Infrastructure"))
             {
                 UIManager.instance.SetObjectUI(objHit.transform.gameObject);
             }

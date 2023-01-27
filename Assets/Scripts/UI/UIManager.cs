@@ -64,6 +64,12 @@ public class UIManager : MonoBehaviour
             objectImage.sprite = objectToDisplay.GetComponent<Image>().sprite;
             objectPanel.SetActive(true);
         }
+        else
+        {
+            objectImage.sprite = objectToDisplay.GetComponent<Image>().sprite;
+            objectPanel.SetActive(true);
+        }
+        
     }
 
     public void DisableObjectUI()
