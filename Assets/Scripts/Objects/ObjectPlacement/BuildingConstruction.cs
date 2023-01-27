@@ -24,7 +24,7 @@ public class BuildingConstruction : MonoBehaviour
         if (constructionTimer >= 1f)
         {
             //buildingConstructed
-            Instantiate(constructedBuildingPrefab, transform.position, Quaternion.identity);
+            Instantiate(constructedBuildingPrefab, transform.position, constructedBuildingPrefab.transform.rotation);
             Destroy(gameObject);
         }
     }

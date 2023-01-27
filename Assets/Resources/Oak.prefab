@@ -19,10 +19,10 @@ GameObject:
   - component: {fileID: 9159045832849007290}
   m_Layer: 0
   m_Name: Oak
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2222111361405018444
 Transform:
@@ -131,6 +131,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sphereRadius: 0.5
+  maxDistance: 5
+  layermask:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  offset: 0
 --- !u!54 &4640952368489733346
 Rigidbody:
   m_ObjectHideFlags: 0

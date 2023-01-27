@@ -65,7 +65,7 @@ public class NationToolTip : MonoBehaviour
         //Off the cuff way of doing this, probs not best to iterate over list every time mouse of UI - REFACTOR / CHANGE later
         foreach (GameObject obj in gameObject.GetComponent<Tile>().nationPlacedObjectsList)
         {
-            Debug.Log(obj.name);
+            //Debug.Log(obj.name);
 
             if (obj.name == "Lumbermill(Clone)")
             {
@@ -83,7 +83,7 @@ public class NationToolTip : MonoBehaviour
                 trainStationsPlaced++;
             }
 
-            else if (obj.name == "Oak(Clone)" || obj.name == "Bamboo(Clone)" || obj.name == "Willow(Clone)")
+            else if (obj.tag == "Tree")
             {
                 activeTreeProjects++;
             }

@@ -83,6 +83,12 @@ public class PersistentManagerScript : MonoBehaviour
                 case "Factory":
                     tmp = Instantiate(Resources.Load("Factory") as GameObject);
                     break;
+                case "Pine":
+                    tmp = Instantiate(Resources.Load("Pine") as GameObject);
+                    break;
+                case "Redwood":
+                    tmp = Instantiate(Resources.Load("Redwood") as GameObject);
+                    break;
                 case "Dock":
                     tmp = Instantiate(Resources.Load("Dock") as GameObject);
                     break;

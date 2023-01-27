@@ -153,6 +153,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sphereRadius: 0.5
+  maxDistance: 5
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &5416423246828459134
 BoxCollider:
   m_ObjectHideFlags: 0
