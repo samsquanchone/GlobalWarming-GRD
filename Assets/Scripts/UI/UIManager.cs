@@ -14,6 +14,8 @@ public class UIManager : MonoBehaviour
     //Canvas's////
     [SerializeField] public GameObject countryPanel;
 
+    [SerializeField] private GameObject objectPanel;
+
 
     //PLayerUI////
     [SerializeField]
@@ -34,6 +36,8 @@ public class UIManager : MonoBehaviour
     //Slider
     [SerializeField] private Slider contributionSlider;
 
+    [SerializeField] private Image objectImage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +54,21 @@ public class UIManager : MonoBehaviour
         }
 
         countryPanel.SetActive(false);
+        objectPanel.SetActive(false);
+    }
+
+    public void SetObjectUI(GameObject objectToDisplay)
+    {
+        if (objectToDisplay.tag == "Tree")
+        {
+            objectImage.sprite = objectToDisplay.GetComponent<Image>().sprite;
+            objectPanel.SetActive(true);
+        }
+    }
+
+    public void DisableObjectUI()
+    {
+        objectPanel.SetActive(false);
     }
 
     void Update()

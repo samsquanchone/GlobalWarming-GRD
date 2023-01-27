@@ -15534,6 +15534,8 @@ GameObject:
   - component: {fileID: -3589522741413167026}
   - component: {fileID: 6458155465690619620}
   - component: {fileID: 8215282073065858267}
+  - component: {fileID: 1191079059862347576}
+  - component: {fileID: 6178505987115896638}
   m_Layer: 0
   m_Name: Bamboo
   m_TagString: Tree
@@ -15541,8 +15543,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!4 &4468196031856746780
-Transform:
+--- !u!224 &4468196031856746780
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15938,6 +15940,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &145022478043472355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15991,6 +15998,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.15567, y: 16.68802, z: 1.2011832}
   m_Center: {x: -0.055257753, y: 7.8440137, z: 0.10059148}
+--- !u!222 &1191079059862347576
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839855461089278886}
+  m_CullTransparentMesh: 1
+--- !u!114 &6178505987115896638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839855461089278886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e754e477cecc10f44ba9442cc30ce45b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &3851040533472387393
 GameObject:
   m_ObjectHideFlags: 0

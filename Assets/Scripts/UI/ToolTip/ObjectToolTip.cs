@@ -33,14 +33,53 @@ public class ObjectToolTip : NationToolTip
 
     public override void SetToolTipData()
     {
-        if (gameObject.GetComponent<TreeObject>() != null)
+        if (gameObject.tag == "Tree")
         {
-            ShowMessage("TREE! Show tree related data here!");
+            var treeObj = gameObject.GetComponent<Tree>();
+            string treeType = gameObject.name;
+            string growthTimeRemaining; 
+            string expectedYield;
+            
+
+
+            ShowMessage(treeType);
         }
 
         else
         {
-            ShowMessage("INFRASTRUCTURE! Place infrastrcture related data here!");
+            //Variables shared among infrasture
+            string infrastructureName;
+            string objectLevel;
+            string capacity;
+            bool productionActive;
+
+            if (gameObject.GetComponent<LumbermillObject>() != null)
+            {
+                var infrastrctureObj = gameObject.GetComponent<LumbermillObject>();
+                ShowMessage(infrastrctureObj.name); 
+
+            }
+
+            if (gameObject.GetComponent<FactoryObject>())
+            {
+                var infrastrctureObj = gameObject.GetComponent<FactoryObject>();
+                ShowMessage(infrastrctureObj.name);
+            }
+
+            if (gameObject.GetComponent<DockObject>())
+            {
+                var infrastrctureObj = gameObject.GetComponent<DockObject>();
+                ShowMessage(infrastrctureObj.name);
+            }
+
+            else if (gameObject.GetComponent<TrainStationObject>())
+            {
+                var infrastrctureObj = gameObject.GetComponent<TrainStationObject>();
+                ShowMessage(infrastrctureObj.name);
+            }
+
+
+           
         }
 
     }
