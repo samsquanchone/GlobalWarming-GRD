@@ -18,6 +18,7 @@ public class NationToolTip : MonoBehaviour
     int activeTreeProjects = 0;
     int docksPlaced = 0;
     int trainStationsPlaced = 0;
+    int averageHeatLevel;
     
 
     public void OnMouseEnter()
@@ -62,6 +63,7 @@ public class NationToolTip : MonoBehaviour
         nationName = gameObject.name;
         //gdp = gameObject.GetComponent<Tile>();
 
+        averageHeatLevel = gameObject.GetComponent<Tile>().Average_Heat_Level;
         //Off the cuff way of doing this, probs not best to iterate over list every time mouse of UI - REFACTOR / CHANGE later
         foreach (GameObject obj in gameObject.GetComponent<Tile>().nationPlacedObjectsList)
         {
@@ -89,7 +91,7 @@ public class NationToolTip : MonoBehaviour
             }
         }
 
-        dataToShow = nationName + "\n" + "GDP: £" + gdp.ToString() + "\n" + "Active Tree Projects: " + activeTreeProjects + "\n" + "Lumbermills: " + lumberMillsPlaced + "\n" + "Docks: " + docksPlaced + "\n" + "Train Stations: " + trainStationsPlaced;
+        dataToShow = nationName + "\n" + "GDP: £" + gdp.ToString() + "\n" + "Average Heat level: " + averageHeatLevel + "\n" + "Active Tree Projects: " + activeTreeProjects + "\n" + "Lumbermills: " + lumberMillsPlaced + "\n" + "Docks: " + docksPlaced + "\n" + "Train Stations: " + trainStationsPlaced;
 
         ShowMessage(dataToShow);
     }

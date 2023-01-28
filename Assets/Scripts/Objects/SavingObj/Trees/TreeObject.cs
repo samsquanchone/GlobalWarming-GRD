@@ -37,7 +37,7 @@ public class TreeObject : SaveableObject
     
 
     // Update is called once per frame
-    void RemoveObject()
+    public void RemoveObject()
     {
         //This function will remove object, could also be used to add yield amount to a countries wood amount for example
         DestroySaveable();

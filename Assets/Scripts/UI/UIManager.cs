@@ -38,6 +38,21 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private Image objectImage;
 
+    [SerializeField] private Button objectActionButton;
+
+
+
+    [SerializeField] private TMP_Text objectName;
+    [SerializeField] private TMP_Text objectData1;
+    [SerializeField] private TMP_Text objectData2;
+    [SerializeField] private TMP_Text objectData3;
+    [SerializeField] private TMP_Text objectData4;
+    [SerializeField] private TMP_Text objectData5;
+    
+
+
+    private GameObject objectInspected = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,9 +74,17 @@ public class UIManager : MonoBehaviour
 
     public void SetObjectUI(GameObject objectToDisplay)
     {
+        objectInspected = objectToDisplay;
+        objectName.text = objectToDisplay.name;
+        objectData1.text = "Country Placed: " + objectToDisplay.GetComponent<ObjectNationInteraction>().nationPlaced;
+
+
         if (objectToDisplay.tag == "Tree")
         {
             objectImage.sprite = objectToDisplay.GetComponent<Image>().sprite;
+            objectData2.text = "Time until fully grown: " + objectToDisplay.GetComponent<TreeObject>().m_timeToGrow;
+            objectData3.text = "Current growth conditions (Temperature): " + objectToDisplay.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().Average_Heat_Level;
+            objectData4.text = "Expected yield: " + objectToDisplay.GetComponent<TreeObject>().m_yield;
             objectPanel.SetActive(true);
         }
         else
@@ -70,6 +93,15 @@ public class UIManager : MonoBehaviour
             objectPanel.SetActive(true);
         }
         
+    }
+
+    public void ObjectActionButtonPressed()
+    {
+        if (objectInspected.tag == "Tree")
+        {
+            objectInspected.GetComponent<TreeObject>().RemoveObject();
+            DisableObjectUI();
+        }
     }
 
     public void DisableObjectUI()
