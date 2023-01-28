@@ -6,18 +6,18 @@ using Random = UnityEngine.Random;
 
 public class Nation : MonoBehaviour
 {
-    
-
-    [SerializeField] public string Nation_Name;
-
-    //Nation's Tiles
+    [Header("Nation Data")]
+    [SerializeField] Nation_Data Attached_Nations_Data;
+    [Space]
+    [Header("Tiles")]
+    //Pull tiles from Tiles -> Tile Data and give it to Nation Data 
     [SerializeField] public Tile[] Nations_Territories;
 
     //Nation Color
     [SerializeField] public Color32 Nation_Colour;
 
     //GDP
-    [SerializeField] public int GDP; //Each nation has its starting GDP tied to its cumulative population from the nation’s tiles. If nothing happens, nation GDP’s increases because of the steady increase of the population of its tiles.
+    [SerializeField] public int GDP; //Each nation has its starting GDP tied to its cumulative population from the nationï¿½s tiles. If nothing happens, nation GDPï¿½s increases because of the steady increase of the population of its tiles.
 
     //Population
     [SerializeField] public int Cumilative_Population_From_Territories; //Nations does not affect populations, but populations effect the nation by increasing/decreasing its GDP and Awareness.
