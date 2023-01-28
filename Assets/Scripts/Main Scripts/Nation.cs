@@ -7,7 +7,8 @@ using Random = UnityEngine.Random;
 public class Nation : MonoBehaviour
 {
     [Header("Nation Data")]
-    [SerializeField] Nation_Data Attached_Nations_Data;
+    //[SerializeField] Nation_Data Attached_Nations_Data;
+
     [Space]
     [Header("Tiles")]
     //Pull tiles from Tiles -> Tile Data and give it to Nation Data 

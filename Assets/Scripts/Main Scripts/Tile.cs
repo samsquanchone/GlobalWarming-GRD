@@ -10,7 +10,6 @@ public class Tile : MonoBehaviour
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Header("DEBUG - TAKE on New Game")]
-    [SerializeField] public string Territory_Name;
     [SerializeField] public int Avaliable_Woodland = 0;
     [SerializeField] public int Climate_Support;
     [SerializeField] public int Average_Heat_Level;
@@ -29,17 +28,6 @@ public class Tile : MonoBehaviour
     [SerializeField] public Tree Tree_Plantation;
     [SerializeField] public int Tree_Age;
 
-    //Average Heat Level
-    [SerializeField] public int Average_Heat_Level; //Global Warming, Events and Neutral Disasters effect heat levels. Heat levels directly effects Habitability level. 
-
-    //Pop
-    [SerializeField] public int Population;
-
-    //Tree Type and Growth
-    [SerializeField] public Tree tree;
-    [SerializeField] public int Tree_Age;
-
-    }
-
 
 }
+
