@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    //Tile Inits
+    [SerializeField] Tile_Data Attached_Tiles_Data;
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    [Space]
+    [Header("DEBUG - GIVE on New Game")]
     [SerializeField] public Nation Occupiant_Nation;
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -28,8 +32,26 @@ public class Tile : MonoBehaviour
     [SerializeField] public Tree Tree_Plantation;
     [SerializeField] public int Tree_Age;
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    
+    private void Start()
+    {
+        //Pull Tile Data
+        this.Territory_Name = Attached_Tiles_Data.Territory_Name;
+        this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
+        this.Climate_Support = Attached_Tiles_Data.Climate_Support;
+        this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
+        this.Population = Attached_Tiles_Data.Population;
+        this.Tera_Factory_Avaliable = Attached_Tiles_Data.Tera_Factory_Avaliable;
+        this.Harbor_Avaliable = Attached_Tiles_Data.Harbor_Avaliable;
+        this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level = 0;
+        this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
+        this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
+        this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
+
+        //Occupiant Nation is given at the start of the game by the occupiant nation.
+
+    }
 
 
 }
