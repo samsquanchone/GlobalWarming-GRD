@@ -6825,7 +6825,7 @@ GameObject:
   - component: {fileID: 916957989}
   m_Layer: 0
   m_Name: USA
-  m_TagString: Untagged
+  m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32269,9 +32269,10 @@ GameObject:
   - component: {fileID: 7559950337960092036}
   - component: {fileID: 7559950337960092029}
   - component: {fileID: 6959664596106497722}
-  - component: {fileID: 7559950337960092032}
   - component: {fileID: 7559950337960092034}
+  - component: {fileID: 7559950337960092037}
   - component: {fileID: 7559950337960092035}
+  - component: {fileID: 7559950337960092038}
   m_Layer: 0
   m_Name: United States of America
   m_TagString: UNCountry
@@ -39464,20 +39465,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5822913052716381029}
   m_Mesh: {fileID: -1017507200801635375, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7559950337960092032
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5822913052716381029}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1017507200801635375, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7559950337960092034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39535,6 +39522,33 @@ MonoBehaviour:
   nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+--- !u!64 &7559950337960092037
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5822913052716381029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1017507200801635375, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
+--- !u!65 &7559950337960092038
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5822913052716381029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.039094698, y: 0.017445184, z: 0}
+  m_Center: {x: -0.055314865, y: -0.09494742, z: 0.0011015664}
 --- !u!4 &7582674077699881698
 Transform:
   m_ObjectHideFlags: 0
