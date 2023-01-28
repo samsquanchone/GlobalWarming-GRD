@@ -19151,9 +19151,9 @@ GameObject:
   - component: {fileID: 6293469048604546796}
   - component: {fileID: 221435536438549637}
   - component: {fileID: 2789012419769706440}
-  - component: {fileID: 6293469048604546792}
   - component: {fileID: 6293469048604546794}
   - component: {fileID: 6293469048604546795}
+  - component: {fileID: 6293469048604546797}
   m_Layer: 0
   m_Name: Portugal
   m_TagString: UNCountry
@@ -33714,20 +33714,6 @@ Transform:
   m_Father: {fileID: 5215278615444176577}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6293469048604546792
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314155645097006450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3527536849949689997, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6293469048604546794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33784,6 +33770,19 @@ MonoBehaviour:
   nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+--- !u!65 &6293469048604546797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314155645097006450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0023864047, y: 0.005525739, z: 0.0021999995}
+  m_Center: {x: -0.12777862, y: -0.09655269, z: 3.6353928e-13}
 --- !u!33 &6298713707490048916
 MeshFilter:
   m_ObjectHideFlags: 0
