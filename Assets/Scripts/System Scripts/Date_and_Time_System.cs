@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class Date_and_Time_System : MonoBehaviour
 {
+    [Header("Time Data")]
+    [SerializeField] public Time_Data TimeData;
     [Header("Starting Date")]
     [SerializeField] public TMP_Text Date_Text;
     [SerializeField] public int Year = 2023;
@@ -39,6 +41,9 @@ public class Date_and_Time_System : MonoBehaviour
         Normal_Speed_BUTTON.onClick.AddListener(Normal_Speed);
         Fast_Speed_BUTTON.onClick.AddListener(Fast_Speed);
 
+        //
+        this.Year = TimeData.Year;
+        this.Month = TimeData.Month;
 
         //Start game with a stopped time.
         Stop_Speed();
