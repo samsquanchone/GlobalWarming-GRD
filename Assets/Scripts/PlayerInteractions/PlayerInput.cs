@@ -23,8 +23,9 @@ public class PlayerInput : MonoBehaviour
 
             var objHit = PlayerRayCast();
 
-            if (objHit.transform.CompareTag("Tree") || objHit.transform.CompareTag("Infrastructure"))
+            if (objHit.transform.gameObject.CompareTag("Tree") || objHit.transform.gameObject.CompareTag("Infrastructure") && objHit.transform != null)
             {
+                
                 UIManager.instance.SetObjectUI(objHit.transform.gameObject);
             }
 
@@ -37,7 +38,7 @@ public class PlayerInput : MonoBehaviour
             var objHit = PlayerRayCast();
 
             //If the object that is hit is of tag "UNCountry" get the dataScript for the selected country and send necessary parameters to the UIManager to set country pop up data
-            if (objHit.transform.CompareTag("UNCountry"))
+            if (objHit.transform.gameObject.CompareTag("UNCountry"))
             {
                 BuildingManager.instance.SpawnBuilding(objHit.point);
 

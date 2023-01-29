@@ -37,6 +37,7 @@ public class Tile : MonoBehaviour
     private void Start()
     {
         //Pull Tile Data
+        /*if(Attached_Tiles_Data != null)
         this.Territory_Name = Attached_Tiles_Data.Territory_Name;
         this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
         this.Climate_Support = Attached_Tiles_Data.Climate_Support;
@@ -48,7 +49,7 @@ public class Tile : MonoBehaviour
         this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
         this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
         this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
-
+        */
         //Occupiant Nation is given at the start of the game by the occupiant nation.
 
     }

@@ -29,7 +29,11 @@ public class BuildingManager : MonoBehaviour
     public void SpawnBuilding(Vector3 position)
     {
         //Instantiate constructoin prefab for respective object that will be built, based off Vector 3 of raycast hit passed from playerInteraction script
-        Instantiate(activeBuildingType.constructionPrefab, position, Quaternion.identity);
+
+        if (CanSpawnBuilding(GetActiveBuildingType(), position) == true)
+        {
+           Instantiate(activeBuildingType.constructionPrefab, position, Quaternion.identity);
+        }
     }
 
     public void SetActiveBuildingType(BuildingTypeSO buildingTypeSO)
@@ -59,26 +63,28 @@ public class BuildingManager : MonoBehaviour
         //Building of type within radius: this is used to check if there is a building of tag Building in a certain radius,
         // will be useful for putting lumber mills near trees for example
 
-        float maxBuildingRadius = 15f;
+        float maxBuildingRadius = 0.5f;
 
         Collider[] colliderArray = Physics.OverlapSphere(position, maxBuildingRadius);
 
         foreach (Collider collider in colliderArray)
         {
             //Create bool variable of a tag you want to check for in collision arrray
-            bool hasBuilding = collider.tag == "Building";
+            bool hasBuilding = collider.tag == "Infrastrcture";
+            bool hasTree = collider.tag == "Tree";
             bool hasWater = collider.tag == "Water";
+            bool hasCountry = collider.tag == "UNCountry";
 
             //Check for collision
-            if (hasBuilding || hasWater)
+            if (hasBuilding /*|| hasWater */ || hasTree && !hasCountry)
             {
                 //Could trigger UI here that indicates you can't build 
-                
-                return true;
+                Debug.Log("Cant spawn");
+                return false;
             }
         }
 
-        return false;  
+        return true;  
       
     }
 }

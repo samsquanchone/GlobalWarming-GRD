@@ -15,9 +15,9 @@ public class TruckNavMesh : MonoBehaviour
 
     private void Update()
     {
-        target = NavMeshManager.instance.GetDestination();
+      //  target = NavMeshManager.instance.GetDestination();
 
-        navMeshAgent.destination = target.position;
+       // navMeshAgent.destination = target.position;
 
         
 
