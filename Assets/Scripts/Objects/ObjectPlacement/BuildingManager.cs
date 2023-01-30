@@ -26,11 +26,11 @@ public class BuildingManager : MonoBehaviour
     }
 
 
-    public void SpawnBuilding(Vector3 position)
+    public void SpawnBuilding(Vector3 position, Transform t)
     {
         //Instantiate constructoin prefab for respective object that will be built, based off Vector 3 of raycast hit passed from playerInteraction script
 
-        if (CanSpawnBuilding(GetActiveBuildingType(), position) == true)
+        if (CanSpawnBuilding(GetActiveBuildingType(), position, t) == true)
         {
            Instantiate(activeBuildingType.constructionPrefab, position, Quaternion.identity);
         }
@@ -49,7 +49,7 @@ public class BuildingManager : MonoBehaviour
 
     //This function is used for placement validation, currently just to check if there are any other buildings on chose area, however down the liine it should include checks
     //for e.g. if country in UN, or if near water for dock/shipping yard 
-    private bool CanSpawnBuilding(BuildingTypeSO buildingTypeSO, Vector3 position) 
+    private bool CanSpawnBuilding(BuildingTypeSO buildingTypeSO, Vector3 position, Transform t) 
     {
          
         BoxCollider buildingBoxCollider = buildingTypeSO.constructionPrefab.GetComponent<BoxCollider>();
@@ -78,9 +78,9 @@ public class BuildingManager : MonoBehaviour
             
 
 
-            if(buildingTypeSO.buildingPrefab.name == "Factory" && !hasAntarctica)
+            if(buildingTypeSO.buildingPrefab.name == "Factory" && t.gameObject.name != "Antarctica")
             {
-                
+                Debug.Log(collider.gameObject.name);
                 return false;
             }
 

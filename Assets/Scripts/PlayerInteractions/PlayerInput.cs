@@ -55,7 +55,7 @@ public class PlayerInput : MonoBehaviour
                //If the object that is hit is of tag "UNCountry" get the dataScript for the selected country and send necessary parameters to the UIManager to set country pop up data
                if (hit.transform.gameObject.CompareTag("UNCountry"))
                {
-                   BuildingManager.instance.SpawnBuilding(hit.point);
+                   BuildingManager.instance.SpawnBuilding(hit.point, hit.transform);
 
                }
 
