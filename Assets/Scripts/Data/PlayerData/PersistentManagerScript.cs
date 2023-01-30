@@ -15,13 +15,8 @@ public class PersistentManagerScript : MonoBehaviour
 
     private void Awake()
     {
-        saveableObjects = new List<SaveableObject>(); //Insantiate list
 
-    }
-
-    private void Start()
-    {
-        //Non-lazy instantiation of singleton 
+         //Non-lazy instantiation of singleton 
         if (instance == null)
         {
             instance = this;
@@ -32,6 +27,13 @@ public class PersistentManagerScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+       
+
+    }
+
+    private void Start()
+    {
+         saveableObjects = new List<SaveableObject>(); //Insantiate list
     }
 
     public void Save()

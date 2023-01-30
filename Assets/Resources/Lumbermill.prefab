@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1be1e2307d99fb478352b936f14e162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectType: 5
+  objectType: 7
   cost: 10
   pulverisedWoodProductionRate: 100
   woodCapacityKg: 2000
@@ -160,6 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nationPlaced: 
+  nation: {fileID: 0}
 --- !u!65 &5416423246828459134
 BoxCollider:
   m_ObjectHideFlags: 0

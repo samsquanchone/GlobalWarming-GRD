@@ -6972,9 +6972,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6b9e02ce0280f534cb60710469fb0645, type: 2}
   - {fileID: 11400000, guid: 2c291a243c2736743ab5f5e9179d9644, type: 2}
   - {fileID: 11400000, guid: fdb0e54dc5dff1245b214ae12cb1fbcd, type: 2}
+  - {fileID: 11400000, guid: 09e39ea34819fee43837e6955b0f1e6d, type: 2}
   - {fileID: 11400000, guid: 4988835417a7c14469476c2f0b58ad35, type: 2}
   - {fileID: 11400000, guid: 0283056d798029440bb22cf96cba01cc, type: 2}
-  - {fileID: 11400000, guid: 09e39ea34819fee43837e6955b0f1e6d, type: 2}
   - {fileID: 11400000, guid: f4d7f64f1058f0b46997c7045780d60e, type: 2}
   buildingManager: {fileID: 781867167}
 --- !u!1 &969187973

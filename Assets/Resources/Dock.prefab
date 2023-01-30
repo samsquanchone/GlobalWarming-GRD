@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481e38e09d73a6645b03d694fabe5d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectType: 4
+  objectType: 6
   cost: 80
   transportationCapacityKG: 500
   numberOfShips: 5

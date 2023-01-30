@@ -74,6 +74,16 @@ public class BuildingManager : MonoBehaviour
             bool hasTree = collider.tag == "Tree";
             bool hasWater = collider.tag == "Water";
             bool hasCountry = collider.tag == "UNCountry";
+            bool hasAntarctica = collider.gameObject.name == "Antarctica";
+            
+
+
+            if(buildingTypeSO.buildingPrefab.name == "Factory" && !hasAntarctica)
+            {
+                
+                return false;
+            }
+
 
             //Check for collision
             if (hasBuilding /*|| hasWater */ || hasTree && !hasCountry)

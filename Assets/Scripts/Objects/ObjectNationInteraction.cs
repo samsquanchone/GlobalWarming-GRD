@@ -25,9 +25,14 @@ public class ObjectNationInteraction : MonoBehaviour
             }
 
         }
-
-
     }
+
+    private void OnDestroy()
+    {
+       nation.GetComponent<Tile>().nationPlacedObjectsList.Remove(this.gameObject);
+    }
+
+    
 
    
        
