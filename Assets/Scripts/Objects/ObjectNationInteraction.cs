@@ -14,7 +14,9 @@ public class ObjectNationInteraction : MonoBehaviour
         {
             nation = other.transform.gameObject;
             nationPlaced = other.transform.gameObject.name;
+            
             Debug.Log("Placed on" + other.transform.gameObject.name);
+
             other.transform.gameObject.GetComponent<Tile>().nationPlacedObjectsList.Add(this.gameObject);
             nationFound = true;
 
