@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using SamSquanchLibrary.Functions;
+using HelperLibrary.UI;
 
 public class WindowGraph : MonoBehaviour
 {
@@ -18,7 +19,11 @@ public class WindowGraph : MonoBehaviour
 
    private List<GameObject> gameObjectList;
    
-   
+   private List<int> valueList;
+   private IGraphVisual graphVisual;
+   private int maxVisibleValueAmount; 
+   private Func<int, string> getAxisLabelX;
+   private Func<float, string> getAxisLabelY;
 
    private int startingYear = 2010;
 
@@ -34,10 +39,58 @@ public class WindowGraph : MonoBehaviour
        gameObjectList = new List<GameObject>();
        //List<int> valueList = new List<int>() {5};
        List<int> valueList = new List<int>() {5, 90, 80, 60, 70, 55};
-       IGraphVisual graphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(1, 1, 1, .5f));
-       ShowGraph(valueList, graphVisual, -1, (int _i) => "Year: " + (_i + 10), (float _f) => Mathf.RoundToInt(_f) + " Tons" );
-      
+       IGraphVisual lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(1, 1, 1, .5f));
+       IGraphVisual barChartVisual = new BarChartVisual(graphContainer, Color.red, .8f);
+       ShowGraph(valueList, barChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+
+       //ShowGraph(valueList, graphVisual, -1, (int _i) => "Year: " + (_i + 10), (float _f) => Mathf.RoundToInt(_f) + " Tons" );
+       
+       //Graph functionality button listner and delegate set up
+       transform.Find("BarChartButton").GetComponent<Button_UI>().ClickFunc = () => 
+       {
+         SetGraphVisual(barChartVisual);
+       };
+
+       transform.Find("LineGraphButton").GetComponent<Button_UI>().ClickFunc = () => 
+       {
+         SetGraphVisual(lineGraphVisual);
+       };
+
+       transform.Find("DecreaseVisibleAmountBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+          DecreaseVisibleAmount();
+       };
+
+       transform.Find("IncreaseVisibleAmountBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+          IncreaseVisibleAmount();
+       };
+
+       //Value set toggle buttons listener and delegate set up
+        transform.Find("MoneyValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+           //Set graph list list
+           //Set Set labels
+           //Display graph
+       };
+
+        transform.Find("GlobalCo2ValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+           //Set graph list list
+           //Set Set labels
+           //Display graph
+       };
+
+        transform.Find("TreesPlantedValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+           //Set graph list list
+           //Set Set labels
+           //Display graph
+       };
+       
+
        /////////TESTING PURPOSES WILL CREATE RANDOM CHART VALUES EVERY .5 OF A SECOND TO SHOW DYNAMIC GRAPH AT WORK////////////
+      /*
        FunctionPeriodic.Create(() => {
             valueList.Clear();
             for(int i = 0; i < UnityEngine.Random.Range(5, 25); i++)
@@ -47,11 +100,58 @@ public class WindowGraph : MonoBehaviour
 
             ShowGraph(valueList, graphVisual, -1, (int _i) => "Year: " + (_i + 10), (float _f) => Mathf.RoundToInt(_f) + "Tons");
        }, .5f);  
-    }
+       */
+  }
+  
+  private void SetAxisLabelX(Func<int, string> getAxisLabelX)
+  {
+      ShowGraph(this.valueList, graphVisual, this.maxVisibleValueAmount, getAxisLabelX, this.getAxisLabelY);
+  }
+  
+  private void SetAxisLabelY(Func<float, string> getAxisLabelY)
+  {
+      ShowGraph(this.valueList, graphVisual, this.maxVisibleValueAmount, this.getAxisLabelX, getAxisLabelY);
+  }
 
+  private void IncreaseVisibleAmount()
+  {
+      ShowGraph(this.valueList, graphVisual, this.maxVisibleValueAmount + 1, this.getAxisLabelX, this.getAxisLabelY);
+  }
+
+  private void DecreaseVisibleAmount()
+  {
+      ShowGraph(this.valueList, graphVisual, this.maxVisibleValueAmount - 1, this.getAxisLabelX, this.getAxisLabelY);
+  }
+
+
+  private void SetGraphVisual(IGraphVisual graphVisual)
+  {
+      ShowGraph(this.valueList, graphVisual, this.maxVisibleValueAmount, this.getAxisLabelX, this.getAxisLabelY);
+  }
 
    private void ShowGraph(List<int> valueList, IGraphVisual graphVisual, int maxVisibleValueAmount = -1, Func<int, string> getAxisLabelX = null, Func<float, string> getAxisLabelY = null)
    {
+      //Cache values whenever this function is called
+      this.valueList = valueList;
+      this.graphVisual = graphVisual;
+      this.getAxisLabelX = getAxisLabelX;
+      this.getAxisLabelY = getAxisLabelY;
+
+      
+     
+      //Set visible count to value list size if 0
+      if(maxVisibleValueAmount <= 0)
+      {
+        maxVisibleValueAmount = valueList.Count;
+      }
+      
+      if(maxVisibleValueAmount > valueList.Count)
+      {
+        maxVisibleValueAmount = valueList.Count;
+      }
+
+      this.maxVisibleValueAmount = maxVisibleValueAmount; //This is here as it makes it easier to change
+      
       if(getAxisLabelX == null)
       {
         getAxisLabelX = delegate (int _i) {return _i.ToString(); }; //Default behavior delegated to set x label
@@ -60,13 +160,9 @@ public class WindowGraph : MonoBehaviour
       {
         getAxisLabelY = delegate (float _f) {return Mathf.RoundToInt(_f).ToString(); }; //Default behavior delegated to set Y label
       }
-      
-
-      //Set visible count to value list size if 0
-      if(maxVisibleValueAmount <= 0)
-      {
-        maxVisibleValueAmount = valueList.Count;
-      }
+     
+     
+     
       //Clear previous list of values before displaying new ones
       foreach (GameObject gameObject in gameObjectList)
       {
@@ -119,11 +215,7 @@ public class WindowGraph : MonoBehaviour
         float yPosition = ((valueList[i] - yMinimum) / (yMaximum - yMinimum)) * graphHeight; //Nomralise value based off graph container
           
           gameObjectList.AddRange(graphVisual.AddGraphVisual(new Vector2(xPosition, yPosition), xSize));
-       // gameObjectList.AddRange(barChartVisual.AddGraphVisual(new Vector2(xPosition, yPosition), xSize));
-        
-
-        //Create circle for graph
-
+       
         
         //Set up X axis labels for graph values
         RectTransform labelX = Instantiate(labelTemplateX);
@@ -217,7 +309,7 @@ private class BarChartVisual : IGraphVisual
    {
       private RectTransform graphContainer;
       private Sprite dotSprite;
-      private GameObject lastdotGameObject;
+      private GameObject lastDotGameObject;
       private Color dotColor;
       private Color dotConnectionColor;
      
@@ -226,9 +318,9 @@ private class BarChartVisual : IGraphVisual
       {
         this.graphContainer = graphContainer;
         this.dotSprite = dotSprite;
-        lastdotGameObject = null;
         this.dotColor = dotColor;
         this.dotConnectionColor = dotConnectionColor;
+        lastDotGameObject = null;
       }
 
       public List<GameObject> AddGraphVisual(Vector2 graphPosition, float graphPositionWidth)
@@ -236,15 +328,17 @@ private class BarChartVisual : IGraphVisual
         List<GameObject> gameObjectList = new List<GameObject>();
         GameObject dotGameObject = CreateDot(graphPosition);
         gameObjectList.Add(dotGameObject); //Create new list of values to display
-
+        
+        
         //Check if circle has been placed previously and draw line to new point
-        if(lastdotGameObject != null)
+        if(lastDotGameObject != null)
         {
-            GameObject dotConnectionGameObject = CreateDotConnection(lastdotGameObject.GetComponent<RectTransform>().anchoredPosition, dotGameObject.GetComponent<RectTransform>().anchoredPosition);
+            GameObject dotConnectionGameObject = CreateDotConnection(lastDotGameObject.GetComponent<RectTransform>().anchoredPosition, dotGameObject.GetComponent<RectTransform>().anchoredPosition);
             gameObjectList.Add(dotConnectionGameObject);
+            
         }
 
-        lastdotGameObject = dotGameObject;
+        lastDotGameObject = dotGameObject;
         return gameObjectList;
       }
 
