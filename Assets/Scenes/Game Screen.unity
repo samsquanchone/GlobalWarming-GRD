@@ -9923,92 +9923,6 @@ MonoBehaviour:
   Normal_Speed_BUTTON: {fileID: 1277321233}
   Fast_Speed_BUTTON: {fileID: 1268312614}
   Stop_Indication_Canvas: {fileID: 493812039}
---- !u!1001 &1430196835
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 2
-    m_TransformParent: {fileID: 483372056}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 25.012764
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 25.012764
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 25.012764
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 27.8
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 33.6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -446.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 85e913759b7dddd48a1bcd244837c93d,
-        type: 3}
-      propertyPath: m_Name
-      value: train 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: 85e913759b7dddd48a1bcd244837c93d, type: 3}
 --- !u!1 &1434815328
 GameObject:
   m_ObjectHideFlags: 0
@@ -13543,6 +13457,7 @@ Transform:
   - {fileID: 8937918350618231652}
   - {fileID: 6429997479614515477}
   - {fileID: 5809578567634001337}
+  - {fileID: 4098537565932905849}
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20288,7 +20203,7 @@ GameObject:
   - component: {fileID: 3183927384444060403}
   - component: {fileID: 3183927384444060404}
   m_Layer: 0
-  m_Name: "C\xF4te d'Ivoire"
+  m_Name: Cote Divore
   m_TagString: UNCountry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23473,7 +23388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: fc16176a5b64906418ba8f340de9e6e7,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -24756,7 +24672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 1f3509aa55cfedb4da105da06616cbca,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -26318,7 +26235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 65b2566fcbc72f347a33f9ab177bf98f,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -26996,7 +26914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 916e371184fade54c8a9143e2e5f2e41,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -27172,12 +27091,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5083436964589965841}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4114370346950058449
@@ -30134,7 +30053,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: c6aa0c3099687cc43a49f6ef2153e73a,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -30465,7 +30385,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4098537565932905849}
-  - component: {fileID: 7144766375004664073}
   - component: {fileID: 2756870050170582297}
   - component: {fileID: 7144766375004664066}
   - component: {fileID: 7144766375004664069}
@@ -30724,7 +30643,6 @@ Transform:
   - {fileID: 7582674077699881698}
   - {fileID: 1581946506644378157}
   - {fileID: 6542959971091593487}
-  - {fileID: 4098537565932905849}
   - {fileID: 8947397282871930238}
   - {fileID: 424039272218636302}
   - {fileID: 5901547307595029492}
@@ -33853,7 +33771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 4c2377f7f7dfcf64a9d504c54f02035e,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -35601,7 +35520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 9bb5927c9ccec714abb89a39ba088108,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -36533,7 +36453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 500ae31aad8211041abd269ce5ee5316,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -36971,7 +36892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 0d65fabc2440de84bbca6f7da4229157,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -37041,7 +36963,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37105,34 +37027,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7144766375004664073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5083436964589965841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!1 &7154126648499966785
 GameObject:
   m_ObjectHideFlags: 0
@@ -37287,7 +37181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: e1d66cf96dcf5864dbb50fdc1a063100,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -38132,7 +38027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 231e3c4d7036e48409a49bfc5dfd54db,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -38611,7 +38507,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 1605f5e7405f2674e9f093deaf7230c1,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -39912,7 +39809,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 4ba4a9dfe8ba5814f86d3339b7dcf30f,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -41400,7 +41298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 83435566aefe5524db84a075f5c730a3,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -41627,7 +41526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 62bd37ce21230ec4a88211f0e6c63edf,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -41923,7 +41823,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: c0e729e8e58c489459e20929611bfdf0,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -42496,7 +42397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 0d37b24a2bf2e464789be6e5603ee2a6,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -43233,7 +43135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 706290dc7fcea2e45972af29e740225e,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -43616,7 +43519,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 6b29d5fb9333b8846b11663738efc5b9,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -43942,7 +43846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 80f7e9c077875b94fb651ce4821a881d,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -44105,7 +44010,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: b07e53d7d2b1a134db68789ec679d47b,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -44595,7 +44501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 5ac7d0489003c0f479cb500c92aba56b,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -45352,7 +45259,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: ad3f63431e94ea44b99b1587754a8056,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -45902,7 +45810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 387577506e14c57479095256f386113b,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -46051,7 +45960,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: c8baf94b3ba2c2641a8482df58b84899,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -46144,7 +46054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 5bc3f34040c7ab4458a49493702f025f,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -46334,7 +46245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 68f9ecdcb098c7045a14ae80472ace9d,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -46545,7 +46457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: a6e7f49737d25224d990de0e90309f66,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -46654,7 +46567,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: fdd63fb5a940e0c4094be20e5172e555,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -46942,7 +46856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: ca25166720942d34aa4da65efe01eddc,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -47113,7 +47028,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 9ecd02f1df6c27e47b5813c58c518d40,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -47210,7 +47126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 64620048899a4354db3e94ed671337c4,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -47324,7 +47241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 28555c34a9e48fb4799542192d6a7cb5,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -47739,7 +47657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 462d34742f86fa74c93b908f686e760f,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -48094,7 +48013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 5761a56dfb38d66408da15c9b6eab5d5,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -48476,7 +48396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 7c9c18493cb5d914bb7457a393186f8b,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -49401,7 +49322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: aee465b6c206d3845832a118b1948c06,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -49763,7 +49685,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 7cd1af512fc850e4b8805bdf297a5b3f,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -50533,7 +50456,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 4cc5304809b93e540b56c62ca6144209,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -51312,7 +51236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: e07251a11c4b1bf4fa18e8c3ddbb8964,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
@@ -51699,7 +51624,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 0}
+  Attached_Tiles_Data: {fileID: 11400000, guid: 0e06cb4e4e9ee1b428829407b8b54c13,
+    type: 2}
   Occupiant_Nation: {fileID: 0}
   Territory_Name: 
   Avaliable_Woodland: 0
