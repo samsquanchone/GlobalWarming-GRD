@@ -8,6 +8,7 @@ using HelperLibrary.UI;
 
 public class WindowGraph : MonoBehaviour
 {
+   private static WindowGraph instance;
    [SerializeField] private Sprite dotSprite;
    private RectTransform graphContainer;
    private RectTransform labelTemplateX;
@@ -18,6 +19,9 @@ public class WindowGraph : MonoBehaviour
    
 
    private List<GameObject> gameObjectList;
+   private List<IGraphVisualObject> graphVisualObjectList;
+
+   private GameObject tooltipGameObject;
    
    private List<int> valueList;
    private IGraphVisual graphVisual;
@@ -29,14 +33,18 @@ public class WindowGraph : MonoBehaviour
 
    private void Awake()
    {
+       instance = this;
        //Set up references 
        graphContainer = transform.Find("GraphContainer").GetComponent<RectTransform>();
        labelTemplateX = graphContainer.Find("LabelTemplateX").GetComponent<RectTransform>();
        labelTemplateY = graphContainer.Find("LabelTemplateY").GetComponent<RectTransform>();
        dashTemplateX = graphContainer.Find("DashTemplateX").GetComponent<RectTransform>();
        dashTemplateY = graphContainer.Find("DashTemplateY").GetComponent<RectTransform>();
+       tooltipGameObject = graphContainer.Find("GraphToolTip").gameObject;
 
        gameObjectList = new List<GameObject>();
+       graphVisualObjectList = new List<IGraphVisualObject>();
+
        //List<int> valueList = new List<int>() {5};
        List<int> valueList = new List<int>() {5, 90, 80, 60, 70, 55};
        IGraphVisual lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(1, 1, 1, .5f));
@@ -101,8 +109,40 @@ public class WindowGraph : MonoBehaviour
             ShowGraph(valueList, graphVisual, -1, (int _i) => "Year: " + (_i + 10), (float _f) => Mathf.RoundToInt(_f) + "Tons");
        }, .5f);  
        */
+       
   }
   
+  public static void ShowToolTip_Static(string tooltipText, Vector2 anchoredPosition)
+  {
+     instance.ShowToolTip(tooltipText, anchoredPosition);
+  }
+  private void ShowToolTip(string tooltipText, Vector2 anchoredPosition)
+  {
+    tooltipGameObject.SetActive(true);
+    
+    tooltipGameObject.GetComponent<RectTransform>().anchoredPosition = anchoredPosition;
+    Text tooltipUIText = tooltipGameObject.transform.Find("Text").GetComponent<Text>();
+    tooltipUIText.text = tooltipText;
+
+    float textPaddingSize = 4f;
+
+    Vector2 backgroundSize = new Vector2(tooltipUIText.preferredWidth + textPaddingSize * 2f, tooltipUIText.preferredHeight + textPaddingSize * 2f);
+
+    tooltipGameObject.transform.Find("Background").GetComponent<RectTransform>().sizeDelta = backgroundSize;
+    
+    tooltipGameObject.transform.SetAsLastSibling(); //So it shows up on top of graph
+  }
+
+  public static void HideToolTip_Static()
+  {
+    instance.HideToolTip();
+  }
+
+  private void HideToolTip()
+  {
+    tooltipGameObject.SetActive(false);
+  }
+
   private void SetAxisLabelX(Func<int, string> getAxisLabelX)
   {
       ShowGraph(this.valueList, graphVisual, this.maxVisibleValueAmount, getAxisLabelX, this.getAxisLabelY);
@@ -171,6 +211,13 @@ public class WindowGraph : MonoBehaviour
 
       gameObjectList.Clear();
 
+      foreach(IGraphVisualObject graphVisualObject in graphVisualObjectList)
+      {
+        graphVisualObject.CleanUp();
+      }
+
+      graphVisualObjectList.Clear();
+
       float graphHeight = graphContainer.sizeDelta.y;
       float graphWidth = graphContainer.sizeDelta.x;
       
@@ -214,14 +261,16 @@ public class WindowGraph : MonoBehaviour
         float xPosition = xSize + xIndex * xSize;
         float yPosition = ((valueList[i] - yMinimum) / (yMaximum - yMinimum)) * graphHeight; //Nomralise value based off graph container
           
-          gameObjectList.AddRange(graphVisual.AddGraphVisual(new Vector2(xPosition, yPosition), xSize));
+        //Set data point
+        string tooltipText = getAxisLabelY(valueList[i]);
+        graphVisualObjectList.Add(graphVisual.CreateGraphVisualObject(new Vector2(xPosition, yPosition), xSize, tooltipText));
        
         
         //Set up X axis labels for graph values
         RectTransform labelX = Instantiate(labelTemplateX);
         labelX.SetParent(graphContainer, false);
         labelX.gameObject.SetActive(true);
-        labelX.anchoredPosition = new Vector2(xPosition, 0f);
+        labelX.anchoredPosition = new Vector2(xPosition - 5f, 0f);
         labelX.GetComponent<Text>().text = getAxisLabelX(i);
         gameObjectList.Add(labelX.gameObject);
 
@@ -261,9 +310,18 @@ public class WindowGraph : MonoBehaviour
 
    
 private interface IGraphVisual 
-   {
-      List<GameObject> AddGraphVisual(Vector2 graphPosition, float graphPositionWidth);
-   }
+{
+  IGraphVisualObject CreateGraphVisualObject(Vector2 graphPosition, float graphPositionWidth, string tooltipText);
+
+}
+
+
+//A single visual object in the graph
+private interface IGraphVisualObject
+{
+   void SetGraphVisualObjectInfo(Vector2 graphPosition, float graphPositionWidth, string HideToolTip);
+   void CleanUp();
+}   
 
 private class BarChartVisual : IGraphVisual
 {
@@ -280,10 +338,17 @@ private class BarChartVisual : IGraphVisual
       this.barWidthMultiplier = barWidthMultiplier;
    }
 
-   public List<GameObject> AddGraphVisual(Vector2 graphPosition, float graphPositionWidth)
+   public IGraphVisualObject CreateGraphVisualObject(Vector2 graphPosition, float graphPositionWidth, string tooltipText)
    {
       GameObject barGameObject = CreateBar(graphPosition, graphPositionWidth); //Set up bar positions with gap offset
-      return new List<GameObject>() { barGameObject };
+      
+      BarChartVisualObject BarChartVisualObject = new BarChartVisualObject(barGameObject, barWidthMultiplier);
+      BarChartVisualObject.SetGraphVisualObjectInfo(graphPosition, graphPositionWidth, tooltipText);
+      
+
+      
+      return BarChartVisualObject;
+      
    }
    private GameObject CreateBar(Vector2 graphPosition, float barWidth)
    { 
@@ -297,11 +362,49 @@ private class BarChartVisual : IGraphVisual
       rectTransform.anchorMax = new Vector2(0, 0);
       rectTransform.pivot = new Vector2(.5f, 0f);
      
-     
+      //Show tooltip of value when mouse hovers over a bar 
+      Button_UI barButtonUI = gameObject.AddComponent<Button_UI>();
 
       return gameObject;
    }
+   
+      public class BarChartVisualObject : IGraphVisualObject
+      {
+        
+        private GameObject barGameObject;
+        private float barWidthMultiplier;
 
+        public BarChartVisualObject(GameObject barGameObject, float barWidthMultiplier)
+        {
+          this.barGameObject = barGameObject;
+          this.barWidthMultiplier = barWidthMultiplier;
+        }
+        public void SetGraphVisualObjectInfo(Vector2 graphPosition, float graphPositionWidth, string tooltipText)
+        {
+           RectTransform rectTransform = barGameObject.GetComponent<RectTransform>();
+           rectTransform.anchoredPosition = new Vector2(graphPosition.x, 0f);
+           rectTransform.sizeDelta = new Vector2(graphPositionWidth * barWidthMultiplier, graphPosition.y);
+           
+
+           Button_UI barButtonUI = barGameObject.GetComponent<Button_UI>();
+           barButtonUI.MouseOverOnceFunc += () =>
+           {
+             ShowToolTip_Static(tooltipText, graphPosition);
+           };
+      
+          //Hide tooltip
+           barButtonUI.MouseOutOnceFunc += () =>
+           {
+            HideToolTip_Static();
+           };
+      
+          }
+  
+        public void CleanUp()
+        {
+          Destroy(barGameObject);
+        }
+      }
    }
    
 
@@ -323,10 +426,25 @@ private class BarChartVisual : IGraphVisual
         lastDotGameObject = null;
       }
 
-      public List<GameObject> AddGraphVisual(Vector2 graphPosition, float graphPositionWidth)
+      public IGraphVisualObject CreateGraphVisualObject(Vector2 graphPosition, float graphPositionWidth, string tooltipText)
       {
         List<GameObject> gameObjectList = new List<GameObject>();
         GameObject dotGameObject = CreateDot(graphPosition);
+
+        //Show tooltip of value when mouse hovers over a bar 
+        Button_UI dotButtonUI = dotGameObject.AddComponent<Button_UI>();
+
+        dotButtonUI.MouseOverOnceFunc += () =>
+        {
+          ShowToolTip_Static(tooltipText, graphPosition);
+        };
+       
+        //Hide tooltip
+        dotButtonUI.MouseOutOnceFunc += () =>
+        {
+          HideToolTip_Static();
+        };
+        
         gameObjectList.Add(dotGameObject); //Create new list of values to display
         
         
@@ -339,7 +457,7 @@ private class BarChartVisual : IGraphVisual
         }
 
         lastDotGameObject = dotGameObject;
-        return gameObjectList;
+        return null;
       }
 
       private GameObject CreateDot(Vector2 anchoredPosition)
