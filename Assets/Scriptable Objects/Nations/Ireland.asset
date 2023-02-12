@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
-  m_Name: Uk and Ireland
+  m_Name: Ireland
   m_EditorClassIdentifier: 
   Nation_Name: 
   Nations_Territories: []
