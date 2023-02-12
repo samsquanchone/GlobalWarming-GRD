@@ -335,6 +335,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46965419}
   m_CullTransparentMesh: 1
+--- !u!1 &78095818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 78095819}
+  - component: {fileID: 78095820}
+  m_Layer: 0
+  m_Name: Nation (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &78095819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78095818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &78095820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78095818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &86379352
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,6 +748,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91266426}
   m_CullTransparentMesh: 1
+--- !u!1 &97091037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97091038}
+  - component: {fileID: 97091039}
+  m_Layer: 0
+  m_Name: Nation (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &97091038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97091037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &97091039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97091037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &101181245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,6 +2014,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265161335}
   m_CullTransparentMesh: 1
+--- !u!1 &269465318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 269465319}
+  - component: {fileID: 269465320}
+  m_Layer: 0
+  m_Name: Nation (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &269465319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269465318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &269465320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269465318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &284246917
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,6 +2771,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343096676}
   m_CullTransparentMesh: 1
+--- !u!1 &353845382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353845383}
+  - component: {fileID: 353845384}
+  m_Layer: 0
+  m_Name: Nation (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &353845383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353845382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &353845384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353845382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &356124596
 GameObject:
   m_ObjectHideFlags: 0
@@ -3024,6 +3276,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372291488}
   m_CullTransparentMesh: 1
+--- !u!1 &387844294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 387844295}
+  - component: {fileID: 387844296}
+  m_Layer: 0
+  m_Name: Balkhan Minors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &387844295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387844294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &387844296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387844294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: e56c4eb79d496774093a9abfcded091b,
+    type: 2}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+--- !u!1 &410409247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410409248}
+  - component: {fileID: 410409249}
+  m_Layer: 0
+  m_Name: Nation (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410409248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410409247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &410409249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410409247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &424599999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3524,6 +3903,69 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &484785784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484785785}
+  - component: {fileID: 484785786}
+  m_Layer: 0
+  m_Name: Baltic States
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484785785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484785784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &484785786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484785784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &493812035
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,6 +4203,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507126801}
   m_CullTransparentMesh: 1
+--- !u!1 &534623763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534623764}
+  - component: {fileID: 534623765}
+  m_Layer: 0
+  m_Name: Australia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534623764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534623763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534623765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534623763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: 2f29aa64514b0ce40b83dcfcf8bc58e3,
+    type: 2}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &546444346
 GameObject:
   m_ObjectHideFlags: 0
@@ -4333,6 +4839,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562024897}
   m_CullTransparentMesh: 1
+--- !u!1 &566632728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 566632729}
+  - component: {fileID: 566632730}
+  m_Layer: 0
+  m_Name: Nation (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &566632729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566632728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &566632730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566632728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &574463008
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,6 +5517,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640777997}
   m_CullTransparentMesh: 1
+--- !u!1 &666238913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 666238914}
+  - component: {fileID: 666238915}
+  m_Layer: 0
+  m_Name: Bolivia and South American Minors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &666238914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666238913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &666238915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666238913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &670028987
 GameObject:
   m_ObjectHideFlags: 0
@@ -6045,6 +6677,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785346459}
   m_CullTransparentMesh: 1
+--- !u!1 &790358918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790358919}
+  - component: {fileID: 790358920}
+  m_Layer: 0
+  m_Name: Nation (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &790358919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790358918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &790358920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790358918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &792178669
 GameObject:
   m_ObjectHideFlags: 0
@@ -6256,6 +6951,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802198335}
   m_CullTransparentMesh: 1
+--- !u!1 &803042010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 803042011}
+  - component: {fileID: 803042012}
+  m_Layer: 0
+  m_Name: Nation (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &803042011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803042010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &803042012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803042010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &826725036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6737,6 +7495,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893109163}
   m_CullTransparentMesh: 1
+--- !u!1 &898152935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 898152936}
+  - component: {fileID: 898152937}
+  m_Layer: 0
+  m_Name: Nation (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &898152936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898152935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &898152937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898152935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &903131611
 GameObject:
   m_ObjectHideFlags: 0
@@ -7013,6 +7834,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922665635}
   m_CullTransparentMesh: 1
+--- !u!1 &929921406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929921407}
+  - component: {fileID: 929921408}
+  m_Layer: 0
+  m_Name: Nation (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &929921407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929921406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929921408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929921406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &947117652
 GameObject:
   m_ObjectHideFlags: 0
@@ -8346,6 +9230,30 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 916957988}
+  - {fileID: 1320104883}
+  - {fileID: 1528867766}
+  - {fileID: 534623764}
+  - {fileID: 387844295}
+  - {fileID: 484785785}
+  - {fileID: 1459775339}
+  - {fileID: 666238914}
+  - {fileID: 1411116408}
+  - {fileID: 1804863262}
+  - {fileID: 790358919}
+  - {fileID: 1643267569}
+  - {fileID: 1322139616}
+  - {fileID: 803042011}
+  - {fileID: 97091038}
+  - {fileID: 353845383}
+  - {fileID: 1696635461}
+  - {fileID: 410409248}
+  - {fileID: 566632729}
+  - {fileID: 898152936}
+  - {fileID: 1769118527}
+  - {fileID: 78095819}
+  - {fileID: 1627296907}
+  - {fileID: 929921407}
+  - {fileID: 269465319}
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9463,6 +10371,133 @@ Transform:
   m_Father: {fileID: 483372056}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1320104882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1320104883}
+  - component: {fileID: 1320104884}
+  m_Layer: 0
+  m_Name: Afganistan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1320104883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320104882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1320104884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320104882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: 1c206bb7c92570c48b1c2e51be72ab2d,
+    type: 2}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+--- !u!1 &1322139615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1322139616}
+  - component: {fileID: 1322139617}
+  m_Layer: 0
+  m_Name: Nation (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1322139616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322139615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1322139617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322139615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1353304600
 GameObject:
   m_ObjectHideFlags: 0
@@ -9733,6 +10768,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357195496}
   m_CullTransparentMesh: 1
+--- !u!1 &1411116407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1411116408}
+  - component: {fileID: 1411116409}
+  m_Layer: 0
+  m_Name: Brazil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1411116408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411116407}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1411116409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411116407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: 780032e911b95214595b121bb9334450,
+    type: 2}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1421355183
 GameObject:
   m_ObjectHideFlags: 0
@@ -9990,6 +11089,69 @@ Transform:
   m_Father: {fileID: 483372056}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1459775338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1459775339}
+  - component: {fileID: 1459775340}
+  m_Layer: 0
+  m_Name: Beulorussia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1459775339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459775338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1459775340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459775338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1474416090
 GameObject:
   m_ObjectHideFlags: 0
@@ -10798,6 +11960,70 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516985431}
   m_CullTransparentMesh: 1
+--- !u!1 &1528867765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528867766}
+  - component: {fileID: 1528867767}
+  m_Layer: 0
+  m_Name: Argentina
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528867766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528867765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1528867767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528867765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: ee353cb57f4688b42bf0f4062eed0761,
+    type: 2}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1543016317
 GameObject:
   m_ObjectHideFlags: 0
@@ -11516,6 +12742,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616960592}
   m_CullTransparentMesh: 1
+--- !u!1 &1627296906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1627296907}
+  - component: {fileID: 1627296908}
+  m_Layer: 0
+  m_Name: Nation (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1627296907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627296906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1627296908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627296906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1639945315
 GameObject:
   m_ObjectHideFlags: 0
@@ -11651,6 +12940,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639945315}
   m_CullTransparentMesh: 1
+--- !u!1 &1643267568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643267569}
+  - component: {fileID: 1643267570}
+  m_Layer: 0
+  m_Name: Nation (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643267569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643267568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1643267570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643267568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1646753158
 GameObject:
   m_ObjectHideFlags: 0
@@ -11933,6 +13285,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691243354}
   m_CullTransparentMesh: 1
+--- !u!1 &1696635460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1696635461}
+  - component: {fileID: 1696635462}
+  m_Layer: 0
+  m_Name: Nation (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1696635461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696635460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696635462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696635460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1708389090
 GameObject:
   m_ObjectHideFlags: 0
@@ -12635,6 +14050,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767149731}
   m_CullTransparentMesh: 1
+--- !u!1 &1769118526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1769118527}
+  - component: {fileID: 1769118528}
+  m_Layer: 0
+  m_Name: Nation (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1769118527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769118526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1769118528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769118526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1775714896
 GameObject:
   m_ObjectHideFlags: 0
@@ -13194,6 +14672,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801651079}
   m_CullTransparentMesh: 1
+--- !u!1 &1804863261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804863262}
+  - component: {fileID: 1804863263}
+  m_Layer: 0
+  m_Name: Nation (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1804863262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804863261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1804863263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804863261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 0}
+  Nations_Territories: []
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1826541488
 GameObject:
   m_ObjectHideFlags: 0
