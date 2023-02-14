@@ -218,6 +218,8 @@ public class WindowGraph : MonoBehaviour
 
       graphVisualObjectList.Clear();
 
+      graphVisual.CleanUp();
+
       float graphHeight = graphContainer.sizeDelta.y;
       float graphWidth = graphContainer.sizeDelta.x;
       
@@ -312,7 +314,7 @@ public class WindowGraph : MonoBehaviour
 private interface IGraphVisual 
 {
   IGraphVisualObject CreateGraphVisualObject(Vector2 graphPosition, float graphPositionWidth, string tooltipText);
-
+  void CleanUp();
 }
 
 
@@ -337,6 +339,9 @@ private class BarChartVisual : IGraphVisual
       this.barColor = barColor;
       this.barWidthMultiplier = barWidthMultiplier;
    }
+
+    public void CleanUp() {
+        }
 
    public IGraphVisualObject CreateGraphVisualObject(Vector2 graphPosition, float graphPositionWidth, string tooltipText)
    {
@@ -412,7 +417,8 @@ private class BarChartVisual : IGraphVisual
    {
       private RectTransform graphContainer;
       private Sprite dotSprite;
-      private GameObject lastDotGameObject;
+      private LineGraphVisualObject lastLineGraphVisualObject;
+      //private GameObject lastDotGameObject;
       private Color dotColor;
       private Color dotConnectionColor;
      
@@ -423,41 +429,41 @@ private class BarChartVisual : IGraphVisual
         this.dotSprite = dotSprite;
         this.dotColor = dotColor;
         this.dotConnectionColor = dotConnectionColor;
-        lastDotGameObject = null;
+        lastLineGraphVisualObject = null;
       }
+
+      public void CleanUp() {
+            lastLineGraphVisualObject = null;
+        }
 
       public IGraphVisualObject CreateGraphVisualObject(Vector2 graphPosition, float graphPositionWidth, string tooltipText)
       {
         List<GameObject> gameObjectList = new List<GameObject>();
         GameObject dotGameObject = CreateDot(graphPosition);
-
-        //Show tooltip of value when mouse hovers over a bar 
-        Button_UI dotButtonUI = dotGameObject.AddComponent<Button_UI>();
-
-        dotButtonUI.MouseOverOnceFunc += () =>
-        {
-          ShowToolTip_Static(tooltipText, graphPosition);
-        };
-       
-        //Hide tooltip
-        dotButtonUI.MouseOutOnceFunc += () =>
-        {
-          HideToolTip_Static();
-        };
+        
+        
+  
         
         gameObjectList.Add(dotGameObject); //Create new list of values to display
-        
+        GameObject dotConnectionGameObject = null;
         
         //Check if circle has been placed previously and draw line to new point
-        if(lastDotGameObject != null)
+        if(lastLineGraphVisualObject != null)
         {
-            GameObject dotConnectionGameObject = CreateDotConnection(lastDotGameObject.GetComponent<RectTransform>().anchoredPosition, dotGameObject.GetComponent<RectTransform>().anchoredPosition);
+            dotConnectionGameObject = CreateDotConnection(lastLineGraphVisualObject.GetGraphPosition(), dotGameObject.GetComponent<RectTransform>().anchoredPosition);
             gameObjectList.Add(dotConnectionGameObject);
             
         }
 
-        lastDotGameObject = dotGameObject;
-        return null;
+        
+
+        LineGraphVisualObject lineGraphVisualObject = new LineGraphVisualObject(dotGameObject, dotConnectionGameObject, lastLineGraphVisualObject);
+        
+        lineGraphVisualObject.SetGraphVisualObjectInfo(graphPosition, graphPositionWidth, tooltipText);
+        
+        lastLineGraphVisualObject = lineGraphVisualObject;
+
+        return lineGraphVisualObject;
       }
 
       private GameObject CreateDot(Vector2 anchoredPosition)
@@ -471,6 +477,9 @@ private class BarChartVisual : IGraphVisual
         rectTransform.sizeDelta = new Vector2(5, 5);
         rectTransform.anchorMin = new Vector2(0, 0);
         rectTransform.anchorMax = new Vector2(0, 0);
+
+         //Show tooltip of value when mouse hovers over a bar 
+        Button_UI dotButtonUI = gameObject.AddComponent<Button_UI>();
 
         return gameObject;
       }
@@ -490,6 +499,87 @@ private class BarChartVisual : IGraphVisual
          rectTransform.localEulerAngles = new Vector3(0, 0, HelperFunctions.GetAngleFromVectorFloat(dir)); //Rotate line towards direction
 
          return gameObject;
+      }
+
+      public class LineGraphVisualObject : IGraphVisualObject
+      {
+          public event EventHandler OnChangedGraphVisualObjectInfo;
+          private GameObject dotGameObject; 
+          private GameObject dotConnectionGameObject;
+          private LineGraphVisualObject lastVisualObject;
+
+        public LineGraphVisualObject(GameObject dotGameObject, GameObject dotConnectionGameObject, LineGraphVisualObject lastVisualObject)
+        {
+          
+           this.dotGameObject = dotGameObject;
+           this.dotConnectionGameObject = dotConnectionGameObject;
+           this.lastVisualObject = lastVisualObject;
+           
+           
+           if(lastVisualObject != null)
+           {
+              lastVisualObject.OnChangedGraphVisualObjectInfo += LastVisualObject_OnChangedGraphVisualObjectInfo;
+           }
+          
+        }
+        
+        private void LastVisualObject_OnChangedGraphVisualObjectInfo(object sender, EventArgs e)
+        {
+           UpdateDotConnection();
+        }
+        public void SetGraphVisualObjectInfo(Vector2 graphPosition, float graphPositionWidth, string tooltipText)
+        {
+           RectTransform rectTransform = dotGameObject.GetComponent<RectTransform>();
+           rectTransform.anchoredPosition = graphPosition;
+
+          
+           UpdateDotConnection();
+           
+           Button_UI dotButtonUI = dotGameObject.GetComponent<Button_UI>();
+
+           dotButtonUI.MouseOverOnceFunc += () =>
+           {
+             ShowToolTip_Static(tooltipText, graphPosition);
+           };
+       
+           //Hide tooltip
+          dotButtonUI.MouseOutOnceFunc += () =>
+          {
+            HideToolTip_Static();
+          };
+
+           if(OnChangedGraphVisualObjectInfo != null) OnChangedGraphVisualObjectInfo(this, EventArgs.Empty);
+           
+              
+          
+        }
+        public void CleanUp()
+        {
+          Destroy(dotGameObject);
+          Destroy(dotConnectionGameObject);
+        }
+
+        public Vector2 GetGraphPosition()
+        {
+          RectTransform rectTransform = dotGameObject.GetComponent<RectTransform>();
+          
+          return rectTransform.anchoredPosition;
+        }
+
+        private void UpdateDotConnection()
+        {
+           if(dotConnectionGameObject != null)
+           {
+              RectTransform dotConnectionRectTransform = dotConnectionGameObject.GetComponent<RectTransform>();
+              Vector2 dir = (lastVisualObject.GetGraphPosition() - GetGraphPosition()).normalized;
+              float distance = Vector2.Distance(GetGraphPosition(), lastVisualObject.GetGraphPosition());
+              dotConnectionRectTransform.sizeDelta = new Vector2(distance, 3f);
+              dotConnectionRectTransform.anchoredPosition = GetGraphPosition() + dir * distance * .5f;
+              dotConnectionRectTransform.localEulerAngles = new Vector3(0, 0, HelperFunctions.GetAngleFromVectorFloat(dir));
+
+           }
+        }
+
       }
    }
 }
