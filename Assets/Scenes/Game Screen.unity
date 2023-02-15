@@ -11666,7 +11666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 1c206bb7c92570c48b1c2e51be72ab2d,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8714737999196500446}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0

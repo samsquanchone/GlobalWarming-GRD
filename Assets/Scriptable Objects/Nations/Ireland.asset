@@ -16,7 +16,7 @@ MonoBehaviour:
   Nations_Territories: []
   Nation_Colour:
     serializedVersion: 2
-    rgba: 0
+    rgba: 4286115428
   GDP: 0
   Cumilative_Population_From_Territories: 0
   Starting_Population: 0
