@@ -169,7 +169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 03afbdf7020bad04c9ec99bb8ff83504,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8274305174409095636}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -233,7 +234,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 200dfc7f928ebae43b313df17e9745bf,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 7403467953013185055}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -474,7 +476,7 @@ GameObject:
   - component: {fileID: 62262954}
   - component: {fileID: 62262955}
   m_Layer: 0
-  m_Name: South America
+  m_Name: Uruguay and Paraguay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,7 +511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 90553d6603ffd584d9b62cd689b4e0fa,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 6819261278057603371}
+  - {fileID: 7798638357756343197}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -571,8 +575,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 73708725049c31d4d874b8890d3e49d1,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 6304757834275863099}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -984,8 +990,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: f1aa244cfe914544f989c7b3aacec117,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8799719928825325073}
+  - {fileID: 8935731875182330731}
+  - {fileID: 8426162239799329245}
+  - {fileID: 8283813876826225306}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -1393,8 +1404,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: e6fe3498aa3f35c4cb0a6e6ba6a33f9f,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 9203952220224397338}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -2313,8 +2326,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 05855aa07cc3de848ba490a54fac5b5f,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 9055679164459040573}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -3070,8 +3085,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 78d072e3f3ede974383922ac3c3a5771,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 2780625372592657050}
+  - {fileID: 7890620488545002833}
+  - {fileID: 8050968835948256909}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -3577,7 +3596,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 92e3663962509d847be95cabb0b16c14,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8754354336780202138}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -3641,7 +3661,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e56c4eb79d496774093a9abfcded091b,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 4027076389896171357}
+  - {fileID: 9009060915856824429}
+  - {fileID: 7722169636882485252}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -3703,8 +3726,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: ed2d30a146b76ab4f8dd44a1573eb47d,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8301062526844017246}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -3903,7 +3928,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 4f908eb3844127c45924f8a2ba3978df,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8789089806572572999}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -4330,8 +4356,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: c0716fff84c9b924b8f4b2e1e96f5e3c,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8070491155156286928}
+  - {fileID: 9106910290284556875}
+  - {fileID: 7808502603781505737}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -4497,7 +4527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 6b283bc9e5004fe47b143a58989b0e13,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8867397393231603002}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -4696,7 +4727,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2f29aa64514b0ce40b83dcfcf8bc58e3,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8742910664235172416}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -4760,7 +4792,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: a4011e857b880224db228ede84d25d31,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 1652871244542334514}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -5396,7 +5429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: b8f80baba80927e4aa1a4bcb585c506b,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 4860118865986438775}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -5460,7 +5494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9c91f4872f5caf141921a3bb373e1432,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 4841073627240781376}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -5522,8 +5557,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 9b6c04ada3048254db157461c09fd98a,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 7165849847351635839}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -5585,8 +5622,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: f1af49462cb9ef04490bb4fc98ab4203,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8874446792680002710}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -6263,8 +6302,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: dc367c4c4da095a49a13cfe5dd11e89c,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8947397282871930245}
+  - {fileID: 7910164486191454793}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -7083,7 +7125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 7c7c53ea964ef944e8934671eab0666a,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8863284069982145048}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -7230,7 +7273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 3453f8f44974b6842a9bbdfb388afdb5,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 7271061884136023950}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -7551,8 +7595,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: ab1188240e442474f90130424c978a0c,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8687270170963502904}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -7825,8 +7871,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 8edfda6c7dfe96c459e59fdd50b1319b,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8604869484763951535}
+  - {fileID: 8719946838613098012}
+  - {fileID: 7665679274628411837}
+  - {fileID: 8645039824371752162}
+  - {fileID: 9088025007546148317}
+  - {fileID: 9124615928599291026}
+  - {fileID: 7545184757162388792}
+  - {fileID: 6730613608896685951}
+  - {fileID: 6268495691802788656}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -8371,7 +8427,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 26fb07942d249b7468eb52a57612ee8b,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8620110766209041314}
+  - {fileID: 8050093662301957443}
+  - {fileID: 5894731859362788567}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -8433,8 +8492,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 607bf01c7a79c2342bdbce2fbb00ac0f,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8616525648149928827}
+  - {fileID: 7667907696503392894}
+  - {fileID: 7681213382034498825}
+  - {fileID: 8955261909131503177}
+  - {fileID: 8847085882101398209}
+  - {fileID: 8849675240222751256}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -8772,8 +8838,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 0cd0122c59ac8c844b84b2edf8282195,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 9040970354201443525}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -8987,6 +9055,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969187973}
   m_CullTransparentMesh: 1
+--- !u!1 &980211574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980211575}
+  - component: {fileID: 980211576}
+  m_Layer: 0
+  m_Name: Portugal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &980211575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980211574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &980211576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980211574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: 35f5752501d142a409433c237a21e696,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 6293469048604546796}
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &986679324
 GameObject:
   m_ObjectHideFlags: 0
@@ -9511,7 +9644,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2505d8e020ffb534da3577fd16d7d950,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 6728197544843027387}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -9851,7 +9985,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d3c65178bb4bb0f45a9d828f71b0e81c,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 7036350362976640727}
+  - {fileID: 8827926007078339087}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -10117,7 +10253,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: be9ae33528c274d4790c07bffc2ac207,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 6871873603908281464}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -10375,9 +10512,79 @@ Transform:
   - {fileID: 1229411064}
   - {fileID: 765834343}
   - {fileID: 2054473570}
+  - {fileID: 980211575}
+  - {fileID: 1421295162}
+  - {fileID: 1209217987}
+  - {fileID: 1645372292}
+  - {fileID: 1665253024}
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1209217986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1209217987}
+  - component: {fileID: 1209217988}
+  m_Layer: 0
+  m_Name: India
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1209217987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209217986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1209217988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209217986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: 81eee2583b072c14c83532664d689786,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 7216831413281448421}
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1223257403
 GameObject:
   m_ObjectHideFlags: 0
@@ -10424,7 +10631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e625c9d84adb6484593c812ac4ae2f1b,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 9212487939696372571}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -10488,7 +10696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d60772f3ae35b1a4b99cd90a4e1090f4,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8436869925962931881}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -11729,8 +11938,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 987d71dd37537804dbdf274b6ad4e855,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 5530195323722410097}
+  - {fileID: 8381364801093561705}
+  - {fileID: 9074487549218873391}
+  - {fileID: 6777782038229338666}
+  - {fileID: 7301364739028027791}
+  - {fileID: 7796874748637135522}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -11794,7 +12010,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: f779b9838ebc5b74f9c7fa5e4a20ad30,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8639667045912848066}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -12128,7 +12345,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 792191dfe36f40a4999b227abb17cb97,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 9181962916246459591}
+  - {fileID: 7154126648499966792}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -12192,7 +12411,73 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 780032e911b95214595b121bb9334450,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 6815599906220972267}
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+--- !u!1 &1421295161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1421295162}
+  - component: {fileID: 1421295163}
+  m_Layer: 0
+  m_Name: Spain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1421295162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421295161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1421295163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421295161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: 9c1a7f8c596fdeb49b46b93402db9e90,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 9155106428558529356}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -12511,8 +12796,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: ef75c358f28a1834caf2bd92d49faf3b,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8669568566491933447}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -13250,7 +13537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: a40d0ed34bb0ec149a13caf1f7228fc1,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 6083754517341329449}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -13448,7 +13736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ee353cb57f4688b42bf0f4062eed0761,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 3792231438100692058}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -14228,8 +14517,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 9ce5ad83e4eca3a4aaeb0bdeef80b125,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8696216555861796935}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -14426,8 +14717,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: ccbb2f5951db5e744a214b06d24f535d,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8892653029837630189}
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
+--- !u!1 &1645372291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645372292}
+  - component: {fileID: 1645372293}
+  m_Layer: 0
+  m_Name: South Africa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1645372292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645372291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1645372293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645372291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: ee424059f7457be489798d942c729ed0,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 6309083694054995343}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -14642,6 +15000,73 @@ MonoBehaviour:
   objectData3: {fileID: 1801651081}
   objectData4: {fileID: 91266428}
   objectData5: {fileID: 0}
+--- !u!1 &1665253023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1665253024}
+  - component: {fileID: 1665253025}
+  m_Layer: 0
+  m_Name: South African Minors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1665253024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665253023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194821539}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1665253025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665253023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attached_Nations_Data: {fileID: 11400000, guid: ec324566d92304647b2b8c1d567c17f1,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 7080035211496516198}
+  - {fileID: 8787788099430083400}
+  - {fileID: 6132505612376452336}
+  Woodland_Count: 0
+  Starting_Population: 0
+  Cumilative_Population_From_Territories: 0
+  GDP_Contribution: 0
+  Nation_Name: 
+  Nation_Colour:
+    serializedVersion: 2
+    rgba: 0
+  GDP: 0
+  Awareness: 0
+  National_Pykerete_Production: 0
+  LEVEL_1_Lumbermill_Factory_Count: 0
+  LEVEL_2_Lumbermill_Factory_Count: 0
+  LEVEL_3_Lumbermill_Factory_Count: 0
+  LEVEL_1_Tera_Factory_Count: 0
+  LEVEL_2_Tera_Factory_Count: 0
+  LEVEL_3_Tera_Factory_Count: 0
 --- !u!1 &1691243354
 GameObject:
   m_ObjectHideFlags: 0
@@ -14771,8 +15196,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: e79b9b1d83d825741a479f63af185f6c,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8270835633212527705}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -14971,7 +15398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 5c3f5d8f75097254aab2f6a5223da5b1,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8694915824140822446}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -15388,8 +15816,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 8f3b323e62697bc4d821db8fe68c6a33,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 7401814321479983519}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -15663,8 +16093,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: adc67ccc08bcd3741ae2a45f49deae48,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8618840745855796305}
+  - {fileID: 8574446679631175412}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -16285,8 +16718,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: fb2eda86a43feb747b2e4f8564aabee8,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8821042139119670784}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -16467,12 +16902,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 166525114852383808}
+  - {fileID: 6486794175241956850}
+  - {fileID: 2144669749033467768}
   - {fileID: 4740668322088260018}
   - {fileID: 6228954983613633927}
   - {fileID: 8126072153765149435}
+  - {fileID: 6275355966678586413}
+  - {fileID: 8284788516100703833}
+  - {fileID: 8221119057756666554}
+  - {fileID: 7713609288188911052}
   - {fileID: 4641635657648637495}
-  - {fileID: 4348200247701978358}
   - {fileID: 8886778108280145835}
+  - {fileID: 4348200247701978358}
   - {fileID: 2248548540451954742}
   - {fileID: 2135787019561907930}
   - {fileID: 2489265997930356161}
@@ -16488,6 +16930,13 @@ Transform:
   - {fileID: 4317465232183677457}
   - {fileID: 2310868734490103584}
   - {fileID: 1744663175956526024}
+  - {fileID: 6130443043849726868}
+  - {fileID: 5244526108433941417}
+  - {fileID: 1738340528499255761}
+  - {fileID: 6046258967509933526}
+  - {fileID: 6306611677671959295}
+  - {fileID: 679433467171618639}
+  - {fileID: 7827723393980941112}
   - {fileID: 4051482087708809604}
   - {fileID: 3729534565609877564}
   - {fileID: 2893373266401935154}
@@ -16498,6 +16947,11 @@ Transform:
   - {fileID: 7301127989476621752}
   - {fileID: 3733839768773897877}
   - {fileID: 6767262767749322450}
+  - {fileID: 1754694458684263212}
+  - {fileID: 1405706960138520519}
+  - {fileID: 2718755293581300182}
+  - {fileID: 1926530838547165773}
+  - {fileID: 4145597791244738045}
   - {fileID: 2412236104476107869}
   - {fileID: 7302070484685844186}
   - {fileID: 6692445117139288969}
@@ -16571,6 +17025,10 @@ Transform:
   - {fileID: 4098537565932905849}
   - {fileID: 3497811097103919513}
   - {fileID: 826260842395098652}
+  - {fileID: 7582674077699881698}
+  - {fileID: 7190226765039027985}
+  - {fileID: 4688442098531856899}
+  - {fileID: 8842193270061621053}
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17151,7 +17609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ffadc763c20850647bade3a8cba46aaa,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 7937995552845565581}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -17215,7 +17674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 213c167651fcbf3488a5b817c1e42389,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 7041851383944771753}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -17279,7 +17739,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 42917423d874ac740877e5d135f1b523,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8775937737764271371}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -18584,7 +19045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: c0404df07c2c83a4e8b70589f20ab329,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8294853208973340167}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -18648,7 +19110,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 07e16463cd432a94d820d0835759feed,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 4985955443313829043}
+  - {fileID: 8447293596163681883}
+  - {fileID: 3183927384444060405}
+  - {fileID: 5941622485233388587}
+  - {fileID: 8414455666200486018}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -18712,7 +19179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2e4236ed34fad7547b048f3e858f975e,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8329452962616678296}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -18853,7 +19321,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: b1ee43231936c204cbd17f5cfd1901d5,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 7123413180167446139}
+  - {fileID: 6152735861789147211}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -19144,7 +19614,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0134a4351fdb41b438d1ede22dc9f04b,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 8074795972161844797}
+  - {fileID: 7651471114711152508}
+  - {fileID: 8880448629240728907}
+  - {fileID: 6763439537220670325}
+  - {fileID: 8198161660207551836}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -19208,7 +19683,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0ae17accc8792f5409197aeb5639c3c7,
     type: 2}
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 9133583001655314864}
+  - {fileID: 8871621783304910227}
+  - {fileID: 6506496685253598449}
+  - {fileID: 7496735797668509374}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -19346,8 +19825,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 05cb6cec122d8ca4280e81baf2d275f9,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 7882744642201910355}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -19485,8 +19966,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 0}
-  Nations_Territories: []
+  Attached_Nations_Data: {fileID: 11400000, guid: 29a20836575cc8646b87032113ca9d4f,
+    type: 2}
+  Nations_Territories:
+  - {fileID: 8777030510935413493}
+  - {fileID: 7485385829451455600}
+  - {fileID: 7182260763926276924}
   Woodland_Count: 0
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
@@ -19690,7 +20175,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8842193270061621053}
-  - component: {fileID: 8842193270061621060}
   - component: {fileID: 83522356441638253}
   - component: {fileID: 2696125814743437241}
   - component: {fileID: 8842193270061621056}
@@ -20171,12 +20655,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3371579296949912615}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &173126129730811735
@@ -20570,7 +21054,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21498,12 +21982,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3485320549313017613}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &682624431623821944
@@ -22117,7 +22601,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1754694458684263212}
-  - component: {fileID: 8200437678987357575}
   - component: {fileID: 8200437678987357568}
   - component: {fileID: 2105775813999355873}
   - component: {fileID: 8200437678987357571}
@@ -22155,7 +22638,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6046258967509933526}
-  - component: {fileID: 9066168642713432279}
   - component: {fileID: 9066168642713432272}
   - component: {fileID: 4861311355604491773}
   - component: {fileID: 9066168642713432275}
@@ -22178,7 +22660,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1926530838547165773}
-  - component: {fileID: 7353068747190365402}
   - component: {fileID: 7353068747190365395}
   - component: {fileID: 2839556367551914160}
   - component: {fileID: 7353068747190365398}
@@ -23224,7 +23705,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7190226765039027985}
-  - component: {fileID: 7190226765039027992}
   - component: {fileID: 5268022899511115956}
   - component: {fileID: 293850669191049874}
   - component: {fileID: 7190226765039027988}
@@ -23253,12 +23733,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3880852010201582958}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1413061378170385869
@@ -24116,12 +24596,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4882871225814254166}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1741196182602744664
@@ -24216,12 +24696,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025305783993779033}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1776252798582270690
@@ -24307,7 +24787,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8221119057756666554}
-  - component: {fileID: 8221119057756666561}
   - component: {fileID: 4331218750962872555}
   - component: {fileID: 4807971664484706080}
   - component: {fileID: 8221119057756666557}
@@ -24666,12 +25145,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087595324860307852}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1926656806159457425
@@ -25569,7 +26048,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25686,12 +26165,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4630845504581708511}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2157975661964243131
@@ -26127,7 +26606,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6486794175241956850}
-  - component: {fileID: 8775635167486397531}
   - component: {fileID: 6977889453087611750}
   - component: {fileID: 8775635167486397524}
   - component: {fileID: 8775635167486397527}
@@ -26863,7 +27341,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26892,12 +27370,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5896477110802864551}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2743257507147183076
@@ -27366,7 +27844,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27885,7 +28363,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4688442098531856899}
-  - component: {fileID: 9034911747716224932}
   - component: {fileID: 1815536814368374945}
   - component: {fileID: 9034911747716224925}
   - component: {fileID: 9034911747716224928}
@@ -28546,7 +29023,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28890,7 +29367,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8284788516100703833}
-  - component: {fileID: 8351915704908756553}
   - component: {fileID: 2406296377133045228}
   - component: {fileID: 8351915704908756546}
   - component: {fileID: 8351915704908756549}
@@ -28936,7 +29412,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7713609288188911052}
-  - component: {fileID: 7796286682379257566}
   - component: {fileID: 7796286682379257559}
   - component: {fileID: 7521177976923320137}
   - component: {fileID: 7796286682379257562}
@@ -29009,7 +29484,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 166525114852383808}
-  - component: {fileID: 6949878102255397577}
   - component: {fileID: 1357285059034857843}
   - component: {fileID: 6949878102255397570}
   - component: {fileID: 6949878102255397573}
@@ -29289,7 +29763,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 679433467171618639}
-  - component: {fileID: 7214398160924398483}
   - component: {fileID: 7214398160924398476}
   - component: {fileID: 5501951593284248304}
   - component: {fileID: 7214398160924398479}
@@ -30209,7 +30682,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1405706960138520519}
-  - component: {fileID: 8850751723128152246}
   - component: {fileID: 7752877273986639475}
   - component: {fileID: 8850751723128152239}
   - component: {fileID: 8850751723128152242}
@@ -30557,7 +31029,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6306611677671959295}
-  - component: {fileID: 8859062630793652459}
   - component: {fileID: 5923827685036903377}
   - component: {fileID: 8859062630793652452}
   - component: {fileID: 8859062630793652455}
@@ -31102,12 +31573,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8475381975172255675}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4145706269860082629
@@ -32023,7 +32494,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32268,7 +32739,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6130443043849726868}
-  - component: {fileID: 7126125292757313464}
   - component: {fileID: 4803630020225635596}
   - component: {fileID: 7126125292757313457}
   - component: {fileID: 7126125292757313460}
@@ -32748,7 +33218,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2144669749033467768}
-  - component: {fileID: 8879716229924766706}
   - component: {fileID: 8879716229924766699}
   - component: {fileID: 4333125281079083635}
   - component: {fileID: 8879716229924766702}
@@ -32899,12 +33368,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3111851632606250401}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &4696024390514228149
@@ -33224,7 +33693,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33609,7 +34078,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33670,7 +34139,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738340528499255761}
-  - component: {fileID: 7385627793724909288}
   - component: {fileID: 6783970093699557691}
   - component: {fileID: 7385627793724909281}
   - component: {fileID: 7385627793724909284}
@@ -33770,7 +34238,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7827723393980941112}
-  - component: {fileID: 7827723393980941119}
   - component: {fileID: 7379605104654485092}
   - component: {fileID: 5513280676141824146}
   - component: {fileID: 7827723393980941115}
@@ -34604,7 +35071,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34654,17 +35121,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5700121931311356603}
-  - {fileID: 6130443043849726868}
   - {fileID: 5014402590483301883}
   - {fileID: 5217827154516003833}
   - {fileID: 965409212724036340}
-  - {fileID: 6275355966678586413}
   - {fileID: 6757444895196280870}
   - {fileID: 1239702136138231761}
-  - {fileID: 8284788516100703833}
-  - {fileID: 7582674077699881698}
   - {fileID: 1581946506644378157}
   - {fileID: 6542959971091593487}
+  - {fileID: 5921821291219360636}
+  - {fileID: 6659841967608835846}
   - {fileID: 8947397282871930238}
   - {fileID: 424039272218636302}
   - {fileID: 5901547307595029492}
@@ -34674,13 +35139,11 @@ Transform:
   - {fileID: 1626716377468670611}
   - {fileID: 4985955443313829036}
   - {fileID: 7306923110027296953}
-  - {fileID: 1754694458684263212}
   - {fileID: 8270835633212527698}
   - {fileID: 1954797328611248665}
   - {fileID: 6889878129452928636}
   - {fileID: 2181712370115009447}
   - {fileID: 4995095884803730006}
-  - {fileID: 5244526108433941417}
   - {fileID: 173126129730811735}
   - {fileID: 2813128830522986}
   - {fileID: 3183927384444060398}
@@ -34695,16 +35158,13 @@ Transform:
   - {fileID: 7260826911825282096}
   - {fileID: 1956129006884998912}
   - {fileID: 2747166712959774416}
-  - {fileID: 166525114852383808}
   - {fileID: 3521993256418058615}
-  - {fileID: 8221119057756666554}
   - {fileID: 8631633948132325027}
   - {fileID: 4587694672180737859}
   - {fileID: 4413211523945292746}
   - {fileID: 3732284524084813690}
   - {fileID: 5586030046006464327}
   - {fileID: 1347094095292926049}
-  - {fileID: 6486794175241956850}
   - {fileID: 9124615928599291019}
   - {fileID: 2110989796612588224}
   - {fileID: 9009060915856824422}
@@ -34715,12 +35175,10 @@ Transform:
   - {fileID: 7271061884136023943}
   - {fileID: 1916879248818053045}
   - {fileID: 2786903718987524222}
-  - {fileID: 7190226765039027985}
   - {fileID: 4280952494134838185}
   - {fileID: 4871356031657754059}
   - {fileID: 5051320325759738198}
   - {fileID: 2642950844821922762}
-  - {fileID: 1738340528499255761}
   - {fileID: 8799719928825325066}
   - {fileID: 3446724752835021356}
   - {fileID: 8189670832994696959}
@@ -34728,13 +35186,9 @@ Transform:
   - {fileID: 6777782038229338659}
   - {fileID: 8605552649744811191}
   - {fileID: 5505861101862440383}
-  - {fileID: 8842193270061621053}
   - {fileID: 3438832433198141045}
   - {fileID: 8694915824140822439}
-  - {fileID: 1405706960138520519}
-  - {fileID: 2718755293581300182}
   - {fileID: 6728197544843027380}
-  - {fileID: 6046258967509933526}
   - {fileID: 7937995552845565574}
   - {fileID: 2456582756372763836}
   - {fileID: 7681213382034498818}
@@ -34743,7 +35197,6 @@ Transform:
   - {fileID: 3906738819169324089}
   - {fileID: 8294853208973340160}
   - {fileID: 448612233641807158}
-  - {fileID: 1926530838547165773}
   - {fileID: 4882387146914501338}
   - {fileID: 6634659976894203251}
   - {fileID: 6913478946204874704}
@@ -34751,28 +35204,20 @@ Transform:
   - {fileID: 3914956808958961597}
   - {fileID: 2273181733857281236}
   - {fileID: 8867397393231602995}
-  - {fileID: 5921821291219360636}
   - {fileID: 3594751841404903910}
   - {fileID: 4883231860044944614}
   - {fileID: 4595419523594597178}
   - {fileID: 6293469048604546789}
-  - {fileID: 4688442098531856899}
   - {fileID: 1322780720090654348}
-  - {fileID: 6306611677671959295}
   - {fileID: 6143792174998192992}
   - {fileID: 1454956345641324624}
   - {fileID: 5729904641182659638}
   - {fileID: 3705500344102961491}
   - {fileID: 4194509476319694735}
   - {fileID: 5579593916854684623}
-  - {fileID: 679433467171618639}
-  - {fileID: 7827723393980941112}
   - {fileID: 5894731859362788560}
   - {fileID: 1367369556575755163}
   - {fileID: 2811396866282669560}
-  - {fileID: 7713609288188911052}
-  - {fileID: 4145597791244738045}
-  - {fileID: 2144669749033467768}
   - {fileID: 5523586067885181563}
   - {fileID: 2512137943426932959}
   - {fileID: 8198161660207551829}
@@ -34786,7 +35231,6 @@ Transform:
   - {fileID: 596282149332581532}
   - {fileID: 627474868748189520}
   - {fileID: 2970704633694846461}
-  - {fileID: 6659841967608835846}
   - {fileID: 3780815586657671668}
   - {fileID: 5526820737575269588}
   - {fileID: 1100159976273325596}
@@ -34860,12 +35304,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5474755858825821207}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5268022899511115956
@@ -35131,7 +35575,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35373,7 +35817,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5244526108433941417}
-  - component: {fileID: 7965196910648751495}
   - component: {fileID: 7965196910648751488}
   - component: {fileID: 5205026515355554561}
   - component: {fileID: 7965196910648751491}
@@ -35464,7 +35907,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35521,7 +35964,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36473,7 +36916,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2718755293581300182}
-  - component: {fileID: 8046449532932807522}
   - component: {fileID: 4030805454588489399}
   - component: {fileID: 8046449532932807515}
   - component: {fileID: 8046449532932807518}
@@ -36635,8 +37077,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3149397281645652809}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36944,12 +37386,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062777127585525273}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &6051354406923867840
@@ -37003,7 +37445,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7582674077699881698}
-  - component: {fileID: 8288545572337839823}
   - component: {fileID: 8288545572337839816}
   - component: {fileID: 3188829054488382047}
   - component: {fileID: 8288545572337839819}
@@ -37250,12 +37691,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4388706289623015652}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6132505612376452329
@@ -37781,12 +38222,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7394189251523576473}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73521, z: -0.06386305}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6293469048604546789
@@ -37992,12 +38433,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3973814146307187172}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6308467707664782424
@@ -38445,12 +38886,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2357809340939810327}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6494014592632718855
@@ -38968,8 +39409,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7798638357756343190}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40351,7 +40792,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -40415,35 +40856,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &6949878102255397577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3371579296949912615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 2149e7d4ade6c464c9c22b02ab8055bc,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &6949878102255397578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41242,7 +41654,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41306,35 +41718,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7126125292757313464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4388706289623015652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 0d65fabc2440de84bbca6f7da4229157,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7126125292757313465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41977,12 +42360,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395568841643437554}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7190226765039027988
@@ -42027,35 +42410,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7190226765039027992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395568841643437554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: dbb8419f1b4126a44b9a6d8747c17998,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7190226765039027993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42088,7 +42442,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -42217,35 +42571,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7214398160924398483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3485320549313017613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 633d0790db7b6ff44b8c56143dafa933,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7214398160924398484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42790,35 +43115,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7353068747190365402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087595324860307852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 0f4559a6ccb9bcc4cb17d111b6184e02,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7353068747190365403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42958,7 +43254,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43022,35 +43318,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7385627793724909288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4882871225814254166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: fd7a72a8b7d9108448ade09ea46caeba,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7385627793724909289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43106,7 +43373,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6275355966678586413}
-  - component: {fileID: 7394189251523576480}
   - component: {fileID: 3192156253829678558}
   - component: {fileID: 7190828312962339855}
   - component: {fileID: 7394189251523576476}
@@ -43162,35 +43428,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7394189251523576480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7394189251523576473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 1605f5e7405f2674e9f093deaf7230c1,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7394189251523576481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43940,7 +44177,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -44241,12 +44478,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6051467829862716779}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &7585653713112994283
@@ -45088,12 +45325,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3340792331838275724}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73521, z: -0.06386305}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7716902783493816559
@@ -45408,35 +45645,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7796286682379257566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3340792331838275724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 61ae901964e21474c8ed0ffb6c6ebcf8,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7796286682379257567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45894,12 +46102,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4904348642963218611}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7827723393980941115
@@ -45944,35 +46152,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7827723393980941119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4904348642963218611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: e08376e05d5f2c14897e16605d423e38,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7827723393980941120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46784,35 +46963,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &7965196910648751495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5474755858825821207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: c0e729e8e58c489459e20929611bfdf0,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &7965196910648751496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46984,7 +47134,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47048,35 +47198,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8046449532932807522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5896477110802864551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: d19de537fd10e8643982b9ea3599e574,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8046449532932807523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48259,35 +48380,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8200437678987357575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025305783993779033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 706290dc7fcea2e45972af29e740225e,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8200437678987357576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48361,12 +48453,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821326394333648027}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73521, z: -0.06386305}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8221119057756666557
@@ -48411,35 +48503,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8221119057756666561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821326394333648027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 0678b987a0c57b04abcd701521473799,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8221119057756666562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49039,12 +49102,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3320350635753485526}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73521, z: -0.06386305}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8288545572337839816
@@ -49097,35 +49160,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8288545572337839823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6051467829862716779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 80f7e9c077875b94fb651ce4821a881d,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8288545572337839824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49778,7 +49812,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -49842,35 +49876,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8351915704908756553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3320350635753485526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 5ac7d0489003c0f479cb500c92aba56b,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8351915704908756554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50803,7 +50808,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4145597791244738045}
-  - component: {fileID: 8895060877649480423}
   - component: {fileID: 8895060877649480416}
   - component: {fileID: 5416436556776112803}
   - component: {fileID: 8895060877649480419}
@@ -53268,7 +53272,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53332,35 +53336,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8775635167486397531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2357809340939810327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: ef8a201b32ad8b94aa65159e246dcdca,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8775635167486397532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54102,12 +54077,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44000904491512060}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
+  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
+  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5215278615444176577}
+  m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &8842193270061621056
@@ -54152,35 +54127,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8842193270061621060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44000904491512060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: f82477e79e1821b4eb41fae9d50dbf30,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8842193270061621061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54444,7 +54390,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54508,35 +54454,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8850751723128152246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3880852010201582958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: c2af8e2e174b1124badc0ff5362eed39,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8850751723128152247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54569,7 +54486,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54633,35 +54550,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8859062630793652459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3973814146307187172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 3d3f11cede6b909488508c83d4562456,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8859062630793652460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55125,35 +55013,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8879716229924766706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4630845504581708511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: d767f154c106ea7488c675f324a1a45e,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8879716229924766707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55610,35 +55469,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &8895060877649480423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8475381975172255675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 67588afe6e89fa240ad391625a9351ab,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &8895060877649480424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56509,7 +56339,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
+  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56573,35 +56403,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &9034911747716224932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3111851632606250401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 65172f88dc9267c4093cbb8a58e51c0f,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &9034911747716224933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56914,35 +56715,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &9066168642713432279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1062777127585525273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 117140aad303af64f848a405e47b672e,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
 --- !u!114 &9066168642713432280
 MonoBehaviour:
   m_ObjectHideFlags: 0

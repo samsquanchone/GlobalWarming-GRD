@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Central Europe
   m_EditorClassIdentifier: 
   Nation_Name: 
-  Nations_Territories: []
+  Nations_Territories:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   Nation_Colour:
     serializedVersion: 2
-    rgba: 4288978805
+    rgba: 4290356737
   GDP: 0
   Cumilative_Population_From_Territories: 0
   Starting_Population: 0
