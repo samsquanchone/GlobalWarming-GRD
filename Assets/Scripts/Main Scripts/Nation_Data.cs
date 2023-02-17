@@ -42,13 +42,11 @@ public class Nation_Data : ScriptableObject
 
     //Production Building Counts
     [Header("Production Building Counts")]
-    [SerializeField] public int LEVEL_1_Lumbermill_Factory_Count;
-    [SerializeField] public int LEVEL_2_Lumbermill_Factory_Count;
-    [SerializeField] public int LEVEL_3_Lumbermill_Factory_Count;
+    [SerializeField] public int Lumbermill_Level;
+    [SerializeField] public int Tera_Factory_Level;
+    [SerializeField] public int Harbour_Level;
+    [SerializeField] public int Railway_Level;
 
-    [SerializeField] public int LEVEL_1_Tera_Factory_Count;
-    [SerializeField] public int LEVEL_2_Tera_Factory_Count;
-    [SerializeField] public int LEVEL_3_Tera_Factory_Count;
 
     [Header("Country's Total Avaliable Woodland ")]
     [SerializeField] public int Woodland_Count;

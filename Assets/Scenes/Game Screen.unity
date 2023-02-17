@@ -182,12 +182,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &9665972
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,12 +245,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &41171977
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,12 +521,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &78095818
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,12 +584,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &86379352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,12 +1000,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &101181245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,12 +1409,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1001 &130758953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2341,12 +2329,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &284246917
 GameObject:
   m_ObjectHideFlags: 0
@@ -3102,12 +3088,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &356124596
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,12 +3593,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &387844294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3676,12 +3658,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &410409247
 GameObject:
   m_ObjectHideFlags: 0
@@ -3741,12 +3721,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &424599999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3941,12 +3919,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &468305147
 GameObject:
   m_ObjectHideFlags: 0
@@ -4373,12 +4349,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &493812035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4540,12 +4514,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &507126801
 GameObject:
   m_ObjectHideFlags: 0
@@ -4740,12 +4712,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &542798698
 GameObject:
   m_ObjectHideFlags: 0
@@ -4805,12 +4775,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &546444346
 GameObject:
   m_ObjectHideFlags: 0
@@ -5442,12 +5410,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &565165271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5507,12 +5473,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &566632728
 GameObject:
   m_ObjectHideFlags: 0
@@ -5572,12 +5536,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &571844117
 GameObject:
   m_ObjectHideFlags: 0
@@ -5637,12 +5599,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &574463008
 GameObject:
   m_ObjectHideFlags: 0
@@ -6179,6 +6139,7 @@ Transform:
   - {fileID: 781867166}
   - {fileID: 1289755490}
   - {fileID: 474873446}
+  - {fileID: 1401610258}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6318,12 +6279,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &670028987
 GameObject:
   m_ObjectHideFlags: 0
@@ -7138,12 +7097,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &767168132
 GameObject:
   m_ObjectHideFlags: 0
@@ -7286,12 +7243,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &771285703
 GameObject:
   m_ObjectHideFlags: 0
@@ -7610,12 +7565,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &792178669
 GameObject:
   m_ObjectHideFlags: 0
@@ -7894,12 +7847,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &826725036
 GameObject:
   m_ObjectHideFlags: 0
@@ -8442,12 +8393,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &898152935
 GameObject:
   m_ObjectHideFlags: 0
@@ -8512,12 +8461,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &903131611
 GameObject:
   m_ObjectHideFlags: 0
@@ -8653,12 +8600,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &922665635
 GameObject:
   m_ObjectHideFlags: 0
@@ -8853,12 +8798,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &947117652
 GameObject:
   m_ObjectHideFlags: 0
@@ -9114,12 +9057,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &986679324
 GameObject:
   m_ObjectHideFlags: 0
@@ -9657,12 +9598,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1044335253
 GameObject:
   m_ObjectHideFlags: 0
@@ -9999,12 +9938,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1116844801
 GameObject:
   m_ObjectHideFlags: 0
@@ -10266,12 +10203,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1181228368
 GameObject:
   m_ObjectHideFlags: 0
@@ -10579,12 +10514,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1223257403
 GameObject:
   m_ObjectHideFlags: 0
@@ -10644,12 +10577,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1229411063
 GameObject:
   m_ObjectHideFlags: 0
@@ -10709,12 +10640,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1231664886
 GameObject:
   m_ObjectHideFlags: 0
@@ -11888,12 +11817,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1322139615
 GameObject:
   m_ObjectHideFlags: 0
@@ -11958,12 +11885,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1339903774
 GameObject:
   m_ObjectHideFlags: 0
@@ -12023,12 +11948,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1353304600
 GameObject:
   m_ObjectHideFlags: 0
@@ -12359,12 +12282,65 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
+--- !u!1 &1401610257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1401610258}
+  - component: {fileID: 1401610259}
+  m_Layer: 0
+  m_Name: (!)Nation UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1401610258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401610257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 639597249}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1401610259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401610257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608fc972005123845ad1f2e9cecc43bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nation_UI: {fileID: 210156444}
+  Nation_Name_UI: {fileID: 1421355185}
+  Population_UI: {fileID: 2035171888}
+  Awareness_UI: {fileID: 202742913}
+  Total_GDP_UI: {fileID: 1985794579}
+  GDP_Contribution_UI: {fileID: 284246919}
+  Avaliable_Woodland_UI: {fileID: 969187975}
+  Railway_Level_UI: {fileID: 241348813}
+  Lumbermill_Level_UI: {fileID: 1999036227}
+  Harbour_Level_UI: {fileID: 746532244}
+  Tera_Factory_Level_UI: {fileID: 554225010}
 --- !u!1 &1411116407
 GameObject:
   m_ObjectHideFlags: 0
@@ -12424,12 +12400,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1421295161
 GameObject:
   m_ObjectHideFlags: 0
@@ -12489,12 +12463,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1421355183
 GameObject:
   m_ObjectHideFlags: 0
@@ -12811,12 +12783,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1474416090
 GameObject:
   m_ObjectHideFlags: 0
@@ -13550,12 +13520,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1516985431
 GameObject:
   m_ObjectHideFlags: 0
@@ -13749,12 +13717,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1543016317
 GameObject:
   m_ObjectHideFlags: 0
@@ -14532,12 +14498,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1639945315
 GameObject:
   m_ObjectHideFlags: 0
@@ -14732,12 +14696,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1645372291
 GameObject:
   m_ObjectHideFlags: 0
@@ -14797,12 +14759,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1646753158
 GameObject:
   m_ObjectHideFlags: 0
@@ -15061,12 +15021,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1691243354
 GameObject:
   m_ObjectHideFlags: 0
@@ -15211,12 +15169,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1708389090
 GameObject:
   m_ObjectHideFlags: 0
@@ -15411,12 +15367,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1714070108
 GameObject:
   m_ObjectHideFlags: 0
@@ -15831,12 +15785,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1764812349
 GameObject:
   m_ObjectHideFlags: 0
@@ -16109,12 +16061,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1775714896
 GameObject:
   m_ObjectHideFlags: 0
@@ -16733,12 +16683,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1826541488
 GameObject:
   m_ObjectHideFlags: 0
@@ -17622,12 +17570,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1951069559
 GameObject:
   m_ObjectHideFlags: 0
@@ -17687,12 +17633,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1966863315
 GameObject:
   m_ObjectHideFlags: 0
@@ -17752,12 +17696,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &1971936919
 GameObject:
   m_ObjectHideFlags: 0
@@ -19058,12 +19000,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2044418641
 GameObject:
   m_ObjectHideFlags: 0
@@ -19127,12 +19067,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2046699309
 GameObject:
   m_ObjectHideFlags: 0
@@ -19192,12 +19130,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2047429868
 GameObject:
   m_ObjectHideFlags: 0
@@ -19335,12 +19271,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2063842206
 GameObject:
   m_ObjectHideFlags: 0
@@ -19631,12 +19565,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2083419934
 GameObject:
   m_ObjectHideFlags: 0
@@ -19699,12 +19631,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2086794014
 GameObject:
   m_ObjectHideFlags: 0
@@ -19840,12 +19770,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2120036918
 GameObject:
   m_ObjectHideFlags: 0
@@ -19983,12 +19911,10 @@ MonoBehaviour:
   GDP: 0
   Awareness: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
 --- !u!1 &2131934063
 GameObject:
   m_ObjectHideFlags: 0
@@ -23089,29 +23015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1211155205872541941
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4413211523945292746}
-  - component: {fileID: 8311050673677943779}
-  - component: {fileID: 7894116288397090008}
-  - component: {fileID: 8311050673677943772}
-  - component: {fileID: 8311050673677943775}
-  - component: {fileID: 8311050673677943777}
-  - component: {fileID: 8311050673677943778}
-  - component: {fileID: 8311050673677943780}
-  m_Layer: 0
-  m_Name: Gibraltar
-  m_TagString: UNCountry
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
 --- !u!23 &1213732141969791989
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31453,13 +31356,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3914956808958961597}
-  - component: {fileID: 4839672876732314261}
   - component: {fileID: 4839672876732314254}
   - component: {fileID: 1519310728702603810}
   - component: {fileID: 4839672876732314257}
-  - component: {fileID: 4839672876732314259}
   - component: {fileID: 4839672876732314260}
-  - component: {fileID: 4839672876732314262}
   m_Layer: 0
   m_Name: Palestine
   m_TagString: UNCountry
@@ -32840,21 +32740,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &4413211523945292746
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: -0.00035730534}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5215278615444176577}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4415995893146401981
 Transform:
   m_ObjectHideFlags: 0
@@ -33761,18 +33646,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6885366750347314142, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!114 &4839672876732314259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4114446945780663379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0137cc30bd0fc4247bc84c39609b4397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &4839672876732314260
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33789,47 +33662,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!114 &4839672876732314261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4114446945780663379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: 744a4bf3163993f40984723036a50977,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
---- !u!114 &4839672876732314262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4114446945780663379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4840161134215292027
 GameObject:
   m_ObjectHideFlags: 0
@@ -35161,7 +34993,6 @@ Transform:
   - {fileID: 3521993256418058615}
   - {fileID: 8631633948132325027}
   - {fileID: 4587694672180737859}
-  - {fileID: 4413211523945292746}
   - {fileID: 3732284524084813690}
   - {fileID: 5586030046006464327}
   - {fileID: 1347094095292926049}
@@ -46393,14 +46224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!33 &7894116288397090008
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  m_Mesh: {fileID: 4542328600567030372, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!23 &7902841790146023888
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -49408,131 +49231,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!23 &8311050673677943772
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e38fe936317fcd9469dc14d416895212, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8311050673677943775
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4542328600567030372, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!114 &8311050673677943777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0137cc30bd0fc4247bc84c39609b4397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!54 &8311050673677943778
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  serializedVersion: 2
-  m_Mass: 1000
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
---- !u!114 &8311050673677943779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab2a64ce50c764c4c9531bd4e5631387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Attached_Tiles_Data: {fileID: 11400000, guid: de97e05e37c241749ba66dd9430b0120,
-    type: 2}
-  Occupiant_Nation: {fileID: 0}
-  Territory_Name: 
-  Avaliable_Woodland: 0
-  Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
-  Tera_Factory_Avaliable: 0
-  Harbor_Avaliable: 0
-  Lumbermill_Level: 0
-  Tera_Factory_Level: 0
-  Harbour_Level: 0
-  Railway_Level: 0
-  nationPlacedObjectsList: []
-  Tree_Plantation: {fileID: 0}
-  Tree_Age: 0
---- !u!114 &8311050673677943780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211155205872541941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8317777253920629667
 GameObject:
   m_ObjectHideFlags: 0
