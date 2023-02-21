@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
   m_Name: Willow
   m_EditorClassIdentifier: 
-  buildingPrefab: {fileID: 4661435515762813124, guid: e289bf5debb17f6459818c207d781953,
+  buildingPrefab: {fileID: 5279956348607520961, guid: 15c1f61c0033d654691162953928f886,
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: bcbf044926b1038448ea23ff1f7c7c91,
     type: 3}
