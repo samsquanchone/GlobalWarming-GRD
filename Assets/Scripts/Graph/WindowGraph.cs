@@ -23,13 +23,26 @@ public class WindowGraph : MonoBehaviour
 
    private GameObject tooltipGameObject;
    
+
+   //Data setss
    private List<int> valueList;
+   private List<int> moneyValueList;
+   private List<int> co2valueList;
+   private List<int> treesPlantedValueList;
+
+
+
+
    private IGraphVisual graphVisual;
    private int maxVisibleValueAmount; 
    private Func<int, string> getAxisLabelX;
    private Func<float, string> getAxisLabelY;
 
    private int startingYear = 2010;
+
+
+   private bool isBarChartActive = true;
+   private bool isLineChartActive = false;
 
    private void Awake()
    {
@@ -47,8 +60,33 @@ public class WindowGraph : MonoBehaviour
 
        //List<int> valueList = new List<int>() {5};
        List<int> valueList = new List<int>() {5, 90, 80, 60, 70, 55};
+       List<int> moneyValueList = new List<int>() {200, 300, 400, 500, 600, 700, 800};
+       List<int> co2ValueList = new List<int>() {20, 30, 92, 82, 34, 98, 800};
+       List<int> treesPlantedValueList = new List<int>() {5, 10, 8, 30, 72, 98, 40};
+
+
+       //Intitialise different chart visuals (For multiple Displays) ---- Maybe handle data sets outside of this script 
+
+       //Example graph
        IGraphVisual lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(1, 1, 1, .5f));
        IGraphVisual barChartVisual = new BarChartVisual(graphContainer, Color.red, .8f);
+       
+       //Money data Graphs
+       IGraphVisual moneyLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(238, 130, 238, .3f));
+       IGraphVisual moneyBarChartVisual = new BarChartVisual(graphContainer, Color.green, .8f);
+
+       //C02 Data graphs
+       IGraphVisual co2LineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.white, new Color(255, 0, 0, .3f));
+       IGraphVisual co2BarChartVisual = new BarChartVisual(graphContainer, Color.red, .8f);
+
+       //Trees planted Data graphs
+       IGraphVisual treesLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
+       IGraphVisual treesBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
+       
+       
+
+
+
        ShowGraph(valueList, barChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
 
        //ShowGraph(valueList, graphVisual, -1, (int _i) => "Year: " + (_i + 10), (float _f) => Mathf.RoundToInt(_f) + " Tons" );
@@ -56,11 +94,15 @@ public class WindowGraph : MonoBehaviour
        //Graph functionality button listner and delegate set up
        transform.Find("BarChartButton").GetComponent<Button_UI>().ClickFunc = () => 
        {
+         isBarChartActive = true;
+         isLineChartActive = false;
          SetGraphVisual(barChartVisual);
        };
 
        transform.Find("LineGraphButton").GetComponent<Button_UI>().ClickFunc = () => 
        {
+         isBarChartActive = false;
+         isLineChartActive = true;
          SetGraphVisual(lineGraphVisual);
        };
 
@@ -77,23 +119,39 @@ public class WindowGraph : MonoBehaviour
        //Value set toggle buttons listener and delegate set up
         transform.Find("MoneyValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
-           //Set graph list list
-           //Set Set labels
-           //Display graph
+           if(isLineChartActive)
+           {
+              ShowGraph(moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+           }
+
+           else if (isBarChartActive)
+           {
+              ShowGraph(moneyValueList, moneyBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+           }
        };
 
         transform.Find("GlobalCo2ValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
-           //Set graph list list
-           //Set Set labels
-           //Display graph
+           if(isLineChartActive)
+           {
+              ShowGraph(co2ValueList, co2LineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+           }
+           else if (isBarChartActive)
+           {
+              ShowGraph(co2ValueList, co2BarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+           }
        };
 
         transform.Find("TreesPlantedValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
-           //Set graph list list
-           //Set Set labels
-           //Display graph
+            if(isLineChartActive)
+           {
+              ShowGraph(treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+           }
+           else if (isBarChartActive)
+           {
+              ShowGraph(treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+           }
        };
        
 
@@ -204,21 +262,26 @@ public class WindowGraph : MonoBehaviour
      
      
       //Clear previous list of values before displaying new ones
-      foreach (GameObject gameObject in gameObjectList)
-      {
-        Destroy(gameObject);
-      }
 
-      gameObjectList.Clear();
+      
+        foreach (GameObject gameObject in gameObjectList)
+        {
+          Destroy(gameObject);
+        }
+
+        gameObjectList.Clear();
+
 
       foreach(IGraphVisualObject graphVisualObject in graphVisualObjectList)
       {
-        graphVisualObject.CleanUp();
+          graphVisualObject.CleanUp();
       }
-
+      
+    
       graphVisualObjectList.Clear();
 
       graphVisual.CleanUp();
+      
 
       float graphHeight = graphContainer.sizeDelta.y;
       float graphWidth = graphContainer.sizeDelta.x;
@@ -477,7 +540,7 @@ private class BarChartVisual : IGraphVisual
         rectTransform.sizeDelta = new Vector2(5, 5);
         rectTransform.anchorMin = new Vector2(0, 0);
         rectTransform.anchorMax = new Vector2(0, 0);
-
+        gameObject.transform.SetAsLastSibling();
          //Show tooltip of value when mouse hovers over a bar 
         Button_UI dotButtonUI = gameObject.AddComponent<Button_UI>();
 
