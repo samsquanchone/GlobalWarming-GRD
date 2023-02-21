@@ -4109,6 +4109,14 @@ MonoBehaviour:
   Pykerete: 0
   Logistics: 0
   Logistics_Coverage: 0
+  Money_UI: {fileID: 1505006368}
+  Political_Power_UI: {fileID: 2063842208}
+  Wood_UI: {fileID: 558185076}
+  Pykerete__UI: {fileID: 1646753160}
+  Logistics_from_Train_UI: {fileID: 1353304602}
+  Logistics_from_Ship_UI: {fileID: 372291490}
+  Logistics_Provided_and_Need: {fileID: 1581289432}
+  Logistics_Total_UI: {fileID: 1767149733}
 --- !u!1 &475601236
 GameObject:
   m_ObjectHideFlags: 0
@@ -4905,7 +4913,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -225.57991, y: 6.2326965}
+  m_AnchoredPosition: {x: -225.57991, y: -25.6}
   m_SizeDelta: {x: 275.0422, y: 314.6219}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &549143920
