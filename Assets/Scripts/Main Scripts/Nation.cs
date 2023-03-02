@@ -33,12 +33,10 @@ public class Nation : MonoBehaviour
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Header("DEBUG - NEUTRAL on New Game")]
     [SerializeField] public int National_Pykerete_Production;
-    [SerializeField] public int LEVEL_1_Lumbermill_Factory_Count;
-    [SerializeField] public int LEVEL_2_Lumbermill_Factory_Count;
-    [SerializeField] public int LEVEL_3_Lumbermill_Factory_Count;
-    [SerializeField] public int LEVEL_1_Tera_Factory_Count;
-    [SerializeField] public int LEVEL_2_Tera_Factory_Count;
-    [SerializeField] public int LEVEL_3_Tera_Factory_Count;
+    [SerializeField] public int Lumbermill_Level;
+    [SerializeField] public int Tera_Factory_Level;
+    [SerializeField] public int Harbour_Level;
+    [SerializeField] public int Railway_Level;
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///

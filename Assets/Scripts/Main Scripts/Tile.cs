@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class Tile : MonoBehaviour
 {
@@ -32,7 +34,9 @@ public class Tile : MonoBehaviour
     [SerializeField] public Tree Tree_Plantation;
     [SerializeField] public int Tree_Age;
 
+    [NonSerialized] private NationUIManager NationUIManager;
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
     private void Start()
     {
@@ -52,7 +56,18 @@ public class Tile : MonoBehaviour
         */
         //Occupiant Nation is given at the start of the game by the occupiant nation.
 
+        //Nation UI Connection
+        NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>();
     }
 
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("Tile Pressed");
+            NationUIManager.Show_Nation_UI(this.Occupiant_Nation) ;
+        }
+    }
 
 }
