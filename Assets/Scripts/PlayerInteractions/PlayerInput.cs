@@ -29,7 +29,7 @@ public class PlayerInput : MonoBehaviour
 
            // var objHit = PlayerRayCast();
 
-               if (hit.transform.gameObject.CompareTag("Tree") || hit.transform.gameObject.CompareTag("Infrastructure") && hit.transform != null)
+               if (hit.transform.gameObject.CompareTag("Tree") || hit.transform.gameObject.CompareTag("Infrastructure") || hit.transform.gameObject.CompareTag("TeraFactory") && hit.transform != null)
                {
                 
                    UIManager.instance.SetObjectUI(hit.transform.gameObject);

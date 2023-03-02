@@ -9,6 +9,9 @@ public class NavMeshManager : MonoBehaviour
     
     public static NavMeshManager instance { get; private set; }
 
+
+    public Transform[] bergSpawnPoints;
+
     private Transform destination;
     // Start is called before the first frame update
     void Awake()
@@ -37,4 +40,6 @@ public class NavMeshManager : MonoBehaviour
         return destination;
 
     }
+
+
 }

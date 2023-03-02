@@ -4,6 +4,11 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+
+
+
+
+
 public class UIManager : MonoBehaviour
 {   //Singleton
     public static UIManager instance { get; private set; }
@@ -104,6 +109,12 @@ public class UIManager : MonoBehaviour
         {
             objectInspected.GetComponent<TreeObject>().RemoveObject();
             DisableObjectUI();
+        }
+
+        else if (objectInspected.tag == "TeraFactory")
+        {
+            //Spawn a pykrete berg at the selected tera factory
+            objectInspected.GetComponent<TeraFactory>().ProducePykreteBerg();
         }
     }
 
