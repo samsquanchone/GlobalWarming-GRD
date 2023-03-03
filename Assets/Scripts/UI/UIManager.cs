@@ -66,8 +66,20 @@ public class UIManager : MonoBehaviour
 
         if (objectToDisplay.tag == "Tree")
         {
+            
+            if(objectToDisplay.GetComponent<TreeGrowth>().IsGrown())
+            {
+                objectData2.text = "Time until fully grown: READY TO HARVEST!";
+                objectActionButton.gameObject.SetActive(true);
+            }
+            
+            else
+            {
+                objectData2.text = "Time until fully grown: " + objectToDisplay.GetComponent<TreeGrowth>().GetGrowthTimeRemaining();
+                objectActionButton.gameObject.SetActive(false);
+            }
+
            
-            objectData2.text = "Time until fully grown: " + objectToDisplay.GetComponent<TreeGrowth>().GetGrowthTimeRemaining();
            // objectData3.text = "Current growth conditions (Temperature): " + objectToDisplay.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().Average_Heat_Level;
             objectData4.text = "Expected yield: " + objectToDisplay.GetComponent<TreeObject>().m_yield;
             buttonText.text = "Harvest";
