@@ -6,6 +6,8 @@ public class TreeGrowth : MonoBehaviour
 {
     int monthsRemaining;
 
+    [SerializeField] private Material readyToHarvestMat;
+
     public bool isGrown {get; private set;} = false;
     // Start is called before the first frame update
     void Start()
@@ -25,6 +27,7 @@ public class TreeGrowth : MonoBehaviour
         if(monthsRemaining <= 0)
         {
             isGrown = true;
+            this.gameObject.GetComponent<Renderer>().material = readyToHarvestMat;
         }
     }
 
