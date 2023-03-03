@@ -5,6 +5,8 @@ using UnityEngine;
 public class TreeGrowth : MonoBehaviour
 {
     int monthsRemaining;
+
+    public bool isGrown {get; private set;} = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +20,32 @@ public class TreeGrowth : MonoBehaviour
         monthsRemaining -= 1;
     }
 
+    private void Update()
+    {
+        if(monthsRemaining <= 0)
+        {
+            isGrown = true;
+        }
+    }
+
+    public bool IsGrown()
+    {
+        bool ready = isGrown;
+
+        return ready;
+    }
+
+    //Used to get this non persistent value when save is pressed to update the persistent value
     public int GetGrowthTimeRemaining()
     {
         int timeRemaining = monthsRemaining;
 
         return timeRemaining;
+    }
+
+    private void OnDestroy()
+    {
+        //Remove tree from active growing trees list when game ended or the tree is harvested 
+        TimeManager.instance.activeTreeList.Remove(this.GetComponent<TreeGrowth>());
     }
 }

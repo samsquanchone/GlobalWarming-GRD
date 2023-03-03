@@ -67,7 +67,7 @@ public class UIManager : MonoBehaviour
         if (objectToDisplay.tag == "Tree")
         {
            
-            objectData2.text = "Time until fully grown: " + objectToDisplay.GetComponent<TreeObject>().m_timeToGrow;
+            objectData2.text = "Time until fully grown: " + objectToDisplay.GetComponent<TreeGrowth>().GetGrowthTimeRemaining();
            // objectData3.text = "Current growth conditions (Temperature): " + objectToDisplay.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().Average_Heat_Level;
             objectData4.text = "Expected yield: " + objectToDisplay.GetComponent<TreeObject>().m_yield;
             buttonText.text = "Harvest";
@@ -107,8 +107,16 @@ public class UIManager : MonoBehaviour
     {
         if (objectInspected.tag == "Tree")
         {
-            objectInspected.GetComponent<TreeObject>().RemoveObject();
-            DisableObjectUI();
+            if(objectInspected.GetComponent<TreeGrowth>().IsGrown())
+            {
+                objectInspected.GetComponent<TreeObject>().RemoveObject();
+                DisableObjectUI();
+            }
+
+            else
+            {
+                Debug.Log("Tree Not Grown");
+            }
         }
 
         else if (objectInspected.tag == "TeraFactory")
