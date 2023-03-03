@@ -145,8 +145,11 @@ public class Date_and_Time_System : MonoBehaviour
     {
         //Calculate Month (Cant be bigger than 12
         Month++;
-        if (Month > 12) { Month = 1; /*Increase Year */ Year++; }
+        TimeManager.instance.UpdateTreeGrowth();
 
+
+        if (Month > 12) { Month = 1; /*Increase Year */ Year++; }
+        
 
 
         switch (Month)

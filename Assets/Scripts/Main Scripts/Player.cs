@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
 
         Logistics_from_Train_UI.text = this.Train_Logistics_Coverage.ToString();
         Logistics_from_Ship_UI.text = this.Ship_Logistics_Coverage.ToString();
-        Logistics_Provided_and_Need.text = (Pykerete/ Total_Logistics_Coverage).ToString();
+        //Logistics_Provided_and_Need.text = (Pykerete/ Total_Logistics_Coverage).ToString();
         Logistics_Total_UI.text = this.Total_Logistics_Coverage.ToString();
 
 

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -1313753369270782114}
   - component: {fileID: 3328779218763583041}
   - component: {fileID: 8565937066653765703}
+  - component: {fileID: 1783019896119096999}
   m_Layer: 0
   m_Name: Bamboo
   m_TagString: Tree
@@ -188,3 +189,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1783019896119096999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5217436850954560744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1323a50a27a80418883e376c0b66bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

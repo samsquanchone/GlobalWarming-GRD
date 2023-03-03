@@ -35,7 +35,12 @@ public class TreeObject : SaveableObject
     public int m_timeToGrow;
 
     
+    private int GetGrowthTimeRemaining()
+    {
+        timeToGrow = GetComponent<TreeGrowth>().GetGrowthTimeRemaining();
 
+        return timeToGrow;
+    }
     // Update is called once per frame
     public void RemoveObject()
     {
@@ -45,7 +50,8 @@ public class TreeObject : SaveableObject
     public override void Save(int id)
     {
         //Set savestats of this object to be serialized, note if adding another variable add + "_" + newVar.ToString()
-        saveStats = yield.ToString();
+        timeToGrow = GetGrowthTimeRemaining();
+        saveStats = timeToGrow.ToString();
         base.Save(id);
     }
 

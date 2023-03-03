@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -4594096307472831087}
   - component: {fileID: 5744359479132513450}
   - component: {fileID: 4268666348269908801}
+  - component: {fileID: 2427654080547730674}
   m_Layer: 0
   m_Name: Redwood
   m_TagString: Tree
@@ -137,6 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nationPlaced: 
+  nation: {fileID: 0}
 --- !u!114 &-4594096307472831087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +190,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2427654080547730674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167264517816937541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1323a50a27a80418883e376c0b66bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8788083584336790258
 GameObject:
   m_ObjectHideFlags: 0
