@@ -39,7 +39,7 @@ public class Tile : MonoBehaviour
      ////////////  Sam addition, linking object placement to tile, Enis feel free to link to nation / tweak //////////////////
      
      //Example of getters and setters, any data that could break gameplay should have set to private, however this limits accessability, thus getters and setters coming in handy
-     // this example is quick hand getters and setters.
+     // this example is quick hand getters and setters. Note you won't be able to see values in the inspector like this, unless done in long hand, but it is fully working, and objects being added to these variable counts
 
      [SerializeField] public int lumbermill_Amount {get; private set;} = 0;
      [SerializeField] public int dock_Amount {get; private set;} = 0;
