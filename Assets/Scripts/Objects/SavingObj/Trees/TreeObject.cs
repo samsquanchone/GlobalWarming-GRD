@@ -6,7 +6,7 @@ public class TreeObject : SaveableObject
 {
     //Variables that will passed into the save string variable to be serialized
     
-
+    //Long hand getters and setters so values can be seen in the inspector
     [SerializeField]
     public int cost
     {
