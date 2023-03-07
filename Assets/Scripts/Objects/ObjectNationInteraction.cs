@@ -17,7 +17,11 @@ public class ObjectNationInteraction : MonoBehaviour
             
             Debug.Log("Placed on" + other.transform.gameObject.name);
 
-            other.transform.gameObject.GetComponent<Tile>().nationPlacedObjectsList.Add(this.gameObject);
+           
+            //Add this instance of object to tile script, providing Enum value for objectType for identification
+            other.transform.gameObject.GetComponent<Tile>().AddObject(GetComponent<SaveableObject>().objectType);
+
+            //Used to remove re-occuring iterrations of this loop once a nation is found
             nationFound = true;
 
             if (gameObject.name == "Dock(Clone)")
@@ -29,10 +33,7 @@ public class ObjectNationInteraction : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
-    {
-       nation.GetComponent<Tile>().nationPlacedObjectsList.Remove(this.gameObject);
-    }
+    
 
     
 

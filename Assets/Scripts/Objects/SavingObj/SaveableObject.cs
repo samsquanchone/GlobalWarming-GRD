@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-enum ObjectType {Oak, Bamboo, Willow, Pine, Redwood, Factory, Dock, Lumbermill, TrainStation} //Enum for object ypes
+[SerializeField] public enum ObjectType {Oak, Bamboo, Willow, Pine, Redwood, Factory, Dock, Lumbermill, TrainStation} //Enum for object ypes
 
 
 /// <summary>
@@ -13,7 +13,7 @@ enum ObjectType {Oak, Bamboo, Willow, Pine, Redwood, Factory, Dock, Lumbermill, 
 public abstract class SaveableObject : MonoBehaviour
 {
     protected string saveStats;
-    [SerializeField] private ObjectType objectType;
+    [SerializeField] public ObjectType objectType;
     // Start is called before the first frame update
     private void Start()
     {

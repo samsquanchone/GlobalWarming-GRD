@@ -32,11 +32,7 @@ public class NationToolTip : MonoBehaviour
     public void OnMouseExit()
     {
         StopAllCoroutines();
-        UIHoverManager.OnLoseFocus();
-        lumberMillsPlaced = 0;
-        activeTreeProjects = 0;
-        docksPlaced = 0;
-        trainStationsPlaced = 0;
+       
     }
 
     protected IEnumerator StartTimer()
@@ -66,38 +62,19 @@ public class NationToolTip : MonoBehaviour
 
         if(gameObject.GetComponent<Tile>() != null)
         {
-        averageHeatLevel = gameObject.GetComponent<Tile>().Average_Heat_Level;
-                //Off the cuff way of doing this, probs not best to iterate over list every time mouse of UI - REFACTOR / CHANGE later
-        foreach (GameObject obj in gameObject.GetComponent<Tile>().nationPlacedObjectsList)
-        {
-            //Debug.Log(obj.name);
+            
+           averageHeatLevel = gameObject.GetComponent<Tile>().Average_Heat_Level;
+           lumberMillsPlaced = gameObject.GetComponent<Tile>().lumbermill_Amount;
+           docksPlaced = gameObject.GetComponent<Tile>().dock_Amount;
+           trainStationsPlaced = gameObject.GetComponent<Tile>().trainStation_Amount;
+           activeTreeProjects = gameObject.GetComponent<Tile>().activeTree_Amount;
 
-            if (obj.name == "Lumbermill(Clone)")
-            {
-                lumberMillsPlaced++;
-            }
-
-
-            if (obj.name == "Dock(Clone)")
-            {
-                docksPlaced++;
-            }
-
-            if (obj.name == "TrainStation(Clone)")
-            {
-                trainStationsPlaced++;
-            }
-
-            else if (obj.tag == "Tree")
-            {
-                activeTreeProjects++;
-            }
         }
 
         dataToShow = nationName + "\n" + "GDP: £" + gdp.ToString() + "\n" + "Average Heat level: " + averageHeatLevel + "\n" + "Active Tree Projects: " + activeTreeProjects + "\n" + "Lumbermills: " + lumberMillsPlaced + "\n" + "Docks: " + docksPlaced + "\n" + "Train Stations: " + trainStationsPlaced;
 
         ShowMessage(dataToShow);
-        }
+        
     }
 
 }

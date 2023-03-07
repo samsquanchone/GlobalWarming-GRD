@@ -26,8 +26,7 @@ public class Tile : MonoBehaviour
     [SerializeField] public int Tera_Factory_Level = 0;
     [SerializeField] public int Harbour_Level = 0;
     [SerializeField] public int Railway_Level = 0;
-    //Sam addition: when an object is spawned it will add itself to this list 
-    public List<GameObject> nationPlacedObjectsList;
+    
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Header("DEBUG - NEUTRAL on New Game")]
@@ -36,6 +35,18 @@ public class Tile : MonoBehaviour
 
     [NonSerialized] private NationUIManager NationUIManager;
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+     ////////////  Sam addition, linking object placement to tile, Enis feel free to link to nation / tweak //////////////////
+     
+     //Example of getters and setters, any data that could break gameplay should have set to private, however this limits accessability, thus getters and setters coming in handy
+     // this example is quick hand getters and setters.
+
+     [SerializeField] public int lumbermill_Amount {get; private set;} = 0;
+     [SerializeField] public int dock_Amount {get; private set;} = 0;
+     [SerializeField] public int trainStation_Amount {get; private set;} = 0;
+     [SerializeField] public int pykreteFactory_Amount {get; private set;} = 0;
+     [SerializeField] public int activeTree_Amount {get; private set;} = 0;
+     
 
 
     private void Start()
@@ -60,7 +71,8 @@ public class Tile : MonoBehaviour
         NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>();
     }
 
-
+    
+    //There is already input mouse button down on PlayerInput, best to abstract functionality unrelated to tiles
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -68,6 +80,42 @@ public class Tile : MonoBehaviour
             Debug.Log("Tile Pressed");
             NationUIManager.Show_Nation_UI(this.Occupiant_Nation) ;
         }
+    }
+
+    //Sam Addition: Used for infrastructure, example test variables, do with cases for nation tie in as you see fit.
+    // Not sure if you want to limit to 1 infrastructure per tile or be able to track specific objects for their levels.
+    // If so could use your level variable an add 1 when spawned and 1 when upgraded
+
+    public void AddObject(ObjectType objectType)
+    {
+         switch(objectType)
+         {
+         case ObjectType.Lumbermill:
+         lumbermill_Amount += 1;
+
+         break;
+
+         case ObjectType.Factory:
+         pykreteFactory_Amount += 1;
+         break;
+
+         case ObjectType.Dock:
+         dock_Amount += 1;
+         break;
+
+         case ObjectType.TrainStation:
+         trainStation_Amount += 1;
+         break;
+         
+         default:
+         //Is a tree
+         activeTree_Amount += 1;
+         break;
+
+
+         }
+
+         Debug.Log(objectType);
     }
 
 }
