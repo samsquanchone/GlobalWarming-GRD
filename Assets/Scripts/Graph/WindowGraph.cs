@@ -60,9 +60,7 @@ public class WindowGraph : MonoBehaviour
 
        //List<int> valueList = new List<int>() {5};
        List<int> valueList = new List<int>() {5, 90, 80, 60, 70, 55};
-       List<int> moneyValueList = new List<int>() {200, 300, 400, 500, 600, 700, 800};
-       List<int> co2ValueList = new List<int>() {20, 30, 92, 82, 34, 98, 800};
-       List<int> treesPlantedValueList = new List<int>() {5, 10, 8, 30, 72, 98, 40};
+       
 
 
        //Intitialise different chart visuals (For multiple Displays) ---- Maybe handle data sets outside of this script 
@@ -89,8 +87,6 @@ public class WindowGraph : MonoBehaviour
 
        ShowGraph(valueList, barChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
 
-       //ShowGraph(valueList, graphVisual, -1, (int _i) => "Year: " + (_i + 10), (float _f) => Mathf.RoundToInt(_f) + " Tons" );
-       
        //Graph functionality button listner and delegate set up
        transform.Find("BarChartButton").GetComponent<Button_UI>().ClickFunc = () => 
        {
@@ -119,38 +115,38 @@ public class WindowGraph : MonoBehaviour
        //Value set toggle buttons listener and delegate set up
         transform.Find("MoneyValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
-           if(isLineChartActive)
+           if(isLineChartActive && GraphDataManager.instance.moneyValueList[0] != null)
            {
-              ShowGraph(moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
            }
 
-           else if (isBarChartActive)
+           else if (isBarChartActive && GraphDataManager.instance.moneyValueList[0] != null)
            {
-              ShowGraph(moneyValueList, moneyBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.moneyValueList, moneyBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
            }
        };
 
         transform.Find("GlobalCo2ValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
-           if(isLineChartActive)
+           if(isLineChartActive && GraphDataManager.instance.co2ValueList[0] != null)
            {
-              ShowGraph(co2ValueList, co2LineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.co2ValueList, co2LineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
-           else if (isBarChartActive)
+           else if (isBarChartActive && GraphDataManager.instance.co2ValueList[0] != null)
            {
-              ShowGraph(co2ValueList, co2BarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.co2ValueList, co2BarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
        };
 
         transform.Find("TreesPlantedValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
-            if(isLineChartActive)
+            if(isLineChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
-              ShowGraph(treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
-           else if (isBarChartActive)
+           else if (isBarChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
-              ShowGraph(treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
        };
        

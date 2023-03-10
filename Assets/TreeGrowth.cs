@@ -9,12 +9,15 @@ public class TreeGrowth : MonoBehaviour
     [SerializeField] private Material readyToHarvestMat;
 
     public bool isGrown {get; private set;} = false;
+    private int treeYield;
     // Start is called before the first frame update
     void Start()
     {
         //Get components and the trees initial growth time
         TimeManager.instance.activeTreeList.Add(this.GetComponent<TreeGrowth>());
+        TimeManager.instance.treesPlanted += 1;
         monthsRemaining = GetComponent<TreeObject>().m_timeToGrow; //Maybe divide this by a heat factor on placed country
+        treeYield = GetComponent<TreeObject>().m_yield;
     }
 
     public void UpdateGrowthTimer()
@@ -44,6 +47,11 @@ public class TreeGrowth : MonoBehaviour
         int timeRemaining = monthsRemaining;
 
         return timeRemaining;
+    }
+
+    public void HarvestTree()
+    {
+        GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().AddToUnprocessedWoodStockPile(treeYield);
     }
 
     private void OnDestroy()
