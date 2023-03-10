@@ -46,7 +46,9 @@ public class Tile : MonoBehaviour
      [SerializeField] public int trainStation_Amount {get; private set;} = 0;
      [SerializeField] public int pykreteFactory_Amount {get; private set;} = 0;
      [SerializeField] public int activeTree_Amount {get; private set;} = 0;
-     
+
+     //Sam: This variable probably should be in nation, not sure, just getting all the stuff you need from objects for you to tie to your functions for game data
+    [SerializeField] public int unprocessedWoodStockpile_Amount {get; private set;} = 0;
 
 
     private void Start()
@@ -116,6 +118,43 @@ public class Tile : MonoBehaviour
          }
 
          Debug.Log(objectType);
+    }
+ 
+    //Sam: Feel free to move this function or change variables, just getting the data here for the tree that has been harvested yeild amount, for your data calculations
+    public void AddToUnprocessedWoodStockPile(int treeYield)
+    {
+        unprocessedWoodStockpile_Amount += treeYield;
+
+        //Testing as using short hand getters and setters, so serialize field doesnt show in inspector
+        Debug.Log(Occupiant_Nation.Nation_Name + "Has unprocessed wood stocpile of: " + unprocessedWoodStockpile_Amount + "Kgs");
+          
+    }
+ 
+    //Sam addition: Currently all infastructure apart from pykrete factory can be upgraded, as for factory just going with berg size and not upgrade
+    public void UpgradeInfrastructure(InfrastructureType infrastuctureType)
+    {
+        
+        switch(infrastuctureType)
+        {
+            case InfrastructureType.Lumbermill:
+            Lumbermill_Level += 1;
+            Debug.Log(Occupiant_Nation.Nation_Name + "Has a " + infrastuctureType.ToString() + " of level" + Lumbermill_Level);
+            break;
+
+            case InfrastructureType.Dock:
+            Harbour_Level += 1;
+            Debug.Log(Occupiant_Nation.Nation_Name + "Has a " + infrastuctureType.ToString() + " of level" + Harbour_Level);
+
+            break;
+
+            case InfrastructureType.TrainStation:
+            Railway_Level += 1;
+            Debug.Log(Occupiant_Nation.Nation_Name + "Has a " + infrastuctureType.ToString() + " of level" + Railway_Level);
+
+            break;
+        }
+
+        
     }
 
 }

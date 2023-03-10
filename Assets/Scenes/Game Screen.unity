@@ -462,7 +462,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: China
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Uruguay and Paraguay
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -666,7 +666,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Egypt
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Central Asia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Centeral Africa
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -2634,7 +2634,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: France
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -3261,6 +3261,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324848949}
   m_CullTransparentMesh: 1
+--- !u!1 &331515074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331515075}
+  - component: {fileID: 331515078}
+  - component: {fileID: 331515077}
+  - component: {fileID: 331515076}
+  m_Layer: 5
+  m_Name: ActionButton3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &331515075
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331515074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 896410927}
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 80, y: -86.6}
+  m_SizeDelta: {x: 62.0579, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &331515076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331515074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 331515077}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1660024318}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ObjectActionButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &331515077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331515074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &331515078
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331515074}
+  m_CullTransparentMesh: 1
 --- !u!1 &343096676
 GameObject:
   m_ObjectHideFlags: 0
@@ -3393,7 +3527,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Central Europe
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -3630,7 +3764,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: South Afirca
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -4116,7 +4250,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Yemen and Oman
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -4314,7 +4448,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Japan
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -4369,7 +4503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 11400000, guid: be9ae33528c274d4790c07bffc2ac207,
+  Attached_Nations_Data: {fileID: 11400000, guid: ee424059f7457be489798d942c729ed0,
     type: 2}
   Nations_Territories:
   - {fileID: 6871873603908281464}
@@ -4377,7 +4511,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Russia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -4580,6 +4714,92 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468305147}
+  m_CullTransparentMesh: 1
+--- !u!1 &469897611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469897612}
+  - component: {fileID: 469897614}
+  - component: {fileID: 469897613}
+  m_Layer: 5
+  m_Name: PykreteFactory Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &469897612
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469897611}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 808504693}
+  - {fileID: 1451868898}
+  - {fileID: 2060322427}
+  - {fileID: 1763768160}
+  - {fileID: 1858312918}
+  - {fileID: 717266419}
+  - {fileID: 1426047899}
+  - {fileID: 1912319166}
+  - {fileID: 1835540595}
+  - {fileID: 331515075}
+  m_Father: {fileID: 1276741011}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -225.57991, y: 16.225685}
+  m_SizeDelta: {x: 275.0422, y: 234.1786}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &469897613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469897611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.69411767}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &469897614
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469897611}
   m_CullTransparentMesh: 1
 --- !u!1 &474873445
 GameObject:
@@ -4867,7 +5087,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Baltic States
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -4930,7 +5150,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: South Korea
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -5095,7 +5315,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Papua New Guinea
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -5317,6 +5537,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527925454}
   m_CullTransparentMesh: 1
+--- !u!1 &529480206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529480207}
+  - component: {fileID: 529480209}
+  - component: {fileID: 529480208}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &529480207
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529480206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1912319166}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &529480208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529480206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Produce Small Berg
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 9
+  m_fontSizeBase: 9
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &529480209
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529480206}
+  m_CullTransparentMesh: 1
 --- !u!1 &542368726
 GameObject:
   m_ObjectHideFlags: 0
@@ -5369,7 +5724,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: UK
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -5480,7 +5835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &549143919
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6372,7 +6727,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Middle East
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -6649,7 +7004,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Peru
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -6695,6 +7050,7 @@ Transform:
   - {fileID: 1289755490}
   - {fileID: 474873446}
   - {fileID: 1401610258}
+  - {fileID: 927231319}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7061,6 +7417,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697113710}
   m_CullTransparentMesh: 1
+--- !u!1 &717266416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 717266419}
+  - component: {fileID: 717266418}
+  - component: {fileID: 717266417}
+  m_Layer: 5
+  m_Name: Data3 Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &717266417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717266416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Data 3: '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12
+  m_fontSizeBase: 12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -0.9327926, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &717266418
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717266416}
+  m_CullTransparentMesh: 1
+--- !u!224 &717266419
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717266416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.9698696, y: -21.13489}
+  m_SizeDelta: {x: 227.74, y: 26.0899}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &724222888
 GameObject:
   m_ObjectHideFlags: 0
@@ -7657,7 +8148,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Venezuela
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -7803,7 +8294,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Ireland
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -8125,7 +8616,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Burma
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -8407,7 +8898,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Central America
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -8418,6 +8909,82 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
+--- !u!1 &808504692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 808504693}
+  - component: {fileID: 808504695}
+  - component: {fileID: 808504694}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &808504693
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808504692}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.8398285, y: -5.0386}
+  m_SizeDelta: {x: 243.68, y: 197.9557}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &808504694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808504692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 34025671b6e3545449db3803524ec65b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &808504695
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808504692}
+  m_CullTransparentMesh: 1
 --- !u!1 &826725036
 GameObject:
   m_ObjectHideFlags: 0
@@ -8975,6 +9542,141 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893109163}
   m_CullTransparentMesh: 1
+--- !u!1 &896410926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 896410927}
+  - component: {fileID: 896410929}
+  - component: {fileID: 896410928}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &896410927
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896410926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 331515075}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &896410928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896410926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Produce Large Berg
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 9
+  m_fontSizeBase: 9
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &896410929
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896410926}
+  m_CullTransparentMesh: 1
 --- !u!1 &897157651
 GameObject:
   m_ObjectHideFlags: 0
@@ -9029,7 +9731,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Somalia and Kenya
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -9097,7 +9799,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Congo, Angola and Tanzania
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -9236,7 +9938,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: USA
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -9382,6 +10084,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 922665635}
   m_CullTransparentMesh: 1
+--- !u!1 &927231318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 927231319}
+  - component: {fileID: 927231320}
+  m_Layer: 0
+  m_Name: GraphManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &927231319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927231318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 639597249}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &927231320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927231318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2792ba415038b9a40bdcbba79e6415db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &929921406
 GameObject:
   m_ObjectHideFlags: 0
@@ -9434,7 +10180,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Finland
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -9693,7 +10439,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Portugal
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -10161,7 +10907,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Austrailia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -10869,7 +11615,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Pakistan
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -11134,7 +11880,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Thailand
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -11220,6 +11966,143 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132992877}
+  m_CullTransparentMesh: 1
+--- !u!1 &1139346146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1139346147}
+  - component: {fileID: 1139346149}
+  - component: {fileID: 1139346148}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1139346147
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139346146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1835540595}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1139346148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139346146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Produce Medium Berg
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 9
+  m_fontSizeBase: 9
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1139346149
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139346146}
   m_CullTransparentMesh: 1
 --- !u!1 &1142606364
 GameObject:
@@ -11351,7 +12234,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Balkhan Minors
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -11532,7 +12415,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Saudi Arabia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -11843,7 +12726,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: India
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -11906,7 +12789,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Italy
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -11969,7 +12852,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Ukraine
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -12643,6 +13526,7 @@ RectTransform:
   - {fileID: 343096677}
   - {fileID: 549143919}
   - {fileID: 466869722}
+  - {fileID: 469897612}
   m_Father: {fileID: 1902584208}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13575,7 +14459,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Netherlands
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -13693,7 +14577,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Brazil
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -13756,7 +14640,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Spain
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -13971,6 +14855,142 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeTreeList: []
+  treesPlanted: 0
+--- !u!1 &1426047896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426047899}
+  - component: {fileID: 1426047898}
+  - component: {fileID: 1426047897}
+  m_Layer: 5
+  m_Name: 'Data 4 Text:'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1426047897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426047896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Data 4: '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12
+  m_fontSizeBase: 12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0.0005340801, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1426047898
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426047896}
+  m_CullTransparentMesh: 1
+--- !u!224 &1426047899
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426047896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.9699, y: -56.4}
+  m_SizeDelta: {x: 227.7397, y: 29.244995}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1434815328
 GameObject:
   m_ObjectHideFlags: 0
@@ -14093,7 +15113,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: North Africa
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -14104,6 +15124,139 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
+--- !u!1 &1451868897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1451868898}
+  - component: {fileID: 1451868901}
+  - component: {fileID: 1451868900}
+  - component: {fileID: 1451868899}
+  m_Layer: 5
+  m_Name: CloseUIButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1451868898
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451868897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.75392, y: 0.73803, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 113.3, y: 87}
+  m_SizeDelta: {x: 80, y: 56.4845}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1451868899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451868897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1451868900}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1660024318}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: DisableObjectUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1451868900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451868897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 70e3ce8ad01f39248a3ea97a35bcf238, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1451868901
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451868897}
+  m_CullTransparentMesh: 1
 --- !u!1 &1459775338
 GameObject:
   m_ObjectHideFlags: 0
@@ -14156,7 +15309,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Beulorussia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -14531,7 +15684,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Colombia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -14864,7 +16017,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Sweden
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -15061,7 +16214,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Argentina
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -15422,7 +16575,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Iran
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -15965,7 +17118,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Ethiopia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -16163,7 +17316,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Canada
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -16226,7 +17379,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: South Africa
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -16417,6 +17570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPanel: {fileID: 549143918}
+  pykreteFactoryPanel: {fileID: 469897611}
   objectImage: {fileID: 765376222}
   objectActionButton: {fileID: 1881573936}
   buttonText: {fileID: 1239737138}
@@ -16426,6 +17580,10 @@ MonoBehaviour:
   objectData3: {fileID: 1801651081}
   objectData4: {fileID: 91266428}
   objectData5: {fileID: 0}
+  pykreteFactoryData1: {fileID: 1763768158}
+  pykreteFactoryData2: {fileID: 1858312916}
+  pykreteFactoryData3: {fileID: 717266417}
+  pykreteFactoryData4: {fileID: 1426047897}
 --- !u!1 &1676572205
 GameObject:
   m_ObjectHideFlags: 0
@@ -16546,7 +17704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 11400000, guid: 1c206bb7c92570c48b1c2e51be72ab2d,
+  Attached_Nations_Data: {fileID: 11400000, guid: dc367c4c4da095a49a13cfe5dd11e89c,
     type: 2}
   Nations_Territories:
   - {fileID: 8947397282871930245}
@@ -16555,7 +17713,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Bolivia and South American Minors
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -16703,7 +17861,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Chile
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -16901,7 +18059,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Malaysia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -17319,7 +18477,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Indonesia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -17390,6 +18548,141 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!1 &1763768157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1763768160}
+  - component: {fileID: 1763768159}
+  - component: {fileID: 1763768158}
+  m_Layer: 5
+  m_Name: Data1 Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1763768158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763768157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Data 1:'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12
+  m_fontSizeBase: 12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1763768159
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763768157}
+  m_CullTransparentMesh: 1
+--- !u!224 &1763768160
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763768157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.96987, y: 46.01373}
+  m_SizeDelta: {x: 227.74, y: 29.4755}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1764812349
 GameObject:
   m_ObjectHideFlags: 0
@@ -17655,7 +18948,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Norway and Denmark
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -17932,7 +19225,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Bulgaria
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -18559,6 +19852,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826541488}
   m_CullTransparentMesh: 1
+--- !u!1 &1835540594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835540595}
+  - component: {fileID: 1835540598}
+  - component: {fileID: 1835540597}
+  - component: {fileID: 1835540596}
+  m_Layer: 5
+  m_Name: ActionButton2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1835540595
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835540594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1139346147}
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -86.6}
+  m_SizeDelta: {x: 62.0579, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1835540596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835540594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1835540597}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1660024318}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ObjectActionButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1835540597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835540594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1835540598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835540594}
+  m_CullTransparentMesh: 1
 --- !u!1 &1846122323
 GameObject:
   m_ObjectHideFlags: 0
@@ -18769,7 +20196,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Kazakhstan
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -18780,6 +20207,141 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
+--- !u!1 &1858312915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1858312918}
+  - component: {fileID: 1858312917}
+  - component: {fileID: 1858312916}
+  m_Layer: 5
+  m_Name: Data2 Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1858312916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858312915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Data 2: '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12
+  m_fontSizeBase: 12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0.7159004}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1858312917
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858312915}
+  m_CullTransparentMesh: 1
+--- !u!224 &1858312918
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858312915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.9698696, y: 10.59211}
+  m_SizeDelta: {x: 227.74, y: 26.3854}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1881379602
 GameObject:
   m_ObjectHideFlags: 0
@@ -18832,7 +20394,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Germany
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -19030,7 +20592,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Taiwan and Philppines
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -19286,6 +20848,140 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1912319165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1912319166}
+  - component: {fileID: 1912319169}
+  - component: {fileID: 1912319168}
+  - component: {fileID: 1912319167}
+  m_Layer: 5
+  m_Name: ActionButton1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1912319166
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912319165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 529480207}
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -80, y: -86.6}
+  m_SizeDelta: {x: 62.0579, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1912319167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912319165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1912319168}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1660024318}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: ObjectActionButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1912319168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912319165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1912319169
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912319165}
+  m_CullTransparentMesh: 1
 --- !u!1 &1917537707
 GameObject:
   m_ObjectHideFlags: 0
@@ -19566,7 +21262,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Mongolia
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -19629,7 +21325,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Turkey
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -19692,7 +21388,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Romania
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -20938,7 +22634,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Afganistan
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -21059,7 +22755,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: New Zealand
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -21126,7 +22822,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: South West Africa
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -21189,7 +22885,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Poland
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -21352,6 +23048,141 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048823821}
+  m_CullTransparentMesh: 1
+--- !u!1 &2060322426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2060322427}
+  - component: {fileID: 2060322429}
+  - component: {fileID: 2060322428}
+  m_Layer: 5
+  m_Name: ObjectName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2060322427
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060322426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 469897612}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.96989, y: 65.2}
+  m_SizeDelta: {x: 227.74, y: 39.0261}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2060322428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060322426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Tera Factory
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 15
+  m_fontSizeBase: 15
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 5
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: -0.82320213, z: 0, w: 18.201635}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2060322429
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060322426}
   m_CullTransparentMesh: 1
 --- !u!1 &2063842206
 GameObject:
@@ -21616,7 +23447,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Grece
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -21757,7 +23588,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Indochina Minors
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -21896,7 +23727,7 @@ MonoBehaviour:
   Starting_Population: 0
   Cumilative_Population_From_Territories: 0
   GDP_Contribution: 0
-  Nation_Name: 
+  Nation_Name: Mexico
   Nation_Colour:
     serializedVersion: 2
     rgba: 0
@@ -26233,7 +28064,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &1652871244542334515
@@ -29543,7 +31373,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &2780625372592657051
@@ -30825,7 +32654,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &3183927384444060406
@@ -32437,7 +34265,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &3792231438100692059
@@ -33131,7 +34958,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &4027076389896171358
@@ -35628,7 +37454,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &4841073627240781377
@@ -35749,7 +37574,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &4860118865986438776
@@ -36261,7 +38085,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &4985955443313829044
@@ -37805,7 +39628,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &5530195323722410098
@@ -38510,7 +40332,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &5894731859362788568
@@ -38845,7 +40666,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &5941622485233388588
@@ -39152,7 +40972,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6083754517341329450
@@ -39393,7 +41212,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6132505612376452337
@@ -39591,7 +41409,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6152735861789147212
@@ -39818,7 +41635,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6268495691802788657
@@ -39917,7 +41733,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!65 &6293469048604546797
@@ -40029,7 +41844,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6304757834275863100
@@ -40184,7 +41998,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6309083694054995344
@@ -40619,7 +42432,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6506496685253598450
@@ -41201,7 +43013,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6728197544843027388
@@ -41326,7 +43137,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6730613608896685952
@@ -41527,7 +43337,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6763439537220670326
@@ -41705,7 +43514,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6777782038229338667
@@ -41975,7 +43783,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6815599906220972268
@@ -42066,7 +43873,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6819261278057603372
@@ -42211,7 +44017,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &6871873603908281465
@@ -42681,7 +44486,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7036350362976640728
@@ -42829,7 +44633,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7041851383944771754
@@ -42969,7 +44772,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7080035211496516199
@@ -43237,7 +45039,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7123413180167446140
@@ -43570,7 +45371,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7154126648499966793
@@ -43661,7 +45461,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7165849847351635840
@@ -43854,7 +45653,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7182260763926276925
@@ -44277,7 +46075,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7216831413281448422
@@ -44447,7 +46244,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7271061884136023951
@@ -44586,7 +46382,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7301364739028027792
@@ -45164,7 +46959,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7401814321479983520
@@ -45283,7 +47077,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7403467953013185056
@@ -45531,7 +47324,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7485385829451455601
@@ -45718,7 +47510,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7496735797668509375
@@ -45939,7 +47730,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7545184757162388793
@@ -46047,7 +47837,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!64 &7559950337960092037
@@ -46384,7 +48173,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7651471114711152509
@@ -46482,7 +48270,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7665679274628411838
@@ -46588,7 +48375,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7667907696503392895
@@ -46880,7 +48666,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7681213382034498826
@@ -47080,7 +48865,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7722169636882485253
@@ -47385,7 +49169,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7796874748637135523
@@ -47491,7 +49274,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7798638357756343198
@@ -47597,7 +49379,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7808502603781505738
@@ -47873,7 +49654,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7882744642201910356
@@ -47996,7 +49776,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7890620488545002834
@@ -48264,7 +50043,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7910164486191454794
@@ -48370,7 +50148,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &7937995552845565582
@@ -48930,7 +50707,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8050093662301957444
@@ -49036,7 +50812,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8050968835948256910
@@ -49181,7 +50956,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8070491155156286929
@@ -49287,7 +51061,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8074795972161844798
@@ -49891,7 +51664,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8198161660207551837
@@ -50418,7 +52190,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8270835633212527706
@@ -50543,7 +52314,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8274305174409095637
@@ -50690,7 +52460,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8283813876826225307
@@ -50865,7 +52634,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8294853208973340168
@@ -50956,7 +52724,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8301062526844017247
@@ -51213,7 +52980,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8329452962616678297
@@ -51526,7 +53292,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8381364801093561706
@@ -51860,7 +53625,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8414455666200486019
@@ -51958,7 +53722,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8426162239799329246
@@ -52095,7 +53858,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8436869925962931882
@@ -52269,7 +54031,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8447293596163681884
@@ -52883,7 +54644,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8574446679631175413
@@ -53057,7 +54817,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8604869484763951536
@@ -53163,7 +54922,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8616525648149928828
@@ -53254,7 +55012,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8618840745855796306
@@ -53379,7 +55136,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8620110766209041315
@@ -53485,7 +55241,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8639667045912848067
@@ -53629,7 +55384,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8645039824371752163
@@ -53751,7 +55505,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8669568566491933448
@@ -53857,7 +55610,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8687270170963502905
@@ -54001,7 +55753,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8694915824140822447
@@ -54092,7 +55843,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8696216555861796936
@@ -54300,7 +56050,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8714737999196500447
@@ -54411,7 +56160,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8719946838613098013
@@ -54551,7 +56299,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8742910664235172417
@@ -54688,7 +56435,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8754354336780202139
@@ -54909,7 +56655,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8775937737764271372
@@ -55015,7 +56760,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8777030510935413494
@@ -55113,7 +56857,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8787788099430083401
@@ -55204,7 +56947,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8789089806572573000
@@ -55336,7 +57078,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8799719928825325074
@@ -55434,7 +57175,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8821042139119670785
@@ -55540,7 +57280,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8827926007078339088
@@ -55715,7 +57454,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8847085882101398210
@@ -55840,7 +57578,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8849675240222751257
@@ -56138,7 +57875,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8863284069982145049
@@ -56236,7 +57972,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8867397393231603003
@@ -56327,7 +58062,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8871621783304910228
@@ -56433,7 +58167,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8874446792680002711
@@ -56586,7 +58319,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8880448629240728908
@@ -56821,7 +58553,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8892653029837630190
@@ -57049,7 +58780,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8935731875182330732
@@ -57217,7 +58947,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8947397282871930246
@@ -57342,7 +59071,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &8955261909131503178
@@ -57644,7 +59372,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9009060915856824430
@@ -58010,7 +59737,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9040970354201443526
@@ -58135,7 +59861,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9055679164459040574
@@ -58322,7 +60047,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9074487549218873392
@@ -58542,7 +60266,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9088025007546148318
@@ -58713,7 +60436,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9106910290284556876
@@ -58811,7 +60533,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9124615928599291027
@@ -58902,7 +60623,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9133583001655314865
@@ -59096,7 +60816,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9155106428558529357
@@ -59351,7 +61070,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9181962916246459592
@@ -59457,7 +61175,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9203952220224397339
@@ -59582,7 +61299,6 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  nationPlacedObjectsList: []
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
 --- !u!114 &9212487939696372572
