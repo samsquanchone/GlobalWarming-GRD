@@ -38,12 +38,18 @@ public class Nation : MonoBehaviour
     [SerializeField] public int Harbour_Level;
     [SerializeField] public int Railway_Level;
 
+
+   
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///
     private void Start()
     {
         //Pull Nation Data
-        this.Nation_Name = Attached_Nations_Data.Nation_Name;
+        Attached_Nations_Data.Nation_Name = Attached_Nations_Data.name;
+        this.Nation_Name = Attached_Nations_Data.Nation_Name; //Sam edit: you have already named the SO's so why not just get the name of SO's and not name them all by hand? up to you
+        
+
         this.Nation_Colour = Attached_Nations_Data.Nation_Colour;
         this.GDP = Attached_Nations_Data.GDP;
         this.Awareness = Attached_Nations_Data.Awareness;
