@@ -20,7 +20,7 @@ public class Nation_Data : ScriptableObject
 
     [Header("Nation Properties")]
     //GDP
-    [SerializeField] public int GDP; //Each nation has its starting GDP tied to its cumulative population from the nationï¿½s tiles. If nothing happens, nation GDPï¿½s increases because of the steady increase of the population of its tiles.
+    [SerializeField] public int GDP; //Each nation has its starting GDP tied to its cumulative population from the nation’s tiles. If nothing happens, nation GDP’s increases because of the steady increase of the population of its tiles.
 
     //Population
     [SerializeField] public int Cumilative_Population_From_Territories; //Nations does not affect populations, but populations effect the nation by increasing/decreasing its GDP and Awareness.
@@ -50,11 +50,5 @@ public class Nation_Data : ScriptableObject
 
     [Header("Country's Total Avaliable Woodland ")]
     [SerializeField] public int Woodland_Count;
-
-    void Awake()
-    {
-        Nation_Name = GetType().Name;
-        Debug.Log("So names: " + Nation_Name);
-    }
 
 }

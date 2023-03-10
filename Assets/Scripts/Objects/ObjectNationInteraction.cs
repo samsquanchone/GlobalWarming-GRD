@@ -5,8 +5,8 @@ using UnityEngine;
 public class ObjectNationInteraction : MonoBehaviour
 {
     bool nationFound = false;
-    public string nationPlaced {get; private set;}
-    public GameObject nation {get; private set;}
+    public string nationPlaced;
+    public GameObject nation;
     //Upon collision with another GameObject, this GameObject will reverse direction
     private void OnTriggerEnter(Collider other)
     {

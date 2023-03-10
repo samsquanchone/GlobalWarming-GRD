@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: -7705425671770659884}
   - component: {fileID: 4515577996431720704}
   - component: {fileID: 9036950511619480489}
-  - component: {fileID: -1393396211545955229}
   m_Layer: 0
   m_Name: Dock
   m_TagString: Infrastructure
@@ -136,6 +135,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nationPlaced: 
+  nation: {fileID: 0}
 --- !u!114 &-7705425671770659884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,16 +187,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-1393396211545955229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4343404143130107203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89934c7f6598b3642ab27a4406c36a5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  infrastuctureType: 2

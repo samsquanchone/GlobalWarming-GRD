@@ -45,7 +45,6 @@ public class TreeObject : SaveableObject
     public void RemoveObject()
     {
         //This function will remove object, could also be used to add yield amount to a countries wood amount for example
-        GetComponent<TreeGrowth>().HarvestTree();
         DestroySaveable();
     }
     public override void Save(int id)

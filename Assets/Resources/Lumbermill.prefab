@@ -103,7 +103,6 @@ GameObject:
   - component: {fileID: -1054759964773377275}
   - component: {fileID: 8757305124694298852}
   - component: {fileID: 2698029767527243671}
-  - component: {fileID: -6605316374434824764}
   m_Layer: 0
   m_Name: Lumbermill
   m_TagString: Infrastructure
@@ -161,6 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nationPlaced: 
+  nation: {fileID: 0}
 --- !u!65 &5416423246828459134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -240,18 +241,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-6605316374434824764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6417471643495076973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89934c7f6598b3642ab27a4406c36a5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &737939867570914279
 PrefabInstance:
   m_ObjectHideFlags: 0

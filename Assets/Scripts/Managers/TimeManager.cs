@@ -7,13 +7,8 @@ public class TimeManager : MonoBehaviour
     //Singleton
     public static TimeManager instance => m_instance;
     private static TimeManager m_instance;
-    
 
-    //For tracking active tree growth
     public List<TreeGrowth> activeTreeList;
-
-    //For storing values over a certain time to pass to graph data manager
-    public int treesPlanted = 0;
 
     void Awake()
     {
@@ -30,15 +25,6 @@ public class TimeManager : MonoBehaviour
             activeTree.UpdateGrowthTimer();
         }
 
-    }
-
-    
-
-    public void YearPassed()
-    {
-       DataSet dataSet = DataSet.TREESPLANTED;
-       GraphDataManager.instance.AddValueToDataSet(dataSet, treesPlanted);
-       treesPlanted = 0;
     }
 
     
