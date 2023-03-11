@@ -78,30 +78,54 @@ public class Nation : MonoBehaviour
 
         //Calculate Starting Pops
         Calculate_Starting_Population();
+
+        GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
     }
 
     #region On Month Pass Calculations
+
+    public void Calculate_On_Month_Pass()
+    {
+        //Nation Specific
+        GDP_Growth_and_Shrink();
+        Calculate_Monthly_Population();
+        Awareness_Growth_and_Shrink();
+
+        //Production
+        Produce_Pykerete();
+        Produce_Timber();
+        //
+    }
+
+
+
+    public void GDP_Growth_and_Shrink()
+    {
+
+    }
+
+    public void Awareness_Growth_and_Shrink()
+    {
+
+    }
+
+
     public void Produce_Pykerete()
     {
-        //Produce pykerete from nation data properities
 
-        //Update game state
     }
 
     public void Produce_Timber()
     {
-        //Produce timber from nation data properities
 
-        //Update game state
     }
 
     public void Calculate_Monthly_Population()
     {
-        //Calculate pop from game state
-
-        //Update this.
-
-        //Update nation data statistics
+        for(int i = 0; i < this.Nations_Territories.Length; i++)
+        {
+            this.Cumilative_Population_From_Territories = Nations_Territories[i].Population;
+        }
 
     }
 

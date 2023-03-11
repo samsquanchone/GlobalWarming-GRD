@@ -47,7 +47,66 @@ public class Player : MonoBehaviour
         this.Political_Power = Attached_Player_Data.Political_Power;
         this.Wood = Attached_Player_Data.Wood;
         this.Pykerete = Attached_Player_Data.Pykerete;
+
+
+        GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
     }
+
+    #region On Month Pass Calculations
+    //Calculation Values
+    [Header("Generated Values")]
+    private int Ship_Logistics_Coverage;
+    private int Train_Logistics_Coverage;
+    private int Total_Logistics_Coverage;
+    private int Montly_Pykerete_Shipment;
+
+    public void Calculate_On_Month_Pass()
+    {
+        //Update
+        Update_Player_UI();
+
+        //Money and Political Power
+        Gain_Money_From_Country_GDP_Contribution();
+        Gain_Political_Power();
+
+        //Logistics
+        Calculate_All_Logistics();
+        Tranport_Pykerete_To_Antratica();
+
+        //Check Win State
+        Check_For_Win_State();
+    }
+
+    public void Update_Player_UI()
+    {
+
+    }
+
+    public void Gain_Political_Power()
+    {
+
+    }
+    public void Gain_Money_From_Country_GDP_Contribution()
+    {
+
+    }
+    public void Calculate_All_Logistics()
+    {
+        //Train Logistics Coverage
+        //Ship Logistics Coverage
+        //Total Logistics Coverage
+    }
+    public void Tranport_Pykerete_To_Antratica()
+    {
+
+    }
+
+    public void Check_For_Win_State()
+    {
+
+    }
+    #endregion
+
 
     public void Save()
     {
@@ -81,18 +140,6 @@ public class Player : MonoBehaviour
 
 
     }
-    #region Generated Values
-    //Calculation Values
-    [Header("Generated Values")]
-    private int Ship_Logistics_Coverage;
-    private int Train_Logistics_Coverage;
-
-    private int Total_Logistics_Coverage;
-
-
-
-    private int Montly_Pykerete_Shipment;
-    #endregion
 
 
 

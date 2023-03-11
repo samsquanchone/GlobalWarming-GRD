@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Date_and_Time_System : MonoBehaviour
@@ -151,13 +152,14 @@ public class Date_and_Time_System : MonoBehaviour
 
     #endregion
 
-
+    public UnityEvent Month_Pass_Event;
     public void On_Month_Pass()
     {
         //Calculate Month (Cant be bigger than 12
         Month++;
         TimeManager.instance.UpdateTreeGrowth();
 
+        Month_Pass_Event.Invoke();
 
         if (Month > 12) {TimeManager.instance.YearPassed(); Month = 1; /*Increase Year */ Year++; }
         

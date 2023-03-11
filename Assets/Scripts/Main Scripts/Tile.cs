@@ -73,7 +73,37 @@ public class Tile : MonoBehaviour
 
         //Nation UI Connection
         NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>();
+        GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
     }
+
+    public void Calculate_On_Month_Pass()
+    {
+        Population_Growth_and_Shrink();
+    }
+
+    public void Population_Growth_and_Shrink()
+    {
+        this.Population += (int)(this.Population * 0.01f);
+        
+
+        //Effects of Heat
+
+        if(this.Average_Heat_Level > 20)  //High Normal
+        {
+            this.Population -= (int)(this.Population * 0.015f);
+        }
+
+        if (this.Average_Heat_Level > 25) //Very High
+        {
+            this.Population -= (int)(this.Population * 0.02f);
+        }
+
+        if (this.Average_Heat_Level > 25) //Unhabitable
+        {
+            this.Population -= (int)(this.Population * 0.1f);
+        }
+    }
+
 
     public void Save()
     {
