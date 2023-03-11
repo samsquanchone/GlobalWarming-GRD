@@ -54,32 +54,69 @@ public class Tile : MonoBehaviour
     private void Start()
     {
         //Pull Tile Data
-        /*if(Attached_Tiles_Data != null)
-        this.Territory_Name = Attached_Tiles_Data.Territory_Name;
-        this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
-        this.Climate_Support = Attached_Tiles_Data.Climate_Support;
-        this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
-        this.Population = Attached_Tiles_Data.Population;
-        this.Tera_Factory_Avaliable = Attached_Tiles_Data.Tera_Factory_Avaliable;
-        this.Harbor_Avaliable = Attached_Tiles_Data.Harbor_Avaliable;
-        this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level = 0;
-        this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
-        this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
-        this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
-        */
+        if(Attached_Tiles_Data != null)
+        {
+            this.Territory_Name = Attached_Tiles_Data.Territory_Name;
+            this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
+            this.Climate_Support = Attached_Tiles_Data.Climate_Support;
+            this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
+            this.Population = Attached_Tiles_Data.Population;
+            this.Tera_Factory_Avaliable = Attached_Tiles_Data.Tera_Factory_Avaliable;
+            this.Harbor_Avaliable = Attached_Tiles_Data.Harbor_Avaliable;
+            this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level = 0;
+            this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
+            this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
+            this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
+        }
+  
         //Occupiant Nation is given at the start of the game by the occupiant nation.
 
         //Nation UI Connection
         NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>();
     }
 
-    
+    public void Save()
+    {
+        if (Attached_Tiles_Data != null)
+        {
+            this.Attached_Tiles_Data.Territory_Name = Territory_Name;
+            this.Attached_Tiles_Data.Avaliable_Woodland =Avaliable_Woodland;
+            this.Attached_Tiles_Data.Climate_Support = Climate_Support;
+            this.Attached_Tiles_Data.Average_Heat_Level = Average_Heat_Level;
+            this.Attached_Tiles_Data.Population = Population;
+            this.Attached_Tiles_Data.Tera_Factory_Avaliable = Tera_Factory_Avaliable;
+            this.Attached_Tiles_Data.Harbor_Avaliable = Harbor_Avaliable;
+            this.Attached_Tiles_Data.Lumbermill_Level = Lumbermill_Level = 0;
+            this.Attached_Tiles_Data.Tera_Factory_Level = Tera_Factory_Level = 0;
+            this.Attached_Tiles_Data.Harbour_Level = Harbour_Level = 0;
+            this.Attached_Tiles_Data.Railway_Level = Railway_Level = 0;
+        }
+    }
+    public void Load()
+    {
+        if (Attached_Tiles_Data != null)
+        {
+            this.Territory_Name = Attached_Tiles_Data.Territory_Name;
+            this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
+            this.Climate_Support = Attached_Tiles_Data.Climate_Support;
+            this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
+            this.Population = Attached_Tiles_Data.Population;
+            this.Tera_Factory_Avaliable = Attached_Tiles_Data.Tera_Factory_Avaliable;
+            this.Harbor_Avaliable = Attached_Tiles_Data.Harbor_Avaliable;
+            this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level = 0;
+            this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
+            this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
+            this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
+        }
+    }
+
+
     //There is already input mouse button down on PlayerInput, best to abstract functionality unrelated to tiles
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Tile Pressed");
+            //Debug.Log("Tile Pressed");
             NationUIManager.Show_Nation_UI(this.Occupiant_Nation) ;
         }
     }
@@ -93,25 +130,30 @@ public class Tile : MonoBehaviour
          switch(objectType)
          {
          case ObjectType.Lumbermill:
-         lumbermill_Amount += 1;
+            lumbermill_Amount += 1;
+                Lumbermill_Level++;
 
          break;
 
          case ObjectType.Factory:
-         pykreteFactory_Amount += 1;
+            pykreteFactory_Amount += 1;
+                Tera_Factory_Level++;
          break;
 
          case ObjectType.Dock:
-         dock_Amount += 1;
+            dock_Amount += 1;
+                Harbour_Level++;
          break;
 
          case ObjectType.TrainStation:
          trainStation_Amount += 1;
+                Railway_Level++;
          break;
          
          default:
          //Is a tree
          activeTree_Amount += 1;
+
          break;
 
 

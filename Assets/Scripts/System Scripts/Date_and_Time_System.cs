@@ -34,6 +34,17 @@ public class Date_and_Time_System : MonoBehaviour
     [Header("Stopped Indication Canvas")]
     [SerializeField] public Canvas Stop_Indication_Canvas;
 
+    public void Save()
+    {
+        this.TimeData.Year = this.Year;
+        this.TimeData.Month = this.Month;
+    }
+    public void Load()
+    {
+        this.Year = TimeData.Year;
+        this.Month = TimeData.Month;
+    }
+
     void Start()
     {
         //Button Listeners

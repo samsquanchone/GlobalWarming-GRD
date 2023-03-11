@@ -49,6 +49,21 @@ public class Player : MonoBehaviour
         this.Pykerete = Attached_Player_Data.Pykerete;
     }
 
+    public void Save()
+    {
+        this.Attached_Player_Data.Money = Money;
+        this.Attached_Player_Data.Political_Power = Political_Power;
+        this.Attached_Player_Data.Wood = Wood;
+        this.Attached_Player_Data.Pykerete = Pykerete;
+    }
+    public void Load()
+    {
+        this.Money = Attached_Player_Data.Money;
+        this.Political_Power = Attached_Player_Data.Political_Power;
+        this.Wood = Attached_Player_Data.Wood;
+        this.Pykerete = Attached_Player_Data.Pykerete;
+    }
+
     private void Update()
     {
         Money_UI.text = this.Money.ToString();

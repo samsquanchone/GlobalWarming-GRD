@@ -152,4 +152,44 @@ public class Nation : MonoBehaviour
         }
     }
     #endregion
+
+
+    public void Save()
+    {
+        //Save Data
+        this.Attached_Nations_Data.Woodland_Count = this.Woodland_Count;
+        this.Attached_Nations_Data.GDP = this.GDP;
+        this.Attached_Nations_Data.Awareness = this.Awareness;
+
+        this.Attached_Nations_Data.Lumbermill_Level = this.Lumbermill_Level;
+        this.Attached_Nations_Data.Lumbermill_Level = this.Tera_Factory_Level;
+        this.Attached_Nations_Data.Lumbermill_Level = this.Harbour_Level;
+        this.Attached_Nations_Data.Lumbermill_Level = this.Railway_Level;
+
+
+        //Calculate Starting Woodland and Give it to Nation Data Holder and Nation
+        Calculate_Starting_Woodland(); // -> Updates this and nation data
+
+
+        //Calculate Population and Give it to Nation Data Holder
+        Calculate_Starting_Population(); // -> Updates this and nation data
+
+        //At the start of the game colour all territories according to the national colours.
+        Colour_All_Teritories_According_to_the_Nation_Colour();
+
+        //Calculate Starting Pops
+        Calculate_Starting_Population();
+    }
+
+    public void Load()
+    {
+        this.Woodland_Count = this.Attached_Nations_Data.Woodland_Count;
+        this.GDP = this.Attached_Nations_Data.GDP;
+        this.Awareness = this.Attached_Nations_Data.Awareness;
+
+        this.Lumbermill_Level = this.Attached_Nations_Data.Lumbermill_Level;
+        this.Lumbermill_Level = this.Attached_Nations_Data.Tera_Factory_Level;
+        this.Lumbermill_Level = this.Attached_Nations_Data.Harbour_Level;
+        this.Lumbermill_Level = this.Attached_Nations_Data.Railway_Level;
+    }
 }
