@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] Player_Data Attached_Player_Data;
 
-
+    [SerializeField] Nation[] All_Nations;
 
     #region Currencies, Stockpile and Logistics init
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -84,7 +84,7 @@ public class Player : MonoBehaviour
 
     public void Gain_Political_Power()
     {
-
+        this.Political_Power += 1;
     }
     public void Gain_Money_From_Country_GDP_Contribution()
     {

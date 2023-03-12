@@ -101,12 +101,100 @@ public class Nation : MonoBehaviour
 
     public void GDP_Growth_and_Shrink()
     {
+        //GDP Grows
+        if(this.Cumilative_Population_From_Territories > Starting_Population)
+        {
+            this.GDP += (int)(this.GDP * 0.01f);
+        }
 
+
+        //GDP Shrinks
+
+        //  Pop Effect
+        if (this.Cumilative_Population_From_Territories < Starting_Population) //Population Shrinks, Society Starts to Collapse
+        {
+            this.GDP -= (int)(this.GDP * 0.01f);
+        }
+        if (this.Cumilative_Population_From_Territories < Starting_Population/2) //Famine and Disaster Society Collapses
+        {
+            this.GDP -= (int)(this.GDP * 0.025f);
+        }
+        if (this.Cumilative_Population_From_Territories < Starting_Population / 5) //Total Population Collapse
+        {
+            this.GDP -= (int)(this.GDP * 0.1f);
+        }
+
+        //Heat Level Effect
+        //Calculate Avarage Heat Level on Territories
+        float Avarage_Heat_Level_On_Teritories = 0;
+
+        for(int i = 0; i < this.Nations_Territories.Length; i++)
+        {
+            Avarage_Heat_Level_On_Teritories += Nations_Territories[i].Average_Heat_Level;
+        }
+        Avarage_Heat_Level_On_Teritories = Avarage_Heat_Level_On_Teritories / Nations_Territories.Length;
+
+
+        if (Avarage_Heat_Level_On_Teritories > 23)  //High
+        {
+            this.GDP -= (int)(this.GDP * 0.01f);
+        }
+        if (Avarage_Heat_Level_On_Teritories > 23)  //Very High
+        {
+            this.GDP -= (int)(this.GDP * 0.025f);
+        }
+            if (Avarage_Heat_Level_On_Teritories > 25)//Unhabitable
+        {
+            this.GDP -= (int)(this.GDP * 0.05f);
+        }
     }
 
     public void Awareness_Growth_and_Shrink()
     {
+        //  Pop Effect
+        if (this.Cumilative_Population_From_Territories < Starting_Population) //Population Shrinks, Society Starts to Collapse
+        {
+            this.Awareness += 0.25f;
+        }
+        if (this.Cumilative_Population_From_Territories < Starting_Population / 2) //Famine and Disaster Society Collapses
+        {
+            this.Awareness += 0.5f;
+        }
+        if (this.Cumilative_Population_From_Territories < Starting_Population / 5) //Total Population Collapse
+        {
+            this.Awareness += 1f;
+        }
 
+        //Heat Level Effect
+        //Calculate Avarage Heat Level on Territories
+        float Avarage_Heat_Level_On_Teritories = 0;
+
+        for (int i = 0; i < this.Nations_Territories.Length; i++)
+        {
+            Avarage_Heat_Level_On_Teritories += Nations_Territories[i].Average_Heat_Level;
+        }
+        Avarage_Heat_Level_On_Teritories = Avarage_Heat_Level_On_Teritories / Nations_Territories.Length;
+
+        if (Avarage_Heat_Level_On_Teritories > 13)  //Low
+        {
+            this.Awareness += 0.005f;
+        }
+        if (Avarage_Heat_Level_On_Teritories > 16)  //Medium
+        {
+            this.Awareness += 0.01f;
+        }
+        if (Avarage_Heat_Level_On_Teritories > 20)  //High
+        {
+            this.Awareness += 0.05f;
+        }
+        if (Avarage_Heat_Level_On_Teritories > 23)  //Very High
+        {
+            this.Awareness += 0.25f;
+        }
+        if (Avarage_Heat_Level_On_Teritories > 25)//Unhabitable
+        {
+            this.Awareness -= 0.5f;
+        }
     }
 
 

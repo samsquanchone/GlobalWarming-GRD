@@ -18,7 +18,7 @@ public class Tile : MonoBehaviour
     [SerializeField] public string Territory_Name;
     [SerializeField] public int Avaliable_Woodland = 0;
     [SerializeField] public int Climate_Support;
-    [SerializeField] public int Average_Heat_Level;
+    [SerializeField] public float Average_Heat_Level;
     [SerializeField] public int Population;
     [SerializeField] public bool Tera_Factory_Avaliable;
     [SerializeField] public bool Harbor_Avaliable;
@@ -79,31 +79,61 @@ public class Tile : MonoBehaviour
     public void Calculate_On_Month_Pass()
     {
         Population_Growth_and_Shrink();
+        Heat_Levels_Rise_and_Fall();
     }
 
     public void Population_Growth_and_Shrink()
     {
+        //Neutral Population Growth
+
+        /*The current global RNI is estimated to be around 1.1% per year, which translates to approximately 0.092% per month*/
         this.Population += (int)(this.Population * 0.01f);
         
 
         //Effects of Heat
 
-        if(this.Average_Heat_Level > 20)  //High Normal
+        //Normal avarage heat level of europe is 13 Celsius
+
+        if(this.Average_Heat_Level > 20)  //High
         {
             this.Population -= (int)(this.Population * 0.015f);
         }
 
-        if (this.Average_Heat_Level > 25) //Very High
+        if (this.Average_Heat_Level > 23) //Very High
         {
             this.Population -= (int)(this.Population * 0.02f);
         }
 
-        if (this.Average_Heat_Level > 25) //Unhabitable
+        //Deserts have an avarage heat level of 25 Celsius
+        if (this.Average_Heat_Level > 26) //Unhabitable
         {
             this.Population -= (int)(this.Population * 0.1f);
         }
     }
 
+    public void Heat_Levels_Rise_and_Fall()
+    {
+        //Effects Everything
+
+        /*
+        The Intergovernmental Panel on Climate Change (IPCC) has stated that the global temperature has increased by about 1.1 degrees Celsius since the pre-industrial era (1850-1900), and is expected to continue to rise if greenhouse gas emissions are not reduced.
+        Becouse of the main indistrulization happened after 1940s, we can estimate global warming increases by 1 for each 70 to 100 years.
+        To determine how much something increases per month if it increases 1 per 70 years, we need to first convert 70 years into months. Since there are 12 months in a year, 70 years is equal to 840 months (70 years x 12 months/year = 840 months).
+        Next, we can divide the total increase of 1 by the total number of months (1/840) to find the increase per month.
+
+        1/840 = 0.00119048 (+0.0012 Celsius per month)
+
+        Therefore, if something is increasing 1 per 70 years, it would increase by approximately 0.0012 per month.
+         */
+        //MONTHLY Heat Level Rise
+        this.Average_Heat_Level += 0.0012f;
+
+
+        //Effects of Heat Level Fall
+        //According to the PYKERETE SEND TO ANTRATICA
+
+        this.Average_Heat_Level -= 0;
+    }
 
     public void Save()
     {

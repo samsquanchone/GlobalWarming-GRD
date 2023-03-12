@@ -4847,6 +4847,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Player_Data: {fileID: 11400000, guid: ade876d2cf4068041a37cd0958084f81,
     type: 2}
+  All_Nations:
+  - {fileID: 916957989}
+  - {fileID: 1528867767}
+  - {fileID: 484785786}
+  - {fileID: 1459775340}
+  - {fileID: 1411116409}
+  - {fileID: 790358920}
+  - {fileID: 1643267570}
+  - {fileID: 803042012}
+  - {fileID: 97091039}
+  - {fileID: 353845384}
+  - {fileID: 1696635462}
+  - {fileID: 898152937}
+  - {fileID: 1769118528}
+  - {fileID: 78095820}
+  - {fileID: 1627296908}
+  - {fileID: 929921408}
+  - {fileID: 269465320}
+  - {fileID: 2097399260}
+  - {fileID: 2122379142}
+  - {fileID: 1223257405}
+  - {fileID: 1711875487}
+  - {fileID: 1949379543}
+  - {fileID: 1362176852}
+  - {fileID: 2041024020}
+  - {fileID: 495974695}
+  - {fileID: 2046699311}
+  - {fileID: 1966863317}
+  - {fileID: 897157653}
+  - {fileID: 62262955}
+  - {fileID: 2044418643}
+  - {fileID: 1511652650}
+  - {fileID: 1951069561}
+  - {fileID: 768192332}
+  - {fileID: 1229411065}
+  - {fileID: 765834344}
+  - {fileID: 980211576}
+  - {fileID: 1421295163}
+  - {fileID: 1209217988}
+  - {fileID: 1645372293}
+  - {fileID: 2038175427}
+  - {fileID: 1035405155}
+  - {fileID: 1175330276}
+  - {fileID: 1687306451}
+  - {fileID: 1783333297}
+  - {fileID: 102508927}
+  - {fileID: 46403424}
+  - {fileID: 1502280622}
+  - {fileID: 1881379604}
+  - {fileID: 1741451779}
+  - {fileID: 1577104059}
+  - {fileID: 440558203}
+  - {fileID: 1855980230}
+  - {fileID: 2132155127}
+  - {fileID: 592116612}
+  - {fileID: 1448025342}
+  - {fileID: 1097849861}
+  - {fileID: 636435965}
+  - {fileID: 454942140}
+  - {fileID: 1191843759}
+  - {fileID: 367927622}
+  - {fileID: 485771023}
+  - {fileID: 1889057970}
+  - {fileID: 1129552805}
+  - {fileID: 542368728}
+  - {fileID: 411595841}
   Money: 0
   Political_Power: 0
   Wood: 0
@@ -14842,6 +14908,9 @@ MonoBehaviour:
   Normal_Speed_BUTTON: {fileID: 1277321233}
   Fast_Speed_BUTTON: {fileID: 1268312614}
   Stop_Indication_Canvas: {fileID: 493812039}
+  Month_Pass_Event:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1423683696
 MonoBehaviour:
   m_ObjectHideFlags: 0
