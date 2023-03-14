@@ -456,6 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ed2d30a146b76ab4f8dd44a1573eb47d,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8301062526844017246}
   Woodland_Count: 0
@@ -596,6 +597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 90553d6603ffd584d9b62cd689b4e0fa,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6819261278057603371}
   - {fileID: 7798638357756343197}
@@ -660,6 +662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 73708725049c31d4d874b8890d3e49d1,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6304757834275863099}
   Woodland_Count: 0
@@ -1073,6 +1076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: f1aa244cfe914544f989c7b3aacec117,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8799719928825325073}
   - {fileID: 8935731875182330731}
@@ -1274,6 +1278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 987d71dd37537804dbdf274b6ad4e855,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7301364739028027791}
   - {fileID: 7796874748637135522}
@@ -1989,7 +1994,7 @@ GameObject:
   - component: {fileID: 210156443}
   - component: {fileID: 210156442}
   m_Layer: 0
-  m_Name: Nation Wiew
+  m_Name: (!)Nation Wiew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2628,6 +2633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 05855aa07cc3de848ba490a54fac5b5f,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9055679164459040573}
   Woodland_Count: 0
@@ -3519,6 +3525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 78d072e3f3ede974383922ac3c3a5771,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 2780625372592657050}
   - {fileID: 7890620488545002833}
@@ -3756,6 +3763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ec324566d92304647b2b8c1d567c17f1,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7080035211496516198}
   - {fileID: 8787788099430083400}
@@ -4243,6 +4251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: b1ee43231936c204cbd17f5cfd1901d5,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7123413180167446139}
   - {fileID: 6152735861789147211}
@@ -4442,6 +4451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9c91f4872f5caf141921a3bb373e1432,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4841073627240781376}
   Woodland_Count: 0
@@ -4505,6 +4515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ee424059f7457be489798d942c729ed0,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6871873603908281464}
   Woodland_Count: 0
@@ -4915,7 +4926,7 @@ MonoBehaviour:
   - {fileID: 411595841}
   Money: 0
   Political_Power: 0
-  Wood: 0
+  Timber: 0
   Pykerete: 0
   Money_UI: {fileID: 1505006368}
   Political_Power_UI: {fileID: 2063842208}
@@ -5145,6 +5156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: c0716fff84c9b924b8f4b2e1e96f5e3c,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8070491155156286928}
   - {fileID: 9106910290284556875}
@@ -5210,6 +5222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: a4011e857b880224db228ede84d25d31,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 1652871244542334514}
   Woodland_Count: 0
@@ -5375,6 +5388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 6b283bc9e5004fe47b143a58989b0e13,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8867397393231603002}
   Woodland_Count: 0
@@ -5784,6 +5798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 200dfc7f928ebae43b313df17e9745bf,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7403467953013185055}
   Woodland_Count: 0
@@ -6783,6 +6798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0134a4351fdb41b438d1ede22dc9f04b,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8074795972161844797}
   - {fileID: 7651471114711152508}
@@ -7064,6 +7080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 03afbdf7020bad04c9ec99bb8ff83504,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8274305174409095636}
   Woodland_Count: 0
@@ -8208,6 +8225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 7c7c53ea964ef944e8934671eab0666a,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8863284069982145048}
   Woodland_Count: 0
@@ -8354,6 +8372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 3453f8f44974b6842a9bbdfb388afdb5,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7271061884136023950}
   Woodland_Count: 0
@@ -8676,6 +8695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ab1188240e442474f90130424c978a0c,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8687270170963502904}
   Woodland_Count: 0
@@ -8950,6 +8970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 8edfda6c7dfe96c459e59fdd50b1319b,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8604869484763951535}
   - {fileID: 8719946838613098012}
@@ -9789,6 +9810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 26fb07942d249b7468eb52a57612ee8b,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8620110766209041314}
   - {fileID: 8050093662301957443}
@@ -9854,6 +9876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 607bf01c7a79c2342bdbce2fbb00ac0f,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8616525648149928827}
   - {fileID: 7667907696503392894}
@@ -9998,6 +10021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d85977c7d40dcc849803cb61dcae10dc,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7559950337960092036}
   Woodland_Count: 0
@@ -10240,6 +10264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0cd0122c59ac8c844b84b2edf8282195,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9040970354201443525}
   Woodland_Count: 0
@@ -10499,6 +10524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 35f5752501d142a409433c237a21e696,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6293469048604546796}
   Woodland_Count: 0
@@ -10967,6 +10993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2f29aa64514b0ce40b83dcfcf8bc58e3,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8742910664235172416}
   Woodland_Count: 0
@@ -11675,6 +11702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: f779b9838ebc5b74f9c7fa5e4a20ad30,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8639667045912848066}
   Woodland_Count: 0
@@ -11940,6 +11968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: b8f80baba80927e4aa1a4bcb585c506b,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4860118865986438775}
   Woodland_Count: 0
@@ -12292,6 +12321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e56c4eb79d496774093a9abfcded091b,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4027076389896171357}
   - {fileID: 9009060915856824429}
@@ -12475,6 +12505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 92e3663962509d847be95cabb0b16c14,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8754354336780202138}
   Woodland_Count: 0
@@ -12786,6 +12817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 81eee2583b072c14c83532664d689786,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7216831413281448421}
   Woodland_Count: 0
@@ -12849,6 +12881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e625c9d84adb6484593c812ac4ae2f1b,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9212487939696372571}
   Woodland_Count: 0
@@ -12912,6 +12945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d60772f3ae35b1a4b99cd90a4e1090f4,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8436869925962931881}
   Woodland_Count: 0
@@ -14518,6 +14552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 792191dfe36f40a4999b227abb17cb97,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9181962916246459591}
   - {fileID: 7154126648499966792}
@@ -14637,6 +14672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 780032e911b95214595b121bb9334450,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6815599906220972267}
   Woodland_Count: 0
@@ -14700,6 +14736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9c1a7f8c596fdeb49b46b93402db9e90,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9155106428558529356}
   Woodland_Count: 0
@@ -15173,6 +15210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0ae17accc8792f5409197aeb5639c3c7,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6506496685253598449}
   - {fileID: 9133583001655314864}
@@ -15372,6 +15410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ef75c358f28a1834caf2bd92d49faf3b,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8669568566491933447}
   Woodland_Count: 0
@@ -15747,6 +15786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9b6c04ada3048254db157461c09fd98a,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7165849847351635839}
   Woodland_Count: 0
@@ -16080,6 +16120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: a40d0ed34bb0ec149a13caf1f7228fc1,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6083754517341329449}
   Woodland_Count: 0
@@ -16277,6 +16318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ee353cb57f4688b42bf0f4062eed0761,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 3792231438100692058}
   Woodland_Count: 0
@@ -16638,6 +16680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 8f3b323e62697bc4d821db8fe68c6a33,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7401814321479983519}
   Woodland_Count: 0
@@ -17181,6 +17224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9ce5ad83e4eca3a4aaeb0bdeef80b125,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8696216555861796935}
   Woodland_Count: 0
@@ -17379,6 +17423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ccbb2f5951db5e744a214b06d24f535d,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8892653029837630189}
   Woodland_Count: 0
@@ -17442,6 +17487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ee424059f7457be489798d942c729ed0,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6309083694054995343}
   Woodland_Count: 0
@@ -17775,6 +17821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: dc367c4c4da095a49a13cfe5dd11e89c,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8947397282871930245}
   - {fileID: 7910164486191454793}
@@ -17924,6 +17971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e79b9b1d83d825741a479f63af185f6c,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8270835633212527705}
   Woodland_Count: 0
@@ -18122,6 +18170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 5c3f5d8f75097254aab2f6a5223da5b1,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8694915824140822446}
   Woodland_Count: 0
@@ -18540,6 +18589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: f1af49462cb9ef04490bb4fc98ab4203,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8874446792680002710}
   Woodland_Count: 0
@@ -19010,6 +19060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: adc67ccc08bcd3741ae2a45f49deae48,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8618840745855796305}
   - {fileID: 8574446679631175412}
@@ -19288,6 +19339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: fb2eda86a43feb747b2e4f8564aabee8,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8821042139119670784}
   Woodland_Count: 0
@@ -20086,7 +20138,6 @@ Transform:
   - {fileID: 166525114852383808}
   - {fileID: 6486794175241956850}
   - {fileID: 2144669749033467768}
-  - {fileID: 4740668322088260018}
   - {fileID: 6228954983613633927}
   - {fileID: 8126072153765149435}
   - {fileID: 6275355966678586413}
@@ -20259,6 +20310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 4f908eb3844127c45924f8a2ba3978df,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8789089806572572999}
   Woodland_Count: 0
@@ -20457,6 +20509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e6fe3498aa3f35c4cb0a6e6ba6a33f9f,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9203952220224397338}
   Woodland_Count: 0
@@ -20654,6 +20707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d3c65178bb4bb0f45a9d828f71b0e81c,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7036350362976640727}
   - {fileID: 8827926007078339087}
@@ -21325,6 +21379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ffadc763c20850647bade3a8cba46aaa,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7937995552845565581}
   Woodland_Count: 0
@@ -21388,6 +21443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 213c167651fcbf3488a5b817c1e42389,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7041851383944771753}
   Woodland_Count: 0
@@ -21451,6 +21507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 42917423d874ac740877e5d135f1b523,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8775937737764271371}
   Woodland_Count: 0
@@ -22697,6 +22754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 1c206bb7c92570c48b1c2e51be72ab2d,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8714737999196500446}
   Woodland_Count: 0
@@ -22818,6 +22876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: c0404df07c2c83a4e8b70589f20ab329,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8294853208973340167}
   Woodland_Count: 0
@@ -22881,6 +22940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 07e16463cd432a94d820d0835759feed,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4985955443313829043}
   - {fileID: 8447293596163681883}
@@ -22948,6 +23008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2e4236ed34fad7547b048f3e858f975e,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8329452962616678296}
   Woodland_Count: 0
@@ -23510,6 +23571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 05cb6cec122d8ca4280e81baf2d275f9,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7882744642201910355}
   Woodland_Count: 0
@@ -23649,6 +23711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 29a20836575cc8646b87032113ca9d4f,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8777030510935413493}
   - {fileID: 7485385829451455600}
@@ -23790,6 +23853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2505d8e020ffb534da3577fd16d7d950,
     type: 2}
+  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6728197544843027387}
   Woodland_Count: 0
@@ -23893,7 +23957,6 @@ GameObject:
   - component: {fileID: 826260842395098652}
   - component: {fileID: 1208912373063598555}
   - component: {fileID: 883287644390335585}
-  - component: {fileID: 1208912373063598558}
   - component: {fileID: 1208912373063598561}
   - component: {fileID: 1208912373063598562}
   m_Layer: 0
@@ -23979,7 +24042,6 @@ GameObject:
   - component: {fileID: 8842193270061621053}
   - component: {fileID: 83522356441638253}
   - component: {fileID: 2696125814743437241}
-  - component: {fileID: 8842193270061621056}
   - component: {fileID: 8842193270061621058}
   - component: {fileID: 8842193270061621059}
   - component: {fileID: 8842193270061621061}
@@ -25450,7 +25512,6 @@ GameObject:
   - component: {fileID: 3497811097103919513}
   - component: {fileID: 3977913216292594229}
   - component: {fileID: 8080134837426875751}
-  - component: {fileID: 8080134837426875754}
   - component: {fileID: 8080134837426875757}
   - component: {fileID: 8080134837426875758}
   m_Layer: 0
@@ -25979,7 +26040,6 @@ GameObject:
   - component: {fileID: 6797206865502748342}
   - component: {fileID: 175553040741849526}
   - component: {fileID: 504952371860981496}
-  - component: {fileID: 6797206865502748345}
   - component: {fileID: 6797206865502748346}
   m_Layer: 0
   m_Name: Bermuda
@@ -26128,7 +26188,6 @@ GameObject:
   - component: {fileID: 1993889841559595492}
   - component: {fileID: 8520885955005498384}
   - component: {fileID: 4727131189244605939}
-  - component: {fileID: 8520885955005498387}
   - component: {fileID: 8520885955005498388}
   m_Layer: 0
   m_Name: Solomon Islands
@@ -26163,7 +26222,6 @@ GameObject:
   - component: {fileID: 3328912732313346339}
   - component: {fileID: 7755775121744253208}
   - component: {fileID: 5848631715064248276}
-  - component: {fileID: 7755775121744253211}
   - component: {fileID: 7755775121744253212}
   m_Layer: 0
   m_Name: "R\xE9union"
@@ -26405,7 +26463,6 @@ GameObject:
   - component: {fileID: 1754694458684263212}
   - component: {fileID: 8200437678987357568}
   - component: {fileID: 2105775813999355873}
-  - component: {fileID: 8200437678987357571}
   - component: {fileID: 8200437678987357573}
   - component: {fileID: 8200437678987357574}
   - component: {fileID: 8200437678987357576}
@@ -26442,7 +26499,6 @@ GameObject:
   - component: {fileID: 6046258967509933526}
   - component: {fileID: 9066168642713432272}
   - component: {fileID: 4861311355604491773}
-  - component: {fileID: 9066168642713432275}
   - component: {fileID: 9066168642713432277}
   - component: {fileID: 9066168642713432278}
   - component: {fileID: 9066168642713432280}
@@ -26464,7 +26520,6 @@ GameObject:
   - component: {fileID: 1926530838547165773}
   - component: {fileID: 7353068747190365395}
   - component: {fileID: 2839556367551914160}
-  - component: {fileID: 7353068747190365398}
   - component: {fileID: 7353068747190365400}
   - component: {fileID: 7353068747190365401}
   - component: {fileID: 7353068747190365403}
@@ -26551,7 +26606,6 @@ GameObject:
   - component: {fileID: 4641635657648637495}
   - component: {fileID: 7047346482256578034}
   - component: {fileID: 3272347062736788697}
-  - component: {fileID: 7047346482256578037}
   - component: {fileID: 7047346482256578038}
   m_Layer: 0
   m_Name: Kuwait
@@ -26613,7 +26667,6 @@ GameObject:
   - component: {fileID: 4348200247701978358}
   - component: {fileID: 2537397772271115907}
   - component: {fileID: 1001082248548738759}
-  - component: {fileID: 4348200247701978361}
   - component: {fileID: 4348200247701978362}
   m_Layer: 0
   m_Name: United Arab Emirates
@@ -26740,7 +26793,6 @@ GameObject:
   - component: {fileID: 7134304689480460469}
   - component: {fileID: 8995957358819420644}
   - component: {fileID: 5072734378266099919}
-  - component: {fileID: 8995957358819420647}
   - component: {fileID: 8995957358819420648}
   m_Layer: 0
   m_Name: Montserrat
@@ -26817,7 +26869,6 @@ GameObject:
   - component: {fileID: 2393193858304770115}
   - component: {fileID: 8523456197362191302}
   - component: {fileID: 8959375583655812212}
-  - component: {fileID: 8959375583655812215}
   - component: {fileID: 8959375583655812216}
   m_Layer: 0
   m_Name: Tuvalu
@@ -26848,20 +26899,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24558068910251504}
-  m_Mesh: {fileID: -922397145697753966, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &1208912373063598558
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24558068910251504}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -922397145697753966, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!54 &1208912373063598561
 Rigidbody:
@@ -26944,7 +26981,6 @@ GameObject:
   - component: {fileID: 3516686448516380248}
   - component: {fileID: 1831250379429346947}
   - component: {fileID: 470628660311713028}
-  - component: {fileID: 3516686448516380251}
   - component: {fileID: 3516686448516380252}
   m_Layer: 0
   m_Name: Cocos Islands
@@ -26979,7 +27015,6 @@ GameObject:
   - component: {fileID: 6692445117139288969}
   - component: {fileID: 433933365112338252}
   - component: {fileID: 4405285011319515120}
-  - component: {fileID: 6692445117139288972}
   - component: {fileID: 6692445117139288973}
   m_Layer: 0
   m_Name: Djibouti
@@ -27160,7 +27195,6 @@ GameObject:
   - component: {fileID: 8696975887163336708}
   - component: {fileID: 7411694489999620911}
   - component: {fileID: 3986592584841482051}
-  - component: {fileID: 8696975887163336711}
   - component: {fileID: 8696975887163336712}
   m_Layer: 0
   m_Name: Tonga
@@ -27249,7 +27283,6 @@ GameObject:
   - component: {fileID: 6228954983613633927}
   - component: {fileID: 2376425616547587397}
   - component: {fileID: 4202638425678103425}
-  - component: {fileID: 6228954983613633930}
   - component: {fileID: 6228954983613633931}
   m_Layer: 0
   m_Name: Bhutan
@@ -27486,7 +27519,6 @@ GameObject:
   - component: {fileID: 7190226765039027985}
   - component: {fileID: 5268022899511115956}
   - component: {fileID: 293850669191049874}
-  - component: {fileID: 7190226765039027988}
   - component: {fileID: 7190226765039027990}
   - component: {fileID: 7190226765039027991}
   - component: {fileID: 7190226765039027993}
@@ -27734,7 +27766,6 @@ GameObject:
   - component: {fileID: 8393282006766056611}
   - component: {fileID: 9042572624887014026}
   - component: {fileID: 6051354406923867840}
-  - component: {fileID: 9042572624887014029}
   - component: {fileID: 9042572624887014030}
   m_Layer: 0
   m_Name: Isle of Man
@@ -28135,6 +28166,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &1652871244542334515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28266,7 +28298,6 @@ GameObject:
   - component: {fileID: 3135550719796475766}
   - component: {fileID: 6750732726797256684}
   - component: {fileID: 2157975661964243131}
-  - component: {fileID: 6750732726797256687}
   - component: {fileID: 6750732726797256688}
   m_Layer: 0
   m_Name: Saint Vincent and the Grenadines
@@ -28320,7 +28351,6 @@ GameObject:
   - component: {fileID: 8886778108280145835}
   - component: {fileID: 6947971389481155602}
   - component: {fileID: 384948283032248587}
-  - component: {fileID: 8886778108280145838}
   - component: {fileID: 8886778108280145839}
   m_Layer: 0
   m_Name: "\xC5land Islands"
@@ -28416,7 +28446,6 @@ GameObject:
   - component: {fileID: 3214574756452300141}
   - component: {fileID: 508902215384090151}
   - component: {fileID: 1114713590627312568}
-  - component: {fileID: 3214574756452300144}
   - component: {fileID: 3214574756452300145}
   m_Layer: 0
   m_Name: Christmas Island
@@ -28567,7 +28596,6 @@ GameObject:
   - component: {fileID: 8221119057756666554}
   - component: {fileID: 4331218750962872555}
   - component: {fileID: 4807971664484706080}
-  - component: {fileID: 8221119057756666557}
   - component: {fileID: 8221119057756666559}
   - component: {fileID: 8221119057756666560}
   - component: {fileID: 8221119057756666562}
@@ -28605,7 +28633,6 @@ GameObject:
   - component: {fileID: 3936887097248206860}
   - component: {fileID: 5222944179654488259}
   - component: {fileID: 132249103999078720}
-  - component: {fileID: 5222944179654488262}
   - component: {fileID: 5222944179654488263}
   m_Layer: 0
   m_Name: Faroe Islands
@@ -28884,7 +28911,6 @@ GameObject:
   - component: {fileID: 3729534565609877564}
   - component: {fileID: 2828203775281948988}
   - component: {fileID: 3053879196445669011}
-  - component: {fileID: 3729534565609877567}
   - component: {fileID: 3729534565609877568}
   m_Layer: 0
   m_Name: Tokelau
@@ -28984,7 +29010,6 @@ GameObject:
   - component: {fileID: 3733839768773897877}
   - component: {fileID: 637383103891271863}
   - component: {fileID: 9147543001296713876}
-  - component: {fileID: 9147543001296713879}
   - component: {fileID: 9147543001296713880}
   m_Layer: 0
   m_Name: "Saint Barth\xE9lemy"
@@ -29004,7 +29029,6 @@ GameObject:
   - component: {fileID: 4580305842473800994}
   - component: {fileID: 3099898379452849795}
   - component: {fileID: 8894500534227488136}
-  - component: {fileID: 8894500534227488139}
   - component: {fileID: 8894500534227488140}
   m_Layer: 0
   m_Name: Barbados
@@ -29054,7 +29078,6 @@ GameObject:
   - component: {fileID: 5076979357481449846}
   - component: {fileID: 1727963132655789071}
   - component: {fileID: 1894865459905998068}
-  - component: {fileID: 5076979357481449849}
   - component: {fileID: 5076979357481449850}
   m_Layer: 0
   m_Name: South Sudan
@@ -29464,7 +29487,6 @@ GameObject:
   - component: {fileID: 7427250243414511634}
   - component: {fileID: 7102585089360925022}
   - component: {fileID: 3144173224471402564}
-  - component: {fileID: 7427250243414511637}
   - component: {fileID: 7427250243414511638}
   m_Layer: 0
   m_Name: Mauritius
@@ -29859,7 +29881,6 @@ GameObject:
   - component: {fileID: 7677897869248865496}
   - component: {fileID: 4028684539115089708}
   - component: {fileID: 8439248952236571638}
-  - component: {fileID: 8439248952236571641}
   - component: {fileID: 8439248952236571642}
   m_Layer: 0
   m_Name: Pitcairn
@@ -30154,48 +30175,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &2242722271725681216
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9010036398319452172}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 4e50ddad3f2ff154c895ce05e845d2f6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &2242846021194944605
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30386,7 +30365,6 @@ GameObject:
   - component: {fileID: 6486794175241956850}
   - component: {fileID: 6977889453087611750}
   - component: {fileID: 8775635167486397524}
-  - component: {fileID: 8775635167486397527}
   - component: {fileID: 8775635167486397529}
   - component: {fileID: 8775635167486397530}
   - component: {fileID: 8775635167486397532}
@@ -30450,7 +30428,6 @@ GameObject:
   - component: {fileID: 3617120997234996177}
   - component: {fileID: 9166014410286019038}
   - component: {fileID: 3576632727448801875}
-  - component: {fileID: 9166014410286019041}
   - component: {fileID: 9166014410286019042}
   m_Layer: 0
   m_Name: Equatorial Guinea
@@ -30876,7 +30853,6 @@ GameObject:
   - component: {fileID: 811864844629856655}
   - component: {fileID: 7491840159856487426}
   - component: {fileID: 687797503295622020}
-  - component: {fileID: 7491840159856487429}
   - component: {fileID: 7491840159856487430}
   m_Layer: 0
   m_Name: South Georgia and the South Sandwich Islands
@@ -31266,7 +31242,6 @@ GameObject:
   - component: {fileID: 416726563045424976}
   - component: {fileID: 675859653285680208}
   - component: {fileID: 2420052440299741081}
-  - component: {fileID: 2752982583139061309}
   - component: {fileID: 2752982583139061310}
   m_Layer: 0
   m_Name: Andorra
@@ -31275,20 +31250,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &2752982583139061309
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2752982583139061306}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8301016499016213775, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &2752982583139061310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31444,6 +31405,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &2780625372592657051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31669,7 +31631,6 @@ GameObject:
   - component: {fileID: 4060187488893298250}
   - component: {fileID: 8152581029331718949}
   - component: {fileID: 6712068245086727018}
-  - component: {fileID: 8152581029331718952}
   - component: {fileID: 8152581029331718953}
   m_Layer: 0
   m_Name: Samoa
@@ -31910,7 +31871,6 @@ GameObject:
   - component: {fileID: 5960358942587479574}
   - component: {fileID: 2203620663476874544}
   - component: {fileID: 8221375692342607319}
-  - component: {fileID: 8221375692342607322}
   - component: {fileID: 8221375692342607323}
   m_Layer: 0
   m_Name: Dominica
@@ -32122,7 +32082,6 @@ GameObject:
   - component: {fileID: 2776589702166961793}
   - component: {fileID: 268520049227403258}
   - component: {fileID: 4273345248701480559}
-  - component: {fileID: 4273345248701480562}
   - component: {fileID: 4273345248701480563}
   m_Layer: 0
   m_Name: Fiji
@@ -32142,7 +32101,6 @@ GameObject:
   - component: {fileID: 4688442098531856899}
   - component: {fileID: 1815536814368374945}
   - component: {fileID: 9034911747716224925}
-  - component: {fileID: 9034911747716224928}
   - component: {fileID: 9034911747716224930}
   - component: {fileID: 9034911747716224931}
   - component: {fileID: 9034911747716224933}
@@ -32195,7 +32153,6 @@ GameObject:
   - component: {fileID: 6900127649076320389}
   - component: {fileID: 7957839843748009759}
   - component: {fileID: 1990048267057293323}
-  - component: {fileID: 7957839843748009762}
   - component: {fileID: 7957839843748009763}
   m_Layer: 0
   m_Name: Guam
@@ -32417,7 +32374,6 @@ GameObject:
   - component: {fileID: 2412236104476107869}
   - component: {fileID: 6527221080555993047}
   - component: {fileID: 5948885723883432557}
-  - component: {fileID: 6527221080555993050}
   - component: {fileID: 6527221080555993051}
   m_Layer: 0
   m_Name: Eswatini
@@ -32437,7 +32393,6 @@ GameObject:
   - component: {fileID: 4229825737198788146}
   - component: {fileID: 7388629384212824306}
   - component: {fileID: 4655153419680679593}
-  - component: {fileID: 7388629384212824309}
   - component: {fileID: 7388629384212824310}
   m_Layer: 0
   m_Name: Bouvet Island
@@ -32457,7 +32412,6 @@ GameObject:
   - component: {fileID: 3962612483190222144}
   - component: {fileID: 4767779435855482224}
   - component: {fileID: 4122226579396820019}
-  - component: {fileID: 4767779435855482227}
   - component: {fileID: 4767779435855482228}
   m_Layer: 0
   m_Name: Anguilla
@@ -32611,7 +32565,6 @@ GameObject:
   - component: {fileID: 8276804174931280603}
   - component: {fileID: 5222847097579784577}
   - component: {fileID: 1351389621184012509}
-  - component: {fileID: 8276804174931280606}
   - component: {fileID: 8276804174931280607}
   m_Layer: 0
   m_Name: Malta
@@ -32631,7 +32584,6 @@ GameObject:
   - component: {fileID: 3298818430994407438}
   - component: {fileID: 8512301133366458652}
   - component: {fileID: 7211196965403384729}
-  - component: {fileID: 8512301133366458655}
   - component: {fileID: 8512301133366458656}
   m_Layer: 0
   m_Name: Palau
@@ -32725,6 +32677,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &3183927384444060406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32939,7 +32892,6 @@ GameObject:
   - component: {fileID: 7729129768068003227}
   - component: {fileID: 383849402076133914}
   - component: {fileID: 3540972843976534442}
-  - component: {fileID: 7729129768068003230}
   - component: {fileID: 7729129768068003231}
   m_Layer: 0
   m_Name: Bonaire, Sint Eustatius and Saba
@@ -32963,20 +32915,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &3214574756452300144
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750380582652634017}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7506433093585793894, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &3214574756452300145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33145,7 +33083,6 @@ GameObject:
   - component: {fileID: 8284788516100703833}
   - component: {fileID: 2406296377133045228}
   - component: {fileID: 8351915704908756546}
-  - component: {fileID: 8351915704908756549}
   - component: {fileID: 8351915704908756551}
   - component: {fileID: 8351915704908756552}
   - component: {fileID: 8351915704908756554}
@@ -33190,7 +33127,6 @@ GameObject:
   - component: {fileID: 7713609288188911052}
   - component: {fileID: 7796286682379257559}
   - component: {fileID: 7521177976923320137}
-  - component: {fileID: 7796286682379257562}
   - component: {fileID: 7796286682379257564}
   - component: {fileID: 7796286682379257565}
   - component: {fileID: 7796286682379257567}
@@ -33262,7 +33198,6 @@ GameObject:
   - component: {fileID: 166525114852383808}
   - component: {fileID: 1357285059034857843}
   - component: {fileID: 6949878102255397570}
-  - component: {fileID: 6949878102255397573}
   - component: {fileID: 6949878102255397575}
   - component: {fileID: 6949878102255397576}
   - component: {fileID: 6949878102255397578}
@@ -33284,7 +33219,6 @@ GameObject:
   - component: {fileID: 2489265997930356161}
   - component: {fileID: 8198836034354983730}
   - component: {fileID: 5384662391796949023}
-  - component: {fileID: 8198836034354983733}
   - component: {fileID: 8198836034354983734}
   m_Layer: 0
   m_Name: Virgin Islands US
@@ -33506,7 +33440,6 @@ GameObject:
   - component: {fileID: 902107322881262730}
   - component: {fileID: 4339633451581225017}
   - component: {fileID: 8555267261966886001}
-  - component: {fileID: 8555267261966886004}
   - component: {fileID: 8555267261966886005}
   m_Layer: 0
   m_Name: Martinique
@@ -33541,7 +33474,6 @@ GameObject:
   - component: {fileID: 679433467171618639}
   - component: {fileID: 7214398160924398476}
   - component: {fileID: 5501951593284248304}
-  - component: {fileID: 7214398160924398479}
   - component: {fileID: 7214398160924398481}
   - component: {fileID: 7214398160924398482}
   - component: {fileID: 7214398160924398484}
@@ -33624,20 +33556,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &3516686448516380251
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220668811665043059}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -550513952380308818, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &3516686448516380252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33741,7 +33659,6 @@ GameObject:
   - component: {fileID: 7703476955584494244}
   - component: {fileID: 7536335009782768606}
   - component: {fileID: 718495511797142814}
-  - component: {fileID: 7703476955584494247}
   - component: {fileID: 7703476955584494248}
   m_Layer: 0
   m_Name: Guadeloupe
@@ -33864,7 +33781,6 @@ GameObject:
   - component: {fileID: 1339805556092977473}
   - component: {fileID: 1741196182602744664}
   - component: {fileID: 240849671981036344}
-  - component: {fileID: 3617020833297838578}
   - component: {fileID: 3617020833297838579}
   m_Layer: 0
   m_Name: Uganda
@@ -33873,20 +33789,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &3617020833297838578
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3617020833297838575}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3115230610239306109, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &3617020833297838579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33967,7 +33869,6 @@ GameObject:
   - component: {fileID: 1509674038513332725}
   - component: {fileID: 138861605756120872}
   - component: {fileID: 6579746687780688475}
-  - component: {fileID: 6579746687780688478}
   - component: {fileID: 6579746687780688479}
   m_Layer: 0
   m_Name: Gambia
@@ -34037,7 +33938,6 @@ GameObject:
   - component: {fileID: 4419634445774705583}
   - component: {fileID: 7184640541377029962}
   - component: {fileID: 1309045745652268647}
-  - component: {fileID: 7184640541377029965}
   - component: {fileID: 7184640541377029966}
   m_Layer: 0
   m_Name: French Polynesia
@@ -34057,7 +33957,6 @@ GameObject:
   - component: {fileID: 1744663175956526024}
   - component: {fileID: 8135789997493507605}
   - component: {fileID: 1809395513108404969}
-  - component: {fileID: 8135789997493507608}
   - component: {fileID: 8135789997493507609}
   m_Layer: 0
   m_Name: Lesotho
@@ -34092,7 +33991,6 @@ GameObject:
   - component: {fileID: 2135787019561907930}
   - component: {fileID: 5164333933242900774}
   - component: {fileID: 154557802035408966}
-  - component: {fileID: 5164333933242900777}
   - component: {fileID: 5164333933242900780}
   - component: {fileID: 5164333933242900781}
   m_Layer: 0
@@ -34117,20 +34015,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &3729534565609877567
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921851822218633008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7815845916757193106, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &3729534565609877568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34207,7 +34091,6 @@ GameObject:
   - component: {fileID: 874204274417622631}
   - component: {fileID: 3073980302814165811}
   - component: {fileID: 4226358175044598254}
-  - component: {fileID: 4226358175044598257}
   - component: {fileID: 4226358175044598258}
   m_Layer: 0
   m_Name: Norfolk Island
@@ -34336,6 +34219,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &3792231438100692059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34459,7 +34343,6 @@ GameObject:
   - component: {fileID: 1405706960138520519}
   - component: {fileID: 7752877273986639475}
   - component: {fileID: 8850751723128152239}
-  - component: {fileID: 8850751723128152242}
   - component: {fileID: 8850751723128152244}
   - component: {fileID: 8850751723128152245}
   - component: {fileID: 8850751723128152247}
@@ -34576,7 +34459,6 @@ GameObject:
   - component: {fileID: 3613523612607157801}
   - component: {fileID: 8406886902512975271}
   - component: {fileID: 7376842443534656772}
-  - component: {fileID: 8406886902512975274}
   - component: {fileID: 8406886902512975275}
   m_Layer: 0
   m_Name: Sao Tome and Principe
@@ -34806,7 +34688,6 @@ GameObject:
   - component: {fileID: 6306611677671959295}
   - component: {fileID: 5923827685036903377}
   - component: {fileID: 8859062630793652452}
-  - component: {fileID: 8859062630793652455}
   - component: {fileID: 8859062630793652457}
   - component: {fileID: 8859062630793652458}
   - component: {fileID: 8859062630793652460}
@@ -35029,6 +34910,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &4027076389896171358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35186,7 +35068,6 @@ GameObject:
   - component: {fileID: 8172110453191267912}
   - component: {fileID: 916363047861730922}
   - component: {fileID: 3922860830023213031}
-  - component: {fileID: 8172110453191267915}
   - component: {fileID: 8172110453191267916}
   m_Layer: 0
   m_Name: Benin
@@ -35405,7 +35286,6 @@ GameObject:
   - component: {fileID: 7301127989476621752}
   - component: {fileID: 5524072383689691811}
   - component: {fileID: 856931337225107789}
-  - component: {fileID: 7301127989476621755}
   - component: {fileID: 7301127989476621756}
   m_Layer: 0
   m_Name: Sint Maarten
@@ -35544,20 +35424,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4226358175044598257
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3784925933734576619}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6901310053824073941, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &4226358175044598258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35596,7 +35462,6 @@ GameObject:
   - component: {fileID: 6498601047279313295}
   - component: {fileID: 7383446717300079133}
   - component: {fileID: 114954990037151495}
-  - component: {fileID: 7383446717300079136}
   - component: {fileID: 7383446717300079137}
   m_Layer: 0
   m_Name: Nepal
@@ -35777,20 +35642,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4273345248701480562
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3106309002868587266}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4656978653447161065, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &4273345248701480563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36231,20 +36082,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &4348200247701978361
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117793417660479721}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6875083072371200497, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &4348200247701978362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36364,7 +36201,6 @@ GameObject:
   - component: {fileID: 2248548540451954742}
   - component: {fileID: 1896761561583880363}
   - component: {fileID: 1862045687596449437}
-  - component: {fileID: 4382878451918563953}
   - component: {fileID: 4382878451918563954}
   m_Layer: 0
   m_Name: Wallis and Futuna
@@ -36373,20 +36209,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &4382878451918563953
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4382878451918563950}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7457749736968330342, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &4382878451918563954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36410,7 +36232,6 @@ GameObject:
   - component: {fileID: 6130443043849726868}
   - component: {fileID: 4803630020225635596}
   - component: {fileID: 7126125292757313457}
-  - component: {fileID: 7126125292757313460}
   - component: {fileID: 7126125292757313462}
   - component: {fileID: 7126125292757313463}
   - component: {fileID: 7126125292757313465}
@@ -36432,7 +36253,6 @@ GameObject:
   - component: {fileID: 2780436011195977896}
   - component: {fileID: 1658971675894571670}
   - component: {fileID: 2046093097224242377}
-  - component: {fileID: 4389071671352943931}
   - component: {fileID: 4389071671352943932}
   m_Layer: 0
   m_Name: Niue
@@ -36441,20 +36261,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &4389071671352943931
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4389071671352943928}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9130854952120504461, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &4389071671352943932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36608,7 +36414,6 @@ GameObject:
   - component: {fileID: 2893373266401935154}
   - component: {fileID: 1668736539018720241}
   - component: {fileID: 7678892142830883578}
-  - component: {fileID: 7678892142830883581}
   - component: {fileID: 7678892142830883582}
   m_Layer: 0
   m_Name: Democratic People's Republic of Korea
@@ -36724,7 +36529,6 @@ GameObject:
   - component: {fileID: 3399371359215865138}
   - component: {fileID: 80773402726627054}
   - component: {fileID: 1235053225539580223}
-  - component: {fileID: 4519529702728172221}
   - component: {fileID: 4519529702728172222}
   m_Layer: 0
   m_Name: Iceland
@@ -36733,20 +36537,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &4519529702728172221
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4519529702728172218}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8713047945404040763, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &4519529702728172222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36770,7 +36560,6 @@ GameObject:
   - component: {fileID: 683547582168584425}
   - component: {fileID: 8742556442430379787}
   - component: {fileID: 8488628040123015189}
-  - component: {fileID: 8742556442430379790}
   - component: {fileID: 8742556442430379791}
   m_Layer: 0
   m_Name: Antigua and Barbuda
@@ -36874,7 +36663,6 @@ GameObject:
   - component: {fileID: 2144669749033467768}
   - component: {fileID: 8879716229924766699}
   - component: {fileID: 4333125281079083635}
-  - component: {fileID: 8879716229924766702}
   - component: {fileID: 8879716229924766704}
   - component: {fileID: 8879716229924766705}
   - component: {fileID: 8879716229924766707}
@@ -37133,7 +36921,6 @@ GameObject:
   - component: {fileID: 6202765781848175763}
   - component: {fileID: 1993698590202515282}
   - component: {fileID: 8999692207644092681}
-  - component: {fileID: 8999692207644092684}
   - component: {fileID: 8999692207644092685}
   m_Layer: 0
   m_Name: Trinidad and Tobago
@@ -37142,21 +36929,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4740668322088260018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9010036398319452172}
-  m_LocalRotation: {x: -0, y: -0.7071067, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -25.187, y: 5.580306, z: -31.378998}
-  m_LocalScale: {x: 178.73524, y: 178.73523, z: -0.063863054}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1846122324}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &4751223691278649553
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37210,7 +36982,6 @@ GameObject:
   - component: {fileID: 3244156503405864222}
   - component: {fileID: 7093359735942206080}
   - component: {fileID: 7902841790146023888}
-  - component: {fileID: 7902841790146023891}
   - component: {fileID: 7902841790146023892}
   m_Layer: 0
   m_Name: Saint Martin
@@ -37230,7 +37001,6 @@ GameObject:
   - component: {fileID: 1617091914333700601}
   - component: {fileID: 8994090130709480557}
   - component: {fileID: 5900432333272906629}
-  - component: {fileID: 8994090130709480560}
   - component: {fileID: 8994090130709480561}
   m_Layer: 0
   m_Name: Nauru
@@ -37269,20 +37039,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3157426316152425038}
-  m_Mesh: {fileID: -4575103620375214328, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &4767779435855482227
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3157426316152425038}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -4575103620375214328, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &4767779435855482228
 MonoBehaviour:
@@ -37525,6 +37281,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &4841073627240781377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37645,6 +37402,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &4860118865986438776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37740,7 +37498,6 @@ GameObject:
   - component: {fileID: 1738340528499255761}
   - component: {fileID: 6783970093699557691}
   - component: {fileID: 7385627793724909281}
-  - component: {fileID: 7385627793724909284}
   - component: {fileID: 7385627793724909286}
   - component: {fileID: 7385627793724909287}
   - component: {fileID: 7385627793724909289}
@@ -37777,7 +37534,6 @@ GameObject:
   - component: {fileID: 7222605589169003449}
   - component: {fileID: 6344386204114350680}
   - component: {fileID: 5989304826858529862}
-  - component: {fileID: 7222605589169003452}
   - component: {fileID: 7222605589169003453}
   m_Layer: 0
   m_Name: Jersey
@@ -37839,7 +37595,6 @@ GameObject:
   - component: {fileID: 7827723393980941112}
   - component: {fileID: 7379605104654485092}
   - component: {fileID: 5513280676141824146}
-  - component: {fileID: 7827723393980941115}
   - component: {fileID: 7827723393980941117}
   - component: {fileID: 7827723393980941118}
   - component: {fileID: 7827723393980941120}
@@ -37903,7 +37658,6 @@ GameObject:
   - component: {fileID: 6953894213166776114}
   - component: {fileID: 1834530929527720599}
   - component: {fileID: 8575992679239396786}
-  - component: {fileID: 8575992679239396789}
   - component: {fileID: 8575992679239396790}
   m_Layer: 0
   m_Name: Antarctica
@@ -37923,7 +37677,6 @@ GameObject:
   - component: {fileID: 1709785754437948562}
   - component: {fileID: 8347669571654510077}
   - component: {fileID: 1157804991372972394}
-  - component: {fileID: 8347669571654510080}
   - component: {fileID: 8347669571654510081}
   m_Layer: 0
   m_Name: Bahrain
@@ -37943,7 +37696,6 @@ GameObject:
   - component: {fileID: 8940140963204998564}
   - component: {fileID: 426877995238413114}
   - component: {fileID: 8136490145345015781}
-  - component: {fileID: 8940140963204998567}
   m_Layer: 2
   m_Name: Ocean
   m_TagString: Water
@@ -37970,7 +37722,6 @@ GameObject:
   - component: {fileID: 6767262767749322450}
   - component: {fileID: 9021404796103465631}
   - component: {fileID: 1166383189645511324}
-  - component: {fileID: 9021404796103465634}
   - component: {fileID: 9021404796103465635}
   m_Layer: 0
   m_Name: Saint Helena, Ascension and Tristan da Cunha
@@ -38156,6 +37907,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &4985955443313829044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38251,7 +38003,6 @@ GameObject:
   - component: {fileID: 7200196349006873145}
   - component: {fileID: 7905637563266363978}
   - component: {fileID: 2513548406452365078}
-  - component: {fileID: 7905637563266363981}
   - component: {fileID: 7905637563266363982}
   m_Layer: 0
   m_Name: New Caledonia
@@ -38420,20 +38171,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &5076979357481449849
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958291587161564470}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7225911078095817765, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &5076979357481449850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38499,7 +38236,6 @@ GameObject:
   - component: {fileID: 4098537565932905849}
   - component: {fileID: 2756870050170582297}
   - component: {fileID: 7144766375004664066}
-  - component: {fileID: 7144766375004664069}
   - component: {fileID: 7144766375004664071}
   - component: {fileID: 7144766375004664072}
   - component: {fileID: 7144766375004664073}
@@ -38540,7 +38276,6 @@ GameObject:
   - component: {fileID: 4317465232183677457}
   - component: {fileID: 9014488206105362209}
   - component: {fileID: 6548308360301823385}
-  - component: {fileID: 9014488206105362212}
   - component: {fileID: 9014488206105362213}
   m_Layer: 0
   m_Name: Greenland
@@ -38583,20 +38318,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3709995786842805322}
-  m_Mesh: {fileID: 3736486448250863149, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &5164333933242900777
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3709995786842805322}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 3736486448250863149, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!54 &5164333933242900780
 Rigidbody:
@@ -38868,20 +38589,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835478363380967703}
   m_Mesh: {fileID: -4824642214483358200, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &5222944179654488262
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835478363380967703}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4824642214483358200, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &5222944179654488263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39035,7 +38742,6 @@ GameObject:
   - component: {fileID: 5809578567634001337}
   - component: {fileID: 2169655381459287469}
   - component: {fileID: 6377131614684072969}
-  - component: {fileID: 6377131614684072972}
   - component: {fileID: 6377131614684072973}
   m_Layer: 0
   m_Name: Guinea-Bissau
@@ -39416,7 +39122,6 @@ GameObject:
   - component: {fileID: 5244526108433941417}
   - component: {fileID: 7965196910648751488}
   - component: {fileID: 5205026515355554561}
-  - component: {fileID: 7965196910648751491}
   - component: {fileID: 7965196910648751493}
   - component: {fileID: 7965196910648751494}
   - component: {fileID: 7965196910648751496}
@@ -39699,6 +39404,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &5530195323722410098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39825,7 +39531,6 @@ GameObject:
   - component: {fileID: 2998950209893341989}
   - component: {fileID: 4716114577510806740}
   - component: {fileID: 1414146112770448462}
-  - component: {fileID: 5584724983333168969}
   - component: {fileID: 5584724983333168970}
   m_Layer: 0
   m_Name: Svalbard and Jan Mayen
@@ -39834,20 +39539,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &5584724983333168969
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5584724983333168966}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -815840815406101555, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &5584724983333168970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39924,7 +39615,6 @@ GameObject:
   - component: {fileID: 1299739838482986736}
   - component: {fileID: 770877822612277915}
   - component: {fileID: 6330267866510128100}
-  - component: {fileID: 6330267866510128103}
   - component: {fileID: 6330267866510128104}
   m_Layer: 0
   m_Name: Seychelles
@@ -40112,7 +39802,6 @@ GameObject:
   - component: {fileID: 7904009471888515564}
   - component: {fileID: 532633102042700873}
   - component: {fileID: 3410481346463413342}
-  - component: {fileID: 7904009471888515567}
   - component: {fileID: 7904009471888515568}
   m_Layer: 0
   m_Name: Brunei Darussalam
@@ -40170,7 +39859,6 @@ GameObject:
   - component: {fileID: 1166841199273118510}
   - component: {fileID: 8794227223148228260}
   - component: {fileID: 4280208237569422384}
-  - component: {fileID: 8794227223148228263}
   - component: {fileID: 8794227223148228264}
   m_Layer: 0
   m_Name: Micronesia
@@ -40403,6 +40091,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &5894731859362788568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40426,7 +40115,6 @@ GameObject:
   - component: {fileID: 2718755293581300182}
   - component: {fileID: 4030805454588489399}
   - component: {fileID: 8046449532932807515}
-  - component: {fileID: 8046449532932807518}
   - component: {fileID: 8046449532932807520}
   - component: {fileID: 8046449532932807521}
   - component: {fileID: 8046449532932807523}
@@ -40612,7 +40300,6 @@ GameObject:
   - component: {fileID: 6331894138942102522}
   - component: {fileID: 5412998777704625801}
   - component: {fileID: 2601682084965682510}
-  - component: {fileID: 6331894138942102525}
   - component: {fileID: 6331894138942102526}
   m_Layer: 0
   m_Name: Central African Republic
@@ -40737,6 +40424,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &5941622485233388588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40954,7 +40642,6 @@ GameObject:
   - component: {fileID: 7582674077699881698}
   - component: {fileID: 8288545572337839816}
   - component: {fileID: 3188829054488382047}
-  - component: {fileID: 8288545572337839819}
   - component: {fileID: 8288545572337839821}
   - component: {fileID: 8288545572337839822}
   - component: {fileID: 8288545572337839824}
@@ -41043,6 +40730,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6083754517341329450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41085,7 +40773,6 @@ GameObject:
   - component: {fileID: 3093046183252824321}
   - component: {fileID: 4002179181744733140}
   - component: {fileID: 4441662042655560980}
-  - component: {fileID: 6091717172785072118}
   - component: {fileID: 6091717172785072119}
   m_Layer: 0
   m_Name: Saint Pierre and Miquelon
@@ -41094,20 +40781,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &6091717172785072118
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6091717172785072115}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -18724386583730846, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6091717172785072119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41131,7 +40804,6 @@ GameObject:
   - component: {fileID: 1879780480868264284}
   - component: {fileID: 672880684903852288}
   - component: {fileID: 4246418143732013604}
-  - component: {fileID: 6107124453197249946}
   - component: {fileID: 6107124453197249947}
   m_Layer: 0
   m_Name: Qatar
@@ -41140,20 +40812,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &6107124453197249946
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6107124453197249943}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4787039731290847735, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6107124453197249947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41283,6 +40941,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6132505612376452337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41480,6 +41139,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6152735861789147212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41572,20 +41232,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6228954983613633930
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320531301207985807}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1248988099582237139, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6228954983613633931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41706,6 +41352,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6268495691802788657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41804,6 +41451,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!65 &6293469048604546797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41915,6 +41563,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6304757834275863100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42069,6 +41718,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6309083694054995344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42165,20 +41815,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6330267866510128103
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5627711270685529764}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8741212995058517655, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6330267866510128104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42206,20 +41842,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6331894138942102525
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5929246065324736679}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4366119908993755607, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6331894138942102526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42243,7 +41865,6 @@ GameObject:
   - component: {fileID: 5685898383976115059}
   - component: {fileID: 3334282415214561885}
   - component: {fileID: 7168584885132798053}
-  - component: {fileID: 7168584885132798056}
   - component: {fileID: 7168584885132798057}
   m_Layer: 0
   m_Name: Hong Kong
@@ -42302,20 +41923,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6377131614684072972
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5357637067435927144}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2486350006550045194, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6377131614684072973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42370,7 +41977,6 @@ GameObject:
   - component: {fileID: 9172062858507566361}
   - component: {fileID: 3087093979400758169}
   - component: {fileID: 4024414895881570499}
-  - component: {fileID: 9172062858507566364}
   - component: {fileID: 9172062858507566365}
   m_Layer: 0
   m_Name: Object
@@ -42503,6 +42109,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6506496685253598450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42572,20 +42179,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3151629219212275957}
-  m_Mesh: {fileID: 2911799673566140780, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &6527221080555993050
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151629219212275957}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 2911799673566140780, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6527221080555993051
 MonoBehaviour:
@@ -42733,20 +42326,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6579746687780688478
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3630511620036162878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8589157283118817588, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6579746687780688479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42850,7 +42429,6 @@ GameObject:
   - component: {fileID: 1899753172306396882}
   - component: {fileID: 5115427406137873839}
   - component: {fileID: 7186921707926804463}
-  - component: {fileID: 7186921707926804466}
   - component: {fileID: 7186921707926804467}
   m_Layer: 0
   m_Name: Grenada
@@ -42931,20 +42509,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6692445117139288972
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232262321120109307}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4339386376857269688, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6692445117139288973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43084,6 +42648,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6728197544843027388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43208,6 +42773,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6730613608896685952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43227,20 +42793,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691164004025994318}
-  m_Mesh: {fileID: 4845196458092468999, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &6750732726797256687
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691164004025994318}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 4845196458092468999, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6750732726797256688
 MonoBehaviour:
@@ -43280,7 +42832,6 @@ GameObject:
   - component: {fileID: 4052799343324025226}
   - component: {fileID: 551688355110323847}
   - component: {fileID: 6315617354441026130}
-  - component: {fileID: 6757607121640368206}
   - component: {fileID: 6757607121640368207}
   m_Layer: 0
   m_Name: Marshall Islands
@@ -43289,20 +42840,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &6757607121640368206
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6757607121640368203}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8055409401566732152, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6757607121640368207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43408,6 +42945,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6763439537220670326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43585,6 +43123,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6777782038229338667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43693,20 +43232,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6797206865502748345
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773563991952569310}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3452743971429745945, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6797206865502748346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43854,6 +43379,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6815599906220972268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43944,6 +43470,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6819261278057603372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43975,7 +43502,6 @@ GameObject:
   - component: {fileID: 6521710732679074068}
   - component: {fileID: 1557904606145154369}
   - component: {fileID: 3341054173162742462}
-  - component: {fileID: 6848625172458192166}
   - component: {fileID: 6848625172458192167}
   m_Layer: 0
   m_Name: Heard Island and McDonald Islands
@@ -43984,20 +43510,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &6848625172458192166
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6848625172458192163}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8343496531679317693, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6848625172458192167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44088,6 +43600,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &6871873603908281465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44306,20 +43819,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6949878102255397573
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3371579296949912615}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3102249083384450732, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &6949878102255397575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44557,6 +44056,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7036350362976640728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44704,6 +44204,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7041851383944771754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44723,20 +44224,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110560241654826657}
-  m_Mesh: {fileID: -6238589378257933945, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7047346482256578037
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1110560241654826657}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -6238589378257933945, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7047346482256578038
 MonoBehaviour:
@@ -44843,6 +44330,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7080035211496516199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44989,7 +44477,6 @@ GameObject:
   - component: {fileID: 2310868734490103584}
   - component: {fileID: 911086458654450978}
   - component: {fileID: 5915782007614915038}
-  - component: {fileID: 7106911995399792978}
   - component: {fileID: 7106911995399792979}
   m_Layer: 0
   m_Name: Turks and Caicos Islands
@@ -44998,20 +44485,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &7106911995399792978
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7106911995399792975}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -305268936294662057, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7106911995399792979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45110,6 +44583,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7123413180167446140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45164,20 +44638,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7126125292757313460
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4388706289623015652}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -973540434612208328, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7126125292757313462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45229,7 +44689,6 @@ GameObject:
   - component: {fileID: 876972478503022138}
   - component: {fileID: 8704283982734461221}
   - component: {fileID: 2087681512614592914}
-  - component: {fileID: 8704283982734461224}
   - component: {fileID: 8704283982734461225}
   m_Layer: 0
   m_Name: American Samoa
@@ -45295,20 +44754,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7144766375004664069
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5083436964589965841}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4538312660586494383, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7144766375004664071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45442,6 +44887,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7154126648499966793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45532,6 +44978,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7165849847351635840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45586,20 +45033,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7168584885132798056
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6333690287183081906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9220409449442857977, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7168584885132798057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45724,6 +45157,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7182260763926276925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45743,20 +45177,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3677901619053720962}
-  m_Mesh: {fileID: 7158442335562284900, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7184640541377029965
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3677901619053720962}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 7158442335562284900, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7184640541377029966
 MonoBehaviour:
@@ -45812,20 +45232,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7186921707926804466
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6654940419886570491}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8879279208643496037, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7186921707926804467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45853,20 +45259,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7190226765039027988
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395568841643437554}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8302101887891178618, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7190226765039027990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46014,20 +45406,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3485320549313017613}
   m_Mesh: {fileID: -4838134588283542857, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7214398160924398479
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3485320549313017613}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4838134588283542857, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7214398160924398481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46146,6 +45524,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7216831413281448422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46173,20 +45552,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7222605589169003452
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4890622670959699703}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5825614390264636239, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7222605589169003453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46315,6 +45680,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7271061884136023951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46342,20 +45708,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7301127989476621755
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4185881081748883493}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9184132252943837771, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7301127989476621756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46453,6 +45805,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7301364739028027792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46506,7 +45859,6 @@ GameObject:
   - component: {fileID: 8126072153765149435}
   - component: {fileID: 4429341011266465098}
   - component: {fileID: 8387363627947199998}
-  - component: {fileID: 8387363627947200001}
   - component: {fileID: 8387363627947200002}
   m_Layer: 0
   m_Name: Western Sahara
@@ -46554,20 +45906,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087595324860307852}
-  m_Mesh: {fileID: 1058236873588445810, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7353068747190365398
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087595324860307852}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 1058236873588445810, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7353068747190365400
 MonoBehaviour:
@@ -46690,20 +46028,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4234547904846767102}
   m_Mesh: {fileID: 6107538836464720954, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7383446717300079136
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4234547904846767102}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6107538836464720954, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7383446717300079137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46758,20 +46082,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7385627793724909284
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4882871225814254166}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8745734124657659136, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7385627793724909286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46820,20 +46130,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3154447531928797462}
   m_Mesh: {fileID: 6177905004988816167, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7388629384212824309
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3154447531928797462}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6177905004988816167, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7388629384212824310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46857,7 +46153,6 @@ GameObject:
   - component: {fileID: 6275355966678586413}
   - component: {fileID: 3192156253829678558}
   - component: {fileID: 7190828312962339855}
-  - component: {fileID: 7394189251523576476}
   - component: {fileID: 7394189251523576478}
   - component: {fileID: 7394189251523576479}
   - component: {fileID: 7394189251523576481}
@@ -46868,20 +46163,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!64 &7394189251523576476
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7394189251523576473}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1856616468900732382, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7394189251523576478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47030,6 +46311,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7401814321479983520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47148,6 +46430,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7403467953013185056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47206,20 +46489,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7427250243414511637
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016811485956618911}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5577327192352823187, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7427250243414511638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47285,7 +46554,6 @@ GameObject:
   - component: {fileID: 3907443528303877285}
   - component: {fileID: 8890299322830450611}
   - component: {fileID: 2045506654570513400}
-  - component: {fileID: 8890299322830450614}
   - component: {fileID: 8890299322830450615}
   m_Layer: 0
   m_Name: Singapore
@@ -47395,6 +46663,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7485385829451455601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47414,20 +46683,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2581742893463617985}
-  m_Mesh: {fileID: 6127288676925584253, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7491840159856487429
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2581742893463617985}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 6127288676925584253, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7491840159856487430
 MonoBehaviour:
@@ -47452,7 +46707,6 @@ GameObject:
   - component: {fileID: 3203786013869853859}
   - component: {fileID: 887725808235776129}
   - component: {fileID: 8085295929103160736}
-  - component: {fileID: 8085295929103160739}
   - component: {fileID: 8085295929103160740}
   m_Layer: 0
   m_Name: Northern Mariana Islands
@@ -47581,6 +46835,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7496735797668509375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47801,6 +47056,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7545184757162388793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47908,6 +47164,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!64 &7559950337960092037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48081,7 +47338,6 @@ GameObject:
   - component: {fileID: 8479676738643702473}
   - component: {fileID: 8207991791698846242}
   - component: {fileID: 5080818868349772479}
-  - component: {fileID: 8479676738643702476}
   - component: {fileID: 8479676738643702477}
   m_Layer: 0
   m_Name: Vanuatu
@@ -48244,6 +47500,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7651471114711152509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48341,6 +47598,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7665679274628411838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48446,6 +47704,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7667907696503392895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48469,7 +47728,6 @@ GameObject:
   - component: {fileID: 6774655975755193573}
   - component: {fileID: 3226808163385187040}
   - component: {fileID: 3509730948211670368}
-  - component: {fileID: 7675925956414823217}
   - component: {fileID: 7675925956414823218}
   m_Layer: 0
   m_Name: Saint Lucia
@@ -48478,20 +47736,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &7675925956414823217
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7675925956414823214}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7953481330789776371, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7675925956414823218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48584,20 +47828,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7678892142830883581
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4493021863684603545}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7251955526712682560, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7678892142830883582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48737,6 +47967,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7681213382034498826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48764,20 +47995,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7703476955584494247
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3560479893277824039}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7520289620547342322, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7703476955584494248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48936,6 +48153,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7722169636882485253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48963,20 +48181,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7729129768068003230
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3213246582451797789}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3624421073329570546, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7729129768068003231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49012,20 +48216,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880215653545130043}
-  m_Mesh: {fileID: -4477477839025568270, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7755775121744253211
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880215653545130043}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -4477477839025568270, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7755775121744253212
 MonoBehaviour:
@@ -49073,20 +48263,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3340792331838275724}
-  m_Mesh: {fileID: 5112214988525370765, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7796286682379257562
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3340792331838275724}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 5112214988525370765, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7796286682379257564
 MonoBehaviour:
@@ -49240,6 +48416,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7796874748637135523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49345,6 +48522,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7798638357756343198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49450,6 +48628,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7808502603781505738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49578,20 +48757,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7827723393980941115
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4904348642963218611}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8232696717202807775, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7827723393980941117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49725,6 +48890,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7882744642201910356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49847,6 +49013,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7890620488545002834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49901,20 +49068,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7902841790146023891
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4756981893453336800}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1756418971337463084, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7902841790146023892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49942,20 +49095,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7904009471888515567
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5741148571152798676}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9164203094006372609, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7904009471888515568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49975,20 +49114,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5015772042809476243}
-  m_Mesh: {fileID: -734075606513550071, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7905637563266363981
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5015772042809476243}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -734075606513550071, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7905637563266363982
 MonoBehaviour:
@@ -50114,6 +49239,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7910164486191454794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50219,6 +49345,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &7937995552845565582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50343,20 +49470,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3120436711177274937}
   m_Mesh: {fileID: -1621006346594583772, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7957839843748009762
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3120436711177274937}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1621006346594583772, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7957839843748009763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50376,20 +49489,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5474755858825821207}
-  m_Mesh: {fileID: -2415006517354212702, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &7965196910648751491
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5474755858825821207}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -2415006517354212702, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &7965196910648751493
 MonoBehaviour:
@@ -50612,20 +49711,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8046449532932807518
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5896477110802864551}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7389366929845112363, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8046449532932807520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50778,6 +49863,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8050093662301957444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50883,6 +49969,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8050968835948256910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50906,7 +49993,6 @@ GameObject:
   - component: {fileID: 7955703346160303053}
   - component: {fileID: 3162399967003640896}
   - component: {fileID: 5073690876318668024}
-  - component: {fileID: 8058146230963221817}
   - component: {fileID: 8058146230963221818}
   m_Layer: 0
   m_Name: Macao
@@ -50915,20 +50001,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8058146230963221817
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8058146230963221814}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8079944218278705512, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8058146230963221818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51027,6 +50099,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8070491155156286929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51132,6 +50205,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8074795972161844798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51186,20 +50260,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8080134837426875754
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508602526295812725}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7493573984631167171, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!54 &8080134837426875757
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -51270,20 +50330,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8085295929103160739
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7493477805481125257}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5256812237140404714, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8085295929103160740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51307,7 +50353,6 @@ GameObject:
   - component: {fileID: 6429997479614515477}
   - component: {fileID: 5364485663094039477}
   - component: {fileID: 3165070531811703722}
-  - component: {fileID: 8096530858071026955}
   - component: {fileID: 8096530858071026956}
   m_Layer: 0
   m_Name: Cyprus
@@ -51316,20 +50361,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8096530858071026955
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8096530858071026952}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2626789458015825821, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8096530858071026956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51446,20 +50477,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3699868434006060192}
   m_Mesh: {fileID: 7503394876048922349, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8135789997493507608
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3699868434006060192}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7503394876048922349, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8135789997493507609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51522,20 +50539,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2862544398471287931}
   m_Mesh: {fileID: -3807721073590381997, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8152581029331718952
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2862544398471287931}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3807721073590381997, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8152581029331718953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51563,20 +50566,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8172110453191267915
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4073713838754242161}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3857135647691795351, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8172110453191267916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51615,7 +50604,6 @@ GameObject:
   - component: {fileID: 6811727848796349321}
   - component: {fileID: 1315080568878419424}
   - component: {fileID: 2749962823549787844}
-  - component: {fileID: 8193347688215464069}
   - component: {fileID: 8193347688215464070}
   m_Layer: 0
   m_Name: Cabo Verde
@@ -51624,20 +50612,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8193347688215464069
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8193347688215464066}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5956749778635187214, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8193347688215464070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51735,6 +50709,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8198161660207551837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51755,20 +50730,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3394774965184899367}
   m_Mesh: {fileID: 9048956573825859155, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8198836034354983733
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3394774965184899367}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 9048956573825859155, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8198836034354983734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51788,20 +50749,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025305783993779033}
-  m_Mesh: {fileID: -666301291313844810, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8200437678987357571
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1025305783993779033}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -666301291313844810, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8200437678987357573
 MonoBehaviour:
@@ -51862,7 +50809,6 @@ GameObject:
   - component: {fileID: 7396515750344027133}
   - component: {fileID: 8124252808793319642}
   - component: {fileID: 3657450791964861965}
-  - component: {fileID: 8213170125090646794}
   - component: {fileID: 8213170125090646795}
   m_Layer: 0
   m_Name: Cook Islands
@@ -51871,20 +50817,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8213170125090646794
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8213170125090646791}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4368292028880620917, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8213170125090646795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51912,20 +50844,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8221119057756666557
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821326394333648027}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2962060456103076444, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8221119057756666559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52008,20 +50926,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8221375692342607322
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2996242272550530435}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2896707569499586703, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8221375692342607323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52087,7 +50991,6 @@ GameObject:
   - component: {fileID: 861163907538134104}
   - component: {fileID: 2461909948594064768}
   - component: {fileID: 51778856279608531}
-  - component: {fileID: 8236505446791067747}
   - component: {fileID: 8236505446791067748}
   m_Layer: 0
   m_Name: Falkland Islands
@@ -52096,20 +50999,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8236505446791067747
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8236505446791067744}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4298165135992627927, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8236505446791067748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52122,14 +51011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!33 &8243205001275451032
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9010036398319452172}
-  m_Mesh: {fileID: -6051011959322470446, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!1 &8255930410513021381
 GameObject:
   m_ObjectHideFlags: 0
@@ -52141,7 +51022,6 @@ GameObject:
   - component: {fileID: 500072304454830663}
   - component: {fileID: 5690832953675261243}
   - component: {fileID: 4332450219833682519}
-  - component: {fileID: 8255930410513021384}
   - component: {fileID: 8255930410513021385}
   m_Layer: 0
   m_Name: Maldives
@@ -52150,20 +51030,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8255930410513021384
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8255930410513021381}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4058584933836551824, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8255930410513021385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52261,6 +51127,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8270835633212527706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52385,6 +51252,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8274305174409095637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52412,20 +51280,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8276804174931280606
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3181370653909331251}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6528914785205229564, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8276804174931280607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52531,6 +51385,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8283813876826225307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52565,20 +51420,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6051467829862716779}
-  m_Mesh: {fileID: -399654030426021401, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8288545572337839819
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6051467829862716779}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -399654030426021401, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8288545572337839821
 MonoBehaviour:
@@ -52705,6 +51546,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8294853208973340168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52795,6 +51637,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8301062526844017247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52865,7 +51708,6 @@ GameObject:
   - component: {fileID: 4353301868851379772}
   - component: {fileID: 4671501899320044910}
   - component: {fileID: 1317516708378758950}
-  - component: {fileID: 8317777253920629670}
   - component: {fileID: 8317777253920629671}
   m_Layer: 0
   m_Name: Kiribati
@@ -52874,20 +51716,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8317777253920629670
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8317777253920629667}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3088828263163360266, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8317777253920629671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53051,6 +51879,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8329452962616678297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53070,20 +51899,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4920756748087999149}
-  m_Mesh: {fileID: -3713881229464561753, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8347669571654510080
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4920756748087999149}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -3713881229464561753, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8347669571654510081
 MonoBehaviour:
@@ -53154,20 +51969,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8351915704908756549
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3320350635753485526}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8567798829388284596, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8351915704908756551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53219,7 +52020,6 @@ GameObject:
   - component: {fileID: 5749024020003789627}
   - component: {fileID: 3117392058868364934}
   - component: {fileID: 4696024390514228149}
-  - component: {fileID: 8352873470857722457}
   - component: {fileID: 8352873470857722458}
   m_Layer: 0
   m_Name: Rwanda
@@ -53228,20 +52028,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8352873470857722457
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8352873470857722454}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -799625933598799501, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8352873470857722458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53363,6 +52149,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8381364801093561706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53417,20 +52204,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8387363627947200001
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7314399340811320876}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4259897748518110068, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8387363627947200002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53469,7 +52242,6 @@ GameObject:
   - component: {fileID: 6006564890797018346}
   - component: {fileID: 6824878052850275773}
   - component: {fileID: 5417641102599862295}
-  - component: {fileID: 8394904390987391600}
   - component: {fileID: 8394904390987391601}
   m_Layer: 0
   m_Name: French Southern Territories
@@ -53478,20 +52250,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8394904390987391600
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8394904390987391597}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5556465135033762201, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8394904390987391601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53515,7 +52273,6 @@ GameObject:
   - component: {fileID: 8349516340076315962}
   - component: {fileID: 7108612140768112444}
   - component: {fileID: 3618093424000251095}
-  - component: {fileID: 8405864590182899990}
   - component: {fileID: 8405864590182899991}
   m_Layer: 0
   m_Name: British Indian Ocean Territory
@@ -53524,20 +52281,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8405864590182899990
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8405864590182899987}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2753048923052753677, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8405864590182899991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53557,20 +52300,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3912722517018925368}
-  m_Mesh: {fileID: -3286137660613894984, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8406886902512975274
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3912722517018925368}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -3286137660613894984, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8406886902512975275
 MonoBehaviour:
@@ -53696,6 +52425,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8414455666200486019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53793,6 +52523,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8426162239799329246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53816,7 +52547,6 @@ GameObject:
   - component: {fileID: 7302070484685844186}
   - component: {fileID: 6511741181262524325}
   - component: {fileID: 3442608109366748718}
-  - component: {fileID: 8429185620080329470}
   - component: {fileID: 8429185620080329471}
   m_Layer: 0
   m_Name: Saint Kitts and Nevis
@@ -53825,20 +52555,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8429185620080329470
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8429185620080329467}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 652351970247611433, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8429185620080329471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53929,6 +52645,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8436869925962931882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53983,20 +52700,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8439248952236571641
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107531599966513167}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5997953822701256311, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8439248952236571642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54102,6 +52805,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8447293596163681884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54125,7 +52829,6 @@ GameObject:
   - component: {fileID: 4145597791244738045}
   - component: {fileID: 8895060877649480416}
   - component: {fileID: 5416436556776112803}
-  - component: {fileID: 8895060877649480419}
   - component: {fileID: 8895060877649480421}
   - component: {fileID: 8895060877649480422}
   - component: {fileID: 8895060877649480424}
@@ -54151,20 +52854,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8479676738643702476
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7632922762202192487}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1542076409363841226, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8479676738643702477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54253,7 +52942,6 @@ GameObject:
   - component: {fileID: 6597915234976856448}
   - component: {fileID: 8759387806345334179}
   - component: {fileID: 7099793169298224945}
-  - component: {fileID: 8759387806345334182}
   - component: {fileID: 8759387806345334183}
   m_Layer: 0
   m_Name: Comoros
@@ -54315,7 +53003,6 @@ GameObject:
   - component: {fileID: 5605351481810570913}
   - component: {fileID: 7495286022489813259}
   - component: {fileID: 9079320949938727544}
-  - component: {fileID: 9079320949938727547}
   - component: {fileID: 9079320949938727548}
   m_Layer: 0
   m_Name: "Cura\xE7ao"
@@ -54331,20 +53018,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3181897589876665737}
-  m_Mesh: {fileID: -564789689558225931, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8512301133366458655
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3181897589876665737}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -564789689558225931, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8512301133366458656
 MonoBehaviour:
@@ -54408,20 +53081,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874695385249629531}
-  m_Mesh: {fileID: 7637873854906680389, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8520885955005498387
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874695385249629531}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 7637873854906680389, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8520885955005498388
 MonoBehaviour:
@@ -54569,20 +53228,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8555267261966886004
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3456898348594604493}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7472409088614596086, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8555267261966886005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54715,6 +53360,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8574446679631175413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54769,20 +53415,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8575992679239396789
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4908880528194450586}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7470976148797787953, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8575992679239396790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54888,6 +53520,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8604869484763951536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54993,6 +53626,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8616525648149928828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55083,6 +53717,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8618840745855796306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55207,6 +53842,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8620110766209041315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55312,6 +53948,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8639667045912848067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55335,7 +53972,6 @@ GameObject:
   - component: {fileID: 2135669975464620024}
   - component: {fileID: 2466976657486927937}
   - component: {fileID: 7637782317353500730}
-  - component: {fileID: 8644290227503358231}
   - component: {fileID: 8644290227503358232}
   m_Layer: 0
   m_Name: Bangladesh
@@ -55344,20 +53980,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8644290227503358231
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8644290227503358228}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2539505708687795584, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8644290227503358232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55455,6 +54077,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8645039824371752163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55576,6 +54199,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8669568566491933448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55681,6 +54305,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8687270170963502905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55704,7 +54329,6 @@ GameObject:
   - component: {fileID: 7009971292415507460}
   - component: {fileID: 1283547730298700786}
   - component: {fileID: 4908663993373683257}
-  - component: {fileID: 8691550273586292202}
   - component: {fileID: 8691550273586292203}
   m_Layer: 0
   m_Name: Virgin Islands UK
@@ -55713,20 +54337,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8691550273586292202
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8691550273586292199}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4465110721689120022, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8691550273586292203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55824,6 +54434,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8694915824140822447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55914,6 +54525,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8696216555861796936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55941,20 +54553,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8696975887163336711
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314545257717444569}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3981056562886459680, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8696975887163336712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55974,20 +54572,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7126286387936961404}
-  m_Mesh: {fileID: 7280881257676431642, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8704283982734461224
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7126286387936961404}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 7280881257676431642, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8704283982734461225
 MonoBehaviour:
@@ -56121,6 +54705,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8714737999196500447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56144,7 +54729,6 @@ GameObject:
   - component: {fileID: 8937918350618231652}
   - component: {fileID: 3363890537465626845}
   - component: {fileID: 3188445607168020253}
-  - component: {fileID: 8937918350618231655}
   - component: {fileID: 8937918350618231656}
   m_Layer: 0
   m_Name: Luxembourg
@@ -56231,6 +54815,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8719946838613098013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56250,20 +54835,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4549308167104383110}
-  m_Mesh: {fileID: -9170409963004759895, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8742556442430379790
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4549308167104383110}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -9170409963004759895, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8742556442430379791
 MonoBehaviour:
@@ -56370,6 +54941,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8742910664235172417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56393,7 +54965,6 @@ GameObject:
   - component: {fileID: 3954559318480748886}
   - component: {fileID: 3100756460626224963}
   - component: {fileID: 7038661924396655919}
-  - component: {fileID: 8751884584069450275}
   - component: {fileID: 8751884584069450276}
   m_Layer: 0
   m_Name: Mayotte
@@ -56402,20 +54973,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &8751884584069450275
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8751884584069450272}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4484505230216114294, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8751884584069450276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56506,6 +55063,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8754354336780202139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56525,20 +55083,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8490170944067270955}
-  m_Mesh: {fileID: -5977829562652974799, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8759387806345334182
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8490170944067270955}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -5977829562652974799, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8759387806345334183
 MonoBehaviour:
@@ -56594,20 +55138,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8775635167486397527
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2357809340939810327}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7363432965223017855, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8775635167486397529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56726,6 +55256,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8775937737764271372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56831,6 +55362,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8777030510935413494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56928,6 +55460,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8787788099430083401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57018,6 +55551,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8789089806572573000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57037,20 +55571,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5796697053396003816}
-  m_Mesh: {fileID: 472470288381868753, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8794227223148228263
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5796697053396003816}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 472470288381868753, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8794227223148228264
 MonoBehaviour:
@@ -57149,6 +55669,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8799719928825325074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57246,6 +55767,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8821042139119670785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57351,6 +55873,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8827926007078339088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57378,20 +55901,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8842193270061621056
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44000904491512060}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -260703622282548446, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8842193270061621058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57525,6 +56034,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8847085882101398210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57649,6 +56159,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8849675240222751257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57703,20 +56214,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8850751723128152242
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3880852010201582958}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7118095644662706922, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8850751723128152244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57799,20 +56296,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8859062630793652455
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3973814146307187172}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3883197536683254718, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8859062630793652457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57946,6 +56429,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8863284069982145049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58043,6 +56527,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8867397393231603003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58133,6 +56618,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8871621783304910228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58238,6 +56724,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8874446792680002711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58257,20 +56744,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4630845504581708511}
-  m_Mesh: {fileID: -6420601789138174960, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8879716229924766702
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4630845504581708511}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -6420601789138174960, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8879716229924766704
 MonoBehaviour:
@@ -58390,6 +56863,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8880448629240728908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58417,20 +56891,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8886778108280145838
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705385023564663919}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8039776322494489638, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8886778108280145839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58485,20 +56945,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7452951178559345364}
-  m_Mesh: {fileID: -3372890543758027335, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8890299322830450614
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7452951178559345364}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -3372890543758027335, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8890299322830450615
 MonoBehaviour:
@@ -58624,6 +57070,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8892653029837630190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58678,20 +57125,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8894500534227488139
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953650165060598979}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8599871292325605849, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8894500534227488140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58711,20 +57144,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8475381975172255675}
-  m_Mesh: {fileID: 9195854729270721870, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8895060877649480419
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8475381975172255675}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 9195854729270721870, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8895060877649480421
 MonoBehaviour:
@@ -58851,6 +57270,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8935731875182330732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58878,20 +57298,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8937918350618231655
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8718418838948933956}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 158273081315631477, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8937918350618231656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58919,20 +57325,6 @@ Transform:
   m_Father: {fileID: 1434815329}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8940140963204998567
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4928836529570376526}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5495902117074765545, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!4 &8947397282871930238
 Transform:
   m_ObjectHideFlags: 0
@@ -59018,6 +57410,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8947397282871930246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59142,6 +57535,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &8955261909131503178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59196,20 +57590,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8959375583655812215
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168779307745084526}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3356726798124183671, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8959375583655812216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59230,20 +57610,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4761638562624465785}
   m_Mesh: {fileID: 1905303240249768809, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8994090130709480560
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4761638562624465785}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1905303240249768809, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8994090130709480561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59263,20 +57629,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164352699034807797}
-  m_Mesh: {fileID: -7046423649613094451, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &8995957358819420647
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164352699034807797}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -7046423649613094451, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8995957358819420648
 MonoBehaviour:
@@ -59332,20 +57684,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8999692207644092684
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4730145230794359995}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5659088073678464200, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &8999692207644092685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59443,6 +57781,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9009060915856824430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59455,52 +57794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &9010036398319452172
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4740668322088260018}
-  - component: {fileID: 8243205001275451032}
-  - component: {fileID: 2242722271725681216}
-  - component: {fileID: 9010036398319452175}
-  - component: {fileID: 9010036398319452176}
-  m_Layer: 0
-  m_Name: Burundi
-  m_TagString: UNCountry
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &9010036398319452175
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9010036398319452172}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6051011959322470446, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!114 &9010036398319452176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9010036398319452172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!33 &9014488206105362209
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -59508,20 +57801,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5101560616904641713}
-  m_Mesh: {fileID: -2732617735862140988, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &9014488206105362212
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5101560616904641713}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -2732617735862140988, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9014488206105362213
 MonoBehaviour:
@@ -59542,20 +57821,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4963249775492724480}
-  m_Mesh: {fileID: -2245922501576612333, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &9021404796103465634
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4963249775492724480}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -2245922501576612333, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9021404796103465635
 MonoBehaviour:
@@ -59642,20 +57907,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9034911747716224928
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3111851632606250401}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7606485103702537158, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9034911747716224930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59808,6 +58059,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9040970354201443526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59827,20 +58079,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491385748299533443}
-  m_Mesh: {fileID: 6417099659890824687, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &9042572624887014029
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491385748299533443}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: 6417099659890824687, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9042572624887014030
 MonoBehaviour:
@@ -59932,6 +58170,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9055679164459040574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59951,20 +58190,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062777127585525273}
-  m_Mesh: {fileID: -4594188499948035761, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &9066168642713432275
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1062777127585525273}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -4594188499948035761, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9066168642713432277
 MonoBehaviour:
@@ -60118,6 +58343,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9074487549218873392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60172,20 +58398,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9079320949938727547
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8502973402973779449}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5524990349488136541, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9079320949938727548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60209,7 +58421,6 @@ GameObject:
   - component: {fileID: 4051482087708809604}
   - component: {fileID: 571422513798314872}
   - component: {fileID: 1542148100260713177}
-  - component: {fileID: 9081213955059694950}
   - component: {fileID: 9081213955059694951}
   m_Layer: 0
   m_Name: Timor-Leste
@@ -60218,20 +58429,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &9081213955059694950
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9081213955059694947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7729441099053312485, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9081213955059694951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60337,6 +58534,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9088025007546148318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60360,7 +58558,6 @@ GameObject:
   - component: {fileID: 4121469303502372341}
   - component: {fileID: 6510562661976770245}
   - component: {fileID: 4240744398257925623}
-  - component: {fileID: 9106530267653055321}
   - component: {fileID: 9106530267653055322}
   m_Layer: 0
   m_Name: Cayman Islands
@@ -60369,20 +58566,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &9106530267653055321
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9106530267653055318}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5680189927368810247, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9106530267653055322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60507,6 +58690,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9106910290284556876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60604,6 +58788,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9124615928599291027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60694,6 +58879,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9133583001655314865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60783,20 +58969,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9147543001296713879
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947286363442819779}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5205585009970192770, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9147543001296713880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60887,6 +59059,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9155106428558529357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60906,20 +59079,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2372527373961030180}
-  m_Mesh: {fileID: -7076891756535751638, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
---- !u!64 &9166014410286019041
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2372527373961030180}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
   m_Mesh: {fileID: -7076891756535751638, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9166014410286019042
 MonoBehaviour:
@@ -60972,20 +59131,6 @@ Transform:
   m_Father: {fileID: 1846122324}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &9172062858507566364
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6438009573849644853}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 587366007896238738, guid: 9c4e26338d7457349afdf2990d4d1fc5, type: 3}
 --- !u!114 &9172062858507566365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61141,6 +59286,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9181962916246459592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61246,6 +59392,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9203952220224397339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61370,6 +59517,7 @@ MonoBehaviour:
   Railway_Level: 0
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
+  Nation_Wiew_Canvas: {fileID: 0}
 --- !u!114 &9212487939696372572
 MonoBehaviour:
   m_ObjectHideFlags: 0

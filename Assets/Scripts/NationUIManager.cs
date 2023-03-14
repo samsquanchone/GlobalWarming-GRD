@@ -6,7 +6,7 @@ using UnityEngine;
 public class NationUIManager : MonoBehaviour
 {
 
-    [SerializeField]public Canvas Nation_UI;
+    [SerializeField] public Canvas Nation_UI;
 
     [SerializeField] public TMP_Text Nation_Name_UI;
 

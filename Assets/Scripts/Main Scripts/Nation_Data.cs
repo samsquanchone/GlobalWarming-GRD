@@ -10,9 +10,6 @@ public class Nation_Data : ScriptableObject
 {
     [SerializeField] public string Nation_Name;
 
-    [Header("Tiles")]
-    //Nation's Tiles
-    [SerializeField] public Tile[] Nations_Territories;
 
     [Header("Colour")]
     //Nation Color

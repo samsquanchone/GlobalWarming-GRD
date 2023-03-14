@@ -10,7 +10,7 @@ public class Player_Data : ScriptableObject
     public int Political_Power  = 10;
 
     //Stockpile
-    public int Wood         = 0;        //in tons
+    public int Timber = 0;        //in tons
     public int Pykerete     = 0;        //in tons
 
     //Logistics

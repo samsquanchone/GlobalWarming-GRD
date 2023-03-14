@@ -6,6 +6,7 @@ public class Nation : MonoBehaviour
 {
     [Header("Nation Data")]
     [SerializeField] Nation_Data Attached_Nations_Data;
+    [SerializeField] Player Player_Stockpile;
     [Space]
     [Header("Tiles")]
     //Pull tiles from Tiles -> Tile Data and give it to Nation Data 
@@ -54,15 +55,13 @@ public class Nation : MonoBehaviour
         this.GDP = Attached_Nations_Data.GDP;
         this.Awareness = Attached_Nations_Data.Awareness;
 
-        //Give Nation Data its territories
-        Attached_Nations_Data.Nations_Territories = this.Nations_Territories;
 
         //Give territories its nation
-        if(this.Attached_Nations_Data.Nations_Territories != null)
+        if(this.Nations_Territories != null)
         {
-            for(int i = 0; i < Attached_Nations_Data.Nations_Territories.Length; i++)
+            for(int i = 0; i < Nations_Territories.Length; i++)
             {
-                Attached_Nations_Data.Nations_Territories[i].Occupiant_Nation = this;
+                Nations_Territories[i].Occupiant_Nation = this;
             }
         }
 
@@ -86,18 +85,40 @@ public class Nation : MonoBehaviour
 
     public void Calculate_On_Month_Pass()
     {
+        //Update 
+        Calculate_Monthly_Population();
+        Update_Buildings();
+
         //Nation Specific
         GDP_Growth_and_Shrink();
-        Calculate_Monthly_Population();
         Awareness_Growth_and_Shrink();
 
+        //GDP Contribution
+        Calculate_GDP_Contribution_and_Contribute_GDP();
+
         //Production
-        Produce_Pykerete();
         Produce_Timber();
         //
     }
 
+    public void Update_Buildings()
+    {
 
+
+        Lumbermill_Level = 0;
+        Tera_Factory_Level = 0;
+        Harbour_Level = 0;
+        Railway_Level = 0;
+
+
+        for (int i = 0; i < this.Nations_Territories.Length; i++)
+        {
+            Lumbermill_Level += Nations_Territories[i].Lumbermill_Level;
+            Tera_Factory_Level += Nations_Territories[i].Tera_Factory_Level;
+            Harbour_Level += Nations_Territories[i].Harbour_Level;
+            Railway_Level += Nations_Territories[i].Railway_Level;
+        }
+    }
 
     public void GDP_Growth_and_Shrink()
     {
@@ -196,15 +217,37 @@ public class Nation : MonoBehaviour
             this.Awareness -= 0.5f;
         }
     }
-
-
-    public void Produce_Pykerete()
+    public void Calculate_GDP_Contribution_and_Contribute_GDP()
     {
-
+        GDP_Contribution = (int)(GDP * Awareness);
+        Player_Stockpile.Money += GDP_Contribution;
     }
+
 
     public void Produce_Timber()
     {
+        if (this.Lumbermill_Level != 0 && this.Woodland_Count > 0)
+        {
+            //How much wood is required per level
+            int Woodland_Process_Capacity_per_Level = 1000;
+
+            //Wood to Timber conversion rate (in tons)
+            float Conversion_Rate = 0.5f;
+
+            int Nations_Monthly_Woodland_Process_Capacity = Lumbermill_Level * Woodland_Process_Capacity_per_Level;
+
+            if(this.Woodland_Count > Nations_Monthly_Woodland_Process_Capacity)
+            {
+                Woodland_Count = Woodland_Count - Nations_Monthly_Woodland_Process_Capacity;
+
+                Player_Stockpile.Timber += (int)(Nations_Monthly_Woodland_Process_Capacity * Conversion_Rate);
+            }
+            else
+            {
+                Player_Stockpile.Timber += (int)(Woodland_Count * Conversion_Rate);
+            }
+
+        }
 
     }
 

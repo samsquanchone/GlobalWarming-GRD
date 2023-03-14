@@ -34,14 +34,16 @@ public class Tile : MonoBehaviour
     [SerializeField] public int Tree_Age;
 
     [NonSerialized] private NationUIManager NationUIManager;
+
+    [SerializeField] private Canvas Nation_Wiew_Canvas;
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-     ////////////  Sam addition, linking object placement to tile, Enis feel free to link to nation / tweak //////////////////
-     
-     //Example of getters and setters, any data that could break gameplay should have set to private, however this limits accessability, thus getters and setters coming in handy
-     // this example is quick hand getters and setters. Note you won't be able to see values in the inspector like this, unless done in long hand, but it is fully working, and objects being added to these variable counts
+    ////////////  Sam addition, linking object placement to tile, Enis feel free to link to nation / tweak //////////////////
 
-     [SerializeField] public int lumbermill_Amount {get; private set;} = 0;
+    //Example of getters and setters, any data that could break gameplay should have set to private, however this limits accessability, thus getters and setters coming in handy
+    // this example is quick hand getters and setters. Note you won't be able to see values in the inspector like this, unless done in long hand, but it is fully working, and objects being added to these variable counts
+
+    [SerializeField] public int lumbermill_Amount {get; private set;} = 0;
      [SerializeField] public int dock_Amount {get; private set;} = 0;
      [SerializeField] public int trainStation_Amount {get; private set;} = 0;
      [SerializeField] public int pykreteFactory_Amount {get; private set;} = 0;
@@ -75,6 +77,7 @@ public class Tile : MonoBehaviour
         NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>();
         GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
     }
+
 
     public void Calculate_On_Month_Pass()
     {
@@ -174,13 +177,14 @@ public class Tile : MonoBehaviour
     //There is already input mouse button down on PlayerInput, best to abstract functionality unrelated to tiles
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            //Debug.Log("Tile Pressed");
-            NationUIManager.Show_Nation_UI(this.Occupiant_Nation) ;
-        }
     }
 
+    private void OnMouseDown()
+    {
+        Debug.Log("Tile Pressed");
+        Debug.Log("Nation Pressed is: " + Occupiant_Nation.Nation_Name);
+        NationUIManager.Show_Nation_UI(this.Occupiant_Nation);
+    }
     //Sam Addition: Used for infrastructure, example test variables, do with cases for nation tie in as you see fit.
     // Not sure if you want to limit to 1 infrastructure per tile or be able to track specific objects for their levels.
     // If so could use your level variable an add 1 when spawned and 1 when upgraded
@@ -190,23 +194,22 @@ public class Tile : MonoBehaviour
          switch(objectType)
          {
          case ObjectType.Lumbermill:
-            lumbermill_Amount += 1;
                 Lumbermill_Level++;
-
+                lumbermill_Amount += 1;
          break;
 
          case ObjectType.Factory:
-            pykreteFactory_Amount += 1;
+                pykreteFactory_Amount += 1;
                 Tera_Factory_Level++;
          break;
 
          case ObjectType.Dock:
-            dock_Amount += 1;
+                dock_Amount += 1;
                 Harbour_Level++;
          break;
 
          case ObjectType.TrainStation:
-         trainStation_Amount += 1;
+                trainStation_Amount += 1;
                 Railway_Level++;
          break;
          
