@@ -15,7 +15,7 @@ public class Tile_Data : ScriptableObject
 
 
     //Average Heat Level
-    [SerializeField] public int Average_Heat_Level; //Global Warming, Events and Neutral Disasters effect heat levels. Heat levels directly effects Habitability level. 
+    [SerializeField] public float Average_Heat_Level; //Global Warming, Events and Neutral Disasters effect heat levels. Heat levels directly effects Habitability level. 
 
     //Pop
     [SerializeField] public int Population;
