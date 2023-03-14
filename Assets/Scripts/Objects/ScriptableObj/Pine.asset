@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
   m_Name: Pine
   m_EditorClassIdentifier: 
-  buildingPrefab: {fileID: 6641977282416047142, guid: a26d3bd6fa7601b4e9be5f6aa83a05b0,
+  buildingPrefab: {fileID: 8244947131927132571, guid: a26d3bd6fa7601b4e9be5f6aa83a05b0,
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: 3dc2593efe7978a49a1a5e2ae97fb37d,
     type: 3}

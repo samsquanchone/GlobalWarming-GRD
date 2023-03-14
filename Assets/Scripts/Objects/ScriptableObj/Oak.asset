@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
   m_Name: Oak
   m_EditorClassIdentifier: 
-  buildingPrefab: {fileID: 2222111361405018444, guid: 88f2fd29f58b9734683512546acec310,
+  buildingPrefab: {fileID: 3120561368594391651, guid: 2e911543ac7276c44a68d905a05927d5,
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: 9d950f840a08a284d86082a6a66e16fc,
     type: 3}
