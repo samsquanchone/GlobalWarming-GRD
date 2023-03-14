@@ -85,7 +85,7 @@ public class WindowGraph : MonoBehaviour
 
 
 
-       ShowGraph(valueList, barChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+       ShowGraph(valueList, barChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
 
        //Graph functionality button listner and delegate set up
        transform.Find("BarChartButton").GetComponent<Button_UI>().ClickFunc = () => 
@@ -117,12 +117,12 @@ public class WindowGraph : MonoBehaviour
        {
            if(isLineChartActive && GraphDataManager.instance.moneyValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
            }
 
            else if (isBarChartActive && GraphDataManager.instance.moneyValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.moneyValueList, moneyBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.moneyValueList, moneyBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
            }
        };
 
@@ -130,11 +130,11 @@ public class WindowGraph : MonoBehaviour
        {
            if(isLineChartActive && GraphDataManager.instance.co2ValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.co2ValueList, co2LineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.co2ValueList, co2LineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
            else if (isBarChartActive && GraphDataManager.instance.co2ValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.co2ValueList, co2BarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.co2ValueList, co2BarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
        };
 
@@ -142,11 +142,11 @@ public class WindowGraph : MonoBehaviour
        {
             if(isLineChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
            else if (isBarChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
            }
        };
        

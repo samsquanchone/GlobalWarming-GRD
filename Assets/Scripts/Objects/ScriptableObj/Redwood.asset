@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
   m_Name: Redwood
   m_EditorClassIdentifier: 
-  buildingPrefab: {fileID: 655817582102787839, guid: 8000c04cbda9ad7478adef7d2f0b8c6b,
+  buildingPrefab: {fileID: 5638670278912208012, guid: 8000c04cbda9ad7478adef7d2f0b8c6b,
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: 923238fe7c4c3df4c858897c82395509,
     type: 3}
