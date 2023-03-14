@@ -37660,6 +37660,7 @@ GameObject:
   - component: {fileID: 1834530929527720599}
   - component: {fileID: 8575992679239396786}
   - component: {fileID: 8575992679239396790}
+  - component: {fileID: 8575992679239396791}
   m_Layer: 0
   m_Name: Antarctica
   m_TagString: UNCountry
@@ -53428,6 +53429,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &8575992679239396791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4908880528194450586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.007023635, y: 0.020199234, z: 0.002200072}
+  m_Center: {x: -0.083626516, y: -0.21510385, z: -0.0000004539618}
 --- !u!4 &8591063676310954858
 Transform:
   m_ObjectHideFlags: 0
