@@ -15,7 +15,7 @@ MonoBehaviour:
   Territory_Name: USA
   Occupiant_Nation: {fileID: 0}
   Climate_Support: 10
-  Average_Heat_Level: 21
+  Average_Heat_Level: 14
   Population: 350000000
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0

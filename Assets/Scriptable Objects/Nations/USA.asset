@@ -16,7 +16,7 @@ MonoBehaviour:
   Nation_Colour:
     serializedVersion: 2
     rgba: 4294901791
-  GDP: 890000
+  GDP: 26320
   Cumilative_Population_From_Territories: 0
   Starting_Population: 350000000
   Awareness: 5

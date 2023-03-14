@@ -134,15 +134,15 @@ public class Nation : MonoBehaviour
         //  Pop Effect
         if (this.Cumilative_Population_From_Territories < Starting_Population) //Population Shrinks, Society Starts to Collapse
         {
-            this.GDP -= (int)(this.GDP * 0.01f);
+            this.GDP -= (int)(this.GDP * 0.025f);
         }
         if (this.Cumilative_Population_From_Territories < Starting_Population/2) //Famine and Disaster Society Collapses
         {
-            this.GDP -= (int)(this.GDP * 0.025f);
+            this.GDP -= (int)(this.GDP * 0.05f);
         }
         if (this.Cumilative_Population_From_Territories < Starting_Population / 5) //Total Population Collapse
         {
-            this.GDP -= (int)(this.GDP * 0.1f);
+            this.GDP -= (int)(this.GDP * 0.15f);
         }
 
         //Heat Level Effect
@@ -158,15 +158,15 @@ public class Nation : MonoBehaviour
 
         if (Avarage_Heat_Level_On_Teritories > 23)  //High
         {
-            this.GDP -= (int)(this.GDP * 0.01f);
+            this.GDP -= (int)(this.GDP * 0.025f);
         }
         if (Avarage_Heat_Level_On_Teritories > 23)  //Very High
         {
-            this.GDP -= (int)(this.GDP * 0.025f);
+            this.GDP -= (int)(this.GDP * 0.05f);
         }
             if (Avarage_Heat_Level_On_Teritories > 25)//Unhabitable
         {
-            this.GDP -= (int)(this.GDP * 0.05f);
+            this.GDP -= (int)(this.GDP * 0.15f);
         }
     }
 
@@ -219,7 +219,7 @@ public class Nation : MonoBehaviour
     }
     public void Calculate_GDP_Contribution_and_Contribute_GDP()
     {
-        GDP_Contribution = (int)(GDP * Awareness);
+        GDP_Contribution = (int)(GDP * Awareness / 100);
         Player_Stockpile.Money += GDP_Contribution;
     }
 

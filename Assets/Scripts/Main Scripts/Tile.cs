@@ -183,6 +183,7 @@ public class Tile : MonoBehaviour
     {
         Debug.Log("Tile Pressed");
         Debug.Log("Nation Pressed is: " + Occupiant_Nation.Nation_Name);
+        NationUIManager.Tile_Pressed = true;
         NationUIManager.Show_Nation_UI(this.Occupiant_Nation);
     }
     //Sam Addition: Used for infrastructure, example test variables, do with cases for nation tie in as you see fit.
