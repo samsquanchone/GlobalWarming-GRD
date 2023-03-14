@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PersistentManagerScript : MonoBehaviour
 {
@@ -8,15 +9,19 @@ public class PersistentManagerScript : MonoBehaviour
     //any objects built will be stored in a list with Vector3 for position, on reload these objects will then be reinstantiated 
     public static PersistentManagerScript instance { get; private set; }
     private double playerWealth = 0;
-    
 
-    public List<SaveableObject> saveableObjects { get; private set; }
+
+
+
+public List<SaveableObject> saveableObjects { get; private set; }
 
 
     private void Awake()
     {
 
-         //Non-lazy instantiation of singleton 
+
+
+        //Non-lazy instantiation of singleton 
         if (instance == null)
         {
             instance = this;
@@ -47,6 +52,16 @@ public class PersistentManagerScript : MonoBehaviour
             //Save all objects in the saveableObjects list (Added to list when a player placed object spawns)
             saveableObjects[i].Save(i);
         }
+    }
+    public Button Return_Save_Button()
+    {
+        return Save_Button;
+
+    }
+    public Button Return_Load_Button()
+    {
+        return Load_Button;
+
     }
 
     public void Load()

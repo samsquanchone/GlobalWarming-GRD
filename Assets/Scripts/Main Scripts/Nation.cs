@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Nation : MonoBehaviour
 {
@@ -40,8 +42,9 @@ public class Nation : MonoBehaviour
     [SerializeField] public int Railway_Level;
 
 
-   
 
+    Button Load_Button;
+    Button Save_Button;
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///
     private void Start()
@@ -79,6 +82,14 @@ public class Nation : MonoBehaviour
         Calculate_Starting_Population();
 
         GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+
+
+        Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
+        Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
+
+        Load_Button.onClick.AddListener(Load);
+        Save_Button.onClick.AddListener(Save);
+
     }
 
     #region On Month Pass Calculations

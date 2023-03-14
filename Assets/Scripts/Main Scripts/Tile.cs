@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR;
 
 public class Tile : MonoBehaviour
@@ -53,6 +54,16 @@ public class Tile : MonoBehaviour
     [SerializeField] public int unprocessedWoodStockpile_Amount {get; private set;} = 0;
 
 
+    Button Load_Button;
+    Button Save_Button;
+    private void Awake()
+    {
+        Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
+        Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
+
+        Load_Button.onClick.AddListener(Load);
+        Save_Button.onClick.AddListener(Save);
+    }
     private void Start()
     {
         //Pull Tile Data
