@@ -53,16 +53,6 @@ public List<SaveableObject> saveableObjects { get; private set; }
             saveableObjects[i].Save(i);
         }
     }
-    public Button Return_Save_Button()
-    {
-        return Save_Button;
-
-    }
-    public Button Return_Load_Button()
-    {
-        return Load_Button;
-
-    }
 
     public void Load()
     {
