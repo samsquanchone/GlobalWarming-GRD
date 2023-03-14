@@ -18,7 +18,7 @@ public class NationToolTip : MonoBehaviour
     int activeTreeProjects = 0;
     int docksPlaced = 0;
     int trainStationsPlaced = 0;
-    int averageHeatLevel;
+    float averageHeatLevel;
     
 
     public void OnMouseEnter()
