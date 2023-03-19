@@ -136,7 +136,7 @@ public class Nation : MonoBehaviour
         //GDP Grows
         if(this.Cumilative_Population_From_Territories > Starting_Population)
         {
-            this.GDP += (int)(this.GDP * 0.01f);
+            this.GDP += (int)(this.GDP * 0.001f);
         }
 
 
@@ -243,7 +243,7 @@ public class Nation : MonoBehaviour
             int Woodland_Process_Capacity_per_Level = 1000;
 
             //Wood to Timber conversion rate (in tons)
-            float Conversion_Rate = 0.5f;
+            float Conversion_Rate = 0.25f;
 
             int Nations_Monthly_Woodland_Process_Capacity = Lumbermill_Level * Woodland_Process_Capacity_per_Level;
 
