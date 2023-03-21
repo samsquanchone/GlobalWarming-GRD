@@ -16,4 +16,4 @@ MonoBehaviour:
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: 9d950f840a08a284d86082a6a66e16fc,
     type: 3}
-  sprite: {fileID: 21300000, guid: d4fb899559c671c42a4a7c3198a9d862, type: 3}
+  sprite: {fileID: 21300000, guid: 2c3c73b318c70584dbc6854112a3eedf, type: 3}
