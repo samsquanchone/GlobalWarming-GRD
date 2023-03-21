@@ -274,6 +274,7 @@ public class Player : MonoBehaviour
             this.Pykerete += Pykerete_Production_Capacity;
             Transported_Timber_Waiting_To_Be_Processed -= Pykerete_Production_Capacity;
             Debug.Log("if 1");
+            Debug.Log("Pykerete production capacity : " + Pykerete_Production_Capacity);
         }
         else if(Transported_Timber_Waiting_To_Be_Processed > 0 && Pykerete_Production_Capacity >= Transported_Timber_Waiting_To_Be_Processed)
         {

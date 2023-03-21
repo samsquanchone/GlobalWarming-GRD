@@ -51,7 +51,7 @@ public class Tile : MonoBehaviour
      [SerializeField] public int activeTree_Amount {get; private set;} = 0;
 
      //Sam: This variable probably should be in nation, not sure, just getting all the stuff you need from objects for you to tie to your functions for game data
-    [SerializeField] public int unprocessedWoodStockpile_Amount {get; private set;} = 0;
+    //[SerializeField] public int unprocessedWoodStockpile_Amount {get; private set;} = 0;
 
     Player PlayerManager;
     Button Load_Button;
@@ -241,10 +241,10 @@ public class Tile : MonoBehaviour
     //Sam: Feel free to move this function or change variables, just getting the data here for the tree that has been harvested yeild amount, for your data calculations
     public void AddToUnprocessedWoodStockPile(int treeYield)
     {
-        unprocessedWoodStockpile_Amount += treeYield;
-
+        Avaliable_Woodland += treeYield;
+        this.Occupiant_Nation.Woodland_Count += treeYield;
         //Testing as using short hand getters and setters, so serialize field doesnt show in inspector
-        Debug.Log(Occupiant_Nation.Nation_Name + "Has unprocessed wood stocpile of: " + unprocessedWoodStockpile_Amount + "Kgs");
+        Debug.Log(Occupiant_Nation.Nation_Name + "Has unprocessed wood stocpile of: " + Avaliable_Woodland + "Kgs");
           
     }
  
