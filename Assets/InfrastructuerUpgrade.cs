@@ -12,6 +12,7 @@ public class InfrastructuerUpgrade : MonoBehaviour
     {
         //Check if enough money
         gameObject.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().UpgradeInfrastructure(infrastuctureType);
+        AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.infrastructureUpgraded, null);
     }
     
 }

@@ -7419,6 +7419,7 @@ Transform:
   - {fileID: 474873446}
   - {fileID: 1401610258}
   - {fileID: 927231319}
+  - {fileID: 1393637842}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15715,6 +15716,113 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
+--- !u!1 &1393637841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1393637842}
+  - component: {fileID: 1393637844}
+  - component: {fileID: 1393637843}
+  - component: {fileID: 1393637845}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1393637842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393637841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 639597249}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1393637843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393637841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5b8c00f33cee64d9a4baf09c80506a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectBuildUISelected:
+    Guid:
+      Data1: 1138529627
+      Data2: 1105036517
+      Data3: 1993209526
+      Data4: 357273347
+    Path: event:/UI/UISelected
+--- !u!114 &1393637844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393637841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443be4dfc18f4f948963d4997b895379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiRefs: {fileID: 1393637843}
+  objectRefs: {fileID: 1393637845}
+--- !u!114 &1393637845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393637841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4466e038063d6cb4287010ec1d188440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treePlanted:
+    Guid:
+      Data1: -2120243115
+      Data2: 1327039254
+      Data3: -637241961
+      Data4: 1636172500
+    Path: event:/ObjectInteraction/TreePlanted
+  objectPurchased:
+    Guid:
+      Data1: 310810242
+      Data2: 1151371751
+      Data3: -52247364
+      Data4: 1177811631
+    Path: event:/ObjectInteraction/ObjectPurchased
+  infrastructureUpgraded:
+    Guid:
+      Data1: 177449268
+      Data2: 1230334306
+      Data3: -906137210
+      Data4: 1701175547
+    Path: event:/ObjectInteraction/InfrastructureUpgrade
+  infrastructureBuilding:
+    Guid:
+      Data1: 1972294625
+      Data2: 1216517211
+      Data3: 2078673849
+      Data4: -2074744405
+    Path: event:/ObjectInteraction/InfrastructureBuilding
 --- !u!1 &1401610257
 GameObject:
   m_ObjectHideFlags: 0

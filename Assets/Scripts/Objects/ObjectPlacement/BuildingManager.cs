@@ -41,6 +41,7 @@ public class BuildingManager : MonoBehaviour
     {
         //Set the active building type
         activeBuildingType = buildingTypeSO;
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.objectBuildUISelected, null);
     }
 
     public BuildingTypeSO GetActiveBuildingType()
@@ -106,6 +107,7 @@ public class BuildingManager : MonoBehaviour
 
 
         playerData.Money -= buildingTypeSO.cost;
+        AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.objectPurchased, null);
         return true;  
       
     }
