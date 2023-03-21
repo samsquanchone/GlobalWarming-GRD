@@ -32,6 +32,7 @@ public class NationToolTip : MonoBehaviour
     public void OnMouseExit()
     {
         StopAllCoroutines();
+        UIHoverManager.OnLoseFocus();
        
     }
 
