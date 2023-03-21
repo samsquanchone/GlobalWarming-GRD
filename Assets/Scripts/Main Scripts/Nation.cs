@@ -57,7 +57,7 @@ public class Nation : MonoBehaviour
         this.Nation_Colour = Attached_Nations_Data.Nation_Colour;
         this.GDP = Attached_Nations_Data.GDP;
         this.Awareness = Attached_Nations_Data.Awareness;
-
+        this.Woodland_Count = Attached_Nations_Data.Woodland_Count;
 
         //Give territories its nation
         if(this.Nations_Territories != null)
@@ -209,15 +209,19 @@ public class Nation : MonoBehaviour
 
         if (Avarage_Heat_Level_On_Teritories > 13)  //Low
         {
-            this.Awareness += 0.005f;
+            this.Awareness += 0.0001f;
+        }
+        if (Avarage_Heat_Level_On_Teritories > 14)  //Low
+        {
+            this.Awareness += 0.0001f;
         }
         if (Avarage_Heat_Level_On_Teritories > 16)  //Medium
         {
-            this.Awareness += 0.01f;
+            this.Awareness += 0.0005f;
         }
         if (Avarage_Heat_Level_On_Teritories > 20)  //High
         {
-            this.Awareness += 0.05f;
+            this.Awareness += 0.001f;
         }
         if (Avarage_Heat_Level_On_Teritories > 23)  //Very High
         {
@@ -256,8 +260,8 @@ public class Nation : MonoBehaviour
             else
             {
                 Player_Stockpile.Timber += (int)(Woodland_Count * Conversion_Rate);
+                Woodland_Count = 0;
             }
-
         }
 
     }

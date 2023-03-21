@@ -19,7 +19,7 @@ MonoBehaviour:
   GDP: 26320
   Cumilative_Population_From_Territories: 0
   Starting_Population: 350000000
-  Awareness: 5
+  Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
   Lumbermill_Level: 0

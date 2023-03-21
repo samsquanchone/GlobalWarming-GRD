@@ -54,16 +54,16 @@ public class NationUIManager : MonoBehaviour
             this.Nation_Name_UI.text = nationData.Nation_Name;
 
             this.Population_UI.text = (nationData.Cumilative_Population_From_Territories / 1000000).ToString() + " M";
-            this.Awareness_UI.text = nationData.Awareness.ToString() + " %";
+            this.Awareness_UI.text = (nationData.Awareness).ToString("F2") + " %";
             this.Total_GDP_UI.text = (nationData.GDP).ToString() + " M";
             this.GDP_Contribution_UI.text = (nationData.GDP_Contribution).ToString() + " M";
 
             this.Avaliable_Woodland_UI.text = nationData.Woodland_Count.ToString();
 
-            this.Railway_Level_UI.text = nationData.Lumbermill_Level.ToString();
-            this.Lumbermill_Level_UI.text = nationData.Tera_Factory_Level.ToString();
+            this.Railway_Level_UI.text = nationData.Railway_Level.ToString(); 
+            this.Lumbermill_Level_UI.text = nationData.Lumbermill_Level.ToString();
             this.Harbour_Level_UI.text = nationData.Harbour_Level.ToString();
-            this.Tera_Factory_Level_UI.text = nationData.Railway_Level.ToString();
+            this.Tera_Factory_Level_UI.text = nationData.Tera_Factory_Level.ToString(); 
         }
 
     }
