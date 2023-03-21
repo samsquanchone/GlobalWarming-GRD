@@ -268,19 +268,19 @@ public class Player : MonoBehaviour
 
         //Tera factory count
         int Pykerete_Production_Capacity = Antartica_Tile.Tera_Factory_Level * Monthly_Pykerete_Production_per_Tera_Factory_Count;
-        Debug.Log("Produce Pykerete Function");
+/*        Debug.Log("Produce Pykerete Function");*/
         if(Transported_Timber_Waiting_To_Be_Processed > 0  && Pykerete_Production_Capacity < Transported_Timber_Waiting_To_Be_Processed)
         {
             this.Pykerete += Pykerete_Production_Capacity;
             Transported_Timber_Waiting_To_Be_Processed -= Pykerete_Production_Capacity;
-            Debug.Log("if 1");
-            Debug.Log("Pykerete production capacity : " + Pykerete_Production_Capacity);
+/*            Debug.Log("if 1");
+            Debug.Log("Pykerete production capacity : " + Pykerete_Production_Capacity);*/
         }
         else if(Transported_Timber_Waiting_To_Be_Processed > 0 && Pykerete_Production_Capacity >= Transported_Timber_Waiting_To_Be_Processed)
         {
             this.Pykerete += Transported_Timber_Waiting_To_Be_Processed;
             Transported_Timber_Waiting_To_Be_Processed = 0;
-            Debug.Log("if 2");
+/*            Debug.Log("if 2");*/
         }
     }
 
