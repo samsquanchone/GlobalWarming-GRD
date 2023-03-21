@@ -27,7 +27,7 @@ public class Tile : MonoBehaviour
     [SerializeField] public int Tera_Factory_Level = 0;
     [SerializeField] public int Harbour_Level = 0;
     [SerializeField] public int Railway_Level = 0;
-    
+
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Header("DEBUG - NEUTRAL on New Game")]
@@ -53,7 +53,7 @@ public class Tile : MonoBehaviour
      //Sam: This variable probably should be in nation, not sure, just getting all the stuff you need from objects for you to tie to your functions for game data
     [SerializeField] public int unprocessedWoodStockpile_Amount {get; private set;} = 0;
 
-
+    Player PlayerManager;
     Button Load_Button;
     Button Save_Button;
     private void Awake()
@@ -86,6 +86,7 @@ public class Tile : MonoBehaviour
 
         //Nation UI Connection
         NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>();
+        PlayerManager = GameObject.Find("(!)Player Manager").GetComponent<Player>();
         GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
     }
 
@@ -101,7 +102,7 @@ public class Tile : MonoBehaviour
         //Neutral Population Growth
 
         /*The current global RNI is estimated to be around 1.1% per year, which translates to approximately 0.092% per month*/
-        this.Population += (int)(this.Population * 0.01f);
+        this.Population += (int)(this.Population * 0.001f);
         
 
         //Effects of Heat
@@ -140,8 +141,7 @@ public class Tile : MonoBehaviour
         Therefore, if something is increasing 1 per 70 years, it would increase by approximately 0.0012 per month.
          */
         //MONTHLY Heat Level Rise
-        this.Average_Heat_Level += 0.0012f;
-
+        this.Average_Heat_Level += PlayerManager.Monthly_Heat_Level_Increase;
 
         //Effects of Heat Level Fall
         //According to the PYKERETE SEND TO ANTRATICA
@@ -211,6 +211,7 @@ public class Tile : MonoBehaviour
          break;
 
          case ObjectType.Factory:
+                Debug.Log("Tera Factory Added");
                 pykreteFactory_Amount += 1;
                 Tera_Factory_Level++;
          break;
