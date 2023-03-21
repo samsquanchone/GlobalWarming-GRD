@@ -16845,9 +16845,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1590325148}
   - component: {fileID: 1590325147}
-  - component: {fileID: 1590325146}
   - component: {fileID: 1590325149}
   - component: {fileID: 1590325150}
+  - component: {fileID: 1590325151}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -16855,14 +16855,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1590325146
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590325145}
-  m_Enabled: 1
 --- !u!20 &1590325147
 Camera:
   m_ObjectHideFlags: 0
@@ -17014,6 +17006,19 @@ MonoBehaviour:
   rotateLeftKey: 122
   useMouseRotation: 0
   mouseRotationKey: 324
+--- !u!114 &1590325151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590325145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1596666242
 GameObject:
   m_ObjectHideFlags: 0
@@ -53472,8 +53477,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.007023635, y: 0.020199234, z: 0.002200072}
-  m_Center: {x: -0.083626516, y: -0.21510385, z: -0.0000004539618}
+  m_Size: {x: 0.007214289, y: 0.020199234, z: 0.002200072}
+  m_Center: {x: -0.08372184, y: -0.21510383, z: -0.0000004539618}
 --- !u!4 &8591063676310954858
 Transform:
   m_ObjectHideFlags: 0
