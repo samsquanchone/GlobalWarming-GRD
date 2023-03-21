@@ -7,8 +7,9 @@ public class BuildingManager : MonoBehaviour
     //Singleton for global access, public get, private set
     public static BuildingManager instance { get; private set; }
 
+
     [SerializeField] private BuildingTypeSO activeBuildingType;
-    
+    [SerializeField] private Player playerData;
 
     public void Start()
     {
@@ -92,8 +93,19 @@ public class BuildingManager : MonoBehaviour
                 Debug.Log("Cant spawn");
                 return false;
             }
-        }
 
+            if(playerData.Money < buildingTypeSO.cost)
+            {
+                GetComponent<BuildingManagerToolTip>().ShowMessage("Insufficient funds");
+                return false;
+            }
+
+
+        }
+        
+
+
+        playerData.Money -= buildingTypeSO.cost;
         return true;  
       
     }

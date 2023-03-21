@@ -9212,6 +9212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781867166}
   - component: {fileID: 781867167}
+  - component: {fileID: 781867168}
   m_Layer: 0
   m_Name: BuildingManager
   m_TagString: Untagged
@@ -9247,6 +9248,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeBuildingType: {fileID: 0}
+  playerData: {fileID: 474873447}
+--- !u!114 &781867168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781867165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb0a216fce35f1438530749c7d8eb12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &785346459
 GameObject:
   m_ObjectHideFlags: 0
@@ -14416,7 +14430,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 139.8495, y: -28.806}
+  m_AnchoredPosition: {x: 139.84949, y: -28.80603}
   m_SizeDelta: {x: 275.7171, y: 54.268}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1257550536

@@ -40,73 +40,55 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     }
 
 
-    //This is set on initialization, essentially creating tooltip data to be able to show object placement info from hovering over buttons
-    // NOTE: THIS IS JUST AN OFF THE CUFF WAY OF DOING THIS, SOME DATA IS SIMILAR, COULD BUNCH SIMILAR CLASSES UP INTO MORE GENERAL OBJECT TYPE, SIMILAR TO THE TREE OBJECT TYPE CLASS
+    //Shows object info for building types for object placement UI buttons: buildingtype accesses enum in the abstract SaveableObject class to be able to identify objects
     public void SetToolTipData(BuildingTypeSO buildingType)
     {
-        float cost;
+        //Get enum value for object type of the buildingType for the respective building UIButton
+        ObjectType obj = buildingType.buildingPrefab.GetComponent<SaveableObject>().objectType;
+        float cost = buildingType.cost;
         int transportationCapacity;
 
-        if (buildingType.buildingPrefab.GetComponent<TreeObject>() != null)
+        switch(obj)
         {
-
-            int yieldKg;
-            int timeToGrow;
-
-            //Note currently this is being done off the saveable objects script, for object placement UI, may not want to do this, although as values are only set on initialization, it may be ok
-            cost = buildingType.buildingPrefab.GetComponent<TreeObject>().cost;
-            yieldKg = buildingType.buildingPrefab.GetComponent<TreeObject>().yield;
-            timeToGrow = buildingType.buildingPrefab.GetComponent<TreeObject>().timeToGrow;
-
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Yield: " + yieldKg.ToString() + "Kg" + "\n" + "Time To Grow: " + timeToGrow.ToString() + " Years";
-        }
-
-        if (buildingType.buildingPrefab.GetComponent<LumbermillObject>() != null)
-        {
+            case ObjectType.Lumbermill:
             int productionPerYearKg;
             int maxCapacityKg;
-
-            cost = buildingType.buildingPrefab.GetComponent<LumbermillObject>().cost;
             productionPerYearKg = buildingType.buildingPrefab.GetComponent<LumbermillObject>().pulverisedWoodProductionRate;
             maxCapacityKg = buildingType.buildingPrefab.GetComponent<LumbermillObject>().woodCapacityKg;
+            dataToShow = "\n" + "Cost: Â£" + cost.ToString() + " Million" + "\n" + "Production Per Year: " + productionPerYearKg.ToString() + "Kg" + "\n" + "Capacity: " + maxCapacityKg.ToString() + "Kg";
+            break;
 
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Production Per Year: " + productionPerYearKg.ToString() + "Kg" + "\n" + "Capacity: " + maxCapacityKg.ToString() + "Kg";
-        }
-
-        if (buildingType.buildingPrefab.GetComponent<FactoryObject>() != null)
-        {
+            case ObjectType.Factory:
             int pykretePergsProducedPerYear;
             int pykreteBergCapacity;
-
-            cost = buildingType.buildingPrefab.GetComponent<FactoryObject>().cost;
             pykretePergsProducedPerYear = buildingType.buildingPrefab.GetComponent<FactoryObject>().pykreteProductionRate;
             pykreteBergCapacity = buildingType.buildingPrefab.GetComponent<FactoryObject>().pykreteCapacity;
+            dataToShow = "\n" + "Cost: Â£" + cost.ToString() + " Million" + "\n" + "Production Per Year: " + pykretePergsProducedPerYear.ToString() + "Bergs" + "\n" + "Capacity: " + pykreteBergCapacity.ToString() + "Bergs";
+            break;
 
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Production Per Year: " + pykretePergsProducedPerYear.ToString() + "Bergs" + "\n" + "Capacity: " + pykreteBergCapacity.ToString() + "Bergs";
-        }
-
-        if (buildingType.buildingPrefab.GetComponent<DockObject>() != null)
-        {
+            case ObjectType.Dock:
             int numberOfShips;
-
-            cost = buildingType.buildingPrefab.GetComponent<DockObject>().cost;
             transportationCapacity = buildingType.buildingPrefab.GetComponent<DockObject>().transportationCapacityKG;
             numberOfShips = buildingType.buildingPrefab.GetComponent<DockObject>().numberOfShips;
+            dataToShow = "\n" + "Cost: Â£" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Kg" + "\n" + "Number Of Ships: " + numberOfShips.ToString();
+            break;
 
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Kg" + "\n" + "Number Of Ships: " + numberOfShips.ToString();
-        }
-
-        else if (buildingType.buildingPrefab.GetComponent<TrainStationObject>() != null)
-        {
+            case ObjectType.TrainStation:
             int numberOfTrains;
-
-            cost = buildingType.buildingPrefab.GetComponent<TrainStationObject>().cost;
             transportationCapacity = buildingType.buildingPrefab.GetComponent<TrainStationObject>().transportationCapacityKG;
             numberOfTrains = buildingType.buildingPrefab.GetComponent<TrainStationObject>().numberOfTrains;
+            dataToShow = "\n" + "Cost: Â£" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Kg" + "\n" + "Number Of Ships: " + numberOfTrains.ToString();
+            break;
 
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Kg" + "\n" + "Number Of Ships: " + numberOfTrains.ToString();
+            //Is a tree
+            default:
+            int yieldKg;
+            int timeToGrow;
+            yieldKg = buildingType.buildingPrefab.GetComponent<TreeObject>().yield;
+            timeToGrow = buildingType.buildingPrefab.GetComponent<TreeObject>().timeToGrow;
+            dataToShow = "\n" + "Cost: Â£" + cost.ToString() + " Million" + "\n" + "Yield: " + yieldKg.ToString() + "Kg" + "\n" + "Time To Grow: " + timeToGrow.ToString() + " Years";
+            break;
 
         }
-
     }
 }
