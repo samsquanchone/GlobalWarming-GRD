@@ -6,6 +6,7 @@ using TMPro;
 
 public class UIHoverManager : MonoBehaviour
 {
+    
     //This script utilises actions and pointer call backs to implement hover functionality, utilised by the tooltip system
 
     public TextMeshProUGUI tipText;

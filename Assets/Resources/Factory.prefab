@@ -137,7 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 5
-  cost: 200
+  cost: 100
+  cost: 100
   pykreteProductionRate: 10
   pykreteCapacity: 300
 --- !u!114 &2338275965520525246

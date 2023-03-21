@@ -33,54 +33,32 @@ public class ObjectToolTip : NationToolTip
 
     public override void SetToolTipData()
     {
-        if (gameObject.tag == "Tree")
+         //Get enum value for object type of the buildingType for the respective building UIButton
+        ObjectType obj = GetComponent<SaveableObject>().objectType;
+        string objectName = GetComponent<SaveableObject>().objectType.ToString();
+
+        switch(obj)
         {
-            var treeObj = gameObject.GetComponent<Tree>();
-            string treeType = gameObject.name;
-            string growthTimeRemaining; 
-            string expectedYield;
-            
+            case ObjectType.Lumbermill:
+            ShowMessage(objectName);
+            break;
 
+            case ObjectType.Factory:
+            ShowMessage(objectName);
+            break;
 
-            ShowMessage(treeType);
+            case ObjectType.Dock:
+            ShowMessage(objectName);
+            break;
+
+            case ObjectType.TrainStation:
+            ShowMessage(objectName);
+            break;
+
+            //Is a tree
+            default:
+            ShowMessage(objectName);
+            break;
         }
-
-        else
-        {
-            //Variables shared among infrasture
-            string infrastructureName;
-            string objectLevel;
-            string capacity;
-            bool productionActive;
-
-            if (gameObject.GetComponent<LumbermillObject>() != null)
-            {
-                var infrastrctureObj = gameObject.GetComponent<LumbermillObject>();
-                ShowMessage(infrastrctureObj.name); 
-
-            }
-
-            if (gameObject.GetComponent<FactoryObject>())
-            {
-                var infrastrctureObj = gameObject.GetComponent<FactoryObject>();
-                ShowMessage(infrastrctureObj.name);
-            }
-
-            if (gameObject.GetComponent<DockObject>())
-            {
-                var infrastrctureObj = gameObject.GetComponent<DockObject>();
-                ShowMessage(infrastrctureObj.name);
-            }
-
-            else if (gameObject.GetComponent<TrainStationObject>())
-            {
-                var infrastrctureObj = gameObject.GetComponent<TrainStationObject>();
-                ShowMessage(infrastrctureObj.name);
-            }
-
-
-           
-        }
-
     }
 }

@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 0
+  cost: 100
   m_cost: 20
   m_yield: 10
   m_timeToGrow: 3

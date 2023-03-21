@@ -122,7 +122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 8
-  cost: 50
+  cost: 100
+  cost: 100
   transportationCapacityKG: 100
   numberOfTrains: 3
 --- !u!114 &-725710967567354057

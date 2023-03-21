@@ -14,6 +14,9 @@ public abstract class SaveableObject : MonoBehaviour
 {
     protected string saveStats;
     [SerializeField] public ObjectType objectType;
+   
+
+
     // Start is called before the first frame update
     private void Start()
     {

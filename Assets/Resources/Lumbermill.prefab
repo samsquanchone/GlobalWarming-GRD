@@ -146,7 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 7
-  cost: 10
+  cost: 55
+  cost: 55
   pulverisedWoodProductionRate: 100
   woodCapacityKg: 2000
 --- !u!114 &3771371898466651566
@@ -252,6 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89934c7f6598b3642ab27a4406c36a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  infrastuctureType: 0
 --- !u!1001 &737939867570914279
 PrefabInstance:
   m_ObjectHideFlags: 0
