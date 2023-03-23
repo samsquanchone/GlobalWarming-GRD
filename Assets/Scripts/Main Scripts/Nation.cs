@@ -90,10 +90,24 @@ public class Nation : MonoBehaviour
         Load_Button.onClick.AddListener(Load);
         Save_Button.onClick.AddListener(Save);
 
+        //RANDOMIZER
+        Randomize_Values();
+
     }
 
     #region On Month Pass Calculations
 
+    public void Randomize_Values()
+    {
+        int randomized_gdp = Random.Range(10, 20000);
+        this.GDP = randomized_gdp;
+
+        int randomized_awareness = Random.Range(0, 100);
+        this.Awareness = randomized_awareness;
+
+        int randomized_woodlandcount = Random.Range(0, 20000);
+        this.Woodland_Count = randomized_woodlandcount;
+    }
     public void Calculate_On_Month_Pass()
     {
         //Update 

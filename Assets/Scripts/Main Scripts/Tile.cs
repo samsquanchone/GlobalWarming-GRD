@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR;
+using Random = UnityEngine.Random;
 
 public class Tile : MonoBehaviour
 {
@@ -88,9 +89,25 @@ public class Tile : MonoBehaviour
         NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>();
         PlayerManager = GameObject.Find("(!)Player Manager").GetComponent<Player>();
         GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+
+
+        //RANDOMIZED
+        Randomize_Values();
     }
 
+    public void Randomize_Values()
+    {
+        int randomized_avarage_heat_level = Random.Range(5, 26);
+        this.Average_Heat_Level = randomized_avarage_heat_level;
 
+        int randomized_pop = Random.Range(100000, 30000000);
+        this.Population = randomized_pop;
+
+        int randomized_building = Random.Range(0, 30);
+        this.Lumbermill_Level = randomized_building;
+
+
+    }
     public void Calculate_On_Month_Pass()
     {
         Population_Growth_and_Shrink();
