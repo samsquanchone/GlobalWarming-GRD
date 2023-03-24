@@ -7,6 +7,13 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    
+
+    //Sam addition Singleton decleration example (shorthand): You will be able to call a public function in the script from anywhere with Player.instance.functionName/variableName
+    public static Player instance => m_instance;
+    private static Player m_instance; //This needs to be initialised as this within Start(): m_instance = this;    
+
+
     [SerializeField] Player_Data Attached_Player_Data;
 
     [SerializeField] Nation[] All_Nations;
@@ -21,7 +28,7 @@ public class Player : MonoBehaviour
     public int Political_Power;
 
     public int Timber;        //in tons
-    public int Pykerete;    //in tons
+    public int Pykerete {get; private set;} //Sam access modifier: strictly Public variables scare me    //in tons
 
 
     public float Monthly_Heat_Level_Increase;
@@ -36,7 +43,7 @@ public class Player : MonoBehaviour
 
 
     #region UI Links
-    //UI links
+    //UI link.  Sam eddition: could all this UI not be abstracted to a UI singleton? Script is quite long, or even abstract it to a higher level script and referene this script?
     [Header("UI Connections")]
     [SerializeField] TMP_Text Money_UI;
     [SerializeField] TMP_Text Political_Power_UI;
@@ -57,6 +64,10 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        //Sam addition: initialize singleton as this instance of script (singleton as in the name (single), can only have one instance, but this script seems to just be a manager, and deffo suits use case of singleton pattern)
+        m_instance = this;
+
+
         //Pull Starting Data from Player Data
         this.Money = Attached_Player_Data.Money;
         this.Political_Power = Attached_Player_Data.Political_Power;
@@ -343,8 +354,37 @@ public class Player : MonoBehaviour
         Train_Count_UI.text = this.Trains.ToString();
         Ship_Count_UI.text = this.Ships.ToString();
     }
+    
+//////////////////////////////////////////////////////////  Sam Addition: Getters / setters for variables within this script ///////////////////////////////////
+    //Sam addition: set pykrete access to only be writeable within this scipt, to avoid bad memory management + potential data leaks. 
+    //Therefore this function exists to get pykrete number + made class singleton so i can access this function without reference to script
+    public int GetPkyreteStockPile()
+    {
+        int _pykrete = Pykerete;
 
+        return _pykrete;
+    }
 
+    public int GetPlayerWealth()
+    {
+        int _wealth = Money;
 
+        return _wealth;
+    }
+
+    public void RemoveAmountFromPykereteStockPile(int amount)
+    {
+        Pykerete -= amount;
+    }
+
+    public void RemoveAmountFromPlayerWealth(int amount)
+    {
+        Money -= amount;
+    }
+
+    public void MinusFromMonthlyHeatLevel(double value)
+    {
+        Monthly_Heat_Level_Increase -= (float) value;
+    }
 
 }

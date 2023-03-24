@@ -138,7 +138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectType: 5
   cost: 100
-  cost: 100
   pykreteProductionRate: 10
   pykreteCapacity: 300
 --- !u!114 &2338275965520525246
@@ -177,8 +176,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1d3d260db7f52548b3664bc9f94c51c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bergPrefab: {fileID: 5630179983978683819, guid: 2fe4f51f8fe768b40bef43cfe917bd3a,
+  bergSmallPrefab: {fileID: 5630179983978683819, guid: 2fe4f51f8fe768b40bef43cfe917bd3a,
     type: 3}
+  bergMediumPrefab: {fileID: 5630179983978683819, guid: e8f62b484e0aeb348b6247533d937e48,
+    type: 3}
+  bergLargePrefab: {fileID: 5630179983978683819, guid: 5ab669c4a8c120648853068506b4041c,
+    type: 3}
+  smallBergPykretePrice: 1000
+  mediumBergPykretePrice: 3000
+  largeBergPykretePrice: 5000
   offSet: 3
 --- !u!208 &-5488588441522344616
 NavMeshObstacle:

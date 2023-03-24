@@ -199,3 +199,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infrastuctureType: 2
+  upgradeCost: 200

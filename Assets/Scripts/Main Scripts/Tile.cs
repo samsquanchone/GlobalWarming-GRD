@@ -244,7 +244,7 @@ public class Tile : MonoBehaviour
         Avaliable_Woodland += treeYield;
         this.Occupiant_Nation.Woodland_Count += treeYield;
         //Testing as using short hand getters and setters, so serialize field doesnt show in inspector
-        Debug.Log(Occupiant_Nation.Nation_Name + "Has unprocessed wood stocpile of: " + Avaliable_Woodland + "Kgs");
+        Debug.Log(Occupiant_Nation.Nation_Name + "Has unprocessed wood stockpile of: " + Avaliable_Woodland + "Kgs");
           
     }
  

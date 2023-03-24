@@ -3478,6 +3478,7 @@ GameObject:
   - component: {fileID: 331515078}
   - component: {fileID: 331515077}
   - component: {fileID: 331515076}
+  - component: {fileID: 331515079}
   m_Layer: 5
   m_Name: ActionButton3
   m_TagString: Untagged
@@ -3600,6 +3601,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331515074}
   m_CullTransparentMesh: 1
+--- !u!114 &331515079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331515074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba489e442e1bfe499aa45374011926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 5000
 --- !u!1 &343096676
 GameObject:
   m_ObjectHideFlags: 0
@@ -5127,7 +5141,6 @@ MonoBehaviour:
   Money: 0
   Political_Power: 0
   Timber: 0
-  Pykerete: 0
   Monthly_Heat_Level_Increase: 0
   Ships: 0
   Trains: 0
@@ -14766,11 +14779,11 @@ RectTransform:
   - {fileID: 1516985432}
   - {fileID: 1691243355}
   - {fileID: 947117653}
+  - {fileID: 469897612}
+  - {fileID: 549143919}
   - {fileID: 1044335254}
   - {fileID: 343096677}
-  - {fileID: 549143919}
   - {fileID: 466869722}
-  - {fileID: 469897612}
   m_Father: {fileID: 1902584208}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18945,6 +18958,9 @@ MonoBehaviour:
   pykreteFactoryPanel: {fileID: 469897611}
   objectImage: {fileID: 765376222}
   objectActionButton: {fileID: 1881573936}
+  factoryActionButton1: {fileID: 1912319167}
+  factoryActionButton2: {fileID: 1835540596}
+  factoryActionButton3: {fileID: 331515076}
   buttonText: {fileID: 1239737138}
   objectName: {fileID: 300709640}
   objectData1: {fileID: 284603185}
@@ -21242,6 +21258,7 @@ GameObject:
   - component: {fileID: 1835540598}
   - component: {fileID: 1835540597}
   - component: {fileID: 1835540596}
+  - component: {fileID: 1835540599}
   m_Layer: 5
   m_Name: ActionButton2
   m_TagString: Untagged
@@ -21364,6 +21381,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835540594}
   m_CullTransparentMesh: 1
+--- !u!114 &1835540599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835540594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba489e442e1bfe499aa45374011926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 3000
 --- !u!1 &1846122323
 GameObject:
   m_ObjectHideFlags: 0
@@ -22406,6 +22436,7 @@ GameObject:
   - component: {fileID: 1912319169}
   - component: {fileID: 1912319168}
   - component: {fileID: 1912319167}
+  - component: {fileID: 1912319170}
   m_Layer: 5
   m_Name: ActionButton1
   m_TagString: Untagged
@@ -22528,6 +22559,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912319165}
   m_CullTransparentMesh: 1
+--- !u!114 &1912319170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912319165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba489e442e1bfe499aa45374011926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1000
 --- !u!1 &1917537707
 GameObject:
   m_ObjectHideFlags: 0
