@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
 
 
     #region UI Links
-    //UI link.  Sam eddition: could all this UI not be abstracted to a UI singleton? Script is quite long, or even abstract it to a higher level script and referene this script?
+    
     [Header("UI Connections")]
     [SerializeField] TMP_Text Money_UI;
     [SerializeField] TMP_Text Political_Power_UI;
