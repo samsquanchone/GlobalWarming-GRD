@@ -29,6 +29,7 @@ public class InfrastructuerUpgrade : MonoBehaviour
 
         else
         {
+            UIHoverManager.instance.ShowTip("Insufficient Funds", Input.mousePosition);
             return false;
         }
     }

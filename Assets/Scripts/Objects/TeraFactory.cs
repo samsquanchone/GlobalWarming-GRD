@@ -68,6 +68,7 @@ public class TeraFactory : MonoBehaviour
 
         else
         {
+            UIHoverManager.instance.ShowTip("Insufficient Pykerete in Stockpile", Input.mousePosition);
             return false;
         }
     }

@@ -6,7 +6,8 @@ using TMPro;
 
 public class UIHoverManager : MonoBehaviour
 {
-    
+    public static UIHoverManager instance => m_instance;
+    private static UIHoverManager m_instance;
     //This script utilises actions and pointer call backs to implement hover functionality, utilised by the tooltip system
 
     public TextMeshProUGUI tipText;
@@ -34,11 +35,12 @@ public class UIHoverManager : MonoBehaviour
     // Start is called before the first frame update
     protected void Start()
     {
+        m_instance = this;
         //Default tip state to no tip showing
         HideTip();
     }
 
-    private void ShowTip(string tip, Vector2 mousePos)
+    public void ShowTip(string tip, Vector2 mousePos)
     {
         tipText.text = tip;
 

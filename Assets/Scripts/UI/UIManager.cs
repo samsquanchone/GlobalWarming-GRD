@@ -52,6 +52,10 @@ public class UIManager : MonoBehaviour
     //Used to contain pressed object, to execute button actions
     private GameObject objectInspected = null;
 
+    int upgradeValueLumber;
+    int upgradeValueTrainStation;
+    int upgradeValueDock;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -231,7 +235,8 @@ public class UIManager : MonoBehaviour
 
     public void OpenPykretePanelFactoryPanel(GameObject gameObject)
     {
-        pykreteFactoryData2.text = "Processed wood stockpile: " + "Tons";
+        pykreteFactoryData1.text = "Placed in: Antarctica";
+        pykreteFactoryData2.text = "Processed wood stockpile: " + Player.instance.GetPkyreteStockPile() + " Giga Tons";
         pykreteFactoryData3.text = "Production rate: " + "Tons per year";
         pykreteFactoryData4.text = "Capacity: " + "Tons";
         
@@ -244,9 +249,6 @@ public class UIManager : MonoBehaviour
         pykreteFactoryPanel.SetActive(false);
         objectInspected = null;
     }
-
-   
-   
 
 
 }

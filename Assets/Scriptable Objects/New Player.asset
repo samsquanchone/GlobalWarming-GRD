@@ -15,7 +15,7 @@ MonoBehaviour:
   Money: 100
   Political_Power: 10
   Timber: 0
-  Pykerete: 500
+  Pykerete: 5000
   Transported_Timber_Waiting_To_Be_Processed: 0
   Logistics: 0
   Logistics_Coverage: 0
