@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: Argentina
   m_EditorClassIdentifier: 
   Nation_Name: Argentina
-  Nations_Territories:
-  - {fileID: 0}
   Nation_Colour:
     serializedVersion: 2
     rgba: 4286866493
-  GDP: 0
+  GDP: 1100
   Cumilative_Population_From_Territories: 0
   Starting_Population: 0
   Awareness: 0

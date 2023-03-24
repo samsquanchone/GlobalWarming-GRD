@@ -6331,7 +6331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a96341f1eb2bd4e9baeb207fd4140e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attached_Nations_Data: {fileID: 11400000, guid: ee424059f7457be489798d942c729ed0,
+  Attached_Nations_Data: {fileID: 11400000, guid: be9ae33528c274d4790c07bffc2ac207,
     type: 2}
   Player_Stockpile: {fileID: 474873447}
   Nations_Territories:

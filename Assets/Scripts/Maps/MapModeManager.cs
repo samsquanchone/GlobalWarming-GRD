@@ -124,28 +124,28 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 255, 172, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(43, 78, 255, 255);
                     }
                     catch (System.Exception e)
                     {
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Average_Heat_Level < 13) {
+                else if (All_Tiles[i].Average_Heat_Level < 12) {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 255, 68, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(43, 227, 255, 255);
                     }
                     catch (System.Exception e)
                     {
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Average_Heat_Level < 14)
+                else if (All_Tiles[i].Average_Heat_Level < 13)
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(61, 255, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(43, 255, 233, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -156,7 +156,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(141, 255, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(218, 255, 43, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -167,18 +167,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(203, 255, 0, 255);
-                    }
-                    catch (System.Exception e)
-                    {
-                        Debug.Log(e);
-                    }
-                }
-                else if (All_Tiles[i].Average_Heat_Level < 17)
-                {
-                    try
-                    {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(227, 255, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 226, 43, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -189,7 +178,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 227, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 181, 43, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -200,7 +189,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 172, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 131, 43, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -211,7 +200,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 129, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 76, 43, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -222,7 +211,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 98, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(218, 12, 131, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -233,7 +222,18 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 55, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(72, 10, 90, 255);
+                    }
+                    catch (System.Exception e)
+                    {
+                        Debug.Log(e);
+                    }
+                }
+                else if (All_Tiles[i].Average_Heat_Level < 23)
+                {
+                    try
+                    {
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(40, 5, 50, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -244,7 +244,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255,0,0,255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(12, 1, 20, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -270,11 +270,44 @@ public class MapModeManager : MonoBehaviour
         {
             if (All_Tiles[i] != null)
             {
-                if (All_Tiles[i].Occupiant_Nation.GDP < 500)
+                if (All_Tiles[i].Occupiant_Nation.GDP < 100)
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 0, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 43, 43, 255);
+                    }
+                    catch (System.Exception e)
+                    {
+                        Debug.Log(e);
+                    }
+                }
+                else if (All_Tiles[i].Occupiant_Nation.GDP < 200)
+                {
+                    try
+                    {
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 137, 43, 255);
+                    }
+                    catch (System.Exception e)
+                    {
+                        Debug.Log(e);
+                    }
+                }
+                else if (All_Tiles[i].Occupiant_Nation.GDP < 500)
+                {
+                    try
+                    {
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 220, 43, 255);
+                    }
+                    catch (System.Exception e)
+                    {
+                        Debug.Log(e);
+                    }
+                }
+                else if (All_Tiles[i].Occupiant_Nation.GDP < 750)
+                {
+                    try
+                    {
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(202, 255, 43, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -285,7 +318,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 49, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(108, 255, 43, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -296,7 +329,29 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 74, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(43, 255, 155, 255);
+                    }
+                    catch (System.Exception e)
+                    {
+                        Debug.Log(e);
+                    }
+                }
+                else if (All_Tiles[i].Occupiant_Nation.GDP < 3000)
+                {
+                    try
+                    {
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(43, 233, 255, 255);
+                    }
+                    catch (System.Exception e)
+                    {
+                        Debug.Log(e);
+                    }
+                }
+                else if (All_Tiles[i].Occupiant_Nation.GDP < 4000)
+                {
+                    try
+                    {
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(43, 128, 255, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -307,62 +362,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 178, 0, 255);
-                    }
-                    catch (System.Exception e)
-                    {
-                        Debug.Log(e);
-                    }
-                }
-                else if (All_Tiles[i].Occupiant_Nation.GDP < 7000)
-                {
-                    try
-                    {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(240, 255, 0, 255);
-                    }
-                    catch (System.Exception e)
-                    {
-                        Debug.Log(e);
-                    }
-                }
-                else if (All_Tiles[i].Occupiant_Nation.GDP < 9000)
-                {
-                    try
-                    {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 255, 154, 255);
-                    }
-                    catch (System.Exception e)
-                    {
-                        Debug.Log(e);
-                    }
-                }
-                else if (All_Tiles[i].Occupiant_Nation.GDP < 12000)
-                {
-                    try
-                    {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 221, 255, 255);
-                    }
-                    catch (System.Exception e)
-                    {
-                        Debug.Log(e);
-                    }
-                }
-                else if (All_Tiles[i].Occupiant_Nation.GDP < 15000)
-                {
-                    try
-                    {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 135, 255, 255);
-                    }
-                    catch (System.Exception e)
-                    {
-                        Debug.Log(e);
-                    }
-                }
-                else if (All_Tiles[i].Occupiant_Nation.GDP < 18000)
-                {
-                    try
-                    {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 68, 255, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(74, 43, 255, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -373,7 +373,7 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 0, 255, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(157, 43, 255, 255);
                     }
                     catch (System.Exception e)
                     {
@@ -398,7 +398,7 @@ public class MapModeManager : MonoBehaviour
         {
             if (All_Tiles[i] != null)
             {
-                if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 50)
+                if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 5)
                 {
                     try
                     {
@@ -409,7 +409,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 100)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 10)
                 {
                     try
                     {
@@ -420,7 +420,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 200)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 20)
                 {
                     try
                     {
@@ -431,7 +431,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 500)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 50)
                 {
                     try
                     {
@@ -442,7 +442,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 700)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 100)
                 {
                     try
                     {
@@ -453,7 +453,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 900)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 200)
                 {
                     try
                     {
@@ -464,7 +464,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 1200)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 300)
                 {
                     try
                     {
@@ -475,7 +475,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 1500)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 400)
                 {
                     try
                     {
@@ -486,7 +486,7 @@ public class MapModeManager : MonoBehaviour
                         Debug.Log(e);
                     }
                 }
-                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 1800)
+                else if (All_Tiles[i].Occupiant_Nation.GDP_Contribution < 500)
                 {
                     try
                     {

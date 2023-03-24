@@ -92,7 +92,7 @@ public class Tile : MonoBehaviour
 
 
         //RANDOMIZED
-        Randomize_Values();
+        //Randomize_Values();
     }
 
     public void Randomize_Values()

@@ -15,8 +15,8 @@ MonoBehaviour:
   Territory_Name: 
   Occupiant_Nation: {fileID: 0}
   Climate_Support: 0
-  Average_Heat_Level: 0
-  Population: 0
+  Average_Heat_Level: 22
+  Population: 11250000
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Avaliable_Woodland: 0

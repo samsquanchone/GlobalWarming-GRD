@@ -91,7 +91,7 @@ public class Nation : MonoBehaviour
         Save_Button.onClick.AddListener(Save);
 
         //RANDOMIZER
-        Randomize_Values();
+        //Randomize_Values();
 
     }
 

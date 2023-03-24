@@ -16,9 +16,9 @@ MonoBehaviour:
   Nation_Colour:
     serializedVersion: 2
     rgba: 4294901791
-  GDP: 26320
+  GDP: 21814
   Cumilative_Population_From_Territories: 0
-  Starting_Population: 350000000
+  Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
@@ -26,4 +26,4 @@ MonoBehaviour:
   Tera_Factory_Level: 0
   Harbour_Level: 0
   Railway_Level: 0
-  Woodland_Count: 200000
+  Woodland_Count: 0

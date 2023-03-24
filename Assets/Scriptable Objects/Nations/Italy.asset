@@ -12,21 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aed9ab6b892e9d14e885300f21754d71, type: 3}
   m_Name: Italy
   m_EditorClassIdentifier: 
-  Nation_Name: 
-  Nations_Territories: []
+  Nation_Name: Italy
   Nation_Colour:
     serializedVersion: 2
     rgba: 4278255403
-  GDP: 0
+  GDP: 1800
   Cumilative_Population_From_Territories: 0
   Starting_Population: 0
   Awareness: 0
   GDP_Contribution: 0
   National_Pykerete_Production: 0
-  LEVEL_1_Lumbermill_Factory_Count: 0
-  LEVEL_2_Lumbermill_Factory_Count: 0
-  LEVEL_3_Lumbermill_Factory_Count: 0
-  LEVEL_1_Tera_Factory_Count: 0
-  LEVEL_2_Tera_Factory_Count: 0
-  LEVEL_3_Tera_Factory_Count: 0
+  Lumbermill_Level: 0
+  Tera_Factory_Level: 0
+  Harbour_Level: 0
+  Railway_Level: 0
   Woodland_Count: 0
