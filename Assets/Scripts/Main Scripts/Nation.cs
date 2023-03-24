@@ -19,8 +19,8 @@ public class Nation : MonoBehaviour
     [Header("DEBUG - GIVE on New Game")]
     //Calculate from tiles and give to nation data at the start of the game
     [SerializeField] public int Woodland_Count;
-    [SerializeField] public int Starting_Population;
-    [SerializeField] public int Cumilative_Population_From_Territories;
+    [SerializeField] public float Starting_Population;
+    [SerializeField] public float Cumilative_Population_From_Territories;
     //Calculate from awareness and give to nation data at the start of the game
     [SerializeField] public int GDP_Contribution;
 

@@ -21,7 +21,7 @@ public class Tile : MonoBehaviour
     [SerializeField] public int Avaliable_Woodland = 0;
     [SerializeField] public int Climate_Support;
     [SerializeField] public float Average_Heat_Level;
-    [SerializeField] public int Population;
+    [SerializeField] public float Population;
     [SerializeField] public bool Tera_Factory_Avaliable;
     [SerializeField] public bool Harbor_Avaliable;
     [SerializeField] public int Lumbermill_Level = 0;

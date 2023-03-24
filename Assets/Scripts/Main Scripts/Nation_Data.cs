@@ -21,7 +21,7 @@ public class Nation_Data : ScriptableObject
 
     //Population
     [SerializeField] public int Cumilative_Population_From_Territories; //Nations does not affect populations, but populations effect the nation by increasing/decreasing its GDP and Awareness.
-    [SerializeField] public int Starting_Population;
+    [SerializeField] public float Starting_Population;
 
     //Awereness
     [SerializeField] public float Awareness; //From 0.0 to 1.0
