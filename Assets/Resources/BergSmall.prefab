@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2305403500016144042}
   - component: {fileID: 7725481318124828764}
   m_Layer: 0
-  m_Name: IceBerg
+  m_Name: BergSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

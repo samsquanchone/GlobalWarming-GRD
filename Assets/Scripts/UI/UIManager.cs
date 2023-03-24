@@ -24,6 +24,10 @@ public class UIManager : MonoBehaviour
     //Buttons//
     [SerializeField] private Button objectActionButton;
 
+    [SerializeField] private Button factoryActionButton1;
+    [SerializeField] private Button factoryActionButton2;
+    [SerializeField] private Button factoryActionButton3;
+
     //Button Text//
     [SerializeField] private TMP_Text buttonText;
 
@@ -48,6 +52,10 @@ public class UIManager : MonoBehaviour
     //Used to contain pressed object, to execute button actions
     private GameObject objectInspected = null;
 
+    int upgradeValueLumber;
+    int upgradeValueTrainStation;
+    int upgradeValueDock;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,8 +70,12 @@ public class UIManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
         
+        //Button on click delegates, with argument for swich case for determining which button was pressed
+        factoryActionButton1.onClick.AddListener(delegate {PykreteFactoryActionButtonpressed(0); });
+        factoryActionButton2.onClick.AddListener(delegate {PykreteFactoryActionButtonpressed(1); });
+        factoryActionButton3.onClick.AddListener(delegate {PykreteFactoryActionButtonpressed(2); });
+
         objectPanel.SetActive(false);
         pykreteFactoryPanel.SetActive(false);
     }
@@ -193,22 +205,38 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        if(objectInspected.tag == "Infrastructure")
+        else if(objectInspected.tag == "Infrastructure")
         {
             
             objectInspected.GetComponent<InfrastructuerUpgrade>().UpgradeInfrastructure();
         }
 
-        else if (objectInspected.tag == "TeraFactory")
+       
+    }
+
+    public void PykreteFactoryActionButtonpressed(int buttonNum)
+    {
+        switch(buttonNum)
         {
-            //Spawn a pykrete berg at the selected tera factory
-            objectInspected.GetComponent<TeraFactory>().ProducePykreteBerg();
+        
+           case 0: 
+           objectInspected.GetComponent<TeraFactory>().ProducePykreteBerg(0);
+           break;
+        
+           case 1:
+           objectInspected.GetComponent<TeraFactory>().ProducePykreteBerg(1);
+           break;
+
+           case 2:
+           objectInspected.GetComponent<TeraFactory>().ProducePykreteBerg(2);
+           break;
         }
     }
 
     public void OpenPykretePanelFactoryPanel(GameObject gameObject)
     {
-        pykreteFactoryData2.text = "Processed wood stockpile: " + "Tons";
+        pykreteFactoryData1.text = "Placed in: Antarctica";
+        pykreteFactoryData2.text = "Processed wood stockpile: " + Player.instance.GetPkyreteStockPile() + " Giga Tons";
         pykreteFactoryData3.text = "Production rate: " + "Tons per year";
         pykreteFactoryData4.text = "Capacity: " + "Tons";
         
@@ -221,9 +249,6 @@ public class UIManager : MonoBehaviour
         pykreteFactoryPanel.SetActive(false);
         objectInspected = null;
     }
-
-   
-   
 
 
 }

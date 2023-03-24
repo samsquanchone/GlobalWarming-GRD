@@ -26,7 +26,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         UIHoverManager.OnLoseFocus();
     }
 
-    protected virtual void ShowMessage()
+    public virtual void ShowMessage(string _dataToShow)
     {
         tipToShow = gameObject.name + " Project" + dataToShow;
         UIHoverManager.OnMouseHover(tipToShow, Input.mousePosition);
@@ -36,7 +36,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         yield return new WaitForSeconds(timeToWait);
 
-        ShowMessage();
+        ShowMessage(null);
     }
 
 

@@ -123,7 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectType: 8
   cost: 100
-  cost: 100
   transportationCapacityKG: 100
   numberOfTrains: 3
 --- !u!114 &-725710967567354057
@@ -217,3 +216,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infrastuctureType: 1
+  upgradeCost: 300

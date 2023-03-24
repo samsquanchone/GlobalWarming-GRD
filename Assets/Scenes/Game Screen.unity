@@ -4578,6 +4578,7 @@ GameObject:
   - component: {fileID: 331515078}
   - component: {fileID: 331515077}
   - component: {fileID: 331515076}
+  - component: {fileID: 331515079}
   m_Layer: 5
   m_Name: ActionButton3
   m_TagString: Untagged
@@ -4652,12 +4653,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1660024318}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ObjectActionButtonPressed
-        m_Mode: 1
+        m_MethodName: PykreteFactoryActionButtonpressed
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4699,6 +4700,97 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331515074}
+  m_CullTransparentMesh: 1
+--- !u!114 &331515079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331515074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba489e442e1bfe499aa45374011926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 5000
+--- !u!1 &343096676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 343096677}
+  - component: {fileID: 343096679}
+  - component: {fileID: 343096678}
+  m_Layer: 5
+  m_Name: FileHandlingPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &343096677
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343096676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9367682, y: 0.9367682, z: 0.9367682}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 468305148}
+  - {fileID: 1004712280}
+  m_Father: {fileID: 1276741011}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.45361328, y: 29}
+  m_SizeDelta: {x: 206.71722, y: 48.45929}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &343096678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343096676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &343096679
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343096676}
   m_CullTransparentMesh: 1
 --- !u!1 &353845382
 GameObject:
@@ -6264,7 +6356,6 @@ MonoBehaviour:
   Money: 0
   Political_Power: 0
   Timber: 0
-  Pykerete: 0
   Monthly_Heat_Level_Increase: 0
   Ships: 0
   Trains: 0
@@ -17825,7 +17916,10 @@ RectTransform:
   - {fileID: 1516985432}
   - {fileID: 1691243355}
   - {fileID: 947117653}
+  - {fileID: 469897612}
+  - {fileID: 549143919}
   - {fileID: 1044335254}
+  - {fileID: 343096677}
   - {fileID: 549143919}
   - {fileID: 466869722}
   - {fileID: 469897612}
@@ -23737,6 +23831,9 @@ MonoBehaviour:
   pykreteFactoryPanel: {fileID: 469897611}
   objectImage: {fileID: 765376222}
   objectActionButton: {fileID: 1881573936}
+  factoryActionButton1: {fileID: 1912319167}
+  factoryActionButton2: {fileID: 1835540596}
+  factoryActionButton3: {fileID: 331515076}
   buttonText: {fileID: 1239737138}
   objectName: {fileID: 300709640}
   objectData1: {fileID: 284603185}
@@ -26336,6 +26433,7 @@ GameObject:
   - component: {fileID: 1835540598}
   - component: {fileID: 1835540597}
   - component: {fileID: 1835540596}
+  - component: {fileID: 1835540599}
   m_Layer: 5
   m_Name: ActionButton2
   m_TagString: Untagged
@@ -26410,12 +26508,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1660024318}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ObjectActionButtonPressed
-        m_Mode: 1
+        m_MethodName: PykreteFactoryActionButtonpressed
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -26458,6 +26556,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835540594}
   m_CullTransparentMesh: 1
+--- !u!114 &1835540599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835540594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba489e442e1bfe499aa45374011926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 3000
 --- !u!1 &1846122323
 GameObject:
   m_ObjectHideFlags: 0
@@ -27132,6 +27243,7 @@ GameObject:
   - component: {fileID: 1881573938}
   - component: {fileID: 1881573937}
   - component: {fileID: 1881573936}
+  - component: {fileID: 1881573939}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -27254,6 +27366,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881573934}
   m_CullTransparentMesh: 1
+--- !u!114 &1881573939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881573934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e8aacd0c7caf1478ff5515c3064007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 200
 --- !u!1 &1889057968
 GameObject:
   m_ObjectHideFlags: 0
@@ -27845,6 +27970,7 @@ GameObject:
   - component: {fileID: 1912319169}
   - component: {fileID: 1912319168}
   - component: {fileID: 1912319167}
+  - component: {fileID: 1912319170}
   m_Layer: 5
   m_Name: ActionButton1
   m_TagString: Untagged
@@ -27919,8 +28045,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1660024318}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ObjectActionButtonPressed
-        m_Mode: 1
+        m_MethodName: PykreteFactoryActionButtonpressed
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -27967,6 +28093,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1912319165}
   m_CullTransparentMesh: 1
+--- !u!114 &1912319170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912319165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba489e442e1bfe499aa45374011926d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 1000
 --- !u!1 &1917537707
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Money: 100
   Political_Power: 10
-  Wood: 0
-  Pykerete: 0
+  Timber: 0
+  Pykerete: 5000
+  Transported_Timber_Waiting_To_Be_Processed: 0
   Logistics: 0
   Logistics_Coverage: 0
+  Trains: 0
+  Ships: 0
+  Monthly_Heat_Level_Increase: 0.0012

@@ -6,7 +6,7 @@ public class BuildingManagerToolTip : HoverTip
 {
 
 
-    public void ShowMessage(string dataToShow)
+    public override void ShowMessage(string dataToShow)
     {
         UIHoverManager.OnMouseHover(dataToShow, Input.mousePosition);
     }
