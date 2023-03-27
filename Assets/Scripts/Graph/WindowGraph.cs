@@ -25,10 +25,10 @@ public class WindowGraph : MonoBehaviour
    
 
    //Data setss
-   private List<int> valueList;
-   private List<int> moneyValueList;
-   private List<int> co2valueList;
-   private List<int> treesPlantedValueList;
+   private List<float> valueList;
+   private List<float> moneyValueList;
+   private List<float> co2valueList;
+   private List<float> treesPlantedValueList;
 
 
 
@@ -43,6 +43,12 @@ public class WindowGraph : MonoBehaviour
 
    private bool isBarChartActive = true;
    private bool isLineChartActive = false;
+
+
+   //Example graph
+   IGraphVisual lineGraphVisual;
+   IGraphVisual barChartVisual;
+       
 
    private void Awake()
    {
@@ -59,15 +65,15 @@ public class WindowGraph : MonoBehaviour
        graphVisualObjectList = new List<IGraphVisualObject>();
 
        //List<int> valueList = new List<int>() {5};
-       List<int> valueList = new List<int>() {5, 90, 80, 60, 70, 55};
+       List<float> valueList = new List<float>() {5, 90, 80, 60, 70, 55};
        
 
 
        //Intitialise different chart visuals (For multiple Displays) ---- Maybe handle data sets outside of this script 
 
        //Example graph
-       IGraphVisual lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(1, 1, 1, .5f));
-       IGraphVisual barChartVisual = new BarChartVisual(graphContainer, Color.red, .8f);
+       lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(1, 1, 1, .5f));
+       barChartVisual = new BarChartVisual(graphContainer, Color.red, .8f);
        
        //Money data Graphs
        IGraphVisual moneyLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(238, 130, 238, .3f));
@@ -80,12 +86,14 @@ public class WindowGraph : MonoBehaviour
        //Trees planted Data graphs
        IGraphVisual treesLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
        IGraphVisual treesBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
+
        
        
+       
 
 
 
-       ShowGraph(valueList, barChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+       //ShowGraph(valueList, barChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + _f);
 
        //Graph functionality button listner and delegate set up
        transform.Find("BarChartButton").GetComponent<Button_UI>().ClickFunc = () => 
@@ -117,12 +125,14 @@ public class WindowGraph : MonoBehaviour
        {
            if(isLineChartActive && GraphDataManager.instance.moneyValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f) + "M");
+              lineGraphVisual = moneyLineGraphVisual;
            }
 
            else if (isBarChartActive && GraphDataManager.instance.moneyValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.moneyValueList, moneyBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.moneyValueList, moneyBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f) + "M");
+              barChartVisual = moneyBarChartVisual;
            }
        };
 
@@ -130,11 +140,13 @@ public class WindowGraph : MonoBehaviour
        {
            if(isLineChartActive && GraphDataManager.instance.co2ValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.co2ValueList, co2LineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.co2ValueList, co2LineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "°C" + _f);
+              lineGraphVisual = co2LineGraphVisual;
            }
            else if (isBarChartActive && GraphDataManager.instance.co2ValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.co2ValueList, co2BarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.co2ValueList, co2BarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "°C" + _f);
+              barChartVisual = co2BarChartVisual;
            }
        };
 
@@ -142,11 +154,13 @@ public class WindowGraph : MonoBehaviour
        {
             if(isLineChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Trees" + Mathf.RoundToInt(_f));
+              lineGraphVisual = treesLineGraphVisual;
            }
            else if (isBarChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Day " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Trees" + Mathf.RoundToInt(_f));
+              barChartVisual = treesBarChartVisual;
            }
        };
        
@@ -223,7 +237,7 @@ public class WindowGraph : MonoBehaviour
       ShowGraph(this.valueList, graphVisual, this.maxVisibleValueAmount, this.getAxisLabelX, this.getAxisLabelY);
   }
 
-   private void ShowGraph(List<int> valueList, IGraphVisual graphVisual, int maxVisibleValueAmount = -1, Func<int, string> getAxisLabelX = null, Func<float, string> getAxisLabelY = null)
+   private void ShowGraph(List<float> valueList, IGraphVisual graphVisual, int maxVisibleValueAmount = -1, Func<int, string> getAxisLabelX = null, Func<float, string> getAxisLabelY = null)
    {
       //Cache values whenever this function is called
       this.valueList = valueList;
@@ -252,7 +266,7 @@ public class WindowGraph : MonoBehaviour
       }
       if(getAxisLabelY == null)
       {
-        getAxisLabelY = delegate (float _f) {return Mathf.RoundToInt(_f).ToString(); }; //Default behavior delegated to set Y label
+        getAxisLabelY = delegate (float _f) {return _f.ToString(); }; //Default behavior delegated to set Y label
       }
      
      
@@ -288,7 +302,7 @@ public class WindowGraph : MonoBehaviour
       //Set Y graph values dynamically 
       for (int i = Mathf.Max(valueList.Count - maxVisibleValueAmount, 0); i < valueList.Count; i++)
       {
-        int value = valueList[i];
+        float value = valueList[i];
         if(value > yMaximum)
         {
             yMaximum = value;

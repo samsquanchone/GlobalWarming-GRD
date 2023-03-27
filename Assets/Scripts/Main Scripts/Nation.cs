@@ -296,6 +296,12 @@ public class Nation : MonoBehaviour
         {
             try
             {
+                Nations_Territories[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
+
+
+                Nations_Territories[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", this.Nation_Colour);
+         
+                
                 Nations_Territories[i].GetComponent<Renderer>().material.color = this.Nation_Colour;
             }
             catch (System.Exception e)
