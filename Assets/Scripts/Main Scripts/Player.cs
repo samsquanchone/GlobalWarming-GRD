@@ -64,8 +64,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        //Sam addition: initialize singleton as this instance of script (singleton as in the name (single), can only have one instance, but this script seems to just be a manager, and deffo suits use case of singleton pattern)
-        m_instance = this;
+       
 
 
         //Pull Starting Data from Player Data
@@ -84,6 +83,8 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+         //Sam addition: initialize singleton as this instance of script (singleton as in the name (single), can only have one instance, but this script seems to just be a manager, and deffo suits use case of singleton pattern)
+        m_instance = this;
         Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
         Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
 

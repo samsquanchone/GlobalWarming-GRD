@@ -18,12 +18,13 @@ public class TimeManager : MonoBehaviour
     void Awake()
     {
         //Initialize singleton
-        m_instance = this;
+        
         activeTreeList = new List<TreeGrowth>();
     }
 
     void Start()
     {
+        m_instance = this;
         DataSet dataSetPlayerWealth = DataSet.MONEY;
         GraphDataManager.instance.AddValueToDataSet(dataSetPlayerWealth, Player.instance.GetPlayerWealth());
 

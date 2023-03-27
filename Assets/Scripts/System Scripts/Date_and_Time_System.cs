@@ -8,6 +8,9 @@ using UnityEngine.UI;
 
 public class Date_and_Time_System : MonoBehaviour
 {
+    public static Date_and_Time_System instance => m_instance;
+    private static Date_and_Time_System m_instance;
+
     [Header("Time Data")]
     [SerializeField] public Time_Data TimeData;
     [Header("Starting Date")]
@@ -45,18 +48,14 @@ public class Date_and_Time_System : MonoBehaviour
         this.Year = TimeData.Year;
         this.Month = TimeData.Month;
     }
-    Button Load_Button;
-    Button Save_Button;
-    private void Awake()
+    void Awake()
     {
-        Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
-        Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
-
-        Load_Button.onClick.AddListener(Load);
-        Save_Button.onClick.AddListener(Save);
+       m_instance = this;
     }
+
     void Start()
     {
+        
         //Button Listeners
         Stop_BUTTON.onClick.AddListener(Stop_Speed);
         Normal_Speed_BUTTON.onClick.AddListener(Normal_Speed);

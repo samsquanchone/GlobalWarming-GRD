@@ -627,7 +627,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ed2d30a146b76ab4f8dd44a1573eb47d,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8301062526844017246}
   Woodland_Count: 0
@@ -890,7 +889,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 90553d6603ffd584d9b62cd689b4e0fa,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6819261278057603371}
   - {fileID: 7798638357756343197}
@@ -955,7 +953,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 73708725049c31d4d874b8890d3e49d1,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6304757834275863099}
   Woodland_Count: 0
@@ -1234,7 +1231,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: f1aa244cfe914544f989c7b3aacec117,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8799719928825325073}
   - {fileID: 8935731875182330731}
@@ -1436,7 +1432,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 987d71dd37537804dbdf274b6ad4e855,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7301364739028027791}
   - {fileID: 7796874748637135522}
@@ -1824,7 +1819,7 @@ GameObject:
   - component: {fileID: 107836965}
   - component: {fileID: 107836964}
   m_Layer: 5
-  m_Name: (!)LoadButton
+  m_Name: LoadButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3878,7 +3873,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 05855aa07cc3de848ba490a54fac5b5f,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9055679164459040573}
   Woodland_Count: 0
@@ -4799,7 +4793,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 6bf0e729d38c5e6428326eef15a66b47,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8575992679239396792}
   Woodland_Count: 0
@@ -5163,7 +5156,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 78d072e3f3ede974383922ac3c3a5771,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 2780625372592657050}
   - {fileID: 7890620488545002833}
@@ -5401,7 +5393,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ec324566d92304647b2b8c1d567c17f1,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7080035211496516198}
   - {fileID: 8787788099430083400}
@@ -5889,7 +5880,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: b1ee43231936c204cbd17f5cfd1901d5,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7123413180167446139}
   - {fileID: 6152735861789147211}
@@ -6217,7 +6207,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9c91f4872f5caf141921a3bb373e1432,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4841073627240781376}
   Woodland_Count: 0
@@ -6281,7 +6270,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: be9ae33528c274d4790c07bffc2ac207,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6871873603908281464}
   Woodland_Count: 0
@@ -6663,7 +6651,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: c0716fff84c9b924b8f4b2e1e96f5e3c,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8070491155156286928}
   - {fileID: 9106910290284556875}
@@ -6729,7 +6716,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: a4011e857b880224db228ede84d25d31,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 1652871244542334514}
   Woodland_Count: 0
@@ -7017,7 +7003,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 6b283bc9e5004fe47b143a58989b0e13,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8867397393231603002}
   Woodland_Count: 0
@@ -7503,7 +7488,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 200dfc7f928ebae43b313df17e9745bf,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7403467953013185055}
   Woodland_Count: 0
@@ -8760,7 +8744,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0134a4351fdb41b438d1ede22dc9f04b,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8074795972161844797}
   - {fileID: 7651471114711152508}
@@ -9177,7 +9160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 03afbdf7020bad04c9ec99bb8ff83504,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8274305174409095636}
   Woodland_Count: 0
@@ -11234,7 +11216,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 7c7c53ea964ef944e8934671eab0666a,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8863284069982145048}
   Woodland_Count: 0
@@ -11381,7 +11362,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 3453f8f44974b6842a9bbdfb388afdb5,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7271061884136023950}
   Woodland_Count: 0
@@ -11841,7 +11821,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ab1188240e442474f90130424c978a0c,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8687270170963502904}
   Woodland_Count: 0
@@ -12251,7 +12230,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 8edfda6c7dfe96c459e59fdd50b1319b,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8604869484763951535}
   - {fileID: 8719946838613098012}
@@ -13300,7 +13278,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 26fb07942d249b7468eb52a57612ee8b,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8620110766209041314}
   - {fileID: 8050093662301957443}
@@ -13366,7 +13343,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 607bf01c7a79c2342bdbce2fbb00ac0f,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8616525648149928827}
   - {fileID: 7667907696503392894}
@@ -13587,7 +13563,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d85977c7d40dcc849803cb61dcae10dc,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7559950337960092036}
   Woodland_Count: 0
@@ -13832,7 +13807,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0cd0122c59ac8c844b84b2edf8282195,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9040970354201443525}
   Woodland_Count: 0
@@ -14215,7 +14189,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 35f5752501d142a409433c237a21e696,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6293469048604546796}
   Woodland_Count: 0
@@ -14748,7 +14721,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2f29aa64514b0ce40b83dcfcf8bc58e3,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8742910664235172416}
   Woodland_Count: 0
@@ -15727,7 +15699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: f779b9838ebc5b74f9c7fa5e4a20ad30,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8639667045912848066}
   Woodland_Count: 0
@@ -16424,7 +16395,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: b8f80baba80927e4aa1a4bcb585c506b,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4860118865986438775}
   Woodland_Count: 0
@@ -16821,7 +16791,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e56c4eb79d496774093a9abfcded091b,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4027076389896171357}
   - {fileID: 9009060915856824429}
@@ -17140,7 +17109,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 92e3663962509d847be95cabb0b16c14,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8754354336780202138}
   Woodland_Count: 0
@@ -17453,7 +17421,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 81eee2583b072c14c83532664d689786,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7216831413281448421}
   Woodland_Count: 0
@@ -17517,7 +17484,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e625c9d84adb6484593c812ac4ae2f1b,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9212487939696372571}
   Woodland_Count: 0
@@ -17581,7 +17547,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d60772f3ae35b1a4b99cd90a4e1090f4,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8436869925962931881}
   Woodland_Count: 0
@@ -19734,7 +19699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 792191dfe36f40a4999b227abb17cb97,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9181962916246459591}
   - {fileID: 7154126648499966792}
@@ -20418,7 +20382,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 780032e911b95214595b121bb9334450,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6815599906220972267}
   Woodland_Count: 0
@@ -20617,7 +20580,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9c1a7f8c596fdeb49b46b93402db9e90,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9155106428558529356}
   Woodland_Count: 0
@@ -21358,7 +21320,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 0ae17accc8792f5409197aeb5639c3c7,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6506496685253598449}
   - {fileID: 9133583001655314864}
@@ -21717,7 +21678,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ef75c358f28a1834caf2bd92d49faf3b,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8669568566491933447}
   Woodland_Count: 0
@@ -22310,7 +22270,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9b6c04ada3048254db157461c09fd98a,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7165849847351635839}
   Woodland_Count: 0
@@ -22644,7 +22603,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: a40d0ed34bb0ec149a13caf1f7228fc1,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6083754517341329449}
   Woodland_Count: 0
@@ -23013,7 +22971,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ee353cb57f4688b42bf0f4062eed0761,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 3792231438100692058}
   Woodland_Count: 0
@@ -23375,7 +23332,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 8f3b323e62697bc4d821db8fe68c6a33,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7401814321479983519}
   Woodland_Count: 0
@@ -24301,7 +24257,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 9ce5ad83e4eca3a4aaeb0bdeef80b125,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8696216555861796935}
   Woodland_Count: 0
@@ -24635,7 +24590,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ccbb2f5951db5e744a214b06d24f535d,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8892653029837630189}
   Woodland_Count: 0
@@ -24699,7 +24653,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ee424059f7457be489798d942c729ed0,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6309083694054995343}
   Woodland_Count: 0
@@ -25074,7 +25027,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: dc367c4c4da095a49a13cfe5dd11e89c,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8947397282871930245}
   - {fileID: 7910164486191454793}
@@ -25227,7 +25179,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e79b9b1d83d825741a479f63af185f6c,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8270835633212527705}
   Woodland_Count: 0
@@ -25426,7 +25377,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 5c3f5d8f75097254aab2f6a5223da5b1,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8694915824140822446}
   Woodland_Count: 0
@@ -25899,7 +25849,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: f1af49462cb9ef04490bb4fc98ab4203,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8874446792680002710}
   Woodland_Count: 0
@@ -26370,7 +26319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: adc67ccc08bcd3741ae2a45f49deae48,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8618840745855796305}
   - {fileID: 8574446679631175412}
@@ -26649,7 +26597,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: fb2eda86a43feb747b2e4f8564aabee8,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8821042139119670784}
   Woodland_Count: 0
@@ -27891,7 +27838,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 4f908eb3844127c45924f8a2ba3978df,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8789089806572572999}
   Woodland_Count: 0
@@ -28381,7 +28327,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: e6fe3498aa3f35c4cb0a6e6ba6a33f9f,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 9203952220224397338}
   Woodland_Count: 0
@@ -28593,7 +28538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: d3c65178bb4bb0f45a9d828f71b0e81c,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7036350362976640727}
   - {fileID: 8827926007078339087}
@@ -28836,7 +28780,7 @@ GameObject:
   - component: {fileID: 1895803599}
   - component: {fileID: 1895803598}
   m_Layer: 5
-  m_Name: (!)SaveButton
+  m_Name: SaveButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29548,7 +29492,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: ffadc763c20850647bade3a8cba46aaa,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7937995552845565581}
   Woodland_Count: 0
@@ -29612,7 +29555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 213c167651fcbf3488a5b817c1e42389,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7041851383944771753}
   Woodland_Count: 0
@@ -29798,7 +29740,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 42917423d874ac740877e5d135f1b523,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8775937737764271371}
   Woodland_Count: 0
@@ -31121,7 +31062,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 1c206bb7c92570c48b1c2e51be72ab2d,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8714737999196500446}
   Woodland_Count: 0
@@ -31243,7 +31183,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: c0404df07c2c83a4e8b70589f20ab329,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8294853208973340167}
   Woodland_Count: 0
@@ -31386,7 +31325,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 07e16463cd432a94d820d0835759feed,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 4985955443313829043}
   - {fileID: 8447293596163681883}
@@ -31454,7 +31392,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2e4236ed34fad7547b048f3e858f975e,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8329452962616678296}
   Woodland_Count: 0
@@ -32401,7 +32338,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 05cb6cec122d8ca4280e81baf2d275f9,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 7882744642201910355}
   Woodland_Count: 0
@@ -32541,7 +32477,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 29a20836575cc8646b87032113ca9d4f,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 8777030510935413493}
   - {fileID: 7485385829451455600}
@@ -32683,7 +32618,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attached_Nations_Data: {fileID: 11400000, guid: 2505d8e020ffb534da3577fd16d7d950,
     type: 2}
-  Player_Stockpile: {fileID: 474873447}
   Nations_Territories:
   - {fileID: 6728197544843027387}
   Woodland_Count: 0
@@ -36997,6 +36931,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &1652871244542334515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40236,6 +40172,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &2780625372592657051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41508,6 +41446,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &3183927384444060406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43050,6 +42990,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &3792231438100692059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43741,6 +43683,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &4027076389896171358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46112,6 +46056,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &4841073627240781377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46233,6 +46179,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &4860118865986438776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46741,6 +46689,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &4985955443313829044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48239,6 +48189,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &5530195323722410098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48926,6 +48878,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &5894731859362788568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49259,6 +49213,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &5941622485233388588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49565,6 +49521,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6083754517341329450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49776,6 +49734,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6132505612376452337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49974,6 +49934,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6152735861789147212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50187,6 +50149,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6268495691802788657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50286,6 +50250,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!65 &6293469048604546797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50398,6 +50364,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6304757834275863100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50553,6 +50521,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6309083694054995344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50944,6 +50914,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6506496685253598450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51483,6 +51455,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6728197544843027388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51608,6 +51582,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6730613608896685952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51780,6 +51756,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6763439537220670326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51958,6 +51936,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6777782038229338667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52214,6 +52194,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6815599906220972268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52305,6 +52287,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6819261278057603372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52435,6 +52419,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &6871873603908281465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52891,6 +52877,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7036350362976640728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53039,6 +53027,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7041851383944771754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53165,6 +53155,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7080035211496516199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53418,6 +53410,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7123413180167446140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53722,6 +53716,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7154126648499966793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53813,6 +53809,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7165849847351635840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53992,6 +53990,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7182260763926276925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54359,6 +54359,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7216831413281448422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54515,6 +54517,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7271061884136023951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54640,6 +54644,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7301364739028027792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55146,6 +55152,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7401814321479983520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55265,6 +55273,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7403467953013185056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55498,6 +55508,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7485385829451455601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55670,6 +55682,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7496735797668509375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55891,6 +55905,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7545184757162388793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55999,6 +56015,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!64 &7559950337960092037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -56335,6 +56353,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7651471114711152509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56433,6 +56453,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7665679274628411838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56539,6 +56561,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7667907696503392895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56802,6 +56826,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7681213382034498826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56988,6 +57014,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7722169636882485253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57251,6 +57279,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7796874748637135523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57357,6 +57387,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7798638357756343198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57463,6 +57495,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7808502603781505738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57725,6 +57759,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7882744642201910356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57848,6 +57884,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7890620488545002834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58074,6 +58112,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7910164486191454794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58180,6 +58220,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &7937995552845565582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58698,6 +58740,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8050093662301957444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58804,6 +58848,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8050968835948256910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58934,6 +58980,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8070491155156286929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59040,6 +59088,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8074795972161844798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59544,6 +59594,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8198161660207551837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59962,6 +60014,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8270835633212527706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60087,6 +60141,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8274305174409095637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60220,6 +60276,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8283813876826225307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60381,6 +60439,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8294853208973340168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60472,6 +60532,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8301062526844017247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60714,6 +60776,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8329452962616678297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60984,6 +61048,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8381364801093561706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61260,6 +61326,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8414455666200486019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61358,6 +61426,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8426162239799329246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61480,6 +61550,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8436869925962931882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61640,6 +61712,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8447293596163681884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62195,6 +62269,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8574446679631175413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62303,6 +62379,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8575992679239396793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62409,6 +62487,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8604869484763951536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62515,6 +62595,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8616525648149928828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62606,6 +62688,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8618840745855796306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62731,6 +62815,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8620110766209041315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62837,6 +62923,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8639667045912848067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62966,6 +63054,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8645039824371752163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63088,6 +63178,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8669568566491933448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63194,6 +63286,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8687270170963502905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63323,6 +63417,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8694915824140822447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63414,6 +63510,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8696216555861796936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63594,6 +63692,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8714737999196500447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63704,6 +63804,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8719946838613098013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63830,6 +63932,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8742910664235172417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63952,6 +64056,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8754354336780202139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64145,6 +64251,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8775937737764271372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64251,6 +64359,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8777030510935413494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64349,6 +64459,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8787788099430083401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64440,6 +64552,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8789089806572573000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64558,6 +64672,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8799719928825325074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64656,6 +64772,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8821042139119670785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64762,6 +64880,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8827926007078339088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64923,6 +65043,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8847085882101398210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65048,6 +65170,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8849675240222751257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65318,6 +65442,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8863284069982145049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65416,6 +65542,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8867397393231603003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65507,6 +65635,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8871621783304910228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65613,6 +65743,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8874446792680002711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65752,6 +65884,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8880448629240728908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65959,6 +66093,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8892653029837630190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66159,6 +66295,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8935731875182330732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66299,6 +66437,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8947397282871930246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66424,6 +66564,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &8955261909131503178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66670,6 +66812,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9009060915856824430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66948,6 +67092,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9040970354201443526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67059,6 +67205,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9055679164459040574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67232,6 +67380,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9074487549218873392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67423,6 +67573,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9088025007546148318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67579,6 +67731,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9106910290284556876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67677,6 +67831,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9124615928599291027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67768,6 +67924,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9133583001655314865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67948,6 +68106,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9155106428558529357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68175,6 +68335,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9181962916246459592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68281,6 +68443,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9203952220224397339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68406,6 +68570,8 @@ MonoBehaviour:
   Tree_Plantation: {fileID: 0}
   Tree_Age: 0
   Nation_Wiew_Canvas: {fileID: 0}
+  Load_Button: {fileID: 0}
+  Save_Button: {fileID: 0}
 --- !u!114 &9212487939696372572
 MonoBehaviour:
   m_ObjectHideFlags: 0
