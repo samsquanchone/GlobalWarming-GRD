@@ -31,7 +31,7 @@ public class NationUIManager : MonoBehaviour
         m_instance = this;
         Nation_UI.renderMode = RenderMode.WorldSpace;
 
-        GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(() => Show_Nation_UI(Last_Nation_Pressed));
+        Date_and_Time_System.instance.Month_Pass_Event.AddListener(() => Show_Nation_UI(Last_Nation_Pressed));
     }
 
     private void Update()
