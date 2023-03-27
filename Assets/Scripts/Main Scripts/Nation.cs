@@ -8,7 +8,9 @@ public class Nation : MonoBehaviour
 {
     [Header("Nation Data")]
     [SerializeField] Nation_Data Attached_Nations_Data;
-    [SerializeField] Player Player_Stockpile;
+
+
+    //[SerializeField] Player Player_Stockpile; //Sam edit: changed to singleton usage, it is one data set, does not need to be copied X amount of nations times
     [Space]
     [Header("Tiles")]
     //Pull tiles from Tiles -> Tile Data and give it to Nation Data 
@@ -81,14 +83,14 @@ public class Nation : MonoBehaviour
         //Calculate Starting Pops
         Calculate_Starting_Population();
 
-        GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+        Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
 
 
-        Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
-        Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
+        //Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
+       // Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
 
-        Load_Button.onClick.AddListener(Load);
-        Save_Button.onClick.AddListener(Save);
+        //Load_Button.onClick.AddListener(Load);
+        //Save_Button.onClick.AddListener(Save);
 
         //RANDOMIZER
         //Randomize_Values();
@@ -249,7 +251,9 @@ public class Nation : MonoBehaviour
     public void Calculate_GDP_Contribution_and_Contribute_GDP()
     {
         GDP_Contribution = (int)(GDP * Awareness / 100);
-        Player_Stockpile.Money += GDP_Contribution;
+
+        //Sam edit: changed to use singleton, maybe make a getter so you are not chucking a var to multiple places at once 
+        Player.instance.Money += GDP_Contribution;
     }
 
 
@@ -268,12 +272,13 @@ public class Nation : MonoBehaviour
             if(this.Woodland_Count > Nations_Monthly_Woodland_Process_Capacity)
             {
                 Woodland_Count = Woodland_Count - Nations_Monthly_Woodland_Process_Capacity;
-
-                Player_Stockpile.Timber += (int)(Nations_Monthly_Woodland_Process_Capacity * Conversion_Rate);
+                
+                //Sam edit: changed to use singleton reference
+                Player.instance.Timber += (int)(Nations_Monthly_Woodland_Process_Capacity * Conversion_Rate);
             }
             else
             {
-                Player_Stockpile.Timber += (int)(Woodland_Count * Conversion_Rate);
+                Player.instance.Timber += (int)(Woodland_Count * Conversion_Rate);
                 Woodland_Count = 0;
             }
         }

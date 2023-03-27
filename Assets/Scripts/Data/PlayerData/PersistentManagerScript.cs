@@ -38,12 +38,46 @@ public List<SaveableObject> saveableObjects { get; private set; }
 
     private void Start()
     {
-         saveableObjects = new List<SaveableObject>(); //Insantiate list
+        //If new game has been selected from main menu, re-instantiate a new list to save objects
+            
+            saveableObjects = new List<SaveableObject>(); //Insantiate list
+        
+         
+         //If load game has been selected from main menu, load saved objects on scene load
+         if(!MenuData.GetGameType())
+         {  
+            Tile[] tiles= FindObjectsOfType(typeof(Tile)) as Tile[];
+            foreach(var t in tiles)
+            {
+               t.Load();
+            } 
+
+            Nation[] nations= FindObjectsOfType(typeof(Nation)) as Nation[];
+            foreach(var n in nations)
+            {
+               n.Load();
+            } 
+
+            Load();
+            Date_and_Time_System.instance.Load();
+         }
     }
 
     public void Save()
     {
+        Tile[] tiles = FindObjectsOfType(typeof(Tile)) as Tile[];
+            foreach(var t in tiles)
+            {
+               t.Save();
+            } 
+
+        Nation[] nations = FindObjectsOfType(typeof(Nation)) as Nation[];
+            foreach(var n in nations)
+            {
+               n.Save();
+            } 
         
+        Player.instance.Save();
         //Keep track of amount of objects save, so we can load the correct amount 
         PlayerPrefs.SetInt(Application.loadedLevel.ToString(), saveableObjects.Count);
 
@@ -52,10 +86,26 @@ public List<SaveableObject> saveableObjects { get; private set; }
             //Save all objects in the saveableObjects list (Added to list when a player placed object spawns)
             saveableObjects[i].Save(i);
         }
+
+        Date_and_Time_System.instance.Save();
     }
 
     public void Load()
     {
+        Tile[] tiles = FindObjectsOfType(typeof(Tile)) as Tile[];
+
+        foreach(var t in tiles)
+        {
+            t.Load();
+        } 
+
+        Nation[] nations = FindObjectsOfType(typeof(Nation)) as Nation[];
+        foreach(var n in nations)
+        {
+            n.Load();
+        } 
+
+        Player.instance.Load();
         //Used to destroy objects in world when loading, to avoid duplicates
         foreach (SaveableObject obj in saveableObjects)
         {

@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class NationUIManager : MonoBehaviour
 {
-
+    
+    public static NationUIManager instance => m_instance;
+    private static NationUIManager m_instance;
     [SerializeField] public Canvas Nation_UI;
 
     [SerializeField] public TMP_Text Nation_Name_UI;
@@ -26,9 +28,10 @@ public class NationUIManager : MonoBehaviour
     Nation Last_Nation_Pressed;
     private void Start()
     {
+        m_instance = this;
         Nation_UI.renderMode = RenderMode.WorldSpace;
 
-        GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(() => Show_Nation_UI(Last_Nation_Pressed));
+        Date_and_Time_System.instance.Month_Pass_Event.AddListener(() => Show_Nation_UI(Last_Nation_Pressed));
     }
 
     private void Update()

@@ -64,31 +64,39 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        //Sam addition: initialize singleton as this instance of script (singleton as in the name (single), can only have one instance, but this script seems to just be a manager, and deffo suits use case of singleton pattern)
-        m_instance = this;
+       
 
+        if(!MenuData.GetGameType()) //Sam edit: checks if new game, if so pull SO data
+        {
+            //Pull Starting Data from Player Data
+            this.Money = Attached_Player_Data.Money;
+            this.Political_Power = Attached_Player_Data.Political_Power;
+            this.Timber = Attached_Player_Data.Timber;
+            this.Pykerete = Attached_Player_Data.Pykerete;
+            this.Ships = Attached_Player_Data.Ships;
+            this.Trains = Attached_Player_Data.Trains;
+            this.Monthly_Heat_Level_Increase = Attached_Player_Data.Monthly_Heat_Level_Increase;
+            this.Transported_Timber_Waiting_To_Be_Processed = Attached_Player_Data.Transported_Timber_Waiting_To_Be_Processed;
+            Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+        }
 
-        //Pull Starting Data from Player Data
-        this.Money = Attached_Player_Data.Money;
-        this.Political_Power = Attached_Player_Data.Political_Power;
-        this.Timber = Attached_Player_Data.Timber;
-        this.Pykerete = Attached_Player_Data.Pykerete;
-        this.Ships = Attached_Player_Data.Ships;
-        this.Trains = Attached_Player_Data.Trains;
-        this.Monthly_Heat_Level_Increase = Attached_Player_Data.Monthly_Heat_Level_Increase;
-        this.Transported_Timber_Waiting_To_Be_Processed = Attached_Player_Data.Transported_Timber_Waiting_To_Be_Processed;
-        GameObject.Find("(!)Date & Time System").GetComponent<Date_and_Time_System>().Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+        else
+        {
+             this.Money = Attached_Player_Data.Money;
+        }
     }
-    Button Load_Button;
-    Button Save_Button;
+    //Button Load_Button;
+   // Button Save_Button;
 
     private void Awake()
     {
-        Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
-        Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
+         //Sam addition: initialize singleton as this instance of script (singleton as in the name (single), can only have one instance, but this script seems to just be a manager, and deffo suits use case of singleton pattern)
+        m_instance = this;
+        //Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
+       // Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
 
-        Load_Button.onClick.AddListener(Load);
-        Save_Button.onClick.AddListener(Save);
+        //Load_Button.onClick.AddListener(Load);
+        //Save_Button.onClick.AddListener(Save);
 
         Purcase_Ship_UI_Button.onClick.AddListener(Purchase_Ship);
         Purcase_Train_UI_Button.onClick.AddListener(Purchase_Train);
