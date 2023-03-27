@@ -30,7 +30,14 @@ public class TreeGrowth : MonoBehaviour
         if(monthsRemaining <= 0)
         {
             isGrown = true;
-            this.gameObject.GetComponent<Renderer>().material = readyToHarvestMat;
+
+            //Get array of all materials, then iterate through size of array and set all mats to HDR tree grown material
+            Material[] mats = this.gameObject.GetComponent<Renderer>().materials;
+            for(int i = 0; i < mats.Length; i++)
+            {
+                mats[i] = readyToHarvestMat;
+                GetComponent<Renderer>().materials = mats;
+            }
         }
     }
 

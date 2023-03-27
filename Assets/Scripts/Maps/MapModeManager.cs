@@ -483,7 +483,7 @@ public class MapModeManager : MonoBehaviour
                         All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 0, 0, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
                         Color emissiveColor = new Color32(255, 0, 0, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityLow);
                     }
                     catch (System.Exception e)
                     {
@@ -497,7 +497,7 @@ public class MapModeManager : MonoBehaviour
                         All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 49, 0, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
                         Color emissiveColor = new Color32(255, 49, 0, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityLow);
                     }
                     catch (System.Exception e)
                     {
@@ -511,7 +511,7 @@ public class MapModeManager : MonoBehaviour
                         All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 74, 0, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
                         Color emissiveColor = new Color32(255, 74, 0, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityLow);
                     }
                     catch (System.Exception e)
                     {
@@ -522,10 +522,10 @@ public class MapModeManager : MonoBehaviour
                 {
                     try
                     {
-                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 178, 0, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(255, 74, 0, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
-                        Color emissiveColor = new Color32(255, 178, 0, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        Color emissiveColor = new Color32(43, 255, 155, 255);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityLow);
                     }
                     catch (System.Exception e)
                     {
@@ -539,7 +539,7 @@ public class MapModeManager : MonoBehaviour
                         All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(240, 255, 0, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
                         Color emissiveColor = new Color32(240, 255, 0, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityLow);
                     }
                     catch (System.Exception e)
                     {
@@ -553,7 +553,7 @@ public class MapModeManager : MonoBehaviour
                         All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 255, 154, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
                         Color emissiveColor = new Color32(0, 255, 154, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityMedium);
                     }
                     catch (System.Exception e)
                     {
@@ -567,7 +567,7 @@ public class MapModeManager : MonoBehaviour
                         All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 221, 255, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
                         Color emissiveColor = new Color32(0, 221, 255, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityMedium);
                     }
                     catch (System.Exception e)
                     {
@@ -581,7 +581,7 @@ public class MapModeManager : MonoBehaviour
                         All_Tiles[i].GetComponent<Renderer>().material.color = new Color32(0, 135, 255, 255);
                         All_Tiles[i].GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
                         Color emissiveColor = new Color32(0, 135, 255, 255);
-                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityHigh);
+                        All_Tiles[i].GetComponent<Renderer>().material.SetColor("_EmissionColor", emissiveColor * emissionIntensityMedium);
                     }
                     catch (System.Exception e)
                     {

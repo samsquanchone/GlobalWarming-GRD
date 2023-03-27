@@ -8,13 +8,13 @@ public class MainMenu : MonoBehaviour
     public void PlayNewGame()
     {
         MenuData.SetGameType(true); //Start new game
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         
     }
 
     public void LoadGame()
     {
         MenuData.SetGameType(false); //Start new game
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
