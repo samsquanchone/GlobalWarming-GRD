@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void playGame()
+    public void PlayNewGame()
     {
-        SceneManager.LoadScene(1);
-        Debug.Log("button triggered");
+        MenuData.SetGameType(true); //Start new game
+        SceneManager.LoadScene(0);
+        
+    }
+
+    public void LoadGame()
+    {
+        MenuData.SetGameType(false); //Start new game
+        SceneManager.LoadScene(0);
     }
 }

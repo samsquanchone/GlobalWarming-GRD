@@ -38,7 +38,16 @@ public List<SaveableObject> saveableObjects { get; private set; }
 
     private void Start()
     {
-         saveableObjects = new List<SaveableObject>(); //Insantiate list
+        //If new game has been selected from main menu, re-instantiate a new list to save objects
+        
+            saveableObjects = new List<SaveableObject>(); //Insantiate list
+        
+         
+         //If load game has been selected from main menu, load saved objects on scene load
+         if(!MenuData.GetGameType())
+         {
+            Load();
+         }
     }
 
     public void Save()

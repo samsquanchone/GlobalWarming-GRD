@@ -15,6 +15,9 @@ public class GraphDataManager : MonoBehaviour
     public List<float> co2ValueList {get; private set;}
     public List<float> treesPlantedValueList {get; private set;}
 
+    [SerializeField] private GameObject graphPanel;
+    [SerializeField] private GameObject OpenGraphButtonObj;
+
 
 
     
@@ -61,6 +64,18 @@ public class GraphDataManager : MonoBehaviour
            break;
         }
 
+    }
+
+    public void OpenGraph()
+    {
+        OpenGraphButtonObj.SetActive(false);
+        graphPanel.SetActive(true);
+    }
+
+    public void CloseGraph()
+    {
+        OpenGraphButtonObj.SetActive(true);
+        graphPanel.SetActive(false);
     }
 
     
