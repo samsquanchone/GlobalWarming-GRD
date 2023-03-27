@@ -372,14 +372,6 @@ public class Player : MonoBehaviour
         return _wealth;
     }
 
-    public float GetMonthlyHeatRise()
-    {
-        float _monthlyHeatRise = Monthly_Heat_Level_Increase;
-
-        return _monthlyHeatRise;
-    }
-
-
     public void RemoveAmountFromPykereteStockPile(int amount)
     {
         Pykerete -= amount;

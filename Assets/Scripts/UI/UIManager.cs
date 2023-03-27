@@ -186,7 +186,6 @@ public class UIManager : MonoBehaviour
         }
 
             objectPanel.SetActive(true);
-            objectActionButton.gameObject.SetActive(true);
        
     }
 

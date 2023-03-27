@@ -10,10 +10,10 @@ public class GraphDataManager : MonoBehaviour
     public static GraphDataManager instance => m_instance;
     private static GraphDataManager m_instance;
 
-    public List<float> pykreteProducedValueList {get; private set;}
-    public List<float> moneyValueList {get; private set;}
-    public List<float> co2ValueList {get; private set;}
-    public List<float> treesPlantedValueList {get; private set;}
+    public List<int> pykreteProducedValueList {get; private set;}
+    public List<int> moneyValueList {get; private set;}
+    public List<int> co2ValueList {get; private set;}
+    public List<int> treesPlantedValueList {get; private set;}
 
 
 
@@ -26,10 +26,10 @@ public class GraphDataManager : MonoBehaviour
     {
         m_instance = this;
 
-       pykreteProducedValueList = new List<float>();
-       moneyValueList = new List<float>();
-       co2ValueList = new List<float>();
-       treesPlantedValueList = new List<float>();
+       pykreteProducedValueList = new List<int>();
+       moneyValueList = new List<int>();
+       co2ValueList = new List<int>();
+       treesPlantedValueList = new List<int>();
 
         
     }
