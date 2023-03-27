@@ -22,6 +22,19 @@ public class TimeManager : MonoBehaviour
         activeTreeList = new List<TreeGrowth>();
     }
 
+    void Start()
+    {
+        DataSet dataSetPlayerWealth = DataSet.MONEY;
+        GraphDataManager.instance.AddValueToDataSet(dataSetPlayerWealth, Player.instance.GetPlayerWealth());
+
+        DataSet dataSetMonthlyHeatRise = DataSet.CO2;
+        GraphDataManager.instance.AddValueToDataSet(dataSetMonthlyHeatRise, Player.instance.GetMonthlyHeatRise());
+
+        DataSet dataSetTreesPlanted = DataSet.TREESPLANTED;
+        GraphDataManager.instance.AddValueToDataSet(dataSetTreesPlanted, 0);
+    }
+
+
     public void UpdateTreeGrowth()
     {
         //Called when a month passes
@@ -36,9 +49,19 @@ public class TimeManager : MonoBehaviour
 
     public void YearPassed()
     {
-       DataSet dataSet = DataSet.TREESPLANTED;
-       GraphDataManager.instance.AddValueToDataSet(dataSet, treesPlanted);
+       DataSet dataSetTreesPlanted = DataSet.TREESPLANTED;
+       GraphDataManager.instance.AddValueToDataSet(dataSetTreesPlanted, treesPlanted);
        treesPlanted = 0;
+
+       DataSet dataSetPlayerWealth = DataSet.MONEY;
+       GraphDataManager.instance.AddValueToDataSet(dataSetPlayerWealth, Player.instance.GetPlayerWealth());
+       
+       DataSet dataSetMonthlyHeatRise = DataSet.CO2;
+       GraphDataManager.instance.AddValueToDataSet(dataSetMonthlyHeatRise, Player.instance.GetMonthlyHeatRise());
+
+
+
+
     }
 
     
