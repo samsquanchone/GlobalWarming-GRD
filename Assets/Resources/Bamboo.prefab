@@ -38,7 +38,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -137,8 +137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nationPlaced: 
-  nation: {fileID: 0}
 --- !u!114 &-1313753369270782114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,3 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
+  treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
+    type: 3}
+  treeHarvestedVFX: {fileID: 7640009708439871859, guid: 60f0119e126963a4d8d1ef548533e1dd,
+    type: 3}

@@ -200,3 +200,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infrastuctureType: 2
   upgradeCost: 200
+  upgadeVFX: {fileID: 6682530283038013861, guid: 20a08d13218ffa14fb24b288e1c2bf6e,
+    type: 3}

@@ -139,6 +139,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
+  treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
+    type: 3}
+  treeHarvestedVFX: {fileID: 513326610926132529, guid: 99915d6b95fb95049aa46f15c66ab1d3,
+    type: 3}
 --- !u!114 &-4998048375270356704
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,6 +7,8 @@ public class TreeGrowth : MonoBehaviour
     int monthsRemaining;
 
     [SerializeField] private Material readyToHarvestMat;
+    [SerializeField] private GameObject treeCutVFX;
+    [SerializeField] private GameObject treeHarvestedVFX;
 
     public bool isGrown {get; private set;} = false;
     private int treeYield;
@@ -59,11 +61,13 @@ public class TreeGrowth : MonoBehaviour
     public void HarvestTree()
     {
         GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().AddToUnprocessedWoodStockPile(treeYield);
+        Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
     }
 
     private void OnDestroy()
     {
         //Remove tree from active growing trees list when game ended or the tree is harvested 
         TimeManager.instance.activeTreeList.Remove(this.GetComponent<TreeGrowth>());
+        Instantiate(treeHarvestedVFX, this.transform.position, treeHarvestedVFX.transform.rotation);
     }
 }

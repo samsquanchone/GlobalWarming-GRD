@@ -7,6 +7,7 @@ public class InfrastructuerUpgrade : MonoBehaviour
 {
     public InfrastructureType infrastuctureType;
     [SerializeField] private int upgradeCost;
+    [SerializeField] private GameObject upgadeVFX;
     
 
     public void UpgradeInfrastructure()
@@ -16,7 +17,9 @@ public class InfrastructuerUpgrade : MonoBehaviour
         {
            Player.instance.RemoveAmountFromPlayerWealth(upgradeCost);
            gameObject.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().UpgradeInfrastructure(infrastuctureType);
+           Instantiate(upgadeVFX, gameObject.transform.position, upgadeVFX.transform.rotation);
            AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.infrastructureUpgraded, null);
+          StartCoroutine(WaitVFXDuration());
         }
     }
 
@@ -32,6 +35,13 @@ public class InfrastructuerUpgrade : MonoBehaviour
             UIHoverManager.instance.ShowTip("Insufficient Funds", Input.mousePosition);
             return false;
         }
+    }
+
+    private IEnumerator WaitVFXDuration()
+    {
+        yield return new WaitForSeconds(5);
+        Debug.Log("Upgrade");
+        this.gameObject.transform.localScale = new Vector3(this.gameObject.transform.localScale.x + 0.1f, this.gameObject.transform.localScale.y + 0.1f, this.gameObject.transform.localScale.z + 0.2f);
     }
     
 }
