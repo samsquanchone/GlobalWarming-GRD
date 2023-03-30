@@ -6,6 +6,7 @@ public class BergNavAgent : MonoBehaviour
 {
     private UnityEngine.AI.NavMeshAgent navMeshAgent;
     [SerializeField] Transform location;
+    public bool shouldMove = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,7 @@ public class BergNavAgent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(shouldMove)
         navMeshAgent.destination = location.position;
     }
 }
