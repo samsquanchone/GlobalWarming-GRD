@@ -30,6 +30,8 @@ public class TreeGrowth : MonoBehaviour
     public void UpdateGrowthTimer()
     {
         monthsRemaining -= 1;
+
+        //Increase scaling of tree for growth animation
         this.gameObject.transform.localScale = new Vector3(this.gameObject.transform.localScale.x + growthIncrement.x, this.gameObject.transform.localScale.y + growthIncrement.y, this.gameObject.transform.localScale.z + growthIncrement.z);
         
     }
