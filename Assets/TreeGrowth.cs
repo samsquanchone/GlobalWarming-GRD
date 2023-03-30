@@ -9,6 +9,7 @@ public class TreeGrowth : MonoBehaviour
     [SerializeField] private Material readyToHarvestMat;
     [SerializeField] private GameObject treeCutVFX;
     [SerializeField] private GameObject treeHarvestedVFX;
+    Vector3 growthIncrement;
 
     public bool isGrown {get; private set;} = false;
     private int treeYield;
@@ -20,11 +21,17 @@ public class TreeGrowth : MonoBehaviour
         TimeManager.instance.treesPlanted += 1;
         monthsRemaining = GetComponent<TreeObject>().m_timeToGrow; //Maybe divide this by a heat factor on placed country
         treeYield = GetComponent<TreeObject>().m_yield;
+
+        //Calculate base scale for tree to then implement 
+        growthIncrement = new Vector3(this.gameObject.transform.localScale.x / monthsRemaining, this.gameObject.transform.localScale.y / monthsRemaining, this.gameObject.transform.localScale.z / monthsRemaining);
+        this.gameObject.transform.localScale = new Vector3(growthIncrement.x, growthIncrement.y, growthIncrement.z);
     }
 
     public void UpdateGrowthTimer()
     {
         monthsRemaining -= 1;
+        this.gameObject.transform.localScale = new Vector3(this.gameObject.transform.localScale.x + growthIncrement.x, this.gameObject.transform.localScale.y + growthIncrement.y, this.gameObject.transform.localScale.z + growthIncrement.z);
+        
     }
 
     private void Update()
