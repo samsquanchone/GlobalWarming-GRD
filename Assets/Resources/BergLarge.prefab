@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -281644298996708083}
   - component: {fileID: -2305403500016144042}
   - component: {fileID: 7725481318124828764}
+  - component: {fileID: -784807362640524128}
   m_Layer: 0
   m_Name: BergLarge
   m_TagString: Untagged
@@ -137,3 +138,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.021827443}
   m_Center: {x: 0, y: 0, z: 0.010885927}
+--- !u!114 &-784807362640524128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5630179983978683819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f55c7cc9e402634bbfbe982c89bed33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: {fileID: 3941055916623965782, guid: 3531a3253b07b5541bd0445208e0940e,
+    type: 3}
