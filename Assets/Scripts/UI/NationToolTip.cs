@@ -13,7 +13,7 @@ public class NationToolTip : MonoBehaviour
     private string dataToShow;
 
     //Nation data
-    float gdp;
+    int gdp;
     int lumberMillsPlaced = 0;
     int activeTreeProjects = 0;
     int docksPlaced = 0;
@@ -63,7 +63,7 @@ public class NationToolTip : MonoBehaviour
 
         if(gameObject.GetComponent<Tile>() != null)
         {
-            
+           gdp = gameObject.GetComponent<Tile>().Occupiant_Nation.GDP;
            averageHeatLevel = gameObject.GetComponent<Tile>().Average_Heat_Level;
            lumberMillsPlaced = gameObject.GetComponent<Tile>().lumbermill_Amount;
            docksPlaced = gameObject.GetComponent<Tile>().dock_Amount;
@@ -72,7 +72,7 @@ public class NationToolTip : MonoBehaviour
 
         }
 
-        dataToShow = nationName + "\n" + "GDP: £" + gdp.ToString() + "\n" + "Average Heat level: " + averageHeatLevel + "\n" + "Active Tree Projects: " + activeTreeProjects + "\n" + "Lumbermills: " + lumberMillsPlaced + "\n" + "Docks: " + docksPlaced + "\n" + "Train Stations: " + trainStationsPlaced;
+        dataToShow = nationName + "\n" + "GDP: £" + gdp.ToString() + " Million" + "\n" + "Average Heat level: " + averageHeatLevel + "\n" + "Active Tree Projects: " + activeTreeProjects + "\n" + "Lumbermills: " + lumberMillsPlaced + "\n" + "Docks: " + docksPlaced + "\n" + "Train Stations: " + trainStationsPlaced;
 
         ShowMessage(dataToShow);
         
