@@ -81,8 +81,9 @@ public class Player : MonoBehaviour
         }
 
         else
-        {
+        {    //Should be set to some default value not SO 
              this.Money = Attached_Player_Data.Money;
+             this.Pykerete = Attached_Player_Data.Pykerete;
         }
     }
     //Button Load_Button;

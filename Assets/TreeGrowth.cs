@@ -11,6 +11,8 @@ public class TreeGrowth : MonoBehaviour
     [SerializeField] private GameObject treeHarvestedVFX;
     Vector3 growthIncrement;
 
+    
+
     public bool isGrown {get; private set;} = false;
     private int treeYield;
     // Start is called before the first frame update
@@ -31,9 +33,10 @@ public class TreeGrowth : MonoBehaviour
     {
         monthsRemaining -= 1;
 
-        //Increase scaling of tree for growth animation
-        this.gameObject.transform.localScale = new Vector3(this.gameObject.transform.localScale.x + growthIncrement.x, this.gameObject.transform.localScale.y + growthIncrement.y, this.gameObject.transform.localScale.z + growthIncrement.z);
-        
+        if(monthsRemaining > 0)
+        {
+            this.gameObject.transform.localScale = new Vector3(this.gameObject.transform.localScale.x + growthIncrement.x, this.gameObject.transform.localScale.y + growthIncrement.y, this.gameObject.transform.localScale.z + growthIncrement.z);
+        }
     }
 
     private void Update()
@@ -44,6 +47,7 @@ public class TreeGrowth : MonoBehaviour
 
             //Get array of all materials, then iterate through size of array and set all mats to HDR tree grown material
             Material[] mats = this.gameObject.GetComponent<Renderer>().materials;
+            
             for(int i = 0; i < mats.Length; i++)
             {
                 mats[i] = readyToHarvestMat;
@@ -71,6 +75,7 @@ public class TreeGrowth : MonoBehaviour
     {
         GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().AddToUnprocessedWoodStockPile(treeYield);
         Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
+        TreeReplantManager.instance.ReplantTree(this.gameObject.GetComponent<SaveableObject>().objectType, this.gameObject.transform);
     }
 
     private void OnDestroy()
@@ -78,5 +83,6 @@ public class TreeGrowth : MonoBehaviour
         //Remove tree from active growing trees list when game ended or the tree is harvested 
         TimeManager.instance.activeTreeList.Remove(this.GetComponent<TreeGrowth>());
         Instantiate(treeHarvestedVFX, this.transform.position, treeHarvestedVFX.transform.rotation);
+        
     }
 }
