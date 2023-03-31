@@ -294,4 +294,11 @@ public class Tile : MonoBehaviour
         
     }
 
+    public float GetPopulation()
+    {
+        float population = Population;
+
+        return population;
+    }
+
 }

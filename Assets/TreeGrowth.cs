@@ -74,6 +74,7 @@ public class TreeGrowth : MonoBehaviour
     public void HarvestTree()
     {
         GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().AddToUnprocessedWoodStockPile(treeYield);
+        Debug.Log("Tree Yield" + treeYield);
         Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
         TreeReplantManager.instance.ReplantTree(this.gameObject.GetComponent<SaveableObject>().objectType, this.gameObject.transform);
     }

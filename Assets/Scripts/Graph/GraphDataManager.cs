@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum DataSet {TREESPLANTED, MONEY, CO2, PYKRETEPRODUCED};
+public enum DataSet {TREESPLANTED, MONEY, CO2, PYKRETEPRODUCED, POPULATION, TIMBER};
 
 public class GraphDataManager : MonoBehaviour
 {
@@ -14,6 +14,9 @@ public class GraphDataManager : MonoBehaviour
     public List<float> moneyValueList {get; private set;}
     public List<float> co2ValueList {get; private set;}
     public List<float> treesPlantedValueList {get; private set;}
+    public List<float> populationValueList {get; private set;} 
+    public List<float> timberValueList {get; private set;} 
+    public List<float> pykereteValueList {get; private set;} 
 
     [SerializeField] private GameObject graphPanel;
     [SerializeField] private GameObject OpenGraphButtonObj;
@@ -33,6 +36,8 @@ public class GraphDataManager : MonoBehaviour
        moneyValueList = new List<float>();
        co2ValueList = new List<float>();
        treesPlantedValueList = new List<float>();
+       populationValueList = new List<float>();
+       timberValueList = new List<float>();
 
         
     }
@@ -55,12 +60,18 @@ public class GraphDataManager : MonoBehaviour
 
            case DataSet.CO2:
            co2ValueList.Add(valueToUse);
-
            break;
            
            case DataSet.PYKRETEPRODUCED:
            pykreteProducedValueList.Add(valueToUse);
+           break;
 
+           case DataSet.POPULATION:
+           populationValueList.Add(valueToUse);
+           break;
+
+           case DataSet.TIMBER:
+           timberValueList.Add(valueToUse);
            break;
         }
 

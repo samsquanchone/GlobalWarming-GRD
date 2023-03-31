@@ -374,6 +374,13 @@ public class Player : MonoBehaviour
         return _pykrete;
     }
 
+    public int GetTimberStockPile()
+    {
+        int _timber = Timber;
+
+        return _timber;
+    }
+
     public int GetPlayerWealth()
     {
         int _wealth = Money;

@@ -87,6 +87,18 @@ public class WindowGraph : MonoBehaviour
        IGraphVisual treesLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
        IGraphVisual treesBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
 
+       //Population planted Data graphs
+       IGraphVisual populationLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
+       IGraphVisual populationBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
+
+       //Timber planted Data graphs
+       IGraphVisual timberLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
+       IGraphVisual timberBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
+
+       //Timber planted Data graphs
+       IGraphVisual pykereteLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
+       IGraphVisual pykereteBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
+
        
        
        
@@ -161,6 +173,48 @@ public class WindowGraph : MonoBehaviour
            {
               ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Trees" + Mathf.RoundToInt(_f));
               barChartVisual = treesBarChartVisual;
+           }
+       };
+
+        transform.Find("PopulationValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+            if(isLineChartActive && GraphDataManager.instance.populationValueList[0] != null)
+           {
+              ShowGraph(GraphDataManager.instance.populationValueList, populationLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "M" + Mathf.RoundToInt(_f));
+              lineGraphVisual = populationLineGraphVisual;
+           }
+           else if (isBarChartActive && GraphDataManager.instance.populationValueList[0] != null)
+           {
+              ShowGraph(GraphDataManager.instance.populationValueList, populationBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "M" + Mathf.RoundToInt(_f));
+              barChartVisual = populationBarChartVisual;
+           }
+       };
+
+        transform.Find("TimberValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+            if(isLineChartActive && GraphDataManager.instance.timberValueList[0] != null)
+           {
+              ShowGraph(GraphDataManager.instance.timberValueList, timberLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              lineGraphVisual = timberLineGraphVisual;
+           }
+           else if (isBarChartActive && GraphDataManager.instance.timberValueList[0] != null)
+           {
+              ShowGraph(GraphDataManager.instance.timberValueList, timberBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
+              barChartVisual = timberBarChartVisual;
+           }
+       };
+
+        transform.Find("PykereteValueListToggleBtn").GetComponent<Button_UI>().ClickFunc = () =>
+       {
+            if(isLineChartActive && GraphDataManager.instance.pykreteProducedValueList[0] != null)
+           {
+              ShowGraph(GraphDataManager.instance.pykreteProducedValueList, pykereteLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "GigaTons" + Mathf.RoundToInt(_f));
+              lineGraphVisual = pykereteLineGraphVisual;
+           }
+           else if (isBarChartActive && GraphDataManager.instance.timberValueList[0] != null)
+           {
+              ShowGraph(GraphDataManager.instance.pykreteProducedValueList, pykereteBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "GigaTons" + Mathf.RoundToInt(_f));
+              barChartVisual = pykereteBarChartVisual;
            }
        };
        

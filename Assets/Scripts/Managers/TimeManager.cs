@@ -33,6 +33,15 @@ public class TimeManager : MonoBehaviour
 
         DataSet dataSetTreesPlanted = DataSet.TREESPLANTED;
         GraphDataManager.instance.AddValueToDataSet(dataSetTreesPlanted, 0);
+
+        DataSet dataSetPopulation = DataSet.POPULATION;
+        GraphDataManager.instance.AddValueToDataSet(dataSetPopulation, GetPopulation());
+
+        DataSet dataSetTimber = DataSet.TIMBER;
+        GraphDataManager.instance.AddValueToDataSet(dataSetTimber, Player.instance.GetTimberStockPile());
+
+        DataSet dataSetPykerete = DataSet.PYKRETEPRODUCED;
+        GraphDataManager.instance.AddValueToDataSet(dataSetPykerete, Player.instance.GetPkyreteStockPile());
     }
 
 
@@ -44,6 +53,19 @@ public class TimeManager : MonoBehaviour
             activeTree.UpdateGrowthTimer();
         }
 
+    }
+
+    private float GetPopulation()
+    {
+        float population = 0;
+         //Get all tiles and add population onto local population 
+        Tile[] tiles = FindObjectsOfType(typeof(Tile)) as Tile[];
+        foreach(var t in tiles)
+        {
+            population += t.GetPopulation();
+        } 
+
+        return population;
     }
 
     
@@ -59,6 +81,15 @@ public class TimeManager : MonoBehaviour
        
        DataSet dataSetMonthlyHeatRise = DataSet.CO2;
        GraphDataManager.instance.AddValueToDataSet(dataSetMonthlyHeatRise, Player.instance.GetMonthlyHeatRise());
+       
+       DataSet dataSetPopulation = DataSet.POPULATION;
+       GraphDataManager.instance.AddValueToDataSet(dataSetPopulation, GetPopulation());
+
+       DataSet dataSetTimber = DataSet.TIMBER;
+       GraphDataManager.instance.AddValueToDataSet(dataSetTimber, Player.instance.GetTimberStockPile());
+
+       DataSet dataSetPykerete = DataSet.PYKRETEPRODUCED;
+       GraphDataManager.instance.AddValueToDataSet(dataSetPykerete, Player.instance.GetPkyreteStockPile());
 
 
 
