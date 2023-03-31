@@ -31,7 +31,7 @@ public class TeraFactory : MonoBehaviour
 
        case 0:
        //Spawn small berg. Reduce global warming by agreed small berg amoun
-       if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, new Vector3(this.gameObject.transform.position.x + offSet, this.gameObject.transform.position.y, this.gameObject.transform.position.z), bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025); small}
+       if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, new Vector3(this.gameObject.transform.position.x + offSet, this.gameObject.transform.position.y, this.gameObject.transform.position.z), bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025);}
        
        break;
 
