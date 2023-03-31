@@ -11824,6 +11824,7 @@ GameObject:
   - component: {fileID: 781867166}
   - component: {fileID: 781867167}
   - component: {fileID: 781867168}
+  - component: {fileID: 781867169}
   m_Layer: 0
   m_Name: BuildingManager
   m_TagString: Untagged
@@ -11872,6 +11873,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb0a216fce35f1438530749c7d8eb12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &781867169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781867165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0469d8ebc42231f48b8f240e0a99801f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treePrefabs:
+  - {fileID: 2307433609957505241, guid: 2e911543ac7276c44a68d905a05927d5, type: 3}
+  - {fileID: 5217436850954560744, guid: 5e09d17725f90a44bab8f82093618fa4, type: 3}
+  - {fileID: 9147054875440890004, guid: 15c1f61c0033d654691162953928f886, type: 3}
+  - {fileID: 8728045445941830433, guid: a26d3bd6fa7601b4e9be5f6aa83a05b0, type: 3}
+  - {fileID: 4975145061733709366, guid: 8000c04cbda9ad7478adef7d2f0b8c6b, type: 3}
 --- !u!1 &785346459
 GameObject:
   m_ObjectHideFlags: 0

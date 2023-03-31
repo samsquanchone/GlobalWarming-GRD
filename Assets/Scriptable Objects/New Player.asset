@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25e67506aefa774cb4530f1deaca3e2, type: 3}
   m_Name: New Player
   m_EditorClassIdentifier: 
-  Money: 100
+  Money: 5000
   Political_Power: 10
   Timber: 0
   Pykerete: 5000
