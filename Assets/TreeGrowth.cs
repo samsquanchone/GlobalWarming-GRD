@@ -15,6 +15,8 @@ public class TreeGrowth : MonoBehaviour
 
     public bool isGrown {get; private set;} = false;
     private int treeYield;
+
+    [SerializeField] private float harvestCost;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,9 @@ public class TreeGrowth : MonoBehaviour
         //Calculate base scale for tree to then implement 
         growthIncrement = new Vector3(this.gameObject.transform.localScale.x / monthsRemaining, this.gameObject.transform.localScale.y / monthsRemaining, this.gameObject.transform.localScale.z / monthsRemaining);
         this.gameObject.transform.localScale = new Vector3(growthIncrement.x, growthIncrement.y, growthIncrement.z);
+        
+        //Calculate harvest/replant cost: 10% of tree project cost
+        harvestCost = (GetComponent<TreeObject>().m_cost * 10) / 100;
     }
 
     public void UpdateGrowthTimer()
@@ -72,12 +77,16 @@ public class TreeGrowth : MonoBehaviour
     }
 
     public void HarvestTree()
-    {
-        GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().AddToUnprocessedWoodStockPile(treeYield);
-        Debug.Log("Tree Yield" + treeYield);
-        Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
-        TreeReplantManager.instance.ReplantTree(this.gameObject.GetComponent<SaveableObject>().objectType, this.gameObject.transform);
-        AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.treeHarvestedPurchased, null);
+    {   
+        //If player wealth is equal to or more than 10% the cost of the tree harves and replant tree project for automated planted, for more global progression
+        if(Player.instance.GetPlayerWealth() >= harvestCost)
+        {
+            GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().AddToUnprocessedWoodStockPile(treeYield);
+            Player.instance.RemoveAmountFromPlayerWealth((int) harvestCost);
+            Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
+            TreeReplantManager.instance.ReplantTree(this.gameObject.GetComponent<SaveableObject>().objectType, this.gameObject.transform);
+            AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.treeHarvestedPurchased, null);
+        }
     }
 
     private void OnDestroy()

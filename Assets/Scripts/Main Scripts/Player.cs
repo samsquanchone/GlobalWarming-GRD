@@ -140,6 +140,12 @@ public class Player : MonoBehaviour
             this.Ships++;
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
         }
+        
+        //Sam addition: adding to tooltip to show message when player does not have enough funds
+        else
+        {
+            UIHoverManager.instance.ShowTip("Insufficient Funds!", Input.mousePosition);
+        }
     }
     private void Purchase_Train()
     {
@@ -148,6 +154,12 @@ public class Player : MonoBehaviour
             this.Money -= 50;
             this.Trains++;
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
+        }
+
+         //Sam addition: adding to tooltip to show message when player does not have enough funds
+        else
+        {
+            UIHoverManager.instance.ShowTip("Insufficient Funds!", Input.mousePosition);
         }
     }
 

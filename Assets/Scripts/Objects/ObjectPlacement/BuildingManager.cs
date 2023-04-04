@@ -83,6 +83,7 @@ public class BuildingManager : MonoBehaviour
             if(buildingTypeSO.buildingPrefab.name == "Factory" && t.gameObject.name != "Antarctica")
             {
                 Debug.Log(collider.gameObject.name);
+                UIHoverManager.instance.ShowTip("Can only place on the Antarctica peninsula!", Input.mousePosition);
                 return false;
             }
 
@@ -92,12 +93,13 @@ public class BuildingManager : MonoBehaviour
             {
                 //Could trigger UI here that indicates you can't build 
                 Debug.Log("Cant spawn");
+                UIHoverManager.instance.ShowTip("Insufficient Space!", Input.mousePosition);
                 return false;
             }
 
             if(playerData.Money < buildingTypeSO.cost)
             {
-                GetComponent<BuildingManagerToolTip>().ShowMessage("Insufficient funds");
+                GetComponent<BuildingManagerToolTip>().ShowMessage("Insufficient funds!");
                 return false;
             }
 
