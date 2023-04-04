@@ -100,6 +100,9 @@ public class MapModeManager : MonoBehaviour
         Awareness_Map_Pressed = false;
         Woodland_Map_Pressed = false;
         Building_Level_Map_Pressed = false;
+        
+        //Sam: audio trigger through my static helper class
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.gameMapModeSelected, null);
 
         for (int i = 0; i < All_Nations.Length; i++)
         {
@@ -121,6 +124,10 @@ public class MapModeManager : MonoBehaviour
         Building_Level_Map_Pressed = false;
         //min 10
         //max 25
+ 
+
+        //Sam: audio trigger through my static helper class
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.varientMapModeSelected, null);
 
         for (int i = 0; i < All_Tiles.Length; i++)
         {
@@ -309,6 +316,9 @@ public class MapModeManager : MonoBehaviour
         Awareness_Map_Pressed = false;
         Woodland_Map_Pressed = false;
         Building_Level_Map_Pressed = false;
+        
+        //Sam: audio trigger through my static helper class
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.varientMapModeSelected, null);
 
         for (int i = 0; i < All_Tiles.Length; i++)
         {
@@ -470,7 +480,8 @@ public class MapModeManager : MonoBehaviour
         Building_Level_Map_Pressed = false;
         
 
-
+        //Sam: audio trigger through my static helper class
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.varientMapModeSelected, null);
                 
         for (int i = 0; i < All_Tiles.Length; i++)
         {
@@ -629,6 +640,9 @@ public class MapModeManager : MonoBehaviour
         Awareness_Map_Pressed = true;
         Woodland_Map_Pressed = false;
         Building_Level_Map_Pressed = false;
+        
+        //Sam: audio trigger through my static helper class
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.varientMapModeSelected, null);
 
         for (int i = 0; i < All_Tiles.Length; i++)
         {
@@ -791,6 +805,9 @@ public class MapModeManager : MonoBehaviour
         Woodland_Map_Pressed = true;
         Building_Level_Map_Pressed = false;
 
+        //Sam: audio trigger through my static helper class
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.varientMapModeSelected, null);
+
 
         for (int i = 0; i < All_Tiles.Length; i++)
         {
@@ -889,7 +906,8 @@ public class MapModeManager : MonoBehaviour
         Woodland_Map_Pressed = false;
         Building_Level_Map_Pressed = true;
 
- 
+        //Sam: audio trigger through my static helper class
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.varientMapModeSelected, null);
 
         for (int i = 0; i < All_Tiles.Length; i++)
         {

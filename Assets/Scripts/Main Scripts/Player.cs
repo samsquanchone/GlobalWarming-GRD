@@ -138,6 +138,7 @@ public class Player : MonoBehaviour
         {
             this.Money -= 1000;
             this.Ships++;
+            AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
         }
     }
     private void Purchase_Train()
@@ -146,6 +147,7 @@ public class Player : MonoBehaviour
         {
             this.Money -= 50;
             this.Trains++;
+            AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
         }
     }
 

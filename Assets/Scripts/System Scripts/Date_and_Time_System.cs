@@ -38,6 +38,8 @@ public class Date_and_Time_System : MonoBehaviour
     [Header("Stopped Indication Canvas")]
     [SerializeField] public Canvas Stop_Indication_Canvas;
 
+    bool firstLoad = false; //Sam addition: pause time audio triggering on start, quick implementation to solve issue
+
     public void Save()
     {
         this.TimeData.Year = this.Year;
@@ -131,6 +133,14 @@ public class Date_and_Time_System : MonoBehaviour
         Stop_BUTTON.enabled = false;
         Normal_Speed_BUTTON.enabled = true;
         Fast_Speed_BUTTON.enabled = true;
+        
+        if(firstLoad)
+        {
+           AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.pauseTimeSelected, null);
+        }
+
+        firstLoad = true;
+        
     }
 
 
@@ -144,6 +154,8 @@ public class Date_and_Time_System : MonoBehaviour
         Stop_BUTTON.enabled = true;
         Normal_Speed_BUTTON.enabled = false;
         Fast_Speed_BUTTON.enabled = true;
+
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.startTimeSelected, null);
     }
 
     public void Fast_Speed()

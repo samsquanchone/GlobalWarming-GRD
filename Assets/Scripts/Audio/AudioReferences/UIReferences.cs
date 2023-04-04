@@ -7,5 +7,11 @@ using FMODUnity;
 public class UIReferences : MonoBehaviour
 {
     public EventReference objectBuildUISelected;
+    public EventReference gameMapModeSelected;
+    public EventReference varientMapModeSelected;
+    public EventReference graphUISelected;
+    public EventReference pauseTimeSelected;
+    public EventReference startTimeSelected;
+
     
 }

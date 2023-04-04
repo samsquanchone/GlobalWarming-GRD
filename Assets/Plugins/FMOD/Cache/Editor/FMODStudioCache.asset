@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: FmodBanks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638152240455195445
+  lastModified: 638162421546476472
   FileSizes:
   - Name: 
-    Value: 1092
+    Value: 1602
   Exists: 1
+--- !u!114 &-7304168087731516300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/GameMapSelected
+  m_EditorClassIdentifier: 
+  Path: event:/UI/GameMapSelected
+  Guid:
+    Data1: -1941653711
+    Data2: 1274550056
+    Data3: -529334107
+    Data4: 1129178572
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2248
 --- !u!114 &-6602957334252676675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,7 +62,7 @@ MonoBehaviour:
   Path: FmodBanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638152240455225452
+  lastModified: 638162421546465685
   FileSizes: []
   Exists: 1
 --- !u!114 &-5531996601355245277
@@ -65,6 +92,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1327
+--- !u!114 &-5516174536159450592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/StartTimePressed
+  m_EditorClassIdentifier: 
+  Path: event:/UI/StartTimePressed
+  Guid:
+    Data1: -441319920
+    Data2: 1172795517
+    Data3: 1533289383
+    Data4: 752804658
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &-3857014929406034812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,6 +137,33 @@ MonoBehaviour:
     Data2: 1105036517
     Data3: 1993209526
     Data4: 357273347
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-3422848690010495166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/TransportationPurchased
+  m_EditorClassIdentifier: 
+  Path: event:/UI/TransportationPurchased
+  Guid:
+    Data1: -2094058387
+    Data2: 1140288848
+    Data3: 1519676092
+    Data4: 1357915341
   Banks:
   - {fileID: -6602957334252676675}
   IsStream: 0
@@ -168,12 +249,19 @@ MonoBehaviour:
   - {fileID: 5882080080723705280}
   - {fileID: 3120102517863707555}
   - {fileID: 2433961994618173430}
+  - {fileID: -5516174536159450592}
+  - {fileID: -7304168087731516300}
+  - {fileID: 3289319178457789807}
+  - {fileID: -3422848690010495166}
+  - {fileID: 4422160219818643714}
+  - {fileID: 2468671589860264031}
+  - {fileID: 5748130419272576679}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6602957334252676675}
   StringsBanks:
   - {fileID: -8577037947143289805}
-  cacheTime: 638152240455225452
+  cacheTime: 638162421546476472
   cacheVersion: 131601
 --- !u!114 &2433961994618173430
 MonoBehaviour:
@@ -202,6 +290,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 10277
+--- !u!114 &2468671589860264031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/PauseTimePressed
+  m_EditorClassIdentifier: 
+  Path: event:/UI/PauseTimePressed
+  Guid:
+    Data1: 987950846
+    Data2: 1218012265
+    Data3: -633000524
+    Data4: 1229883930
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &3120102517863707555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +344,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &3289319178457789807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/VarientMapSelected
+  m_EditorClassIdentifier: 
+  Path: event:/UI/VarientMapSelected
+  Guid:
+    Data1: -1380651948
+    Data2: 1196879688
+    Data3: -1382756726
+    Data4: -1509583144
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2249
+--- !u!114 &4422160219818643714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/GraphUI
+  m_EditorClassIdentifier: 
+  Path: event:/UI/GraphUI
+  Guid:
+    Data1: -2032444007
+    Data2: 1097252698
+    Data3: -2144573807
+    Data4: 1276111045
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
+--- !u!114 &5748130419272576679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ObjectInteraction/HarvestTree
+  m_EditorClassIdentifier: 
+  Path: event:/ObjectInteraction/HarvestTree
+  Guid:
+    Data1: -655260676
+    Data2: 1269638997
+    Data3: 1799535030
+    Data4: 2065092744
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1410
 --- !u!114 &5882080080723705280
 MonoBehaviour:
   m_ObjectHideFlags: 0
