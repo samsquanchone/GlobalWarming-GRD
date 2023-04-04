@@ -10,4 +10,6 @@ public class ObjectReferences : MonoBehaviour
      public EventReference objectPurchased;
      public EventReference infrastructureUpgraded;
      public EventReference infrastructureBuilding;
+     public EventReference transportationPurchased;
+     public EventReference treeHarvestedPurchased;
 }

@@ -113,6 +113,7 @@ public class WindowGraph : MonoBehaviour
          isBarChartActive = true;
          isLineChartActive = false;
          SetGraphVisual(barChartVisual);
+         AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
        };
 
        transform.Find("LineGraphButton").GetComponent<Button_UI>().ClickFunc = () => 
@@ -120,16 +121,19 @@ public class WindowGraph : MonoBehaviour
          isBarChartActive = false;
          isLineChartActive = true;
          SetGraphVisual(lineGraphVisual);
+         AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
        };
 
        transform.Find("DecreaseVisibleAmountBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
           DecreaseVisibleAmount();
+          AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
        };
 
        transform.Find("IncreaseVisibleAmountBtn").GetComponent<Button_UI>().ClickFunc = () =>
        {
           IncreaseVisibleAmount();
+          AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
        };
 
        //Value set toggle buttons listener and delegate set up
@@ -139,12 +143,14 @@ public class WindowGraph : MonoBehaviour
            {
               ShowGraph(GraphDataManager.instance.moneyValueList, moneyLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f) + "M");
               lineGraphVisual = moneyLineGraphVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
 
            else if (isBarChartActive && GraphDataManager.instance.moneyValueList[0] != null)
            {
               ShowGraph(GraphDataManager.instance.moneyValueList, moneyBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "$" + Mathf.RoundToInt(_f) + "M");
               barChartVisual = moneyBarChartVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
        };
 
@@ -154,11 +160,13 @@ public class WindowGraph : MonoBehaviour
            {
               ShowGraph(GraphDataManager.instance.co2ValueList, co2LineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "°C" + _f);
               lineGraphVisual = co2LineGraphVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
            else if (isBarChartActive && GraphDataManager.instance.co2ValueList[0] != null)
            {
               ShowGraph(GraphDataManager.instance.co2ValueList, co2BarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "°C" + _f);
               barChartVisual = co2BarChartVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
        };
 
@@ -168,11 +176,13 @@ public class WindowGraph : MonoBehaviour
            {
               ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Trees" + Mathf.RoundToInt(_f));
               lineGraphVisual = treesLineGraphVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
            else if (isBarChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
               ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Trees" + Mathf.RoundToInt(_f));
               barChartVisual = treesBarChartVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
        };
 
@@ -182,11 +192,13 @@ public class WindowGraph : MonoBehaviour
            {
               ShowGraph(GraphDataManager.instance.populationValueList, populationLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "M" + Mathf.RoundToInt(_f));
               lineGraphVisual = populationLineGraphVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
            else if (isBarChartActive && GraphDataManager.instance.populationValueList[0] != null)
            {
               ShowGraph(GraphDataManager.instance.populationValueList, populationBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "M" + Mathf.RoundToInt(_f));
               barChartVisual = populationBarChartVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
        };
 
@@ -196,11 +208,13 @@ public class WindowGraph : MonoBehaviour
            {
               ShowGraph(GraphDataManager.instance.timberValueList, timberLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
               lineGraphVisual = timberLineGraphVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
            else if (isBarChartActive && GraphDataManager.instance.timberValueList[0] != null)
            {
               ShowGraph(GraphDataManager.instance.timberValueList, timberBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Tons" + Mathf.RoundToInt(_f));
               barChartVisual = timberBarChartVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
        };
 
@@ -210,11 +224,13 @@ public class WindowGraph : MonoBehaviour
            {
               ShowGraph(GraphDataManager.instance.pykreteProducedValueList, pykereteLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "GigaTons" + Mathf.RoundToInt(_f));
               lineGraphVisual = pykereteLineGraphVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
            else if (isBarChartActive && GraphDataManager.instance.timberValueList[0] != null)
            {
               ShowGraph(GraphDataManager.instance.pykreteProducedValueList, pykereteBarChartVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "GigaTons" + Mathf.RoundToInt(_f));
               barChartVisual = pykereteBarChartVisual;
+              AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
        };
        
