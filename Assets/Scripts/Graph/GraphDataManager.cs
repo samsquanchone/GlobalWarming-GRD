@@ -30,8 +30,10 @@ public class GraphDataManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_instance = this;
 
+        m_instance = this;
+       
+       JSONManager.CreateDirectorys();
        pykreteProducedValueList = new List<float>();
        moneyValueList = new List<float>();
        co2ValueList = new List<float>();
@@ -89,7 +91,79 @@ public class GraphDataManager : MonoBehaviour
         graphPanel.SetActive(false);
     }
 
+    public void SaveGraphValues()
+    {
+        SaveGraphData pykreteValues = new SaveGraphData();
+        pykreteValues.values = pykreteProducedValueList;
+        JSONManager.SaveJSON(pykreteValues, "PykreteValues");
+
+        SaveGraphData moneyValues = new SaveGraphData();
+        moneyValues.values = moneyValueList;
+        JSONManager.SaveJSON(moneyValues, "MoneyValues");
+
+        SaveGraphData co2Values = new SaveGraphData();
+        co2Values.values = co2ValueList;
+        JSONManager.SaveJSON(co2Values, "Co2Values");
+
+        SaveGraphData populationValues = new SaveGraphData();
+        populationValues.values = populationValueList;
+        JSONManager.SaveJSON(populationValues, "PopulationValues");
+
+        SaveGraphData timberValues = new SaveGraphData();
+        timberValues.values = timberValueList;
+        JSONManager.SaveJSON(timberValues, "TimberValues");
+
+        SaveGraphData treesPlantedValues = new SaveGraphData();
+        treesPlantedValues.values = treesPlantedValueList;
+        JSONManager.SaveJSON(treesPlantedValues, "TreesPlantedValues");
+
+
+    }
+
+    public void LoadGraphValues()
+    {
+        //Clear lists first for good memory management
+        pykreteProducedValueList = new List<float>();
+        moneyValueList = new List<float>();
+        co2ValueList = new List<float>();
+        populationValueList = new List<float>();
+        timberValueList = new List<float>();
+        treesPlantedValueList = new List<float>();
+
+        //Populate lists
+        SaveGraphData pykreteValues = JSONManager.Load("PykreteValues");
+        pykreteProducedValueList = pykreteValues.values;
+
+        //Populate lists
+        SaveGraphData moneyValues = JSONManager.Load("MoneyValues");
+        moneyValueList = moneyValues.values;
+
+        //Populate lists
+        SaveGraphData co2Values = JSONManager.Load("Co2Values");
+        co2ValueList = co2Values.values;
+
+        //Populate lists
+        SaveGraphData populationValues = JSONManager.Load("PopulationValues");
+        populationValueList = populationValues.values;
+
+        //Populate lists
+        SaveGraphData timberValues = JSONManager.Load("TimberValues");
+        timberValueList = timberValues.values;
+
+         //Populate lists
+        SaveGraphData treesPlantedValues = JSONManager.Load("TreesPlantedValues");
+        treesPlantedValueList = treesPlantedValues.values;
+
+    }
+
     
 
    
+}
+
+//Class to serialize graph data when player saves game
+[System.Serializable]
+public class SaveGraphData
+{
+   public List<float> values;
 }

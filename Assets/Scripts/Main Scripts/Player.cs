@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
     {
        
 
-        if(!MenuData.GetGameType()) //Sam edit: checks if new game, if so pull SO data
+        if(!MenuData.GetGameType()) //Sam edit: IS A LOAD GAME: checks if new game through my static class, if so pull SO data
         {
             //Pull Starting Data from Player Data
             this.Money = Attached_Player_Data.Money;
@@ -81,9 +81,9 @@ public class Player : MonoBehaviour
         }
 
         else
-        {    //Should be set to some default value not SO 
-             this.Money = Attached_Player_Data.Money;
-             this.Pykerete = Attached_Player_Data.Pykerete;
+        {    
+            //IS A NEW GAME: Should be set to some default value not SO 
+             
         }
     }
     //Button Load_Button;

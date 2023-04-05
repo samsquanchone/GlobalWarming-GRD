@@ -88,6 +88,8 @@ public List<SaveableObject> saveableObjects { get; private set; }
         }
 
         Date_and_Time_System.instance.Save();
+
+        GraphDataManager.instance.SaveGraphValues();
     }
 
     public void Load()
@@ -161,9 +163,10 @@ public List<SaveableObject> saveableObjects { get; private set; }
             {
                 tmp.GetComponent<SaveableObject>().Load(values);
             }
-           
             
         }
+
+            GraphDataManager.instance.LoadGraphValues();
     }
 
     public Vector3 StringToVector(string value)
@@ -201,15 +204,5 @@ public List<SaveableObject> saveableObjects { get; private set; }
         return new Quaternion(float.Parse(rotation[0]), float.Parse(rotation[1]), float.Parse(rotation[2]), float.Parse(rotation[3]));
     }
 
-    public void AddWealth(double wealth)
-    {
-
-        playerWealth += wealth;
-    }
-
-    public double GetWealth()
-    {
-        return playerWealth;
-    }
 
 }
