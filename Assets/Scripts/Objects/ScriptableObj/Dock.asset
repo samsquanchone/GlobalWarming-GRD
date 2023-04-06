@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
   m_Name: Dock
   m_EditorClassIdentifier: 
-  buildingPrefab: {fileID: 3966844038757910521, guid: 3167b0a60882e694e98c39fc5637b809,
+  buildingPrefab: {fileID: 8193962226478656309, guid: 85c383c609e908e40ab1d1d9c32310e3,
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: 7fa9f25b4e51e484887cdee142c317f6,
     type: 3}

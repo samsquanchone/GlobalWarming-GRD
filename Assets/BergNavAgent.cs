@@ -11,6 +11,8 @@ public class BergNavAgent : MonoBehaviour
     void Start()
     {
         navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        
+       
     }
 
     // Update is called once per frame
