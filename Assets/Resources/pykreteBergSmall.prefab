@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f55c7cc9e402634bbfbe982c89bed33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boat: {fileID: 3465996601981680594}
   location: {fileID: 3941055916623965782, guid: 3531a3253b07b5541bd0445208e0940e,
     type: 3}
   shouldMove: 0
@@ -244,6 +245,12 @@ PrefabInstance:
 --- !u!4 &3465996601981642674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 862516206550659090, guid: 407aa1192f74ed34c961947983571b70,
+    type: 3}
+  m_PrefabInstance: {fileID: 4314998612052121504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3465996601981680594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 862516206551149682, guid: 407aa1192f74ed34c961947983571b70,
     type: 3}
   m_PrefabInstance: {fileID: 4314998612052121504}
   m_PrefabAsset: {fileID: 0}

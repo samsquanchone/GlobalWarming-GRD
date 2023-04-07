@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4252905292636870924}
   - component: {fileID: 8035955561895952797}
   - component: {fileID: -1496544134575223351}
-  - component: {fileID: -4231136391825664104}
   - component: {fileID: -4998048375270356704}
+  - component: {fileID: -4231136391825664104}
   - component: {fileID: -2875596154783102160}
   - component: {fileID: 6557002187057320619}
   - component: {fileID: 7966947642338123521}
@@ -123,26 +123,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 0
-  m_cost: 20
-  m_yield: 20
-  m_timeToGrow: 25
---- !u!114 &-4231136391825664104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2307433609957505241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d1323a50a27a80418883e376c0b66bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
-  treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
-    type: 3}
-  treeHarvestedVFX: {fileID: 513326610926132529, guid: 99915d6b95fb95049aa46f15c66ab1d3,
-    type: 3}
+  m_cost: 29
+  m_yield: 4750
+  m_timeToGrow: 75
 --- !u!114 &-4998048375270356704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +138,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4231136391825664104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307433609957505241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1323a50a27a80418883e376c0b66bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optimumTemperature: 15
+  readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
+  treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
+    type: 3}
+  treeHarvestedVFX: {fileID: 513326610926132529, guid: 99915d6b95fb95049aa46f15c66ab1d3,
+    type: 3}
+  harvestCost: 0
 --- !u!114 &-2875596154783102160
 MonoBehaviour:
   m_ObjectHideFlags: 0

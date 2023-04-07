@@ -17,4 +17,4 @@ MonoBehaviour:
   constructionPrefab: {fileID: 3213084360709085941, guid: 923238fe7c4c3df4c858897c82395509,
     type: 3}
   sprite: {fileID: 21300000, guid: 3b78a01deefef38439c0baeaca5fa53a, type: 3}
-  cost: 2000
+  cost: 50

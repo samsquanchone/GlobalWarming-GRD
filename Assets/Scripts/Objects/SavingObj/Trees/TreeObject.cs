@@ -26,16 +26,16 @@ public class TreeObject : SaveableObject
     public int m_yield;
 
     [SerializeField]
-    public int timeToGrow
+    public float timeToGrow
     {
         get { return m_timeToGrow; }
         private set { m_timeToGrow = value; }
     }
 
-    public int m_timeToGrow;
+    public float m_timeToGrow;
 
     
-    private int GetGrowthTimeRemaining()
+    private float GetGrowthTimeRemaining()
     {
         timeToGrow = GetComponent<TreeGrowth>().GetGrowthTimeRemaining();
 

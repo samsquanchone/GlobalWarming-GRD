@@ -248,6 +248,7 @@ public class Tile : MonoBehaviour
          default:
          //Is a tree
          activeTree_Amount += 1;
+         
 
          break;
 

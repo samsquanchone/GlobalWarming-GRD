@@ -30,6 +30,11 @@ public class ObjectNationInteraction : MonoBehaviour
                 NavMeshManager.instance.SetDestination(gameObject.transform);
             }
 
+            if(gameObject.tag == "Tree" && other.transform.gameObject.GetComponent<Tile>().Average_Heat_Level > GetComponent<TreeGrowth>().optimumTemperature)
+            {
+                 GetComponent<TreeGrowth>().monthsRemaining = GetComponent<TreeGrowth>().monthsRemaining * 1.4f;
+            }
+
         }
     }
 

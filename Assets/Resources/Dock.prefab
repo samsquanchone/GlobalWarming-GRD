@@ -42,7 +42,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!33 &5051093393689912464
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 6
-  cost: 500
+  cost: 700
   transportationCapacityKG: 200
   numberOfShips: 5
 --- !u!114 &6940931156590893555
@@ -167,7 +167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infrastuctureType: 0
   upgradeCost: 200
-  upgadeVFX: {fileID: 0}
+  upgadeVFX: {fileID: 6682530283038013861, guid: 20a08d13218ffa14fb24b288e1c2bf6e,
+    type: 3}
 --- !u!222 &6509465679406456125
 CanvasRenderer:
   m_ObjectHideFlags: 0

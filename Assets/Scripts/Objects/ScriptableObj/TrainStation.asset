@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accba27ecfe9f1541b9e76db783ff124, type: 3}
   m_Name: TrainStation
   m_EditorClassIdentifier: 
-  buildingPrefab: {fileID: 6105541024787292033, guid: 284ddfb862882334d8662f568a1bcb6a,
+  buildingPrefab: {fileID: 8399938134519705191, guid: 3e6ff1cc226a3314fa62c4669519788c,
     type: 3}
   constructionPrefab: {fileID: 3213084360709085941, guid: ad38fec059e70d04384bafc4eed8a7a4,
     type: 3}
   sprite: {fileID: 21300000, guid: 88120a8bcd36fd24ab28e5f0a196403f, type: 3}
-  cost: 200000
+  cost: 150

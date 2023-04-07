@@ -83,10 +83,10 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             //Is a tree
             default:
             int yieldKg;
-            int timeToGrow;
+            float timeToGrow;
             yieldKg = buildingType.buildingPrefab.GetComponent<TreeObject>().yield;
             timeToGrow = buildingType.buildingPrefab.GetComponent<TreeObject>().timeToGrow;
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Yield: " + yieldKg.ToString() + "Kg" + "\n" + "Time To Grow: " + timeToGrow.ToString() + " Years";
+            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Yield: " + yieldKg.ToString() + "Kg" + "\n" + "Time To Grow: " + timeToGrow.ToString("F2") + " Years";
             break;
 
         }

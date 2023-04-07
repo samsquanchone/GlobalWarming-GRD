@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BergNavAgent : MonoBehaviour
 {
+    [SerializeField] GameObject boat;
     private UnityEngine.AI.NavMeshAgent navMeshAgent;
     [SerializeField] Transform location;
     public bool shouldMove = false;
@@ -18,7 +19,13 @@ public class BergNavAgent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(shouldMove)
+        
+
         navMeshAgent.destination = location.position;
+
+        if(navMeshAgent.remainingDistance == 0)
+        {
+            Destroy(boat);
+        }
     }
 }

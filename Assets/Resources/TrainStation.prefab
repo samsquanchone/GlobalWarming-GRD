@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4975145061733709366
+--- !u!1 &9212468824723272925
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,33 +8,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5638670278912208012}
-  - component: {fileID: 8786328444696945449}
-  - component: {fileID: 6776712798710962147}
-  - component: {fileID: -1172095486689374254}
-  - component: {fileID: 5245931975147522234}
-  - component: {fileID: -6765943713464216970}
-  - component: {fileID: -1855830054520842603}
-  - component: {fileID: -5428715155534631204}
-  - component: {fileID: 6909541876821377011}
-  - component: {fileID: 8438944759863461638}
+  - component: {fileID: 8399938134519705191}
+  - component: {fileID: 4845108693886493122}
+  - component: {fileID: 7267050469096297736}
+  - component: {fileID: 6721994893676407606}
+  - component: {fileID: -144216367343208939}
+  - component: {fileID: -2111228897910637213}
+  - component: {fileID: -4825163764663292340}
+  - component: {fileID: 8801773686076164140}
+  - component: {fileID: 6540203248875578406}
+  - component: {fileID: 2915058435314645050}
   m_Layer: 0
-  m_Name: Redwood
-  m_TagString: Tree
+  m_Name: TrainStation
+  m_TagString: Infrastructure
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &5638670278912208012
+--- !u!224 &8399938134519705191
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 50}
+  m_LocalScale: {x: 0.37, y: 0.96, z: 0.37}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -42,24 +42,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!33 &8786328444696945449
+--- !u!33 &4845108693886493122
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
-  m_Mesh: {fileID: 6428443188071366155, guid: 05177a1adc27c1b4e9ee4a81407d1897, type: 3}
---- !u!23 &6776712798710962147
+  m_GameObject: {fileID: 9212468824723272925}
+  m_Mesh: {fileID: 6653105984763015708, guid: 2f0ffca8e1fa926478439aa02d32bbd4, type: 3}
+--- !u!23 &7267050469096297736
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -73,8 +73,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: 05177a1adc27c1b4e9ee4a81407d1897, type: 3}
-  - {fileID: -3846018093981099296, guid: 05177a1adc27c1b4e9ee4a81407d1897, type: 3}
+  - {fileID: 6528549428714276832, guid: 2f0ffca8e1fa926478439aa02d32bbd4, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -96,108 +95,109 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-1172095486689374254
+--- !u!64 &6721994893676407606
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 6428443188071366155, guid: 05177a1adc27c1b4e9ee4a81407d1897, type: 3}
---- !u!114 &5245931975147522234
+  m_Mesh: {fileID: 6653105984763015708, guid: 2f0ffca8e1fa926478439aa02d32bbd4, type: 3}
+--- !u!54 &-144216367343208939
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9212468824723272925}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &-2111228897910637213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9160602e889eef247ab01f181074f848, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a1910ef4d630d6439e22d08130056a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectType: 4
-  m_cost: 50
-  m_yield: 10000
-  m_timeToGrow: 160
---- !u!114 &-6765943713464216970
+  objectType: 8
+  cost: 150
+  transportationCapacityKG: 0
+  numberOfTrains: 0
+--- !u!114 &-4825163764663292340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d1323a50a27a80418883e376c0b66bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  optimumTemperature: 14
-  readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
-  treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
-    type: 3}
-  treeHarvestedVFX: {fileID: 7640009708439871859, guid: 60f0119e126963a4d8d1ef548533e1dd,
-    type: 3}
-  harvestCost: 0
---- !u!114 &-1855830054520842603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bea1e6a62398414eabbadeba6b2263c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-5428715155534631204
+--- !u!114 &8801773686076164140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4feb7a1cb66c24c488853d1d3476ada8, type: 3}
+  m_Script: {fileID: 11500000, guid: 89934c7f6598b3642ab27a4406c36a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!222 &6909541876821377011
+  infrastuctureType: 1
+  upgradeCost: 150
+  upgadeVFX: {fileID: 6682530283038013861, guid: 20a08d13218ffa14fb24b288e1c2bf6e,
+    type: 3}
+--- !u!222 &6540203248875578406
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_CullTransparentMesh: 1
---- !u!114 &8438944759863461638
+--- !u!114 &2915058435314645050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4975145061733709366}
+  m_GameObject: {fileID: 9212468824723272925}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8862745}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a193c0688b4993045aec796fcc2830d0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aac02ee910b4393428fa4c5e593b463d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

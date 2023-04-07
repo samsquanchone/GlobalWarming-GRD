@@ -123,8 +123,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectType: 3
-  m_cost: 30
-  m_yield: 50
+  m_cost: 24
+  m_yield: 4350
   m_timeToGrow: 90
 --- !u!114 &-1614402525866391703
 MonoBehaviour:
@@ -138,11 +138,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1323a50a27a80418883e376c0b66bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  optimumTemperature: 13
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
   treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
     type: 3}
   treeHarvestedVFX: {fileID: 7640009708439871859, guid: 60f0119e126963a4d8d1ef548533e1dd,
     type: 3}
+  harvestCost: 0
 --- !u!114 &-6361222917932597662
 MonoBehaviour:
   m_ObjectHideFlags: 0

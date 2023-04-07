@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class TreeGrowth : MonoBehaviour
 {
-    int monthsRemaining;
+    [SerializeField] public int optimumTemperature;
+    private const float heatPenalty = 1.4f;
+    [SerializeField]public float monthsRemaining;
 
     [SerializeField] private Material readyToHarvestMat;
     [SerializeField] private GameObject treeCutVFX;
     [SerializeField] private GameObject treeHarvestedVFX;
     Vector3 growthIncrement;
+
+    [SerializeField] ObjectNationInteraction nationInteraction;
 
     
 
@@ -32,6 +36,8 @@ public class TreeGrowth : MonoBehaviour
         
         //Calculate harvest/replant cost: 10% of tree project cost
         harvestCost = (GetComponent<TreeObject>().m_cost * 10) / 100;
+
+        
     }
 
     public void UpdateGrowthTimer()
@@ -69,9 +75,9 @@ public class TreeGrowth : MonoBehaviour
     }
 
     //Used to get this non persistent value when save is pressed to update the persistent value
-    public int GetGrowthTimeRemaining()
+    public float GetGrowthTimeRemaining()
     {
-        int timeRemaining = monthsRemaining;
+        float timeRemaining = monthsRemaining;
 
         return timeRemaining;
     }
