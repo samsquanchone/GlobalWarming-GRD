@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject moreInfoPanel;
-
     //Scene 0 Main Menu Scene Functions
     public void PlayNewGame()
     {
@@ -24,12 +22,6 @@ public class MainMenu : MonoBehaviour
     {
         MenuData.SetGameType(false); //Start new game
         SceneManager.LoadScene(1);
-    }
-
-    //All How to play game scenes Functions
-    public void onMoreInfoClick()
-    {
-        moreInfoPanel.gameObject.SetActive(!moreInfoPanel.gameObject.activeSelf);
     }
 
     //Scene 1 How To Play Scene 1 Functions
