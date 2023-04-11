@@ -28586,14 +28586,14 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  maxHeight: 200
+  maxHeight: 22
   minHeight: 4
   heightDampening: 5
   keyboardZoomingSensitivity: 2
   scrollWheelZoomingSensitivity: 5
   limitMap: 1
-  limitX: 500
-  limitY: 500
+  limitX: 30
+  limitY: 80
   targetFollow: {fileID: 0}
   targetOffset: {x: 0, y: 0, z: 0}
   useScreenEdgeInput: 0

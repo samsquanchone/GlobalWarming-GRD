@@ -15,11 +15,11 @@ namespace TMPro.Examples
         public Transform CameraTarget;
 
         public float FollowDistance = 30.0f;
-        public float MaxFollowDistance = 100.0f;
+        public float MaxFollowDistance = 45.0f;
         public float MinFollowDistance = 2.0f;
 
-        public float ElevationAngle = 30.0f;
-        public float MaxElevationAngle = 85.0f;
+        public float ElevationAngle = 90.0f;
+        public float MaxElevationAngle = 45.0f;
         public float MinElevationAngle = 0f;
 
         public float OrbitalAngle = 0f;
