@@ -174,7 +174,7 @@ public class WindowGraph : MonoBehaviour
        {
             if(isLineChartActive && GraphDataManager.instance.treesPlantedValueList[0] != null)
            {
-              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "Trees" + Mathf.RoundToInt(_f));
+              ShowGraph(GraphDataManager.instance.treesPlantedValueList, treesLineGraphVisual, -1, (int _i) => "Year " + (_i + 1), (float _f) => "TreeProjects" + Mathf.RoundToInt(_f));
               lineGraphVisual = treesLineGraphVisual;
               AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.graphUISelected, null);
            }
@@ -440,7 +440,7 @@ public class WindowGraph : MonoBehaviour
         labelY.SetParent(graphContainer, false);
         labelY.gameObject.SetActive(true);
         float normalizedValue = i * 1f / serpratorCount; 
-        labelY.anchoredPosition = new Vector2(-10f, (normalizedValue * graphHeight));
+        labelY.anchoredPosition = new Vector2(-30f, (normalizedValue * graphHeight));
         labelY.GetComponent<Text>().text = getAxisLabelY(yMinimum + (normalizedValue * (yMaximum - yMinimum)));
         gameObjectList.Add(labelY.gameObject);
 
@@ -483,8 +483,7 @@ private class BarChartVisual : IGraphVisual
       this.barWidthMultiplier = barWidthMultiplier;
    }
 
-    public void CleanUp() {
-        }
+   public void CleanUp() {}
 
    public IGraphVisualObject CreateGraphVisualObject(Vector2 graphPosition, float graphPositionWidth, string tooltipText)
    {

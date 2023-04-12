@@ -85,7 +85,7 @@ public class Nation : MonoBehaviour
 
         Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
 
-
+        //Sam edit: removed this to utilise my singleton, as saving and loading is handled there
         //Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
        // Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
 

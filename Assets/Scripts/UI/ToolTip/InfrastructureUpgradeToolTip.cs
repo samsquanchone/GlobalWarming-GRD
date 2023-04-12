@@ -9,8 +9,17 @@ public class InfrastructureUpgradeToolTip : HoverTip
     
     public override void ShowMessage(string dataToShow)
     {
-        
-        UIHoverManager.OnMouseHover("Upgrade Cost: £" + cost + " Million", Input.mousePosition);
+        if(gameObject.name == "Tree")
+        {
+            
+            UIHoverManager.OnMouseHover("Harvest and replant cost is 10% of the initial tree project price", Input.mousePosition);
+        }
+
+        else
+        {
+            UIHoverManager.OnMouseHover("Upgrade Cost: £" + cost + " Million", Input.mousePosition);
+            
+        }
     }
 
 }

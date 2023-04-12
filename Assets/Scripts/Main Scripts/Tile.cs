@@ -36,7 +36,7 @@ public class Tile : MonoBehaviour
     [SerializeField] public int Tree_Age;
      
     //[NonSerialized] private NationUIManager NationUIManager; //Sam edit: this is breaking your system, changing it to a singleton. Why make a copy of this for every nation when ui manager can be one script as singleton?
-
+    
     [SerializeField] private Canvas Nation_Wiew_Canvas;
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -224,33 +224,30 @@ public class Tile : MonoBehaviour
     {
          switch(objectType)
          {
-         case ObjectType.Lumbermill:
-                Lumbermill_Level++;
-                lumbermill_Amount += 1;
-         break;
+            case ObjectType.Lumbermill:
+            Lumbermill_Level++;
+            lumbermill_Amount += 1;
+            break;
 
-         case ObjectType.Factory:
-                Debug.Log("Tera Factory Added");
-                pykreteFactory_Amount += 1;
-                Tera_Factory_Level++;
-         break;
+            case ObjectType.Factory:
+            pykreteFactory_Amount += 1;
+            Tera_Factory_Level++;
+            break;
 
-         case ObjectType.Dock:
-                dock_Amount += 1;
-                Harbour_Level++;
-         break;
+            case ObjectType.Dock:
+            dock_Amount += 1;
+            Harbour_Level++;
+            break;
 
-         case ObjectType.TrainStation:
-                trainStation_Amount += 1;
-                Railway_Level++;
-         break;
+            case ObjectType.TrainStation:
+            trainStation_Amount += 1;
+            Railway_Level++;
+            break;
          
-         default:
-         //Is a tree
-         activeTree_Amount += 1;
-         
-
-         break;
+            default:
+            //Is a tree
+            activeTree_Amount += 1;
+            break;
 
 
          }
@@ -262,10 +259,7 @@ public class Tile : MonoBehaviour
     public void AddToUnprocessedWoodStockPile(int treeYield)
     {
         Avaliable_Woodland += treeYield;
-        this.Occupiant_Nation.Woodland_Count += treeYield;
-        //Testing as using short hand getters and setters, so serialize field doesnt show in inspector
-        Debug.Log(Occupiant_Nation.Nation_Name + "Has unprocessed wood stockpile of: " + Avaliable_Woodland + "Giga tons");
-          
+        this.Occupiant_Nation.Woodland_Count += treeYield;  
     }
  
     //Sam addition: Currently all infastructure apart from pykrete factory can be upgraded, as for factory just going with berg size and not upgrade
@@ -276,30 +270,32 @@ public class Tile : MonoBehaviour
         {
             case InfrastructureType.Lumbermill:
             Lumbermill_Level += 1;
-            Debug.Log(Occupiant_Nation.Nation_Name + "Has a " + infrastuctureType.ToString() + " of level" + Lumbermill_Level);
             break;
 
             case InfrastructureType.Dock:
             Harbour_Level += 1;
-            Debug.Log(Occupiant_Nation.Nation_Name + "Has a " + infrastuctureType.ToString() + " of level" + Harbour_Level);
-
             break;
 
             case InfrastructureType.TrainStation:
             Railway_Level += 1;
-            Debug.Log(Occupiant_Nation.Nation_Name + "Has a " + infrastuctureType.ToString() + " of level" + Railway_Level);
-
             break;
         }
 
-        
     }
 
+    //Sam addition: getters + setters for better memory management, should make your vars e.g. public in varName {get; private set;} to avoid memory issues
     public float GetPopulation()
     {
         float population = Population;
 
         return population;
+    }
+
+    public int GetAvailableWoodland()
+    {
+        int _availableWoodland = Avaliable_Woodland;
+
+        return Avaliable_Woodland;
     }
 
 }

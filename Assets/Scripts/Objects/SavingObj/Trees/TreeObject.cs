@@ -60,7 +60,7 @@ public class TreeObject : SaveableObject
     public override void Load(string[] values)
     {
         //Getting data from saved object in list, first variable is index 4 of values array, if another varaible is added it would be index 5 and so on
-        timeToGrow = int.Parse(values[4]);
+        timeToGrow = float.Parse(values[4]);
         base.Load(values);
     }
 }
