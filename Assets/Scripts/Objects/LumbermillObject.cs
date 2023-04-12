@@ -9,6 +9,8 @@ public class LumbermillObject : SaveableObject
     public int pulverisedWoodProductionRate;
     public int woodCapacityKg;
 
+    public int level {get; private set;}
+
     // Update is called once per frame
     void RemoveObject()
     {
@@ -19,14 +21,14 @@ public class LumbermillObject : SaveableObject
     public override void Save(int id)
     {
         //Set savestats of this object to be serialized, note if adding another variable add + "_" + newVar.ToString()
-        saveStats = pulverisedWoodProductionRate.ToString();
+        saveStats = GetComponent<InfrastructuerUpgrade>().level.ToString();
         base.Save(id);
     }
 
     public override void Load(string[] values)
     {
         //Getting data from saved object in list, first variable is index 4 of values array, if another varaible is added it would be index 5 and so on
-        pulverisedWoodProductionRate = int.Parse(values[4]);
+        level = int.Parse(values[4]);
         base.Load(values);
     }
 }

@@ -8,18 +8,35 @@ public class InfrastructuerUpgrade : MonoBehaviour
     public InfrastructureType infrastuctureType;
     [SerializeField] private int upgradeCost;
     [SerializeField] private GameObject upgadeVFX;
+
+    public int level {get; private set;} = 0; //used to cap infra upgrades
     
+    private void Start()
+    {
+       InitLevel();
+    }
 
     public void UpgradeInfrastructure()
     {
         //Check if enough money
         if(CanUpgrade(upgradeCost))
         {
-           Player.instance.RemoveAmountFromPlayerWealth(upgradeCost);
-           gameObject.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().UpgradeInfrastructure(infrastuctureType);
-           Instantiate(upgadeVFX, gameObject.transform.position, upgadeVFX.transform.rotation);
-           AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.infrastructureUpgraded, null);
-           StartCoroutine(WaitVFXDuration());
+           if(level < 3)
+           {
+               Player.instance.RemoveAmountFromPlayerWealth(upgradeCost);
+               gameObject.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().UpgradeInfrastructure(infrastuctureType);
+               Instantiate(upgadeVFX, gameObject.transform.position, upgadeVFX.transform.rotation);
+               AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.infrastructureUpgraded, null);
+               StartCoroutine(WaitVFXDuration());
+               level++; //Increment level
+           }
+
+           else
+           {
+               //Cant upgrade as max level
+               UIHoverManager.OnMouseHover("Can't upgrade! Infrastructure at maxiumum upgrade level", Input.mousePosition);
+           }
+
         }
     }
 
@@ -34,6 +51,24 @@ public class InfrastructuerUpgrade : MonoBehaviour
         {
             UIHoverManager.instance.ShowTip("Insufficient Funds", Input.mousePosition);
             return false;
+        }
+    }
+
+    public void InitLevel()
+    {
+        switch(infrastuctureType)
+        {
+            case InfrastructureType.Dock:
+            level = GetComponent<DockObject>().level;
+            break;
+
+            case InfrastructureType.TrainStation:
+            level = GetComponent<TrainStationObject>().level;
+            break;
+
+            case InfrastructureType.Lumbermill:
+            level = GetComponent<LumbermillObject>().level;
+            break;
         }
     }
 

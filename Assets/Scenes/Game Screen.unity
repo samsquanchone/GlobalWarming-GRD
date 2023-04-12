@@ -810,13 +810,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2022966309}
+  - {fileID: 249210845}
   m_Father: {fileID: 210156441}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -136.18237, y: 157.53824}
-  m_SizeDelta: {x: 259.4682, y: 297.0605}
+  m_AnchoredPosition: {x: -165.49072, y: 184.33453}
+  m_SizeDelta: {x: 318.085, y: 350.653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46965421
 MonoBehaviour:
@@ -1245,8 +1246,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 4: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3511,6 +3512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215981869}
   - component: {fileID: 215981870}
+  - component: {fileID: 215981871}
   m_Layer: 5
   m_Name: PykereteValueListToggleBtn
   m_TagString: Untagged
@@ -3561,6 +3563,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &215981871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215981868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show global pykrete production data
 --- !u!1 &224118248
 GameObject:
   m_ObjectHideFlags: 0
@@ -4017,7 +4032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7254902}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4176,6 +4191,127 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246056140}
+  m_CullTransparentMesh: 1
+--- !u!1 &249210844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 249210845}
+  - component: {fileID: 249210848}
+  - component: {fileID: 249210847}
+  - component: {fileID: 249210846}
+  m_Layer: 0
+  m_Name: CloseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &249210845
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249210844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 46965420}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015258789, y: 158.66}
+  m_SizeDelta: {x: 42.995, y: 33.327}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!114 &249210846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249210844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 249210847}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &249210847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249210844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9aa4348290784b2468144a97eb15d8d7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &249210848
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249210844}
   m_CullTransparentMesh: 1
 --- !u!1 &249737090
 GameObject:
@@ -4367,6 +4503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 254568754}
   - component: {fileID: 254568755}
+  - component: {fileID: 254568756}
   m_Layer: 5
   m_Name: BarChartButton
   m_TagString: Untagged
@@ -4417,6 +4554,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &254568756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254568753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show bar chart
 --- !u!1 &260174825
 GameObject:
   m_ObjectHideFlags: 0
@@ -4427,6 +4577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260174826}
   - component: {fileID: 260174827}
+  - component: {fileID: 260174828}
   m_Layer: 5
   m_Name: LineGraphButton
   m_TagString: Untagged
@@ -4477,6 +4628,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &260174828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260174825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show line chart
 --- !u!1 &265161335
 GameObject:
   m_ObjectHideFlags: 0
@@ -4845,7 +5009,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.96987, y: 46.01373}
+  m_AnchoredPosition: {x: 0.96987, y: 42.1}
   m_SizeDelta: {x: 227.74, y: 29.4755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284603185
@@ -4870,8 +5034,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 1:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5455,17 +5619,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Objet Name:'
+  m_text: 'Object Name:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292129107
+  m_fontColor: {r: 0.32424346, g: 0.6948838, b: 0.8301887, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7865,7 +8029,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0.00012207031, y: 1.4000244}
-  m_SizeDelta: {x: 297.09, y: 100}
+  m_SizeDelta: {x: 390.6627, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &466869723
 MonoBehaviour:
@@ -9719,13 +9883,14 @@ GameObject:
   - component: {fileID: 549143919}
   - component: {fileID: 549143921}
   - component: {fileID: 549143920}
+  - component: {fileID: 549143922}
   m_Layer: 5
   m_Name: ObjectPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &549143919
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9792,6 +9957,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549143918}
   m_CullTransparentMesh: 1
+--- !u!114 &549143922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549143918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e8aacd0c7caf1478ff5515c3064007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 0
 --- !u!1 &554225008
 GameObject:
   m_ObjectHideFlags: 0
@@ -12805,8 +12983,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 3: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14759,8 +14937,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 2: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18074,6 +18252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011115022}
   - component: {fileID: 1011115023}
+  - component: {fileID: 1011115024}
   m_Layer: 5
   m_Name: GlobalCo2ValueListToggleBtn
   m_TagString: Untagged
@@ -18124,6 +18303,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &1011115024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011115021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show global monthly heat increase Data
 --- !u!1 &1030982506
 GameObject:
   m_ObjectHideFlags: 0
@@ -18357,7 +18549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -14.299999, y: 11.800007}
+  m_AnchoredPosition: {x: -25.5, y: 11.800007}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1037074425
@@ -18984,10 +19176,10 @@ RectTransform:
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.002243042, y: 0.000015258789}
-  m_SizeDelta: {x: -0.004486084, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000036239624, y: 0.000030517578}
+  m_SizeDelta: {x: 342, y: 85}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1066453263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21073,8 +21265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 10.000004, y: 9.199997}
-  m_SizeDelta: {x: 280, y: 84.8}
+  m_AnchoredPosition: {x: 27.1, y: 9.199997}
+  m_SizeDelta: {x: 342, y: 84.8}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1189098671
 GameObject:
@@ -22948,10 +23140,10 @@ RectTransform:
   - {fileID: 469897612}
   - {fileID: 1531728092}
   - {fileID: 549143919}
-  - {fileID: 1044335254}
   - {fileID: 466869722}
   - {fileID: 104249608}
   - {fileID: 849663014}
+  - {fileID: 1044335254}
   m_Father: {fileID: 1902584208}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23577,7 +23769,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.099999, y: 36.1434}
-  m_SizeDelta: {x: 280.1, y: 1}
+  m_SizeDelta: {x: 340, y: 1}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1313447151
 MonoBehaviour:
@@ -24419,7 +24611,7 @@ RectTransform:
   m_GameObject: {fileID: 1379990896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.89999, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1421969368}
@@ -24428,7 +24620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 142.6, y: 51.5}
+  m_AnchoredPosition: {x: 184.8, y: 38.1}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1393637841
@@ -24909,6 +25101,7 @@ MonoBehaviour:
   Lumbermill_Level_UI: {fileID: 1999036227}
   Harbour_Level_UI: {fileID: 746532244}
   Tera_Factory_Level_UI: {fileID: 554225010}
+  closePopUpButton: {fileID: 249210846}
   Tile_Pressed: 1
 --- !u!1 &1401751901
 GameObject:
@@ -25764,8 +25957,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 4: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28156,6 +28349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575426310}
   - component: {fileID: 1575426311}
+  - component: {fileID: 1575426312}
   m_Layer: 5
   m_Name: DecreaseVisibleAmountBtn
   m_TagString: Untagged
@@ -28206,6 +28400,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &1575426312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575426309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Decrease amount of visible graph elements
 --- !u!1 &1577104057
 GameObject:
   m_ObjectHideFlags: 0
@@ -30847,6 +31054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749726369}
   - component: {fileID: 1749726370}
+  - component: {fileID: 1749726371}
   m_Layer: 5
   m_Name: TreesPlantedValueListToggleBtn
   m_TagString: Untagged
@@ -30897,6 +31105,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &1749726371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749726368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show global tree planting data
 --- !u!1 &1763768157
 GameObject:
   m_ObjectHideFlags: 0
@@ -30937,8 +31158,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 1:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31119,6 +31340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1765333930}
   - component: {fileID: 1765333931}
+  - component: {fileID: 1765333932}
   m_Layer: 5
   m_Name: TimberValueListToggleBtn
   m_TagString: Untagged
@@ -31169,6 +31391,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &1765333932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765333929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show global timber data
 --- !u!1 &1767149731
 GameObject:
   m_ObjectHideFlags: 0
@@ -31456,6 +31691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778746368}
   - component: {fileID: 1778746369}
+  - component: {fileID: 1778746370}
   m_Layer: 5
   m_Name: MoneyValueListToggleBtn
   m_TagString: Untagged
@@ -31506,6 +31742,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &1778746370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778746367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show global GDP data
 --- !u!1 &1778909924
 GameObject:
   m_ObjectHideFlags: 0
@@ -32264,8 +32513,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 3: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -33155,8 +33404,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 2: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -36221,6 +36470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1984313451}
   - component: {fileID: 1984313452}
+  - component: {fileID: 1984313453}
   m_Layer: 5
   m_Name: PopulationValueListToggleBtn
   m_TagString: Untagged
@@ -36271,6 +36521,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &1984313453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984313450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show global population data
 --- !u!1 &1985794577
 GameObject:
   m_ObjectHideFlags: 0
@@ -37980,8 +38243,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tera Factory
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -39122,6 +39385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2139161787}
   - component: {fileID: 2139161788}
+  - component: {fileID: 2139161789}
   m_Layer: 5
   m_Name: IncreaseVisibleAmountBtn
   m_TagString: Untagged
@@ -39172,6 +39436,19 @@ MonoBehaviour:
   hoverBehaviour_Move: 0
   hoverBehaviour_Move_Amount: {x: 0, y: 0}
   triggerMouseOutFuncOnClick: 0
+--- !u!114 &2139161789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139161786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Increase amount of visible graph elements
 --- !u!4 &2813128830522986
 Transform:
   m_ObjectHideFlags: 0
@@ -49984,7 +50261,12 @@ PrefabInstance:
     - target: {fileID: 3941055916623965778, guid: 3531a3253b07b5541bd0445208e0940e,
         type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: NavCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 3941055916623965780, guid: 3531a3253b07b5541bd0445208e0940e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3941055916623965782, guid: 3531a3253b07b5541bd0445208e0940e,
         type: 3}

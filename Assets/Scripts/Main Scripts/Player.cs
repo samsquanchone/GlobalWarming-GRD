@@ -60,6 +60,16 @@ public class Player : MonoBehaviour
     [SerializeField] TMP_Text Ship_Count_UI;
     [SerializeField] Button Purcase_Ship_UI_Button;
     [SerializeField] Button Purcase_Train_UI_Button;
+
+    #region On Month Pass Calculations
+     //Calculation Values
+    
+    public int Logistics_Capacity_in_tons_from_Ships {get; private set;} //Sam edit: adding getter setter modifiers to access values
+    public int Logistics_Capacity_in_tons_from_Trains {get; private set;} //Sam edit: adding getter setter modifiers to access values
+    private int Ships_Logistics_Coverage; //Percentage slice from the 100% logistics coverage for ships.
+    private int Trains_Logistics_Coverage; //Percentage slice from the 100% logistics coverage for trains.
+    public int Total_Logistics_Capacity {get; private set;} //Total monthly shipment capacity in tons.
+    private int Logistics_Coverage_For_Timber_Shipment; //Which percentage of timber produced can be send monthly to antratica.
     #endregion
 
     private void Start()
@@ -102,15 +112,8 @@ public class Player : MonoBehaviour
         Purcase_Ship_UI_Button.onClick.AddListener(Purchase_Ship);
         Purcase_Train_UI_Button.onClick.AddListener(Purchase_Train);
     }
-    #region On Month Pass Calculations
-    //Calculation Values
-    [Header("Generated Values")]
-    private int Logistics_Capacity_in_tons_from_Ships;
-    private int Logistics_Capacity_in_tons_from_Trains;
-    private int Ships_Logistics_Coverage; //Percentage slice from the 100% logistics coverage for ships.
-    private int Trains_Logistics_Coverage; //Percentage slice from the 100% logistics coverage for trains.
-    private int Total_Logistics_Capacity; //Total monthly shipment capacity in tons.
-    private int Logistics_Coverage_For_Timber_Shipment; //Which percentage of timber produced can be send monthly to antratica.
+    
+   
 
     public void Calculate_On_Month_Pass()
     {

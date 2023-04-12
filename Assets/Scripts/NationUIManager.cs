@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NationUIManager : MonoBehaviour
 {
     
     public static NationUIManager instance => m_instance;
     private static NationUIManager m_instance;
+
+    //Sam edit: why are these all public? Remember set things to private unless you have to! The serializeField keyword shows private members in inspector, so why use on public memebers?
     [SerializeField] public Canvas Nation_UI;
 
     [SerializeField] public TMP_Text Nation_Name_UI;
@@ -24,6 +27,8 @@ public class NationUIManager : MonoBehaviour
     [SerializeField] public TMP_Text Harbour_Level_UI;
     [SerializeField] public TMP_Text Tera_Factory_Level_UI;
 
+    [SerializeField] private Button closePopUpButton;
+
     public bool Tile_Pressed = true;
     Nation Last_Nation_Pressed;
     private void Start()
@@ -32,20 +37,16 @@ public class NationUIManager : MonoBehaviour
         Nation_UI.renderMode = RenderMode.WorldSpace;
 
         Date_and_Time_System.instance.Month_Pass_Event.AddListener(() => Show_Nation_UI(Last_Nation_Pressed));
+        closePopUpButton.onClick.AddListener(CloseNationUI);
     }
 
-    private void Update()
+    private void CloseNationUI()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Nation_UI.renderMode = RenderMode.WorldSpace;
-            Tile_Pressed = false;
-        }
-
+        Nation_UI.renderMode = RenderMode.WorldSpace;
+        Tile_Pressed = false;
     }
 
-
-
+    
     public void Show_Nation_UI(Nation nationData)
     {
         if (Tile_Pressed)

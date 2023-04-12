@@ -100,23 +100,28 @@ public class UIManager : MonoBehaviour
         switch(objectType)
         {
             case ObjectType.Lumbermill:
+            objectPanel.name = "Infrastructure";
             OpenInfrastructurePanel(objectToDisplay, 1);
             break;
 
             case ObjectType.Factory:
+            objectPanel.name = "Infrastructure";
             OpenPykretePanelFactoryPanel(objectToDisplay);
             break;
 
             case ObjectType.Dock:
+            objectPanel.name = "Infrastructure";
             OpenInfrastructurePanel(objectToDisplay, 2);
             break;
 
             case ObjectType.TrainStation:
+            objectPanel.name = "Infrastructure";
             OpenInfrastructurePanel(objectToDisplay, 3);
             break;
             
             //Is a tree
             default:
+            objectPanel.name = "Tree";
             OpenTreePanel(objectToDisplay);
             break;
 
@@ -138,14 +143,18 @@ public class UIManager : MonoBehaviour
             
         else
         {
-            objectData2.text = "Time until fully grown: " + gameObject.GetComponent<TreeGrowth>().GetGrowthTimeRemaining();
+            objectData2.text = "Time until fully grown: " + gameObject.GetComponent<TreeGrowth>().GetGrowthTimeRemaining() + " Months";
             objectActionButton.gameObject.SetActive(false);
         }
 
            
-        // objectData3.text = "Current growth conditions (Temperature): " + objectToDisplay.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().Average_Heat_Level;
-        objectData4.text = "Expected yield: " + gameObject.GetComponent<TreeObject>().m_yield;
+        
+        objectData3.text = "Expected yield: " + gameObject.GetComponent<TreeObject>().m_yield + " Hectares";
+
+        objectData4.text = "Current growth Temperature: " + gameObject.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().Average_Heat_Level;
         buttonText.text = "Harvest";
+
+        
 
         objectPanel.SetActive(true);
 
@@ -156,30 +165,33 @@ public class UIManager : MonoBehaviour
     {
         objectImage.sprite = gameObject.GetComponent<Image>().sprite;
 
+        Tile tile = gameObject.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>(); //Get reference to tile script, get ref off a script on object that nation placed is assigned
+        int level = gameObject.GetComponent<InfrastructuerUpgrade>().level; //Get upgrade level of infrastructure
+
         switch(index)
         {
             case 1:
             objectName.text = "Lumber Mill";
-            objectData2.text = "Processed wood stockpile: " + "Tons";
-            objectData3.text = "Production rate: " + "Tons per year";
-            objectData4.text = "Capacity: " + "Tons";
+            objectData2.text = "Processed wood stockpile: " + tile.GetAvailableWoodland() + " Tons";
+            objectData3.text = "Upgrade level: Level " + level;
+            objectData4.text = "";
             buttonText.text = "Upgrade Lumbemill";
             break;
 
             case 2:
             objectName.text = "Dock";
-            objectData2.text = "Processed wood stockpile: " + "Tons";
-            objectData3.text = "Production rate: " + "Tons per year";
-            objectData4.text = "Capacity: " + "Tons";
+            objectData2.text = "Processed wood stockpile: " + tile.GetAvailableWoodland() + "Tons";
+            objectData3.text = "Upgrade level: Level " + level;
+            objectData4.text = "Capacity: " + Player.instance.Logistics_Capacity_in_tons_from_Ships + " Tons";
             buttonText.text = "Upgrade Transport";
 
             break;
 
             case 3:
             objectName.text = "Train Station";
-            objectData2.text = "Processed wood stockpile: " + "Tons";
-            objectData3.text = "Production rate: " + "Tons per year";
-            objectData4.text = "Capacity: " + "Tons";
+            objectData2.text = "Processed wood stockpile: " + tile.GetAvailableWoodland() + " Tons";
+            objectData3.text = "Upgrade level: Level " + level;
+            objectData4.text = "Capacity: " + Player.instance.Logistics_Capacity_in_tons_from_Trains + "Tons";
             buttonText.text = "Upgrade Transport";
 
             break;
@@ -210,6 +222,7 @@ public class UIManager : MonoBehaviour
         {
             
             objectInspected.GetComponent<InfrastructuerUpgrade>().UpgradeInfrastructure();
+            DisableObjectUI();
         }
 
        
@@ -238,8 +251,8 @@ public class UIManager : MonoBehaviour
     {
         pykreteFactoryData1.text = "Placed in: Antarctica";
         pykreteFactoryData2.text = "Processed wood stockpile: " + Player.instance.GetPkyreteStockPile() + " Giga Tons";
-        pykreteFactoryData3.text = "Production rate: " + "Tons per year";
-        pykreteFactoryData4.text = "Capacity: " + "Tons";
+        pykreteFactoryData3.text = "Maximum capacity" + Player.instance.Total_Logistics_Capacity + "Tons";
+        pykreteFactoryData4.text = "";
         
         pykreteFactoryPanel.SetActive(true);
     }
