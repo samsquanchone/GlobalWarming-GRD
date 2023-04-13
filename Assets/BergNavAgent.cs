@@ -12,16 +12,10 @@ public class BergNavAgent : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("G");
+        
         offSet = NavMeshManager.instance.GetBergOffset(); //Increase berg offset
         navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         navMeshAgent.stoppingDistance = offSet; //Get saved stopping distance
-
-
-        
-       
-        
-       
     }
 
     // Update is called once per frame

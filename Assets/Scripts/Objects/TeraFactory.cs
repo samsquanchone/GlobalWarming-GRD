@@ -20,42 +20,49 @@ public class TeraFactory : MonoBehaviour
     private NavMeshAgent navMeshAgent;
     [SerializeField] private float offSet;
     int targetLocationIndex = 0;
-
+    
+    float spawnCooldown = 0.5f;
+    bool canSpawn = false;
 
 
 
     
     public void ProducePykreteBerg(int bergSize)
     {
-
-       switch(bergSize)
+       if(canSpawn)
        {
+            switch(bergSize)
+            {
+            
+                case 0:
+                //Spawn small berg. Reduce global warming by agreed small berg amoun
+                if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025);}
+                break;
 
-       case 0:
-       //Spawn small berg. Reduce global warming by agreed small berg amoun
-       if(CanBuildBerg(smallBergPykretePrice)){Debug.Log("Spawning");Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025);}
-       break;
+                case 1:
+                if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, spawnPoint.position, bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005);}
+                break;
 
-       case 1:
-       if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, new Vector3(this.gameObject.transform.position.x + offSet, this.gameObject.transform.position.y, this.gameObject.transform.position.z), bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005);}
-       break;
-
-       case 3:
-       if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, new Vector3(this.gameObject.transform.position.x + offSet, this.gameObject.transform.position.y, this.gameObject.transform.position.z), bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001);}
-       break;
-       
-      /*
-       navMeshAgent = bergPrefab.GetComponent<NavMeshAgent>();
-       
-       //Get a random inedx from the array containing different targets for the bergs to travel to 
-       targetLocationIndex = Random.Range(0, NavMeshManager.instance.bergSpawnPoints.Length);
-
-       Debug.Log("SpawnIndex: " + targetLocationIndex);
-
-       navMeshAgent.destination = NavMeshManager.instance.bergSpawnPoints[targetLocationIndex].position;
-       */
+                case 3:
+                if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001);}
+                break;
+            }
+            canSpawn = false;
        }
+    }
 
+    private void Update()
+    {
+        if(!canSpawn)
+        {
+            spawnCooldown -= Time.deltaTime;
+
+            if(spawnCooldown <= 0)
+            {
+                canSpawn = true;
+                spawnCooldown = 0.5f;
+            }
+        }
     }
 
 

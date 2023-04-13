@@ -175,8 +175,8 @@ namespace RtsCam
         {
             if (!useFixedUpdate)
             {
-                Debug.Log("CamPosz" + m_Camera.transform.position.z);
-                   CameraUpdate();
+                
+                CameraUpdate();
                 if(m_Camera.transform.position.z > -40f) //Sam edition, no Z clamping in this script, so added this
                 {
                     m_Camera.transform.position = m_Camera.transform.position + new Vector3(0, 0, -40f);
@@ -188,7 +188,7 @@ namespace RtsCam
         {
             if (useFixedUpdate)
             { 
-                 Debug.Log("CamPosz" + m_Transform.position.z);
+                 
                 CameraUpdate(); 
 
                 if(m_Camera.transform.position.z > -40f) //Sam edition, no Z clamping in this script, so added this
