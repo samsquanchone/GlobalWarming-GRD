@@ -9,8 +9,10 @@ public class NavMeshManager : MonoBehaviour
     
     public static NavMeshManager instance { get; private set; }
 
-
+    public float bergOffset = 0; //Used to increment berg stopping distance
+    float increment = 0.5f;
     public Transform[] bergSpawnPoints;
+
 
     private Transform destination;
     // Start is called before the first frame update
@@ -29,17 +31,19 @@ public class NavMeshManager : MonoBehaviour
         }
     }
 
-    public void SetDestination(Transform transform)
+    public void IncreaseBergOffset()
     {
-        destination = transform;
+        bergOffset += increment;
     }
 
-    public Transform GetDestination()
+    public float GetBergOffset()
     {
+        float _offset = bergOffset;
 
-        return destination;
-
+        return _offset;
     }
+
+    
 
 
 }

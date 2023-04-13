@@ -12,11 +12,11 @@ public class Date_and_Time_System : MonoBehaviour
     private static Date_and_Time_System m_instance;
 
     [Header("Time Data")]
-    [SerializeField] public Time_Data TimeData;
+     public Time_Data TimeData;
     [Header("Starting Date")]
-    [SerializeField] public TMP_Text Date_Text;
-    [SerializeField] public int Year = 2023;
-    [SerializeField] public int Month = 1;
+     public TMP_Text Date_Text;
+     public int Year = 2023;
+     public int Month = 1;
 
     [NonSerialized] public float Unchecked_Game_Timer = 0.0f; //Total time spend in the game.
     //Game time in secounds, first of his name, protector of the time and time networks. All calculations are made according to this timeframe.
@@ -26,46 +26,65 @@ public class Date_and_Time_System : MonoBehaviour
     [NonSerialized] private float _Old_Secounds = 0f;
 
     //Time management -> Is changed by the buttons: Stop, Normal Speed, Fast Speed
-    [SerializeField] public bool Stop_Time = false;
-    [SerializeField] public bool Normal_Time_Speed = true;
-    [SerializeField] public bool Fast_Time_Speed = false;
+    public bool Stop_Time = false;
+    public bool Normal_Time_Speed = true;
+    public bool Fast_Time_Speed = false;
 
     [Header("Button Allocations for time management")]
-    [SerializeField] public Button Stop_BUTTON;
-    [SerializeField] public Button Normal_Speed_BUTTON;
-    [SerializeField] public Button Fast_Speed_BUTTON;
+    public Button Stop_BUTTON;
+    public Button Normal_Speed_BUTTON;
+    public Button Fast_Speed_BUTTON;
 
     [Header("Stopped Indication Canvas")]
-    [SerializeField] public Canvas Stop_Indication_Canvas;
+    public Canvas Stop_Indication_Canvas;
 
     bool firstLoad = false; //Sam addition: pause time audio triggering on start, quick implementation to solve issue
 
-    public void Save()
+    public void Save() //Sam: part of my saving overhaul
     {
-        this.TimeData.Year = this.Year;
-        this.TimeData.Month = this.Month;
+        SaveTimeData timeData = new SaveTimeData();
+        timeData.year = this.Year;
+        timeData.month = this.Month;
+
+        JSONManager.SaveTimeJSON(timeData, "TimeData");
     }
     public void Load()
     {
-        this.Year = TimeData.Year;
-        this.Month = TimeData.Month;
+        SaveTimeData timeData = JSONManager.LoadTimeData("TimeData");
+        this.Year = timeData.year;
+        this.Month = timeData.month;
     }
     void Awake()
     {
        m_instance = this;
+
+       //Sam: Checking with my static class if new game or not
+        if(!MenuData.GetGameType())
+        {
+            this.Year = TimeData.Year;
+            this.Month = TimeData.Month;
+            this.Date_Text.text =  Year.ToString();
+        }
+
+        else
+        {
+            //Sam: Default start vals
+            this.Year = 2023;
+            this.Month = 1;
+            this.Date_Text.text =  "January " + Year.ToString();
+            
+        }
     }
 
     void Start()
     {
+        
         
         //Button Listeners
         Stop_BUTTON.onClick.AddListener(Stop_Speed);
         Normal_Speed_BUTTON.onClick.AddListener(Normal_Speed);
         Fast_Speed_BUTTON.onClick.AddListener(Fast_Speed);
 
-        //
-        this.Year = TimeData.Year;
-        this.Month = TimeData.Month;
 
         //Start game with a stopped time.
         Stop_Speed();
@@ -106,7 +125,9 @@ public class Date_and_Time_System : MonoBehaviour
 
         //Debug for cheking the time passed.
         //Debug.Log("Secounds Passed: " + Secounds);
+        
 
+        //Sam: this should really be in player input, with check is playing to avoid having input stuff in a non input script.....
         //If space button pressed, stop time.
         if (Input.GetKeyDown("space"))
         {
@@ -184,7 +205,7 @@ public class Date_and_Time_System : MonoBehaviour
         if (Month > 12) {TimeManager.instance.YearPassed(); Month = 1; /*Increase Year */ Year++; }
         
 
-
+        
         switch (Month)
         {
             case 1:
@@ -239,4 +260,11 @@ public class Date_and_Time_System : MonoBehaviour
 
 
     }
+}
+
+[System.Serializable]
+public class SaveTimeData
+{
+    public int year;
+    public int month;
 }

@@ -95,27 +95,27 @@ public class GraphDataManager : MonoBehaviour
     {
         SaveGraphData pykreteValues = new SaveGraphData();
         pykreteValues.values = pykreteProducedValueList;
-        JSONManager.SaveJSON(pykreteValues, "PykreteValues");
+        JSONManager.SaveGraphJSON(pykreteValues, "PykreteValues");
 
         SaveGraphData moneyValues = new SaveGraphData();
         moneyValues.values = moneyValueList;
-        JSONManager.SaveJSON(moneyValues, "MoneyValues");
+        JSONManager.SaveGraphJSON(moneyValues, "MoneyValues");
 
         SaveGraphData co2Values = new SaveGraphData();
         co2Values.values = co2ValueList;
-        JSONManager.SaveJSON(co2Values, "Co2Values");
+        JSONManager.SaveGraphJSON(co2Values, "Co2Values");
 
         SaveGraphData populationValues = new SaveGraphData();
         populationValues.values = populationValueList;
-        JSONManager.SaveJSON(populationValues, "PopulationValues");
+        JSONManager.SaveGraphJSON(populationValues, "PopulationValues");
 
         SaveGraphData timberValues = new SaveGraphData();
         timberValues.values = timberValueList;
-        JSONManager.SaveJSON(timberValues, "TimberValues");
+        JSONManager.SaveGraphJSON(timberValues, "TimberValues");
 
         SaveGraphData treesPlantedValues = new SaveGraphData();
         treesPlantedValues.values = treesPlantedValueList;
-        JSONManager.SaveJSON(treesPlantedValues, "TreesPlantedValues");
+        JSONManager.SaveGraphJSON(treesPlantedValues, "TreesPlantedValues");
 
 
     }
@@ -131,27 +131,27 @@ public class GraphDataManager : MonoBehaviour
         treesPlantedValueList = new List<float>();
 
         //Populate lists
-        SaveGraphData pykreteValues = JSONManager.Load("PykreteValues");
+        SaveGraphData pykreteValues = JSONManager.LoadGraphData("PykreteValues");
         pykreteProducedValueList = pykreteValues.values;
 
         //Populate lists
-        SaveGraphData moneyValues = JSONManager.Load("MoneyValues");
+        SaveGraphData moneyValues = JSONManager.LoadGraphData("MoneyValues");
         moneyValueList = moneyValues.values;
 
         //Populate lists
-        SaveGraphData co2Values = JSONManager.Load("Co2Values");
+        SaveGraphData co2Values = JSONManager.LoadGraphData("Co2Values");
         co2ValueList = co2Values.values;
 
         //Populate lists
-        SaveGraphData populationValues = JSONManager.Load("PopulationValues");
+        SaveGraphData populationValues = JSONManager.LoadGraphData("PopulationValues");
         populationValueList = populationValues.values;
 
         //Populate lists
-        SaveGraphData timberValues = JSONManager.Load("TimberValues");
+        SaveGraphData timberValues = JSONManager.LoadGraphData("TimberValues");
         timberValueList = timberValues.values;
 
          //Populate lists
-        SaveGraphData treesPlantedValues = JSONManager.Load("TreesPlantedValues");
+        SaveGraphData treesPlantedValues = JSONManager.LoadGraphData("TreesPlantedValues");
         treesPlantedValueList = treesPlantedValues.values;
 
     }

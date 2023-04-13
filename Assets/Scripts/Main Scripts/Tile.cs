@@ -17,17 +17,17 @@ public class Tile : MonoBehaviour
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Header("DEBUG - TAKE on New Game")]
-    [SerializeField] public string Territory_Name;
-    [SerializeField] public int Avaliable_Woodland = 0;
-    [SerializeField] public int Climate_Support;
-    [SerializeField] public float Average_Heat_Level;
-    [SerializeField] public float Population;
-    [SerializeField] public bool Tera_Factory_Avaliable;
-    [SerializeField] public bool Harbor_Avaliable;
-    [SerializeField] public int Lumbermill_Level = 0;
-    [SerializeField] public int Tera_Factory_Level = 0;
-    [SerializeField] public int Harbour_Level = 0;
-    [SerializeField] public int Railway_Level = 0;
+    public string Territory_Name;
+    public int Avaliable_Woodland = 0;
+    public int Climate_Support;
+    public float Average_Heat_Level;
+    public float Population;
+    public bool Tera_Factory_Avaliable;
+    public bool Harbor_Avaliable;
+    public int Lumbermill_Level = 0;
+    public int Tera_Factory_Level = 0;
+    public int Harbour_Level = 0;
+    public int Railway_Level = 0;
 
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -45,54 +45,45 @@ public class Tile : MonoBehaviour
     //Example of getters and setters, any data that could break gameplay should have set to private, however this limits accessability, thus getters and setters coming in handy
     // this example is quick hand getters and setters. Note you won't be able to see values in the inspector like this, unless done in long hand, but it is fully working, and objects being added to these variable counts
 
-    [SerializeField] public int lumbermill_Amount {get; private set;} = 0;
-     [SerializeField] public int dock_Amount {get; private set;} = 0;
-     [SerializeField] public int trainStation_Amount {get; private set;} = 0;
-     [SerializeField] public int pykreteFactory_Amount {get; private set;} = 0;
-     [SerializeField] public int activeTree_Amount {get; private set;} = 0;
+    public int lumbermill_Amount {get; private set;} = 0;
+    public int dock_Amount {get; private set;} = 0;
+    public int trainStation_Amount {get; private set;} = 0;
+    public int pykreteFactory_Amount {get; private set;} = 0;
+    public int activeTree_Amount {get; private set;} = 0;
 
      //Sam: This variable probably should be in nation, not sure, just getting all the stuff you need from objects for you to tie to your functions for game data
     //[SerializeField] public int unprocessedWoodStockpile_Amount {get; private set;} = 0;
 
-   // Player PlayerManager; //Sam edit: again should be used through a static reference not create a instance for every nation or tile, will use singleton static references instead
-    [SerializeField] Button Load_Button;
-    [SerializeField] Button Save_Button;
-    private void Awake()
-    {
-       // Load_Button = GameObject.Find("LoadButton").GetComponent<Button>();
-        //Save_Button = GameObject.Find("SaveButton").GetComponent<Button>();
-
-        //Load_Button.onClick.AddListener(Load);
-        //Save_Button.onClick.AddListener(Save);
-    }
+  
     private void Start()
     {
-        //Pull Tile Data
-        if(Attached_Tiles_Data != null)
+       
+        this.Territory_Name = Attached_Tiles_Data.Territory_Name;
+        
+        if(!MenuData.GetGameType()) //Sam edit: IS A LOAD GAME: instantiate local variables from player data json save file
         {
-            this.Territory_Name = Attached_Tiles_Data.Territory_Name;
-            this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
-            this.Climate_Support = Attached_Tiles_Data.Climate_Support;
-            this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
-            this.Population = Attached_Tiles_Data.Population;
-            this.Tera_Factory_Avaliable = Attached_Tiles_Data.Tera_Factory_Avaliable;
-            this.Harbor_Avaliable = Attached_Tiles_Data.Harbor_Avaliable;
-            this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level = 0;
-            this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
-            this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
-            this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
+            Load();
         }
-  
-        //Occupiant Nation is given at the start of the game by the occupiant nation.
 
-        //Nation UI Connection
-        //NationUIManager = GameObject.Find("(!)Nation UI Manager").GetComponent<NationUIManager>(); //Sam edit: again these should be single scripts not be intantiated for every nations: making both of them singletons
-       //PlayerManager = GameObject.Find("(!)Player Manager").GetComponent<Player>();
+        else
+        {
+           //Sam: is new game use scriptable object values for easy data tweak testing
+           this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
+           this.Climate_Support = Attached_Tiles_Data.Climate_Support;
+           this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
+           this.Population = Attached_Tiles_Data.Population;
+           this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level;
+           this.Tera_Factory_Level = 0;
+           this.Harbour_Level = 0;
+           this.Railway_Level = 0;
+           
+        }
+
 
        //Sam edit: changed to singleton instance reference for better memory management 
         Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
 
-
+ 
         //RANDOMIZED
         //Randomize_Values();
     }
@@ -170,44 +161,33 @@ public class Tile : MonoBehaviour
 
     public void Save()
     {
-        if (Attached_Tiles_Data != null)
-        {
-            this.Attached_Tiles_Data.Territory_Name = Territory_Name;
-            this.Attached_Tiles_Data.Avaliable_Woodland =Avaliable_Woodland;
-            this.Attached_Tiles_Data.Climate_Support = Climate_Support;
-            this.Attached_Tiles_Data.Average_Heat_Level = Average_Heat_Level;
-            this.Attached_Tiles_Data.Population = Population;
-            this.Attached_Tiles_Data.Tera_Factory_Avaliable = Tera_Factory_Avaliable;
-            this.Attached_Tiles_Data.Harbor_Avaliable = Harbor_Avaliable;
-            this.Attached_Tiles_Data.Lumbermill_Level = Lumbermill_Level = 0;
-            this.Attached_Tiles_Data.Tera_Factory_Level = Tera_Factory_Level = 0;
-            this.Attached_Tiles_Data.Harbour_Level = Harbour_Level = 0;
-            this.Attached_Tiles_Data.Railway_Level = Railway_Level = 0;
-        }
+        //Sam: overhaul save system for nation + tile: save local var values into JSON save data
+        SaveTileData tileData = new SaveTileData();
+       
+        tileData.availableWoodland = Avaliable_Woodland;
+        tileData.climateSupport = Climate_Support;
+        tileData.averageHeatLevel = Average_Heat_Level;
+        tileData.population = Population;
+        tileData.harbourLevel = Harbour_Level;
+        tileData.railwayLevel = Railway_Level;
+
+        JSONManager.SaveTileJSON(tileData, gameObject.name);
+        
     }
     public void Load()
     {
-        if (Attached_Tiles_Data != null)
-        {
-            this.Territory_Name = Attached_Tiles_Data.Territory_Name;
-            this.Avaliable_Woodland = Attached_Tiles_Data.Avaliable_Woodland;
-            this.Climate_Support = Attached_Tiles_Data.Climate_Support;
-            this.Average_Heat_Level = Attached_Tiles_Data.Average_Heat_Level;
-            this.Population = Attached_Tiles_Data.Population;
-            this.Tera_Factory_Avaliable = Attached_Tiles_Data.Tera_Factory_Avaliable;
-            this.Harbor_Avaliable = Attached_Tiles_Data.Harbor_Avaliable;
-            this.Lumbermill_Level = Attached_Tiles_Data.Lumbermill_Level = 0;
-            this.Tera_Factory_Level = Attached_Tiles_Data.Tera_Factory_Level = 0;
-            this.Harbour_Level = Attached_Tiles_Data.Harbour_Level = 0;
-            this.Railway_Level = Attached_Tiles_Data.Railway_Level = 0;
-        }
+        //Sam: overhaul save system for nation + tile: load JSON save data into local vars
+        SaveTileData tileData = JSONManager.LoadTileData(gameObject.name);
+        this.Avaliable_Woodland = tileData.availableWoodland;
+        this.Climate_Support = tileData.climateSupport;
+        this.Average_Heat_Level = tileData.averageHeatLevel;
+        this.Population = tileData.population;
+        this.Lumbermill_Level = tileData.lumbermillLevel;
+        this.Harbour_Level = tileData.harbourLevel;
+        this.Railway_Level = tileData.railwayLevel;
     }
+    
 
-
-    //There is already input mouse button down on PlayerInput, best to abstract functionality unrelated to tiles
-    private void Update()
-    {
-    }
 
     private void OnMouseDown()
     {
@@ -298,4 +278,18 @@ public class Tile : MonoBehaviour
         return Avaliable_Woodland;
     }
 
+}
+
+//Sam addition: none of the scriptable object stuff is serializing in build, having to add json. Due to different data types
+// This is a data container as JSON cannot serialize classes that inherit from monoBehavior
+[System.Serializable]
+public class SaveTileData
+{
+    public int availableWoodland;
+    public int climateSupport;
+    public float averageHeatLevel;
+    public float population;
+    public int lumbermillLevel;
+    public int harbourLevel;
+    public int railwayLevel;
 }

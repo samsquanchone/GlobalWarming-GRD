@@ -27,10 +27,10 @@ public class ObjectNationInteraction : MonoBehaviour
             if (gameObject.name == "Dock(Clone)")
             {
                 Debug.Log("dOCK ADDED TO NAV LIST");
-                NavMeshManager.instance.SetDestination(gameObject.transform);
+                
             }
 
-            if(gameObject.tag == "Tree" && other.transform.gameObject.GetComponent<Tile>().Average_Heat_Level > GetComponent<TreeGrowth>().optimumTemperature)
+            if(gameObject.tag == "Tree" && other.transform.gameObject.GetComponent<Tile>().Average_Heat_Level > GetComponent<TreeGrowth>().optimumTemperature &&  GetComponent<TreeGrowth>().monthsRemaining != GetComponent<TreeObject>().m_timeToGrow)
             {
                  GetComponent<TreeGrowth>().monthsRemaining = GetComponent<TreeGrowth>().monthsRemaining * 1.4f;
             }

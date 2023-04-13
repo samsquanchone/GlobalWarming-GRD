@@ -177,15 +177,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1d3d260db7f52548b3664bc9f94c51c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bergSmallPrefab: {fileID: 613853964975371804, guid: 79876aca0e3e73748ba5af01369f76f3,
+  bergSmallPrefab: {fileID: 3941055916623965778, guid: 3531a3253b07b5541bd0445208e0940e,
     type: 3}
-  bergMediumPrefab: {fileID: 613853964975371804, guid: 79876aca0e3e73748ba5af01369f76f3,
+  bergMediumPrefab: {fileID: 3941055916623965778, guid: 3531a3253b07b5541bd0445208e0940e,
     type: 3}
-  bergLargePrefab: {fileID: 613853964975371804, guid: 79876aca0e3e73748ba5af01369f76f3,
+  bergLargePrefab: {fileID: 3941055916623965778, guid: 3531a3253b07b5541bd0445208e0940e,
     type: 3}
   smallBergPykretePrice: 1000
   mediumBergPykretePrice: 3000
   largeBergPykretePrice: 5000
+  spawnPoint: {fileID: 5167419572721781138, guid: cafe231dc8924b7478a91342b21f5a04,
+    type: 3}
   offSet: 3
 --- !u!208 &-5488588441522344616
 NavMeshObstacle:

@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Player_Data : ScriptableObject
 {
-    #region Currencies, Stockpile and Logistics init
+
     //Currencies
     public int Money            = 100;  //in dollars //in millions
     public int Political_Power  = 10;
@@ -26,5 +26,5 @@ public class Player_Data : ScriptableObject
     //Heat Level Increase
     public float Monthly_Heat_Level_Increase = 0.0012f;
 
-    #endregion
+  
 }

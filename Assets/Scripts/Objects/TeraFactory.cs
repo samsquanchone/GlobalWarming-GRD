@@ -16,10 +16,12 @@ public class TeraFactory : MonoBehaviour
     [SerializeField] private int mediumBergPykretePrice;
     [SerializeField] private int largeBergPykretePrice;
 
-
+    [SerializeField] Transform spawnPoint;
     private NavMeshAgent navMeshAgent;
     [SerializeField] private float offSet;
     int targetLocationIndex = 0;
+
+
 
 
     
@@ -31,8 +33,7 @@ public class TeraFactory : MonoBehaviour
 
        case 0:
        //Spawn small berg. Reduce global warming by agreed small berg amoun
-       if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, new Vector3(this.gameObject.transform.position.x + offSet, this.gameObject.transform.position.y, this.gameObject.transform.position.z), bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025);}
-       
+       if(CanBuildBerg(smallBergPykretePrice)){Debug.Log("Spawning");Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025);}
        break;
 
        case 1:

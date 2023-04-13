@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5022209058733399992}
   - component: {fileID: 1161917816349094560}
   - component: {fileID: 7692024382555726942}
-  - component: {fileID: 3083324504289144806}
+  - component: {fileID: 3106408879718906060}
   m_Layer: 0
   m_Name: Berg - Copy
   m_TagString: Untagged
@@ -77,7 +77,7 @@ NavMeshAgent:
   m_Radius: 0.5
   m_Speed: 10
   m_Acceleration: 8
-  avoidancePriority: 50
+  avoidancePriority: 1
   m_AngularSpeed: 0
   m_StoppingDistance: 70
   m_AutoTraverseOffMeshLink: 1
@@ -87,7 +87,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &3083324504289144806
+--- !u!114 &3106408879718906060
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,10 +96,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 613853964975371804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3ab898cab49e5843b72eed268d183bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f55c7cc9e402634bbfbe982c89bed33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bergSpawnPoints: []
+  boat: {fileID: 4457861677211522050}
+  location: {fileID: 2922304995444498514, guid: b555a289652985945932c151c9b194b7,
+    type: 3}
+  shouldMove: 1
 --- !u!1001 &991970698065948624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -206,6 +209,12 @@ PrefabInstance:
 --- !u!4 &3302532617984923099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2310562058358290955, guid: ec527c86b86d5df4782b42bf36300381,
+    type: 3}
+  m_PrefabInstance: {fileID: 991970698065948624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4457861677211522050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3465996601981680594, guid: ec527c86b86d5df4782b42bf36300381,
     type: 3}
   m_PrefabInstance: {fileID: 991970698065948624}
   m_PrefabAsset: {fileID: 0}
