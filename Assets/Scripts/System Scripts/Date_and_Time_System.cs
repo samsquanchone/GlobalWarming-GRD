@@ -70,7 +70,7 @@ public class Date_and_Time_System : MonoBehaviour
             //Sam: Default start vals
             this.Year = TimeData.Year;
             this.Month = TimeData.Month;
-            this.Date_Text.text =  "/ " + Year.ToString();
+            this.Date_Text.text =  "January " + Year.ToString();
             
         }
     }
