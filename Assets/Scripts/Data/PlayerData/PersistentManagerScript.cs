@@ -46,26 +46,10 @@ public List<SaveableObject> saveableObjects { get; private set; }
          //If load game has been selected from main menu, load saved objects on scene load
          if(!MenuData.GetGameType())
          {  
-            Tile[] tiles = FindObjectsOfType(typeof(Tile)) as Tile[];
-            foreach(var t in tiles)
-            {
-               t.Load();
-            } 
-
-            Nation[] nations = FindObjectsOfType(typeof(Nation)) as Nation[];
-            foreach(var n in nations)
-            {
-               n.Load();
-            } 
-
-            InfrastructuerUpgrade[] upgradeLevels = FindObjectsOfType(typeof(InfrastructuerUpgrade)) as InfrastructuerUpgrade[];
-            foreach(var i in upgradeLevels)
-            {
-                i.InitLevel();
-            }
+           
 
             Load();
-            Date_and_Time_System.instance.Load();
+            
          }
     }
 
@@ -112,6 +96,14 @@ public List<SaveableObject> saveableObjects { get; private set; }
         {
             n.Load();
         } 
+
+        InfrastructuerUpgrade[] upgradeLevels = FindObjectsOfType(typeof(InfrastructuerUpgrade)) as InfrastructuerUpgrade[];
+        foreach(var i in upgradeLevels)
+        {
+            i.InitLevel();
+        }
+
+        Date_and_Time_System.instance.Load();
 
         Player.instance.Load();
         //Used to destroy objects in world when loading, to avoid duplicates

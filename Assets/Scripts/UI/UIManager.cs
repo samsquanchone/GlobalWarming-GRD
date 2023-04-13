@@ -47,7 +47,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TMP_Text pykreteFactoryData4;
     
 
-    
+    int iterator = 0;
 
     //Used to contain pressed object, to execute button actions
     private GameObject objectInspected = null;
@@ -230,6 +230,8 @@ public class UIManager : MonoBehaviour
 
     public void PykreteFactoryActionButtonpressed(int buttonNum)
     {
+        
+        
         switch(buttonNum)
         {
         
@@ -245,6 +247,9 @@ public class UIManager : MonoBehaviour
            objectInspected.GetComponent<TeraFactory>().ProducePykreteBerg(2);
            break;
         }
+       
+        
+       
     }
 
     public void OpenPykretePanelFactoryPanel(GameObject gameObject)

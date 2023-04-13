@@ -35,6 +35,8 @@ public class TreeObject : SaveableObject
 
     public float m_timeToGrow;
 
+    public float initialGrowthTime;
+
     
     private float GetGrowthTimeRemaining()
     {

@@ -90,9 +90,10 @@ public class TimeManager : MonoBehaviour
 
        DataSet dataSetPykerete = DataSet.PYKRETEPRODUCED;
        GraphDataManager.instance.AddValueToDataSet(dataSetPykerete, Player.instance.GetPkyreteStockPile());
-
-
-
+       
+       //Only bit of manual garbage collection in the code base, thought it best to be done each year
+       System.GC.Collect(); 
+       System.GC.WaitForPendingFinalizers(); 
 
     }
 

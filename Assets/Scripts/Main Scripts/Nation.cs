@@ -14,53 +14,70 @@ public class Nation : MonoBehaviour
     [Space]
     [Header("Tiles")]
     //Pull tiles from Tiles -> Tile Data and give it to Nation Data 
-    [SerializeField] public Tile[] Nations_Territories;
+    public Tile[] Nations_Territories;
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Space]
     [Header("DEBUG - GIVE on New Game")]
     //Calculate from tiles and give to nation data at the start of the game
-    [SerializeField] public int Woodland_Count;
-    [SerializeField] public float Starting_Population;
-    [SerializeField] public float Cumilative_Population_From_Territories;
+    public int Woodland_Count;
+    public float Starting_Population;
+    public float Cumilative_Population_From_Territories;
     //Calculate from awareness and give to nation data at the start of the game
-    [SerializeField] public int GDP_Contribution;
+    public int GDP_Contribution;
 
     //Also Tiles
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Header("DEBUG - TAKE on New Game")]
-    [SerializeField] public string Nation_Name;
-    [SerializeField] public Color32 Nation_Colour;
-    [SerializeField] public int GDP;
-    [SerializeField] public float Awareness;
+    public string Nation_Name;
+    public Color32 Nation_Colour;
+    public int GDP;
+    public float Awareness;
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [Header("DEBUG - NEUTRAL on New Game")]
-    [SerializeField] public int National_Pykerete_Production;
-    [SerializeField] public int Lumbermill_Level;
-    [SerializeField] public int Tera_Factory_Level;
-    [SerializeField] public int Harbour_Level;
-    [SerializeField] public int Railway_Level;
+    public int National_Pykerete_Production;
+    public int Lumbermill_Level;
+    public int Tera_Factory_Level;
+    public int Harbour_Level;
+    public int Railway_Level;
 
 
 
-    Button Load_Button;
-    Button Save_Button;
+   
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     ///
     private void Start()
     {
+       
         //Pull Nation Data
         Attached_Nations_Data.Nation_Name = Attached_Nations_Data.name;
         this.Nation_Name = Attached_Nations_Data.Nation_Name; //Sam edit: you have already named the SO's so why not just get the name of SO's and not name them all by hand? up to you
-        
-
         this.Nation_Colour = Attached_Nations_Data.Nation_Colour;
-        this.GDP = Attached_Nations_Data.GDP;
-        this.Awareness = Attached_Nations_Data.Awareness;
-        this.Woodland_Count = Attached_Nations_Data.Woodland_Count;
+        
+        if(!MenuData.GetGameType()) //Sam edit: IS A LOAD GAME: instantiate local variables from player data json save file
+        {
+           Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+           Load();
+        }
 
+        else //Sam: is new game, set values from scriptable objects
+        {
+            Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+
+            
+            this.GDP = Attached_Nations_Data.GDP;
+            this.Awareness = Attached_Nations_Data.Awareness;
+            this.Woodland_Count = Attached_Nations_Data.Woodland_Count;
+          
+            //Calculate Starting Woodland and Give it to Nation Data Holder and Nation
+            Calculate_Starting_Woodland(); // -> Updates this and nation data
+            //Calculate Population and Give it to Nation Data Holder
+            Calculate_Starting_Population(); // -> Updates this and nation data
+            
+           
+        }
         //Give territories its nation
         if(this.Nations_Territories != null)
         {
@@ -70,30 +87,10 @@ public class Nation : MonoBehaviour
             }
         }
 
-        //Calculate Starting Woodland and Give it to Nation Data Holder and Nation
-        Calculate_Starting_Woodland(); // -> Updates this and nation data
-
-
-        //Calculate Population and Give it to Nation Data Holder
-        Calculate_Starting_Population(); // -> Updates this and nation data
-
-        //At the start of the game colour all territories according to the national colours.
+       
+         //At the start of the game colour all territories according to the national colours.
         Colour_All_Teritories_According_to_the_Nation_Colour();
-
-        //Calculate Starting Pops
-        Calculate_Starting_Population();
-
-        Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
-
-        //Sam edit: removed this to utilise my singleton, as saving and loading is handled there
-        //Load_Button = GameObject.Find("(!)LoadButton").GetComponent<Button>();
-       // Save_Button = GameObject.Find("(!)SaveButton").GetComponent<Button>();
-
-        //Load_Button.onClick.AddListener(Load);
-        //Save_Button.onClick.AddListener(Save);
-
-        //RANDOMIZER
-        //Randomize_Values();
+        
 
     }
 
@@ -351,40 +348,59 @@ public class Nation : MonoBehaviour
 
     public void Save()
     {
-        //Save Data
-        this.Attached_Nations_Data.Woodland_Count = this.Woodland_Count;
-        this.Attached_Nations_Data.GDP = this.GDP;
-        this.Attached_Nations_Data.Awareness = this.Awareness;
+        //Sam: save overhaul as SO not serializing in build, save to file the local variables values at save point
+        SaveNationData nationData = new SaveNationData();
+        
+        nationData.woodlandCount = this.Woodland_Count;
+        nationData.gdp = this.GDP;
+        nationData.awareness = this.Awareness;
 
-        this.Attached_Nations_Data.Lumbermill_Level = this.Lumbermill_Level;
-        this.Attached_Nations_Data.Lumbermill_Level = this.Tera_Factory_Level;
-        this.Attached_Nations_Data.Lumbermill_Level = this.Harbour_Level;
-        this.Attached_Nations_Data.Lumbermill_Level = this.Railway_Level;
+        nationData.lumbermillLevel = this.Lumbermill_Level;
+        nationData.teraFactoryLevel = this.Tera_Factory_Level;
+        nationData.harbourLevel = this.Harbour_Level;
+        nationData.railwayLevel = this.Railway_Level;
 
-
-        //Calculate Starting Woodland and Give it to Nation Data Holder and Nation
-        Calculate_Starting_Woodland(); // -> Updates this and nation data
-
-
-        //Calculate Population and Give it to Nation Data Holder
-        Calculate_Starting_Population(); // -> Updates this and nation data
-
-        //At the start of the game colour all territories according to the national colours.
-        Colour_All_Teritories_According_to_the_Nation_Colour();
-
-        //Calculate Starting Pops
-        Calculate_Starting_Population();
+        JSONManager.SaveNationJSON(nationData, gameObject.name); //Save nation data to file and name file the nation name
+       
     }
 
     public void Load()
     {
-        this.Woodland_Count = this.Attached_Nations_Data.Woodland_Count;
-        this.GDP = this.Attached_Nations_Data.GDP;
-        this.Awareness = this.Attached_Nations_Data.Awareness;
+        //Sam: initialise local variables as save data for the nation, will use your Scriptable objects for default values for testing purposes
+        SaveNationData nationData = JSONManager.LoadNationData(gameObject.name);
 
-        this.Lumbermill_Level = this.Attached_Nations_Data.Lumbermill_Level;
-        this.Lumbermill_Level = this.Attached_Nations_Data.Tera_Factory_Level;
-        this.Lumbermill_Level = this.Attached_Nations_Data.Harbour_Level;
-        this.Lumbermill_Level = this.Attached_Nations_Data.Railway_Level;
+        this.Woodland_Count = nationData.woodlandCount;
+        this.GDP = nationData.gdp;
+        this.Awareness = nationData.awareness;
+        this.Lumbermill_Level = nationData.lumbermillLevel;
+        this.Tera_Factory_Level = nationData.teraFactoryLevel;
+        this.Harbour_Level = nationData.harbourLevel;
+        this.Railway_Level = nationData.railwayLevel;
+
+        //Calculate Starting Woodland and Give it to Nation Data Holder and Nation
+        Calculate_Starting_Woodland(); // -> Updates this and nation data
+        //Calculate Population and Give it to Nation Data Holder
+        Calculate_Starting_Population(); // -> Updates this and nation data
+
+      
+            
+      
     }
+}
+
+//Sam addition: none of the scriptable object stuff is serializing in build, having to add json. Due to different data types
+// This is a data container as JSON cannot serialize classes that inherit from monoBehavior
+[System.Serializable]
+public class SaveNationData
+{
+    public int woodlandCount;
+    public int gdp;
+    public float awareness;
+    public int lumbermillLevel;
+    public int teraFactoryLevel;
+    public int railwayLevel;
+    public int harbourLevel;
+   
+
+   
 }

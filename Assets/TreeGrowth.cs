@@ -5,7 +5,7 @@ using UnityEngine;
 public class TreeGrowth : MonoBehaviour
 {
     [SerializeField] public int optimumTemperature;
-    private const float heatPenalty = 1.4f;
+   // private const float heatPenalty = 1.4f;
     [SerializeField]public float monthsRemaining;
     [SerializeField] float initialGrowthTime;
     [SerializeField] private Material readyToHarvestMat;
@@ -35,7 +35,7 @@ public class TreeGrowth : MonoBehaviour
         //Calculate harvest/replant cost: 10% of tree project cost
         harvestCost = (GetComponent<TreeObject>().m_cost * 10) / 100;
         
-        if(monthsRemaining != initialGrowthTime) //Stop from changing scale of objects on load game
+        if(monthsRemaining == GetComponent<TreeObject>().m_timeToGrow) //Stop from changing scale of objects on load game
         {
             //Calculate base scale for tree to then implement 
             growthIncrement = new Vector3(this.gameObject.transform.localScale.x / monthsRemaining, this.gameObject.transform.localScale.y / monthsRemaining, this.gameObject.transform.localScale.z / monthsRemaining);
