@@ -61,17 +61,16 @@ public class Date_and_Time_System : MonoBehaviour
        //Sam: Checking with my static class if new game or not
         if(!MenuData.GetGameType())
         {
-            this.Year = TimeData.Year;
-            this.Month = TimeData.Month;
+            Load();
             this.Date_Text.text =  Year.ToString();
         }
 
         else
         {
             //Sam: Default start vals
-            this.Year = 2023;
-            this.Month = 1;
-            this.Date_Text.text =  "January " + Year.ToString();
+            this.Year = TimeData.Year;
+            this.Month = TimeData.Month;
+            this.Date_Text.text =  "/ " + Year.ToString();
             
         }
     }

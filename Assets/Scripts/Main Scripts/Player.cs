@@ -355,7 +355,7 @@ public class Player : MonoBehaviour
         this.Political_Power = player.politicalPower;
         this.Timber = player.timber;
         this.Pykerete = player.pykrete;
-        this.Ships =  player.ships = Ships;
+        this.Ships =  player.ships;
         this.Trains =  player.trains;
         this.Monthly_Heat_Level_Increase =  player.monthlyHeatLevelIncrease;
         this.Transported_Timber_Waiting_To_Be_Processed =  player.trasportatedTimberWaitingToBeProcessed;

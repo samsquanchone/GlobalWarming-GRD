@@ -62,7 +62,7 @@ public class Tile : MonoBehaviour
         
         if(!MenuData.GetGameType()) //Sam edit: IS A LOAD GAME: instantiate local variables from player data json save file
         {
-            Load();
+           Load();
         }
 
         else
