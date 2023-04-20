@@ -114,11 +114,11 @@ public class Tile : MonoBehaviour
     {
         if(Average_Heat_Level > 19)
         {
-            int roll = Random.Range(0, 11);
+            int roll = Random.Range(0, 90);
             Debug.Log("Fire roll: " + roll);
             if(roll == 10)
             {
-                GetComponent<SpawnFire>().SpawnFireOnMesh();
+               // GetComponent<SpawnFire>().SpawnFireOnMesh();  //Sam: meshes need sorting out before we can use this awesome system >_<
             }
         }
     }
