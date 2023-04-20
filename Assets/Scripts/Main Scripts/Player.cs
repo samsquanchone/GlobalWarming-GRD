@@ -320,11 +320,18 @@ public class Player : MonoBehaviour
 
     private void Check_Win_State()
     {
-        if (Monthly_Heat_Level_Increase < 0)
+        //Sam addition: just wanted to implement win / loss state, feel free to change values.
+        if (Monthly_Heat_Level_Increase <= 0)
         {
             //Win State
+            GameManager.instance.GameWon();
 
 
+        }
+
+        else if (Monthly_Heat_Level_Increase > 0.1)
+        {
+           GameManager.instance.GameLost();
         }
     }
 

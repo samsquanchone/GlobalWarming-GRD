@@ -37,7 +37,9 @@ public class Tile : MonoBehaviour
      
     //[NonSerialized] private NationUIManager NationUIManager; //Sam edit: this is breaking your system, changing it to a singleton. Why make a copy of this for every nation when ui manager can be one script as singleton?
     
-    [SerializeField] private Canvas Nation_Wiew_Canvas;
+    [SerializeField] private Canvas Nation_Wiew_Canvas; 
+
+   
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////  Sam addition, linking object placement to tile, Enis feel free to link to nation / tweak //////////////////
@@ -105,6 +107,20 @@ public class Tile : MonoBehaviour
     {
         Population_Growth_and_Shrink();
         Heat_Levels_Rise_and_Fall();
+        ChanceToSpawnFire();
+    }
+
+    private void ChanceToSpawnFire()
+    {
+        if(Average_Heat_Level > 19)
+        {
+            int roll = Random.Range(0, 11);
+            Debug.Log("Fire roll: " + roll);
+            if(roll == 10)
+            {
+                GetComponent<SpawnFire>().SpawnFireOnMesh();
+            }
+        }
     }
 
     public void Population_Growth_and_Shrink()

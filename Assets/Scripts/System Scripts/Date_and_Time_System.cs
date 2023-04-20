@@ -202,7 +202,7 @@ public class Date_and_Time_System : MonoBehaviour
         Month_Pass_Event.Invoke();
 
         if (Month > 12) {TimeManager.instance.YearPassed(); Month = 1; /*Increase Year */ Year++; }
-        
+        if( Year >= 2100) { GameManager.instance.GameLost();  }
 
         
         switch (Month)

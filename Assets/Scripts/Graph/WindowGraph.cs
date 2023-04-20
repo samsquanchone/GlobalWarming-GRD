@@ -549,7 +549,7 @@ private class BarChartVisual : IGraphVisual
   
         public void CleanUp()
         {
-          Destroy(barGameObject);
+           Destroy(barGameObject);
         }
       }
    }

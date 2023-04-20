@@ -25,8 +25,8 @@ public class BuildingConstruction : MonoBehaviour
         constructionTimer += Time.deltaTime / timeToConstruct;
         
 
-
-
+       //USE CO ROUTINE FOR THIS, MORE EFFICENT
+        
         if (constructionTimer >= 1f)
         {
            

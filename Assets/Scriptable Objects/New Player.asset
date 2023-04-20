@@ -21,4 +21,4 @@ MonoBehaviour:
   Logistics_Coverage: 0
   Trains: 0
   Ships: 0
-  Monthly_Heat_Level_Increase: 0
+  Monthly_Heat_Level_Increase: 0.002

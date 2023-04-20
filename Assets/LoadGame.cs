@@ -9,7 +9,7 @@ public class LoadGame : MonoBehaviour
 {
     [SerializeField] private TMP_Text loadingText;
     [SerializeField] private float delayTime = 5f;
-     AsyncOperation loadingOperation;
+    AsyncOperation loadingOperation;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +17,6 @@ public class LoadGame : MonoBehaviour
        StartCoroutine("loadScene");
         
     }
-
-  
 
     IEnumerator loadScene()
     {

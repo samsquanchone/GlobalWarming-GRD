@@ -13,7 +13,7 @@ public class PersistentManagerScript : MonoBehaviour
 
 
 
-public List<SaveableObject> saveableObjects { get; private set; }
+    public List<SaveableObject> saveableObjects { get; private set; }
 
 
     private void Awake()
