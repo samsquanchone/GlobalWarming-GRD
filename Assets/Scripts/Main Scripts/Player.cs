@@ -124,7 +124,7 @@ public class Player : MonoBehaviour
 
         //Logistics
         Calculate_All_Logistics();
-        Tranport_Pykerete_To_Antratica();
+        Tranport_Timber_To_Antratica();
         Produce_Pykerete();
 
         //Check Win State
@@ -187,8 +187,8 @@ public class Player : MonoBehaviour
 
     public void Calculate_All_Logistics()
     {
-        Total_Harbour_Levels = 0;
-        Total_Railway_Levels = 0;
+        Total_Harbour_Levels = 1;
+        Total_Railway_Levels = 1;
 
         //Total Buildings in the Chain
         for (int i = 0; i < All_Nations.Length; i++)
@@ -198,10 +198,10 @@ public class Player : MonoBehaviour
         }
 
         //Vehicle and Building Contribution Values
-        int Logistics_Increase_per_Train = 500; //in tons
-        int Logistics_Increase_per_Ship = 10000;
-        float Logistics_Multiplayer_for_Ship_per_Harbour = 1.005f; // 0.5%
-        float Logistics_Multiplayer_for_Train_per_Railway = 1.01f; // 1%
+        int Logistics_Increase_per_Train = 5; //in tons
+        int Logistics_Increase_per_Ship = 100;
+        float Logistics_Multiplayer_for_Ship_per_Harbour = 1.01f; // 1%
+        float Logistics_Multiplayer_for_Train_per_Railway = 1.005f; // 0.5%
 
 
         //Train Logistics Coverage
@@ -279,18 +279,27 @@ public class Player : MonoBehaviour
     }
 
     public int Monthly_Timber_Send;
-    public void Tranport_Pykerete_To_Antratica()
+    public void Tranport_Timber_To_Antratica()
     {
-        if(Total_Logistics_Capacity < Timber)
+        
+        if (Timber > 0)
         {
-            this.Timber -= Total_Logistics_Capacity;
-            Monthly_Timber_Send = Total_Logistics_Capacity;
-        }
-        else
-        {
-            Monthly_Timber_Send = Timber;
+            if (Total_Logistics_Capacity <= Timber)
+            {
+                this.Timber -= Total_Logistics_Capacity;
+                Monthly_Timber_Send = Total_Logistics_Capacity;
+            }
+            else
+            {
+                Monthly_Timber_Send = Timber;
+                this.Timber -= Monthly_Timber_Send;
+            }
         }
 
+        if(Timber < 0)
+        {
+            Timber = 0;
+        }
         Transported_Timber_Waiting_To_Be_Processed += Monthly_Timber_Send;
 
 
