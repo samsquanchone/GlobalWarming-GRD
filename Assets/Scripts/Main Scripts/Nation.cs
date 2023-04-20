@@ -386,6 +386,12 @@ public class Nation : MonoBehaviour
             
       
     }
+ 
+    //Sam: unsubscribing your event listeners on destory for memory management 
+    void OnDestory()
+    {
+        Date_and_Time_System.instance.Month_Pass_Event.RemoveListener(Calculate_On_Month_Pass);
+    }
 }
 
 //Sam addition: none of the scriptable object stuff is serializing in build, having to add json. Due to different data types

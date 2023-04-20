@@ -76,7 +76,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 1
-  m_Acceleration: 10
+  m_Acceleration: 5
   avoidancePriority: 50
   m_AngularSpeed: 0
   m_StoppingDistance: 0
@@ -84,7 +84,7 @@ NavMeshAgent:
   m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &2356260436671865321
@@ -99,10 +99,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f55c7cc9e402634bbfbe982c89bed33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boat: {fileID: 3923393506229652775}
+  boat: {fileID: 2922304995444498518, guid: b555a289652985945932c151c9b194b7, type: 3}
   location: {fileID: 2922304995444498514, guid: b555a289652985945932c151c9b194b7,
     type: 3}
   shouldMove: 1
+  berg: {fileID: 2471484568909550959, guid: 9ef754ccdc1781c4ca749aa39c0e6365, type: 3}
 --- !u!1001 &462463459233150709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -209,12 +210,6 @@ PrefabInstance:
 --- !u!4 &2773025379038809342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2310562058358290955, guid: ec527c86b86d5df4782b42bf36300381,
-    type: 3}
-  m_PrefabInstance: {fileID: 462463459233150709}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3923393506229652775 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3465996601981680594, guid: ec527c86b86d5df4782b42bf36300381,
     type: 3}
   m_PrefabInstance: {fileID: 462463459233150709}
   m_PrefabAsset: {fileID: 0}

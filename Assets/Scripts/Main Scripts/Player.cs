@@ -448,6 +448,12 @@ public class Player : MonoBehaviour
         Monthly_Heat_Level_Increase -= (float) value;
     }
 
+    void OnDestory()
+    {
+        Date_and_Time_System.instance.Month_Pass_Event.RemoveListener(Calculate_On_Month_Pass);
+    }
+    
+
 }
 
 //Sam addition: none of the scriptable object stuff is serializing in build, having to add json

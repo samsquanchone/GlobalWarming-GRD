@@ -26143,6 +26143,15 @@ MonoBehaviour:
   Normal_Speed_BUTTON: {fileID: 1277321233}
   Fast_Speed_BUTTON: {fileID: 1268312614}
   Stop_Indication_Canvas: {fileID: 493812039}
+  PauseEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  PlayEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  FastforwardEvent:
+    m_PersistentCalls:
+      m_Calls: []
   Month_Pass_Event:
     m_PersistentCalls:
       m_Calls: []
@@ -46745,6 +46754,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -12.606
       objectReference: {fileID: 0}
+    - target: {fileID: 2356260436671865321, guid: 149ef7f5a9fb8934eaf0e09aec00304d,
+        type: 3}
+      propertyPath: berg
+      value: 
+      objectReference: {fileID: 2471484568909550959, guid: 9ef754ccdc1781c4ca749aa39c0e6365,
+        type: 3}
+    - target: {fileID: 6994300653245906299, guid: 149ef7f5a9fb8934eaf0e09aec00304d,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 149ef7f5a9fb8934eaf0e09aec00304d, type: 3}
@@ -47998,6 +48018,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NavCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922304995444498519, guid: b555a289652985945932c151c9b194b7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

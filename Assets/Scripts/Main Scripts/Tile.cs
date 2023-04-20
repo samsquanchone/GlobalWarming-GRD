@@ -294,6 +294,12 @@ public class Tile : MonoBehaviour
         return Avaliable_Woodland;
     }
 
+    //Sam: unsub to your event listeners for memory management 
+    void OnDestory()
+    {
+        Date_and_Time_System.instance.Month_Pass_Event.RemoveListener(Calculate_On_Month_Pass);
+    }
+
 }
 
 //Sam addition: none of the scriptable object stuff is serializing in build, having to add json. Due to different data types

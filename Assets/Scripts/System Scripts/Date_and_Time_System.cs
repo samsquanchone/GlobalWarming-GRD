@@ -6,10 +6,14 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+//Sam addition: creating enum so i can determine what mode time is in when i spawn nav agents
+public enum TimeModes{NORMAL, PAUSE, FASTFORWARD};
 public class Date_and_Time_System : MonoBehaviour
 {
     public static Date_and_Time_System instance => m_instance;
     private static Date_and_Time_System m_instance;
+     
+    public TimeModes timeMode {get; private set;} //Sams enum to check state
 
     [Header("Time Data")]
      public Time_Data TimeData;
@@ -39,6 +43,11 @@ public class Date_and_Time_System : MonoBehaviour
     public Canvas Stop_Indication_Canvas;
 
     bool firstLoad = false; //Sam addition: pause time audio triggering on start, quick implementation to solve issue
+
+    //Sam addition: Going to create events to subscribe to so i can control my boat nav agent speed :)
+    public UnityEvent PauseEvent;
+    public UnityEvent PlayEvent;
+    public UnityEvent FastforwardEvent;
 
     public void Save() //Sam: part of my saving overhaul
     {
@@ -154,10 +163,15 @@ public class Date_and_Time_System : MonoBehaviour
         Normal_Speed_BUTTON.enabled = true;
         Fast_Speed_BUTTON.enabled = true;
         
+        timeMode = TimeModes.PAUSE;
+
         if(firstLoad)
         {
            AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.pauseTimeSelected, null);
         }
+
+        PauseEvent.Invoke(); 
+ 
 
         firstLoad = true;
         
@@ -175,6 +189,8 @@ public class Date_and_Time_System : MonoBehaviour
         Normal_Speed_BUTTON.enabled = false;
         Fast_Speed_BUTTON.enabled = true;
 
+        timeMode = TimeModes.NORMAL;
+        PlayEvent.Invoke();
         AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.startTimeSelected, null);
     }
 
@@ -188,6 +204,8 @@ public class Date_and_Time_System : MonoBehaviour
         Stop_BUTTON.enabled = true;
         Normal_Speed_BUTTON.enabled = true;
         Fast_Speed_BUTTON.enabled = false;
+        timeMode = TimeModes.FASTFORWARD;
+        FastforwardEvent.Invoke();
     }
 
     #endregion
@@ -258,6 +276,14 @@ public class Date_and_Time_System : MonoBehaviour
         }
 
 
+    }
+    
+    //Sam memory management: you have an event system with listeners but these listeners are not unsubscribed from the event system, handling this on destory to avoid memory leaks 
+    void OnDestory()
+    {
+        Stop_BUTTON.onClick.RemoveListener(Stop_Speed);
+        Normal_Speed_BUTTON.onClick.RemoveListener(Normal_Speed);
+        Fast_Speed_BUTTON.onClick.RemoveListener(Fast_Speed);
     }
 }
 
