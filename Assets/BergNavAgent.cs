@@ -29,6 +29,9 @@ public class BergNavAgent : MonoBehaviour
         Date_and_Time_System.instance.PlayEvent.AddListener(NormalSpeedNavAgent);
         Date_and_Time_System.instance.PauseEvent.AddListener(StopNavAgent);
         Date_and_Time_System.instance.FastforwardEvent.AddListener(FastFowardNavAgent);
+        
+        //Checks current time mode when spanws, as event system wont kick in until after user presses a time UI button for the first time
+        GetInitialTimeMode();
 
     
     }
@@ -37,10 +40,11 @@ public class BergNavAgent : MonoBehaviour
     void Update()
     {
         
+     
+        navMeshAgent.destination = location.position;
+        Debug.Log("Remaining distance" + navMeshAgent.remainingDistance);
 
-       navMeshAgent.destination = location.position;
-       Debug.Log("Remaining distance" + navMeshAgent.remainingDistance);
-       if(navMeshAgent.remainingDistance <= 0 + NavMeshManager.instance.GetBergOffset() && !navMeshAgent.pathPending && Date_and_Time_System.instance.timeMode != TimeModes.PAUSE)
+       if(navMeshAgent.remainingDistance <= 0 + NavMeshManager.instance.GetBergOffset() && !navMeshAgent.pathPending)
        {
            Debug.Log(NavMeshManager.instance.GetBergOffset());  
            NavMeshManager.instance.IncreaseBergOffset(); //Increase berg offset
@@ -67,6 +71,24 @@ public class BergNavAgent : MonoBehaviour
     {
         Instantiate(berg, this.transform.position, berg.transform.rotation);
         Destroy(this.gameObject);
+    }
+
+    void GetInitialTimeMode()
+    {
+        switch(Date_and_Time_System.instance.GetTimeMode())
+        {
+            case TimeModes.PAUSE:
+            StopNavAgent();
+            break;
+
+            case TimeModes.NORMAL:
+            NormalSpeedNavAgent();
+            break;
+
+            case TimeModes.FASTFORWARD:
+            FastFowardNavAgent();
+            break;
+        }
     }
 
     void OnDestory()

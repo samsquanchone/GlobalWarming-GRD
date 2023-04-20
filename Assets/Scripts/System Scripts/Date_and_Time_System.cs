@@ -13,7 +13,7 @@ public class Date_and_Time_System : MonoBehaviour
     public static Date_and_Time_System instance => m_instance;
     private static Date_and_Time_System m_instance;
      
-    public TimeModes timeMode {get; private set;} //Sams enum to check state
+    private TimeModes timeMode; //Sams enum to check state
 
     [Header("Time Data")]
      public Time_Data TimeData;
@@ -149,6 +149,14 @@ public class Date_and_Time_System : MonoBehaviour
                 Stop_Speed();
             }
         }
+    }
+    
+    //Used to get initial time mode when a nav agent spawns
+    public TimeModes GetTimeMode()
+    {
+        TimeModes _timeMode = timeMode;
+        
+        return  _timeMode;
     }
 
     #region Button Functions

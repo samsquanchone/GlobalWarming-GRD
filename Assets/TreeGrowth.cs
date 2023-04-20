@@ -98,6 +98,7 @@ public class TreeGrowth : MonoBehaviour
             Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
             TreeReplantManager.instance.ReplantTree(this.gameObject.GetComponent<SaveableObject>().objectType, this.gameObject.transform);
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.treeHarvestedPurchased, null);
+            Instantiate(treeHarvestedVFX, this.transform.position, treeHarvestedVFX.transform.rotation);
         }
     }
 
@@ -105,7 +106,7 @@ public class TreeGrowth : MonoBehaviour
     {
         //Remove tree from active growing trees list when game ended or the tree is harvested 
         TimeManager.instance.activeTreeList.Remove(this.GetComponent<TreeGrowth>());
-        Instantiate(treeHarvestedVFX, this.transform.position, treeHarvestedVFX.transform.rotation);
+        
         
     }
 }
