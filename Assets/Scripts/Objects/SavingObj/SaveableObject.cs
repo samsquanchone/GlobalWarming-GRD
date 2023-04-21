@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[SerializeField] public enum ObjectType {Oak, Bamboo, Willow, Pine, Redwood, Factory, Dock, Lumbermill, TrainStation} //Enum for object ypes
+[SerializeField] public enum ObjectType {Oak, Bamboo, Willow, Pine, Redwood, Factory, Dock, Lumbermill, TrainStation, Berg} //Enum for object ypes
 
 
 /// <summary>

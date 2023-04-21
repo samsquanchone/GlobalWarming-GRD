@@ -47,6 +47,8 @@ public class TeraFactory : MonoBehaviour
                 if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001);}
                 break;
             }
+
+            AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);
             canSpawn = false;
        }
     }

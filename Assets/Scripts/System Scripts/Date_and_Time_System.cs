@@ -214,6 +214,7 @@ public class Date_and_Time_System : MonoBehaviour
         Fast_Speed_BUTTON.enabled = false;
         timeMode = TimeModes.FASTFORWARD;
         FastforwardEvent.Invoke();
+        AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.fastForwardTimeSelected, null);
     }
 
     #endregion

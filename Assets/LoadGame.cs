@@ -41,6 +41,12 @@ public class LoadGame : MonoBehaviour
       loadingOperation.allowSceneActivation = true;
     }
 
+    void OnDestroy()
+    {
+       Debug.Log("Stop menu music");
+       MenuAudioManager.instance.StopMenuMusic();
+    }
+
     
 
 }
