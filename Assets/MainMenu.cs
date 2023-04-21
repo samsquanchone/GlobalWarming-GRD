@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField] private GameObject soundMenu;
+
     //Scene 0 Main Menu Scene Functions
     public void PlayNewGame()
     {
@@ -16,6 +18,11 @@ public class MainMenu : MonoBehaviour
     {
         MenuData.SetGameType(false); //Start new game
         SceneManager.LoadScene(5);
+    }
+
+    public void soundMenuOnButtonClick()
+    {
+        soundMenu.gameObject.SetActive(!soundMenu.gameObject.activeSelf);
     }
 
     public void HowToPlayGame()
