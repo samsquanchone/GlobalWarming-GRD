@@ -12,4 +12,5 @@ public class ObjectReferences : MonoBehaviour
      public EventReference infrastructureBuilding;
      public EventReference transportationPurchased;
      public EventReference treeHarvestedPurchased;
+     public EventReference pykreteProduced;
 }

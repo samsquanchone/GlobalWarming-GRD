@@ -12,6 +12,8 @@ public class UIReferences : MonoBehaviour
     public EventReference graphUISelected;
     public EventReference pauseTimeSelected;
     public EventReference startTimeSelected;
+    public EventReference fastForwardTimeSelected;
+    public EventReference graphUIOpened;
 
     
 }

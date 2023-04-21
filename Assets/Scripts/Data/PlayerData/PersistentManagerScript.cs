@@ -155,6 +155,9 @@ public class PersistentManagerScript : MonoBehaviour
                 case "Lumbermill":
                     tmp = Instantiate(Resources.Load("Lumbermill") as GameObject);
                     break;
+                case "Berg":
+                    tmp = Instantiate(Resources.Load("pykreteBerg") as GameObject);
+                    break;
             }
 
             if (tmp != null)
