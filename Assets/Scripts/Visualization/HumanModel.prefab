@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8848745065671418571}
   - component: {fileID: 6713171085325833729}
   - component: {fileID: 2189812684195398858}
-  - component: {fileID: 8672967986591332858}
+  - component: {fileID: 5370877690036089451}
   m_Layer: 7
   m_Name: Corpo
-  m_TagString: Untagged
+  m_TagString: HumanModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,16 +93,16 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5055578623569475540}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 100000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 10
   m_CollisionDetection: 0
---- !u!64 &8672967986591332858
-MeshCollider:
+--- !u!65 &5370877690036089451
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -111,10 +111,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5495902117074765545, guid: a08b0eb6019604245b7ff365c5c4c023, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.10359354, y: 0.02881294, z: 0.16960645}
+  m_Center: {x: 0, y: 0.0019116268, z: -0.07662049}
 --- !u!1 &7587420382319159632
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,7 +125,7 @@ GameObject:
   - component: {fileID: 5409601747962267405}
   m_Layer: 7
   m_Name: HumanModel
-  m_TagString: Untagged
+  m_TagString: HumanModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +139,7 @@ Transform:
   m_GameObject: {fileID: 7587420382319159632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.41664, y: 0.41664, z: 0.41664}
+  m_LocalScale: {x: 0.5970868, y: 0.5970868, z: 0.5970868}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5576253847226740078}

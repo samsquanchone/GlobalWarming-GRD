@@ -115,7 +115,7 @@ public class Tile : MonoBehaviour
         if(Average_Heat_Level > 19)
         {
             int roll = Random.Range(0, 90);
-            Debug.Log("Fire roll: " + roll);
+            //Debug.Log("Fire roll: " + roll);
             if(roll == 10)
             {
                // GetComponent<SpawnFire>().SpawnFireOnMesh();  //Sam: meshes need sorting out before we can use this awesome system >_<
@@ -207,8 +207,8 @@ public class Tile : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Tile Pressed");
-        Debug.Log("Nation Pressed is: " + Occupiant_Nation.Nation_Name);
+        //Debug.Log("Tile Pressed");
+        //Debug.Log("Nation Pressed is: " + Occupiant_Nation.Nation_Name);
         NationUIManager.instance.Tile_Pressed = true;
         NationUIManager.instance.Show_Nation_UI(this.Occupiant_Nation);
     }
