@@ -241,7 +241,7 @@ public class Player : MonoBehaviour
         {
             // 20 = 100%
             Logistics_Inefficiency_from_Trains = 20 * Trains_Logistics_Coverage / 50; 
-            Debug.Log("Percentage effect from inneficieny of the trains : " + Logistics_Inefficiency_from_Trains);
+            //Debug.Log("Percentage effect from inneficieny of the trains : " + Logistics_Inefficiency_from_Trains);
 
         }
 
@@ -249,7 +249,7 @@ public class Player : MonoBehaviour
         {
             // 80 = 100%
             Logistics_Inefficiency_from_Ships = 80 * Ships_Logistics_Coverage / 100;
-            Debug.Log("Percentage effect from inneficieny of the ships : " + Logistics_Inefficiency_from_Ships);
+            //Debug.Log("Percentage effect from inneficieny of the ships : " + Logistics_Inefficiency_from_Ships);
         }
 
         //Inefficiency effect from wrong logistical planning. Reduced from total logistics capacity as a percentile.

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -55,7 +56,14 @@ public class NationUIManager : MonoBehaviour
             Last_Nation_Pressed = nationData;
             Tile_Pressed = true;
             //Pull Nation Data
-            this.Nation_Name_UI.text = nationData.Nation_Name;
+            try
+            {
+                this.Nation_Name_UI.text = nationData.Nation_Name;
+            }
+            catch(Exception e)
+            {
+                Debug.LogException(e);
+            }
 
             this.Population_UI.text = (nationData.Cumilative_Population_From_Territories / 1000000).ToString() + " M";
             this.Awareness_UI.text = (nationData.Awareness).ToString("F2") + " %";
