@@ -981,8 +981,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 293361371}
-        m_TargetAssemblyTypeName: GameWonManager, Assembly-CSharp
-        m_MethodName: quitGame
+        m_TargetAssemblyTypeName: GameStateManager, Assembly-CSharp
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
