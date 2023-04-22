@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5576253847226740078}
   - component: {fileID: 8848745065671418571}
+  - component: {fileID: 7569255087758059477}
   - component: {fileID: 6713171085325833729}
   - component: {fileID: 2189812684195398858}
   - component: {fileID: 5370877690036089451}
+  - component: {fileID: 6462309208741546187}
   m_Layer: 7
   m_Name: Corpo
   m_TagString: HumanModel
@@ -43,6 +45,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5055578623569475540}
   m_Mesh: {fileID: -5495902117074765545, guid: a08b0eb6019604245b7ff365c5c4c023, type: 3}
+--- !u!114 &7569255087758059477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5055578623569475540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &6713171085325833729
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -114,6 +128,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.10359354, y: 0.02881294, z: 0.16960645}
   m_Center: {x: 0, y: 0.0019116268, z: -0.07662049}
+--- !u!114 &6462309208741546187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5055578623569475540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e7b0187c4970842bd1d9bcb2cc1441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7587420382319159632
 GameObject:
   m_ObjectHideFlags: 0
