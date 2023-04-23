@@ -30647,7 +30647,7 @@ MonoBehaviour:
     container: {fileID: 108644659}
     pool: []
   - type: 1
-    amount: 500
+    amount: 1000
     prefab: {fileID: 7587420382319159632, guid: de4595ce342b4e5428396efe670e8398,
       type: 3}
     container: {fileID: 368603580}
