@@ -468,7 +468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcc5018daa7c43d48943b0d3eaa3c025, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireworksVfx: {fileID: 1307544312}
 --- !u!1 &585369379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,12 +1102,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3623677336169310563}
   m_PrefabAsset: {fileID: 0}
---- !u!2083052967 &1307544312 stripped
-VisualEffect:
-  m_CorrespondingSourceObject: {fileID: 2951494172633627473, guid: 7f188b052bfd4a544acd65062d6b59ae,
-    type: 3}
-  m_PrefabInstance: {fileID: 1939717979}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1496558014 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2951494172633627502, guid: 7f188b052bfd4a544acd65062d6b59ae,
@@ -1330,7 +1323,7 @@ PrefabInstance:
     - target: {fileID: 2951494172633627502, guid: 7f188b052bfd4a544acd65062d6b59ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -330
+      value: -299
       objectReference: {fileID: 0}
     - target: {fileID: 2951494172633627502, guid: 7f188b052bfd4a544acd65062d6b59ae,
         type: 3}
