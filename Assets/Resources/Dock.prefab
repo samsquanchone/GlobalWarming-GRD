@@ -167,7 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infrastuctureType: 0
   upgradeCost: 200
-  upgadeVFX: {fileID: 2774798414853318185, guid: f5b7e6367530f1a49aee5386c7e6f6c4,
+  upgadeVFX: {fileID: 9149557525064896312, guid: f5b7e6367530f1a49aee5386c7e6f6c4,
     type: 3}
 --- !u!222 &6509465679406456125
 CanvasRenderer:
