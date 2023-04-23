@@ -254,7 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infrastuctureType: 0
   upgradeCost: 100
-  upgadeVFX: {fileID: 9149557525064896312, guid: f5b7e6367530f1a49aee5386c7e6f6c4,
+  upgadeVFX: {fileID: 8720714244906039449, guid: 77986795645725049a3caf920c7bd8ef,
     type: 3}
 --- !u!1001 &737939867570914279
 PrefabInstance:
