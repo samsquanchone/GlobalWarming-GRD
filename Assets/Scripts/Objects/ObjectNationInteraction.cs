@@ -24,11 +24,7 @@ public class ObjectNationInteraction : MonoBehaviour
             //Used to remove re-occuring iterrations of this loop once a nation is found
             nationFound = true;
 
-            if (gameObject.name == "Dock(Clone)")
-            {
-                Debug.Log("dOCK ADDED TO NAV LIST");
-                
-            }
+           
 
             if(gameObject.tag == "Tree" && other.transform.gameObject.GetComponent<Tile>().Average_Heat_Level > GetComponent<TreeGrowth>().optimumTemperature &&  GetComponent<TreeGrowth>().monthsRemaining != GetComponent<TreeObject>().m_timeToGrow)
             {

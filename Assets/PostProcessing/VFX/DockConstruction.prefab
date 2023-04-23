@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97e880a79e509324a96314d7e0d0878c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constructedBuildingPrefab: {fileID: 8193962226478656309, guid: 85c383c609e908e40ab1d1d9c32310e3,
+  constructedBuildingPrefab: {fileID: 4713206622276315370, guid: 2fd746ecbc30cd648bbdf8c796f38fca,
     type: 3}
 --- !u!65 &-1009970362074263867
 BoxCollider:
