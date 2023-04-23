@@ -16,7 +16,17 @@ public class PoolManager : MonoBehaviour
 
     private Vector3 defaultPos = new Vector3(-100, -100, -100);
 
-    [SerializeField] GameObject prefab;
+    [SerializeField] GameObject prefab; //Population prefab
+    [SerializeField] GameObject prefabGDP; //GDP perfab
+
+    private Transform gdpInitialTransform;
+    private Quaternion gdpInitialRotation;
+
+    private Transform popInitialTransform;
+    private Quaternion popInitialRotation;
+    
+
+
 
 
 
@@ -29,6 +39,12 @@ public class PoolManager : MonoBehaviour
         {
             FillPool(listOfPool[i]);
         }
+
+        gdpInitialTransform = prefabGDP.transform;
+        gdpInitialRotation = prefabGDP.transform.rotation;
+
+        popInitialTransform = prefab.transform;
+        popInitialRotation = prefab.transform.rotation;
     }
 
     void FillPool(PoolInfo info)
@@ -65,14 +81,21 @@ public class PoolManager : MonoBehaviour
     public void CoolObject(GameObject obj, PoolingObjectType type)
     {
         obj.SetActive(false);
-        obj.transform.position = defaultPos;
+        obj.transform.position = popInitialTransform.position;
+        obj.transform.rotation = popInitialRotation;
 
         PoolInfo selected = GetPoolByType(type);
         List<GameObject> pool = selected.pool;
 
-            if(pool.Count < 500)
-            pool.Add(prefab);
-    
+          if(obj.tag == "HumanModel" || obj.tag ==  "MoneyModel")
+            pool.Add(obj);
+            
+
+          /*  else if(type == PoolingObjectType.Money && pool.Count < 500)
+            {
+               pool.Add(prefabGDP);
+            }
+    */
 
 
     }
