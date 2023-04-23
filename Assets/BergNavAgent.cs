@@ -69,7 +69,8 @@ public class BergNavAgent : MonoBehaviour
 
     void SpawnBerg()
     {
-        Instantiate(berg, this.transform.position, berg.transform.rotation);
+        Vector3 spawnPos = new Vector3 (this.transform.position.x, this.transform.position.y - 0.7f, this.transform.position.z);
+        Instantiate(berg, spawnPos, berg.transform.rotation);
         Destroy(this.gameObject);
     }
 
