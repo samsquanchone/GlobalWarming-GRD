@@ -131,13 +131,14 @@ public class Player : MonoBehaviour
         Check_Win_State();
 
     }
-    
+    [SerializeField] NodeManager MainNodeManager;
     private void Purchase_Ship()
     {
         if(this.Money > 1000)
         {
             this.Money -= 1000;
             this.Ships++;
+            MainNodeManager.Add_Ship();
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
         }
         
@@ -147,12 +148,15 @@ public class Player : MonoBehaviour
             UIHoverManager.instance.ShowTip("Insufficient Funds!", Input.mousePosition);
         }
     }
+
+
     private void Purchase_Train()
     {
         if (this.Money > 50)
         {
             this.Money -= 50;
             this.Trains++;
+            MainNodeManager.Add_Train();
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
         }
 
