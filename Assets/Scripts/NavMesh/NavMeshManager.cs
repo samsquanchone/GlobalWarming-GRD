@@ -31,6 +31,7 @@ public class NavMeshManager : MonoBehaviour
         }
     }
 
+
     public void IncreaseBergOffset()
     {
         bergOffset += increment;

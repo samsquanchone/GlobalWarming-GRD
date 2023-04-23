@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum PoolingObjectType{Oak, Willow, Pine, Redwood, Bamboo, Lumbermill, Factory, Dock, TrainStation};
+
+
+public enum PoolingObjectType{Money, Population};
 
 
 public class PoolManager : MonoBehaviour

@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class Visualization : MonoBehaviour
 {
 
-    [SerializeField] GameObject Money_Model;
-    [SerializeField] GameObject Population_Model;
+   // [SerializeField] GameObject Money_Model;
+   // [SerializeField] GameObject Population_Model;
 
     [SerializeField] Toggle Pop_Visualization_Toggle;
     [SerializeField] Toggle Money_Visualization_Toggle;
@@ -80,7 +80,11 @@ public class Visualization : MonoBehaviour
 
             for (int z = 0; z < Pop_Count; z++)
             {
-                Instantiate(Population_Model, Mesh_Center, Quaternion.identity);
+                GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.Population); //Sam edit: deleting / instantiting loads of objects at same time causes temp fps drop while destorying / instantiating, just changing instatiation to use pool for better memory management
+                 _obj.transform.position = Mesh_Center;
+                 _obj.gameObject.SetActive(true);
+                
+               // Instantiate(Population_Model, Mesh_Center, Quaternion.identity);
             }
 
 
@@ -97,7 +101,7 @@ public class Visualization : MonoBehaviour
         {
             Vector3 Mesh_Center = new Vector3(All_Nations[i].Nations_Territories[0].GetComponent<Collider>().bounds.center.x, All_Nations[i].Nations_Territories[0].GetComponent<Collider>().bounds.center.y + 0.5f, All_Nations[i].Nations_Territories[0].GetComponent<Collider>().bounds.center.z + 0.5f);
 
-
+            Debug.Log("Mesh Center: " + Mesh_Center);
             int Money_Count = All_Nations[i].GDP / 350;
 
             if(Money_Count > 30) { Money_Count = 30; }
@@ -109,7 +113,12 @@ public class Visualization : MonoBehaviour
 
             for (int z = 0; z < Money_Count; z++)
             {
-                Instantiate(Money_Model, Mesh_Center, Quaternion.identity);
+
+                  GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.Money); //Sam edit: deleting / instantiting loads of objects at same time causes temp fps drop while destorying / instantiating, just changing instatiation to use pool for better memory management
+                 _obj.transform.position = Mesh_Center;
+                 _obj.gameObject.SetActive(true);
+                
+                //Instantiate(Money_Model, Mesh_Center, Quaternion.identity);
             }
     
 
@@ -120,15 +129,32 @@ public class Visualization : MonoBehaviour
 
     public void Delete_Pop_Visualization()
     {
+        //Sam edit: using pooling to set active false, so we are not deleting and spawning very qucikly (highly expensive)
         GameObject[] HumanModels = GameObject.FindGameObjectsWithTag("HumanModel");
         foreach (GameObject HumanModel in HumanModels)
-            GameObject.Destroy(HumanModel);
+          //  GameObject.Destroy(HumanModel);
+
+            //StartCoroutine(SpawnCoroutine(PoolingObjectType.Population, HumanModel));
+            HumanModel.SetActive(false);
     }
 
     public void Delete_Money_Visualization()
     {
         GameObject[] MoneyModels = GameObject.FindGameObjectsWithTag("MoneyModel");
         foreach (GameObject MoneyModel in MoneyModels)
-            GameObject.Destroy(MoneyModel);
+           // GameObject.Destroy(MoneyModel);
+            //StartCoroutine(SpawnCoroutine(PoolingObjectType.Money, MoneyModel));
+            MoneyModel.SetActive(false);
+    }
+
+    //Sam addition: co routine to make sure pool object is retrived before coolingdown
+    private IEnumerator SpawnCoroutine(PoolingObjectType type, GameObject objToCool)
+    {
+
+        yield return new WaitForSeconds(0.2f);
+
+        PoolManager.instance.CoolObject(objToCool, type);
+
+
     }
 }

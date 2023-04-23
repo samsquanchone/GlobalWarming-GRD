@@ -41,6 +41,7 @@ public class BuildingConstruction : MonoBehaviour
     
     //This function is used to identify the constructed objec and set its enum type from its attached saveableobject script
     //Then setting the objectpools enum type to the respective objects type, then passing that to the coroutine to spawn object from pool
+    /*
     void SpawnObjectFromPool()
     {
          //buildingConstructed
@@ -108,4 +109,5 @@ public class BuildingConstruction : MonoBehaviour
 
         Destroy(gameObject); //Destroy VFX
     }
+    */
 }
