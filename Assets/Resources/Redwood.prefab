@@ -145,7 +145,7 @@ MonoBehaviour:
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
   treeCutVFX: {fileID: 214193967145760451, guid: 6210067241d48da4f8b71512e69b7687,
     type: 3}
-  treeHarvestedVFX: {fileID: 7640009708439871859, guid: 60f0119e126963a4d8d1ef548533e1dd,
+  treeHarvestedVFX: {fileID: 2511296082605304269, guid: a6742c3c47b94e5449567b19e8ff0a6a,
     type: 3}
   nationInteraction: {fileID: 0}
   harvestCost: 0
