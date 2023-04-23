@@ -126,6 +126,7 @@ MonoBehaviour:
   m_cost: 15
   m_yield: 2700
   m_timeToGrow: 45
+  initialGrowthTime: 0
 --- !u!114 &1557582809558161292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +157,7 @@ MonoBehaviour:
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
   treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
     type: 3}
-  treeHarvestedVFX: {fileID: 7640009708439871859, guid: 60f0119e126963a4d8d1ef548533e1dd,
+  treeHarvestedVFX: {fileID: 513326610926132529, guid: 99915d6b95fb95049aa46f15c66ab1d3,
     type: 3}
   nationInteraction: {fileID: 0}
   harvestCost: 0
