@@ -34,7 +34,7 @@ RectTransform:
   m_GameObject: {fileID: 2307433609957505241}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 8, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -126,6 +126,7 @@ MonoBehaviour:
   m_cost: 29
   m_yield: 4750
   m_timeToGrow: 75
+  initialGrowthTime: 0
 --- !u!114 &-4998048375270356704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,11 +152,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optimumTemperature: 15
+  monthsRemaining: 0
+  initialGrowthTime: 0
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
   treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
     type: 3}
   treeHarvestedVFX: {fileID: 513326610926132529, guid: 99915d6b95fb95049aa46f15c66ab1d3,
     type: 3}
+  nationInteraction: {fileID: 0}
   harvestCost: 0
 --- !u!114 &-2875596154783102160
 MonoBehaviour:
