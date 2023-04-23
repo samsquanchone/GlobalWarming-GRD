@@ -9,7 +9,7 @@ public class InfrastructureUpgradeToolTip : HoverTip
     
     public override void ShowMessage(string dataToShow)
     {
-        if(gameObject.name == "Tree")
+        if(UIManager.instance.InspectedObjectTag() == "Tree")
         {
             
             UIHoverManager.OnMouseHover("Harvest and replant cost is 10% of the initial tree project price", Input.mousePosition);

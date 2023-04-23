@@ -228,6 +228,13 @@ public class UIManager : MonoBehaviour
        
     }
 
+    public string InspectedObjectTag()
+    {
+       string tag = objectInspected.tag;
+
+       return tag;
+    }
+
     public void PykreteFactoryActionButtonpressed(int buttonNum)
     {
         

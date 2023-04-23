@@ -11,7 +11,7 @@ public class ButtonActionToolTip : HoverTip
     
     public override void ShowMessage(string dataToShow)
     {
-        
+       
         UIHoverManager.OnMouseHover("Cost: " + cost + " GigaTons of Pykrete", Input.mousePosition);
     }
 

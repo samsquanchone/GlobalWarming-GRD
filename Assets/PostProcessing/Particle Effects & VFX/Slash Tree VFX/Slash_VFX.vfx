@@ -1384,7 +1384,7 @@ MonoBehaviour:
   useAlphaClipping: 0
   generateMotionVector: 0
   excludeFromTAA: 0
-  sortingPriority: 0
+  sortingPriority: 4
   m_SubOutputs: []
   cullMode: 0
   zWriteMode: 0
