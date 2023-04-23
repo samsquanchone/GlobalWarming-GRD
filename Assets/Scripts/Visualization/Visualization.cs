@@ -18,6 +18,8 @@ public class Visualization : MonoBehaviour
 
     Nation[] All_Nations; 
 
+    int poolTracker = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -101,8 +103,9 @@ public class Visualization : MonoBehaviour
         {
             Vector3 Mesh_Center = new Vector3(All_Nations[i].Nations_Territories[0].GetComponent<Collider>().bounds.center.x, All_Nations[i].Nations_Territories[0].GetComponent<Collider>().bounds.center.y + 0.5f, All_Nations[i].Nations_Territories[0].GetComponent<Collider>().bounds.center.z + 0.5f);
 
-            Debug.Log("Mesh Center: " + Mesh_Center);
+           // Debug.Log("Mesh Center: " + Mesh_Center);
             int Money_Count = All_Nations[i].GDP / 350;
+            Debug.Log("MoneyCount");
 
             if(Money_Count > 30) { Money_Count = 30; }
             if(Money_Count < 1) { Money_Count = 1; }
@@ -113,10 +116,23 @@ public class Visualization : MonoBehaviour
 
             for (int z = 0; z < Money_Count; z++)
             {
+                  if(PoolManager.instance.listOfPool[0].pool.Count != PoolManager.instance.listOfPool[0].pool.Count - Money_Count)
+                  {
+                      
+                      Debug.Log(PoolManager.instance.listOfPool[0].pool.Count != PoolManager.instance.listOfPool[0].pool.Count - Money_Count);
+                      GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.Money); //Sam edit: deleting / instantiting loads of objects at same time causes temp fps drop while destorying / instantiating, just changing instatiation to use pool for better memory management
+                     _obj.transform.position = Mesh_Center;
+                     _obj.gameObject.SetActive(true);
+                  }
 
-                  GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.Money); //Sam edit: deleting / instantiting loads of objects at same time causes temp fps drop while destorying / instantiating, just changing instatiation to use pool for better memory management
-                 _obj.transform.position = Mesh_Center;
-                 _obj.gameObject.SetActive(true);
+                  else
+                  {
+                    GameObject[] MoneyModels = GameObject.FindGameObjectsWithTag("MoneyModel");
+                    foreach (GameObject MoneyModel in MoneyModels)
+           
+                     MoneyModel.SetActive(true);
+
+                  }
                 
                 //Instantiate(Money_Model, Mesh_Center, Quaternion.identity);
             }
@@ -135,7 +151,8 @@ public class Visualization : MonoBehaviour
           //  GameObject.Destroy(HumanModel);
 
             //StartCoroutine(SpawnCoroutine(PoolingObjectType.Population, HumanModel));
-            HumanModel.SetActive(false);
+          //  HumanModel.SetActive(false);
+             PoolManager.instance.CoolObject(HumanModel, PoolingObjectType.Population);
     }
 
     public void Delete_Money_Visualization()

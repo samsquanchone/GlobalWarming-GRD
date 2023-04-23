@@ -12,9 +12,11 @@ public class PoolManager : MonoBehaviour
     public static PoolManager instance => m_instance;
     private static PoolManager m_instance;
     
-    [SerializeField] private List<PoolInfo> listOfPool;
+    public List<PoolInfo> listOfPool;
 
     private Vector3 defaultPos = new Vector3(-100, -100, -100);
+
+    [SerializeField] GameObject prefab;
 
 
 
@@ -68,13 +70,13 @@ public class PoolManager : MonoBehaviour
         PoolInfo selected = GetPoolByType(type);
         List<GameObject> pool = selected.pool;
 
-        if(!pool.Contains(obj))
-        {
-            pool.Add(obj);
-        }
+            if(pool.Count < 500)
+            pool.Add(prefab);
+    
 
 
     }
+
 
     private PoolInfo GetPoolByType(PoolingObjectType type)
     {
