@@ -155,7 +155,7 @@ MonoBehaviour:
   monthsRemaining: 0
   initialGrowthTime: 0
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
-  treeCutVFX: {fileID: 2240640187783113397, guid: 6cd369d969b29e2429614b4a1d689885,
+  treeCutVFX: {fileID: 214193967145760451, guid: 6210067241d48da4f8b71512e69b7687,
     type: 3}
   treeHarvestedVFX: {fileID: 513326610926132529, guid: 99915d6b95fb95049aa46f15c66ab1d3,
     type: 3}
