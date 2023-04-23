@@ -30653,6 +30653,8 @@ MonoBehaviour:
     container: {fileID: 368603580}
     pool: []
   prefab: {fileID: 7587420382319159632, guid: de4595ce342b4e5428396efe670e8398, type: 3}
+  prefabGDP: {fileID: 5261463424908274342, guid: 841ecb31ded70ba46a45a8f31f6a6850,
+    type: 3}
 --- !u!1 &1606429061
 GameObject:
   m_ObjectHideFlags: 0

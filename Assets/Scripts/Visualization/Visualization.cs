@@ -116,26 +116,18 @@ public class Visualization : MonoBehaviour
 
             for (int z = 0; z < Money_Count; z++)
             {
-                  if(PoolManager.instance.listOfPool[0].pool.Count != PoolManager.instance.listOfPool[0].pool.Count - Money_Count)
-                  {
+                 
                       
-                      Debug.Log(PoolManager.instance.listOfPool[0].pool.Count != PoolManager.instance.listOfPool[0].pool.Count - Money_Count);
+                    
                       GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.Money); //Sam edit: deleting / instantiting loads of objects at same time causes temp fps drop while destorying / instantiating, just changing instatiation to use pool for better memory management
                      _obj.transform.position = Mesh_Center;
                      _obj.gameObject.SetActive(true);
-                  }
-
-                  else
-                  {
-                    GameObject[] MoneyModels = GameObject.FindGameObjectsWithTag("MoneyModel");
-                    foreach (GameObject MoneyModel in MoneyModels)
-           
-                     MoneyModel.SetActive(true);
+                
 
                   }
                 
                 //Instantiate(Money_Model, Mesh_Center, Quaternion.identity);
-            }
+            
     
 
  
@@ -152,7 +144,8 @@ public class Visualization : MonoBehaviour
 
             //StartCoroutine(SpawnCoroutine(PoolingObjectType.Population, HumanModel));
           //  HumanModel.SetActive(false);
-             PoolManager.instance.CoolObject(HumanModel, PoolingObjectType.Population);
+           //  PoolManager.instance.CoolObject(HumanModel, PoolingObjectType.Population);
+           StartCoroutine(SpawnCoroutine(PoolingObjectType.Population, HumanModel));
     }
 
     public void Delete_Money_Visualization()
@@ -161,14 +154,16 @@ public class Visualization : MonoBehaviour
         foreach (GameObject MoneyModel in MoneyModels)
            // GameObject.Destroy(MoneyModel);
             //StartCoroutine(SpawnCoroutine(PoolingObjectType.Money, MoneyModel));
-            MoneyModel.SetActive(false);
+           // MoneyModel.SetActive(false);
+             StartCoroutine(SpawnCoroutine(PoolingObjectType.Money, MoneyModel));
+
     }
 
     //Sam addition: co routine to make sure pool object is retrived before coolingdown
     private IEnumerator SpawnCoroutine(PoolingObjectType type, GameObject objToCool)
     {
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
 
         PoolManager.instance.CoolObject(objToCool, type);
 
