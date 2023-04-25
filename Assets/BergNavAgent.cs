@@ -64,7 +64,7 @@ public class BergNavAgent : MonoBehaviour
 
     void FastFowardNavAgent()
     {
-       navMeshAgent.speed = speedNormal;
+       navMeshAgent.speed = speedFast;
     }
 
     void SpawnBerg()

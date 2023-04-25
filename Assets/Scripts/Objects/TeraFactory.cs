@@ -36,19 +36,19 @@ public class TeraFactory : MonoBehaviour
             
                 case 0:
                 //Spawn small berg. Reduce global warming by agreed small berg amoun
-                if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025);}
+                if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025); Player.instance.RemoveAmountFromTimber(smallBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
 
                 case 1:
-                if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, spawnPoint.position, bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005);}
+                if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, spawnPoint.position, bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005); Player.instance.RemoveAmountFromTimber(mediumBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
 
                 case 3:
-                if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001);}
+                if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001); Player.instance.RemoveAmountFromTimber(largeBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
             }
 
-            AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);
+            
             canSpawn = false;
        }
     }

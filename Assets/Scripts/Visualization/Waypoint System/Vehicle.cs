@@ -9,11 +9,20 @@ public class Vehicle : MonoBehaviour
 {
     public Node TargetNode;
 
-    public float speed = 1.0f;
+    public float speed = 1.0f; //
+    //Sam add: vars for time state
+    float speedNormal = 1.0f;
+    float speedFast = 4.0f;
 
     private void Start()
     {
+         //Sam Add: Add functions as listeners to time sytem, so we can pause nav agent, start nav agent and change its speed, based on the state of the time system
+        Date_and_Time_System.instance.PlayEvent.AddListener(NormalSpeedVehical);
+        Date_and_Time_System.instance.PauseEvent.AddListener(StopVehical);
+        Date_and_Time_System.instance.FastforwardEvent.AddListener(FastFowardVehical);
         
+        //Sam Add: Checks current time mode when spanws, as event system wont kick in until after user presses a time UI button for the first time
+        GetInitialTimeMode();
     }
 
     private void Update()
@@ -43,4 +52,47 @@ public class Vehicle : MonoBehaviour
 
         
     }
+    
+    //Sam addition
+    void StopVehical()
+    {
+       speed = 0;
+    }
+
+    void NormalSpeedVehical()
+    {
+       speed = speedNormal;
+    }
+
+    void FastFowardVehical()
+    {
+       speed = speedFast;
+    }
+
+    
+    void GetInitialTimeMode()
+    {
+        switch(Date_and_Time_System.instance.GetTimeMode())
+        {
+            case TimeModes.PAUSE:
+            StopVehical();
+            break;
+
+            case TimeModes.NORMAL:
+            NormalSpeedVehical();
+            break;
+
+            case TimeModes.FASTFORWARD:
+            FastFowardVehical();
+            break;
+        }
+    }
+
+    void OnDestory()
+    {
+        Date_and_Time_System.instance.PlayEvent.RemoveListener(NormalSpeedVehical);
+        Date_and_Time_System.instance.PauseEvent.RemoveListener(StopVehical);
+        Date_and_Time_System.instance.FastforwardEvent.RemoveListener(FastFowardVehical);
+    }
+
 }

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25e67506aefa774cb4530f1deaca3e2, type: 3}
   m_Name: New Player
   m_EditorClassIdentifier: 
-  Money: 500000
+  Money: 10000
   Political_Power: 0
   Timber: 0
-  Pykerete: 1000000000
-  Transported_Timber_Waiting_To_Be_Processed: 700
+  Pykerete: 1000
+  Transported_Timber_Waiting_To_Be_Processed: 0
   Logistics: 0
   Logistics_Coverage: 0
   Trains: 0

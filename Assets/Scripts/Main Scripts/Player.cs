@@ -436,6 +436,11 @@ public class Player : MonoBehaviour
         return _monthlyHeatRise;
     }
 
+    public void RemoveAmountFromTimber(int amount)
+    { 
+        Timber -= amount;
+    }
+
 
     public void RemoveAmountFromPykereteStockPile(int amount)
     {
