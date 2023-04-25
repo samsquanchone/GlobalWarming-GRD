@@ -53,7 +53,7 @@ public class Vehicle : MonoBehaviour
         
     }
     
-    //Sam addition
+    //Sam addition: functions to set vehicle speed based off time state
     void StopVehical()
     {
        speed = 0;
@@ -70,6 +70,7 @@ public class Vehicle : MonoBehaviour
     }
 
     
+    //Sam Addition: uses enum in time system to detect time state when a vehicle spawns
     void GetInitialTimeMode()
     {
         switch(Date_and_Time_System.instance.GetTimeMode())
@@ -87,7 +88,8 @@ public class Vehicle : MonoBehaviour
             break;
         }
     }
-
+    
+    //Sam addition: remove listeners from memory when vehicle destory / game ended
     void OnDestory()
     {
         Date_and_Time_System.instance.PlayEvent.RemoveListener(NormalSpeedVehical);
