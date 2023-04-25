@@ -141,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optimumTemperature: 14
   monthsRemaining: 0
-  initialGrowthTime: 0
+  initialGrowthTime: 160
   readyToHarvestMat: {fileID: 2100000, guid: f7d06320b32c9604b9e722a60351882f, type: 2}
   treeCutVFX: {fileID: 214193967145760451, guid: 6210067241d48da4f8b71512e69b7687,
     type: 3}
