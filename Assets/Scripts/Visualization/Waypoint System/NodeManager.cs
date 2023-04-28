@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class NodeManager : MonoBehaviour
 {
+    //Sam Add: making this a singleton:
+    public static NodeManager instance => m_instance;
+    private static NodeManager m_instance;
+
+
     [SerializeField] Node[] Sea_Nodes;
     [SerializeField] Node[] Land_Nodes;
 
@@ -13,7 +18,10 @@ public class NodeManager : MonoBehaviour
 /*    [SerializeField] int Number_of_Ships = 0;
     [SerializeField] int Number_of_Trains = 0;*/
 
-
+    void Start()
+    {
+        m_instance = this;
+    }
     public void Add_Ship()
     {
         int NewSpawnNodeNumber = Random.Range(0, Sea_Nodes.Length - 1);

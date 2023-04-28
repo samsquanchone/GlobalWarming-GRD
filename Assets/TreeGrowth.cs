@@ -10,7 +10,7 @@ public class TreeGrowth : MonoBehaviour
     [SerializeField] float initialGrowthTime;
     [SerializeField] private Material readyToHarvestMat;
     [SerializeField] private GameObject treeCutVFX;
-    [SerializeField] private GameObject treeHarvestedVFX;
+    
     Vector3 growthIncrement;
 
     [SerializeField] ObjectNationInteraction nationInteraction;
@@ -98,7 +98,7 @@ public class TreeGrowth : MonoBehaviour
             Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
             TreeReplantManager.instance.ReplantTree(this.gameObject.GetComponent<SaveableObject>().objectType, this.gameObject.transform);
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.treeHarvestedPurchased, null);
-            Instantiate(treeHarvestedVFX, this.transform.position, treeHarvestedVFX.transform.rotation);
+           
         }
     }
 

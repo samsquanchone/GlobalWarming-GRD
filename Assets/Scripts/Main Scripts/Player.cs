@@ -138,14 +138,14 @@ public class Player : MonoBehaviour
         Check_Win_State();
 
     }
-    [SerializeField] NodeManager MainNodeManager;
+    
     private void Purchase_Ship()
     {
         if(this.Money > 1000 && Ships < maxShipIncrement)
         {
             this.Money -= 1000;
             this.Ships++;
-            MainNodeManager.Add_Ship();
+            NodeManager.instance.Add_Ship(); //Changed reference to singleton
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
         }
         
@@ -168,7 +168,7 @@ public class Player : MonoBehaviour
         {
             this.Money -= 50;
             this.Trains++;
-            MainNodeManager.Add_Train();
+            NodeManager.instance.Add_Train(); //Sam: changed to use singleton reference 
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.transportationPurchased, null); //Sam: trigger purchase audio
         }
 
@@ -396,6 +396,18 @@ public class Player : MonoBehaviour
         this.Trains =  player.trains;
         this.Monthly_Heat_Level_Increase =  player.monthlyHeatLevelIncrease;
         this.Transported_Timber_Waiting_To_Be_Processed =  player.trasportatedTimberWaitingToBeProcessed;
+        
+        //Sam: Cheesy way of serializing your boat and ship system, just get the number of ships and trains from player file and call respective 
+        //add function that many times 
+        for (int i = 0; i < Trains; i++)
+        {
+            NodeManager.instance.Add_Train();
+        }
+
+        for (int i = 0; i < Ships; i++)
+        {
+            NodeManager.instance.Add_Ship();
+        }
     }
 
     private void Set_Boundaries()
