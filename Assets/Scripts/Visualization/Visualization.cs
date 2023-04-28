@@ -12,8 +12,10 @@ public class Visualization : MonoBehaviour
     [SerializeField] Toggle Pop_Visualization_Toggle;
     [SerializeField] Toggle Money_Visualization_Toggle;
 
+
     [SerializeField] bool Pop_Viz_Enabled = false;
     [SerializeField] bool Money_Viz_Enabled = false;
+
 
 
     Nation[] All_Nations; 

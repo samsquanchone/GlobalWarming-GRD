@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Security.AccessControl;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class Node : MonoBehaviour
 { 
@@ -11,11 +11,25 @@ public class Node : MonoBehaviour
     [SerializeField] public GameObject lineRenderer;
 
     [SerializeField]  List<GameObject> Created_Renderers = new List<GameObject>();
-
-
+    [SerializeField] Toggle Node_Visualization_Toggle;
+    [SerializeField] bool Node_Viz_Enabled = false;
+    private void Update()
+    {
+        //Node Visualization
+        if (Node_Visualization_Toggle.isOn && Node_Viz_Enabled == false)
+        {
+            Node_Viz_Enabled = true;
+            Show_Connections();
+        }
+        else if (Node_Visualization_Toggle.isOn == false && Node_Viz_Enabled == true)
+        {
+            Node_Viz_Enabled = false;
+            Disable_Connections();
+        }
+    }
     private void Start()
     {
-        Show_Connections();
+        //Show_Connections();
     }
     public void Show_Connections()
     {
