@@ -233,11 +233,13 @@ public class Tile : MonoBehaviour
             case ObjectType.Dock:
             dock_Amount += 1;
             Harbour_Level++;
+            Player.instance.DockPlaced();
             break;
 
             case ObjectType.TrainStation:
             trainStation_Amount += 1;
             Railway_Level++;
+            Player.instance.TrainStationPlaced();
             break;
          
             default:

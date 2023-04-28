@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EcsMenuManager : MonoBehaviour
 {
@@ -19,6 +20,13 @@ public class EcsMenuManager : MonoBehaviour
     public void disableEscapeMenuButton()
     {
         escapeMenu.SetActive(false);
+    }
+    
+    //Sam add// going to reload the scene on a load button press in game
+    public void LoadGame()
+    {
+        MenuData.SetGameType(false);
+        SceneManager.LoadScene(5);
     }
 
     public void soundMenuOnButtonClick()

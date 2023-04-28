@@ -50,20 +50,16 @@ public class NationUIManager : MonoBehaviour
     
     public void Show_Nation_UI(Nation nationData)
     {
-        if (Tile_Pressed)
+        if (Tile_Pressed && nationData != null)
         {
             Nation_UI.renderMode = RenderMode.ScreenSpaceOverlay;
             Last_Nation_Pressed = nationData;
             Tile_Pressed = true;
-            //Pull Nation Data
-            try
-            {
-                this.Nation_Name_UI.text = nationData.Nation_Name;
-            }
-            catch(Exception e)
-            {
-                Debug.LogException(e);
-            }
+           
+          
+            this.Nation_Name_UI.text = nationData.Nation_Name;
+            
+    
 
             this.Population_UI.text = (nationData.Cumilative_Population_From_Territories / 1000000).ToString() + " M";
             this.Awareness_UI.text = (nationData.Awareness).ToString("F2") + " %";

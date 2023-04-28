@@ -85,10 +85,10 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             int yieldHectare;
             float timeToGrow;
             float optumumTemp;
-            yieldHectare = buildingType.buildingPrefab.GetComponent<TreeObject>().yield;
+            yieldHectare = buildingType.buildingPrefab.GetComponent<TreeObject>().yield / 10;
             timeToGrow = buildingType.buildingPrefab.GetComponent<TreeObject>().timeToGrow;
             optumumTemp = buildingType.buildingPrefab.GetComponent<TreeGrowth>().optimumTemperature;
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Yield: " + yieldHectare.ToString() + "Hectare" + "\n" + "Time To Grow: " + timeToGrow.ToString("F2") + " Months" +  "\n" + "Optimum Heat level: " + optumumTemp.ToString() + "Celcius";
+            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Yield: " + yieldHectare.ToString() + "Tons per Hectare" + "\n" + "Time To Grow: " + timeToGrow.ToString("F2") + " Months" +  "\n" + "Optimum Heat level: " + optumumTemp.ToString() + "Celcius";
             break;
 
         }

@@ -8,12 +8,7 @@ public enum AudioSliders {master, music, sfx, ui}
 
 public class AudioUIManager : MonoBehaviour
 {
-    //Reference to the panel containing all the audio settings UI
-    [SerializeField] private GameObject audioPanel;
-
-    //Button references for showing / hiding audio settings
-    //[SerializeField] private Button popExitButton;
-    //[SerializeField] private Button popUpShowButton;
+    
 
     //References to sliders
     [SerializeField] private Slider masterVolumeSlider;
@@ -26,18 +21,14 @@ public class AudioUIManager : MonoBehaviour
     private float maxValue = 1f;
     private float newVal;
 
-
-    
-    
-   
-
+    void Awake()
+    {
+       FmodRouting.SetUpBuses();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        FmodRouting.SetUpBuses();
-        //Listeners for buttons (to currently just hide pop up)
-        //popExitButton.onClick.AddListener(delegate {HidePopUp(); });
-       // popUpShowButton.onClick.AddListener(delegate {ShowPopUp(); });
+        
  
         //Set up listeners for sliders, providing enum val and changed float value for new slider val through the AudioSliderChanged delegate
         masterVolumeSlider.onValueChanged.AddListener( delegate {AudioSliderChanged(AudioSliders.master, masterVolumeSlider.value); });
@@ -47,16 +38,6 @@ public class AudioUIManager : MonoBehaviour
 
         LoadPlayerPrefAudioSettings();
          
-    }
-    
-    private void ShowPopUp()
-    {
-        audioPanel.SetActive(true);
-    }
-
-    private void HidePopUp()
-    {
-        audioPanel.SetActive(false);      
     }
     
     private void AudioSliderChanged(AudioSliders sliders, float newVal)
@@ -101,20 +82,16 @@ public class AudioUIManager : MonoBehaviour
     {
         //Load slider values from player prefs and set fmod bus values after they are set
         masterVolumeSlider.value = PlayerPrefs.GetFloat("MasterBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.masterBus, masterVolumeSlider.value);
+        FmodRouting.ChangeBusVolume(FmodRouting.masterBus, PlayerPrefs.GetFloat("MasterBusVol"));
 
         musicVolumeSlider.value = PlayerPrefs.GetFloat("MusicBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.musicBus, musicVolumeSlider.value);
+        FmodRouting.ChangeBusVolume(FmodRouting.musicBus, PlayerPrefs.GetFloat("MusicBusVol"));
 
         sfxVolumeSlider.value = PlayerPrefs.GetFloat("SFXBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.sfxBus, sfxVolumeSlider.value);
+        FmodRouting.ChangeBusVolume(FmodRouting.sfxBus, PlayerPrefs.GetFloat("SFXBusVol"));
 
         uiVolumeSlider.value = PlayerPrefs.GetFloat("UIBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.uiBus, uiVolumeSlider.value);
-
-
-        
-
+        FmodRouting.ChangeBusVolume(FmodRouting.uiBus, PlayerPrefs.GetFloat("UIBusVol"));
 
     }
 

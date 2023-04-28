@@ -2574,9 +2574,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2039540315}
-        m_TargetAssemblyTypeName: PersistentManagerScript, Assembly-CSharp
-        m_MethodName: Load
+      - m_Target: {fileID: 973333249}
+        m_TargetAssemblyTypeName: EcsMenuManager, Assembly-CSharp
+        m_MethodName: LoadGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10234,6 +10234,8 @@ MonoBehaviour:
   Ships: 0
   Trains: 0
   Transported_Timber_Waiting_To_Be_Processed: 700
+  numberOfDocks: 0
+  numberOfTrainStations: 0
   Money_UI: {fileID: 1505006368}
   Political_Power_UI: {fileID: 2063842208}
   Wood_UI: {fileID: 558185076}
@@ -30261,6 +30263,27 @@ MonoBehaviour:
       Data3: 1976313271
       Data4: -870056209
     Path: event:/Music/GameMusic
+  oceanAmbienceReference:
+    Guid:
+      Data1: -594715392
+      Data2: 1319516342
+      Data3: -1163188070
+      Data4: 122480736
+    Path: event:/Ambience/OceanAmbience
+  windAmbienceReference:
+    Guid:
+      Data1: 1204346168
+      Data2: 1130961137
+      Data3: -671881343
+      Data4: 1225589360
+    Path: event:/Ambience/WindAmbience
+  cameraHighSnapShotReference:
+    Guid:
+      Data1: 2117550611
+      Data2: 1281115686
+      Data3: -1717507189
+      Data4: 166407650
+    Path: snapshot:/CameraHigh
 --- !u!114 &1393637845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32894,7 +32917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e30d1ed1c0b70724184e2a14cf221b15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioPanel: {fileID: 0}
   masterVolumeSlider: {fileID: 300528385}
   musicVolumeSlider: {fileID: 1597611496}
   sfxVolumeSlider: {fileID: 424285004}
@@ -56362,7 +56384,7 @@ PrefabInstance:
     - target: {fileID: 2922304995444498514, guid: b555a289652985945932c151c9b194b7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -64.7
+      value: -66.26
       objectReference: {fileID: 0}
     - target: {fileID: 2922304995444498514, guid: b555a289652985945932c151c9b194b7,
         type: 3}

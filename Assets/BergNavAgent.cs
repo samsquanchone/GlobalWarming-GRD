@@ -29,7 +29,10 @@ public class BergNavAgent : MonoBehaviour
         Date_and_Time_System.instance.PlayEvent.AddListener(NormalSpeedNavAgent);
         Date_and_Time_System.instance.PauseEvent.AddListener(StopNavAgent);
         Date_and_Time_System.instance.FastforwardEvent.AddListener(FastFowardNavAgent);
+
         
+        //Increment music param
+        FmodParameters.IncrementBergsFmodParam(AudioManager.instance.gameMusicInstance);
         //Checks current time mode when spanws, as event system wont kick in until after user presses a time UI button for the first time
         GetInitialTimeMode();
 

@@ -2005,7 +2005,6 @@ GameObject:
   - component: {fileID: 728208303}
   - component: {fileID: 728208306}
   - component: {fileID: 728208305}
-  - component: {fileID: 728208304}
   m_Layer: 5
   m_Name: Sound Settings Panel
   m_TagString: Untagged
@@ -2039,23 +2038,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.333313, y: -77.162}
   m_SizeDelta: {x: 154.16577, y: 51.894104}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &728208304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 728208302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e30d1ed1c0b70724184e2a14cf221b15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioPanel: {fileID: 0}
-  masterVolumeSlider: {fileID: 436051441}
-  musicVolumeSlider: {fileID: 696378478}
-  sfxVolumeSlider: {fileID: 1305849115}
-  uiVolumeSlider: {fileID: 44851502}
 --- !u!114 &728208305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3154,6 +3136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335822042}
   - component: {fileID: 1335822041}
+  - component: {fileID: 1335822043}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -3195,6 +3178,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1335822043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335822040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e30d1ed1c0b70724184e2a14cf221b15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPanel: {fileID: 0}
+  masterVolumeSlider: {fileID: 436051441}
+  musicVolumeSlider: {fileID: 696378478}
+  sfxVolumeSlider: {fileID: 1305849115}
+  uiVolumeSlider: {fileID: 44851502}
 --- !u!1 &1396543376
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,28 +15,83 @@ public class AudioManager : MonoBehaviour
     public ObjectReferences objectRefs;
 
     [SerializeField] private EventReference gameMusicReference;
-    EventInstance gameMusicInstance;
+    public EventInstance gameMusicInstance {get; private set;}
+
+    [SerializeField] private EventReference oceanAmbienceReference;
+    public EventInstance oceanAmbienceInstance {get; private set;}
+
+    [SerializeField] private EventReference windAmbienceReference;
+    public EventInstance windAmbienceInstance {get; private set;}
+
+
+    [SerializeField] private EventReference cameraHighSnapShotReference;
+    public EventInstance cameraHighSnapShotInstance {get; private set;}
 
     // Start is called before the first frame update
     void Start()
     {
         m_instance = this;
         StartGameMusic();
+        StartAmbience();
     }
 
-     void StartGameMusic()
-   {
+    public void StartCameraSnapshot()
+    {
+        cameraHighSnapShotInstance = FMODUnity.RuntimeManager.CreateInstance(cameraHighSnapShotReference);
+        cameraHighSnapShotInstance.start();
+    }
+    public void StopCameraSnapshot()
+    {
+        cameraHighSnapShotInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+    void StartGameMusic()
+    {
         gameMusicInstance =  FMODUnity.RuntimeManager.CreateInstance(gameMusicReference);
         
         gameMusicInstance.start();
       
-   }
+    }
 
-   public void StopMenuMusic()
-   {
+    public void StopGameMusic()
+    {
+        gameMusicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        gameMusicInstance.release();
+    }
+    
+
+    public void StopMenuMusic()
+    {
        gameMusicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
        gameMusicInstance.release();
-   }
+    }
+
+    void StartAmbience()
+    {
+       oceanAmbienceInstance =  FMODUnity.RuntimeManager.CreateInstance(oceanAmbienceReference);
+       windAmbienceInstance =  FMODUnity.RuntimeManager.CreateInstance(windAmbienceReference);
+
+       oceanAmbienceInstance.start();
+       windAmbienceInstance.start();
+
+       oceanAmbienceInstance.release();
+       windAmbienceInstance.release();
+    }
+
+    void StopAmbience()
+    {
+       oceanAmbienceInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+       oceanAmbienceInstance.release();
+
+       windAmbienceInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+       windAmbienceInstance.release();
+    }
+
+    void OnDestroy()
+    {
+        StopGameMusic();
+        StopAmbience();
+    }
+
 
     
 

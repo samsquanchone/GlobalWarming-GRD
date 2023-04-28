@@ -20,7 +20,7 @@ public class PlayerInput : MonoBehaviour
         //  BuildingManager.instance.MousePressed(); //Run clicked functionality for building trees and factories
         if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
-             RaycastHit hit;
+            RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
   
             //If rayhit hits object, output hit variable

@@ -37,6 +37,13 @@ public class Player : MonoBehaviour
     public int Trains;
 
     public int Transported_Timber_Waiting_To_Be_Processed;
+
+    //Sam add: should not need to serailize as with my object placement system, it should detect on reload
+    public int numberOfDocks;
+    public int numberOfTrainStations;
+
+    private int maxShipIncrement = 5;
+    private int maxTrainIncrement = 2;
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     #endregion
@@ -134,7 +141,7 @@ public class Player : MonoBehaviour
     [SerializeField] NodeManager MainNodeManager;
     private void Purchase_Ship()
     {
-        if(this.Money > 1000)
+        if(this.Money > 1000 && Ships < maxShipIncrement)
         {
             this.Money -= 1000;
             this.Ships++;
@@ -143,16 +150,21 @@ public class Player : MonoBehaviour
         }
         
         //Sam addition: adding to tooltip to show message when player does not have enough funds
-        else
+        if (Money < 1000 && Ships < maxShipIncrement)
         {
             UIHoverManager.instance.ShowTip("Insufficient Funds!", Input.mousePosition);
+        }
+
+        else if(Ships >= maxShipIncrement)
+        {
+            UIHoverManager.instance.ShowTip("More Docks Required!", Input.mousePosition);
         }
     }
 
 
     private void Purchase_Train()
     {
-        if (this.Money > 50)
+        if (this.Money > 50 && Trains < maxTrainIncrement )
         {
             this.Money -= 50;
             this.Trains++;
@@ -161,9 +173,14 @@ public class Player : MonoBehaviour
         }
 
          //Sam addition: adding to tooltip to show message when player does not have enough funds
-        else
+        if(Money < 50 && Trains < maxTrainIncrement)
         {
             UIHoverManager.instance.ShowTip("Insufficient Funds!", Input.mousePosition);
+        }
+
+        else if(Trains >= maxTrainIncrement)
+        {
+            UIHoverManager.instance.ShowTip("More Train Stations Required!", Input.mousePosition);
         }
     }
 
@@ -455,6 +472,16 @@ public class Player : MonoBehaviour
     public void MinusFromMonthlyHeatLevel(double value)
     {
         Monthly_Heat_Level_Increase -= (float) value;
+    }
+
+    public void DockPlaced()
+    {
+        maxShipIncrement += maxShipIncrement;
+    }
+
+    public void TrainStationPlaced()
+    {
+        maxTrainIncrement += maxTrainIncrement;
     }
 
     void OnDestory()

@@ -55,7 +55,10 @@ VisualEffect:
     m_Vector3f:
       m_Array: []
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 5.5908804, y: 0.3512595, z: 4.302929, w: 0}
+        m_Name: DustColor
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:

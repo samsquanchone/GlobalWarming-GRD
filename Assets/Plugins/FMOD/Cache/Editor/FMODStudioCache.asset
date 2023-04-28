@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: FmodBanks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638176903654098370
+  lastModified: 638183036793691506
   FileSizes:
   - Name: 
-    Value: 1832
+    Value: 2156
   Exists: 1
+--- !u!114 &-7585268229164816979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/OceanAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/OceanAmbience
+  Guid:
+    Data1: -594715392
+    Data2: 1319516342
+    Data3: -1163188070
+    Data4: 122480736
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 170475
 --- !u!114 &-7304168087731516300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,7 +89,7 @@ MonoBehaviour:
   Path: FmodBanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638176903654088393
+  lastModified: 638183036793666689
   FileSizes: []
   Exists: 1
 --- !u!114 &-5531996601355245277
@@ -253,6 +280,30 @@ MonoBehaviour:
   - Can
   - Cant
   Exists: 1
+--- !u!114 &-624040089123189668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GameMusic/BergsProducedAmount
+  m_EditorClassIdentifier: 
+  Name: BergsProducedAmount
+  StudioPath: 
+  Min: 0
+  Max: 50
+  Default: 0
+  ID:
+    data1: 3339591412
+    data2: 3406785399
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-455801786395404492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,13 +324,14 @@ MonoBehaviour:
     Data4: -870056209
   Banks:
   - {fileID: -6602957334252676675}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -624040089123189668}
   MinDistance: 1
   MaxDistance: 20
-  Length: 25500
+  Length: 372759
 --- !u!114 &-103367446735447302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,12 +394,16 @@ MonoBehaviour:
   - {fileID: 1496076521249572782}
   - {fileID: 3266139812576618098}
   - {fileID: -455801786395404492}
+  - {fileID: 8504297338588686526}
+  - {fileID: -7585268229164816979}
+  - {fileID: 5069560461059966963}
+  - {fileID: 7379366434160282601}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6602957334252676675}
   StringsBanks:
   - {fileID: -8577037947143289805}
-  cacheTime: 638176903654098370
+  cacheTime: 638183036793691506
   cacheVersion: 131601
 --- !u!114 &1496076521249572782
 MonoBehaviour:
@@ -538,6 +594,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2500
+--- !u!114 &5069560461059966963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/WindAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/WindAmbience
+  Guid:
+    Data1: 1204346168
+    Data2: 1130961137
+    Data3: -671881343
+    Data4: 1225589360
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 155887
 --- !u!114 &5748130419272576679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,6 +666,60 @@ MonoBehaviour:
     Data2: 1172331611
     Data3: 1884650431
     Data4: -613947362
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7379366434160282601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/CameraHigh
+  m_EditorClassIdentifier: 
+  Path: snapshot:/CameraHigh
+  Guid:
+    Data1: 2117550611
+    Data2: 1281115686
+    Data3: -1717507189
+    Data4: 166407650
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &8504297338588686526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/GameWinScreen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/GameWinScreen
+  Guid:
+    Data1: -200516937
+    Data2: 1264242618
+    Data3: 307230352
+    Data4: 504927699
   Banks:
   - {fileID: -6602957334252676675}
   IsStream: 0
