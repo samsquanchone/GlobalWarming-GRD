@@ -21,7 +21,7 @@ public class TeraFactory : MonoBehaviour
     [SerializeField] private float offSet;
     int targetLocationIndex = 0;
     
-    float spawnCooldown = 0.5f;
+    float spawnCooldown = 0.9f;
     bool canSpawn = false;
 
 
@@ -43,7 +43,7 @@ public class TeraFactory : MonoBehaviour
                 if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, spawnPoint.position, bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005); Player.instance.RemoveAmountFromTimber(mediumBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
 
-                case 3:
+                case 2:
                 if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001); Player.instance.RemoveAmountFromTimber(largeBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
             }

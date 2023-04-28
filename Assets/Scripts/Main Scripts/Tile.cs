@@ -167,7 +167,7 @@ public class Tile : MonoBehaviour
         Therefore, if something is increasing 1 per 70 years, it would increase by approximately 0.0012 per month.
          */
         //MONTHLY Heat Level Rise /// Sam edit: removed reference and used singleton reference for better memory management + used the getter in the singleton for safer memory usage 
-        this.Average_Heat_Level += Player.instance.GetMonthlyHeatRise();
+        this.Average_Heat_Level += (float) Player.instance.GetMonthlyHeatRise();
 
         //Effects of Heat Level Fall
         //According to the PYKERETE SEND TO ANTRATICA

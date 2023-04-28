@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     public int Pykerete {get; private set;} //Sam access modifier: strictly Public variables scare me    //in tons
 
 
-    public float Monthly_Heat_Level_Increase;
+    public double Monthly_Heat_Level_Increase;
 
     public int Ships;
     public int Trains;
@@ -460,7 +460,7 @@ public class Player : MonoBehaviour
 
     public float GetMonthlyHeatRise()
     {
-        float _monthlyHeatRise = Monthly_Heat_Level_Increase;
+        float _monthlyHeatRise = (float) Monthly_Heat_Level_Increase;
 
         return _monthlyHeatRise;
     }
@@ -514,7 +514,7 @@ public class SavePlayerData
     public int pykrete;
     public int ships;
     public int trains;
-    public float monthlyHeatLevelIncrease;
+    public double monthlyHeatLevelIncrease;
     public int trasportatedTimberWaitingToBeProcessed;
 
 }
