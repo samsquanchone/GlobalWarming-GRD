@@ -55,7 +55,7 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             int maxCapacityKg;
             productionPerYearKg = buildingType.buildingPrefab.GetComponent<LumbermillObject>().pulverisedWoodProductionRate;
             maxCapacityKg = buildingType.buildingPrefab.GetComponent<LumbermillObject>().woodCapacityKg;
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Production Per Year: " + productionPerYearKg.ToString() + "Kg" + "\n" + "Capacity: " + maxCapacityKg.ToString() + "Kg";
+            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Production Per Year: " + productionPerYearKg.ToString() + "Tons" + "\n" + "Capacity: " + maxCapacityKg.ToString() + "Kg";
             break;
 
             case ObjectType.Factory:
@@ -63,21 +63,21 @@ public class HoverTip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             int pykreteBergCapacity;
             pykretePergsProducedPerYear = buildingType.buildingPrefab.GetComponent<FactoryObject>().pykreteProductionRate;
             pykreteBergCapacity = buildingType.buildingPrefab.GetComponent<FactoryObject>().pykreteCapacity;
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Production Per Year: " + pykretePergsProducedPerYear.ToString() + "Bergs" + "\n" + "Capacity: " + pykreteBergCapacity.ToString() + "Bergs";
+            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Production Per Week: " + "3 Bergs";
             break;
 
             case ObjectType.Dock:
             int numberOfShips;
             transportationCapacity = buildingType.buildingPrefab.GetComponent<DockObject>().transportationCapacityKG;
             numberOfShips = buildingType.buildingPrefab.GetComponent<DockObject>().numberOfShips;
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Kg" + "\n" + "Number Of Ships: " + numberOfShips.ToString();
+            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Tons" + "\n" + "Number Of Ships: " + numberOfShips.ToString();
             break;
 
             case ObjectType.TrainStation:
             int numberOfTrains;
             transportationCapacity = buildingType.buildingPrefab.GetComponent<TrainStationObject>().transportationCapacityKG;
             numberOfTrains = buildingType.buildingPrefab.GetComponent<TrainStationObject>().numberOfTrains;
-            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Kg" + "\n" + "Number Of Ships: " + numberOfTrains.ToString();
+            dataToShow = "\n" + "Cost: £" + cost.ToString() + " Million" + "\n" + "Transportation Capacity: " + transportationCapacity.ToString() + "Tons" + "\n" + "Number Of Ships: " + numberOfTrains.ToString();
             break;
 
             //Is a tree

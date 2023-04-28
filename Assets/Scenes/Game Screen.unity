@@ -24285,7 +24285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.80784315}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -34238,6 +34238,7 @@ GameObject:
   - component: {fileID: 1531728095}
   - component: {fileID: 1531728094}
   - component: {fileID: 1531728093}
+  - component: {fileID: 1531728096}
   m_Layer: 5
   m_Name: OpenGraph
   m_TagString: Untagged
@@ -34325,6 +34326,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531728091}
   m_CullTransparentMesh: 1
+--- !u!114 &1531728096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531728091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f09b3cb41af3d4f9124f7a9fe5530f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Show Global Data
 --- !u!114 &1541552710 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8113799944274536638, guid: 5df239e82175d32418b662b1255f6aca,
