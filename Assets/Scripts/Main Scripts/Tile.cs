@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR;
 using Random = UnityEngine.Random;
+using UnityEngine.EventSystems;
 
 public class Tile : MonoBehaviour
 {
@@ -209,8 +210,11 @@ public class Tile : MonoBehaviour
     {
         //Debug.Log("Tile Pressed");
         //Debug.Log("Nation Pressed is: " + Occupiant_Nation.Nation_Name);
-        NationUIManager.instance.Tile_Pressed = true;
-        NationUIManager.instance.Show_Nation_UI(this.Occupiant_Nation);
+        if(!EventSystem.current.IsPointerOverGameObject())
+        {
+            NationUIManager.instance.Tile_Pressed = true;
+            NationUIManager.instance.Show_Nation_UI(this.Occupiant_Nation);
+        }
     }
     //Sam Addition: Used for infrastructure, example test variables, do with cases for nation tie in as you see fit.
     // Not sure if you want to limit to 1 infrastructure per tile or be able to track specific objects for their levels.

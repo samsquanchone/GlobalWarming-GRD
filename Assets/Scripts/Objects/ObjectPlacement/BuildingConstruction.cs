@@ -34,6 +34,7 @@ public class BuildingConstruction : MonoBehaviour
             
             //SpawnObjectFromPool(); //Spawn object from pool
            Instantiate(constructedBuildingPrefab, transform.position, constructedBuildingPrefab.transform.rotation);
+          
            Destroy(gameObject); //Destroy
             
         }

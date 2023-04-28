@@ -153,11 +153,13 @@ public class Player : MonoBehaviour
         if (Money < 1000 && Ships < maxShipIncrement)
         {
             UIHoverManager.instance.ShowTip("Insufficient Funds!", Input.mousePosition);
+            AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
         }
 
         else if(Ships >= maxShipIncrement)
         {
             UIHoverManager.instance.ShowTip("More Docks Required!", Input.mousePosition);
+            AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
         }
     }
 
@@ -176,11 +178,13 @@ public class Player : MonoBehaviour
         if(Money < 50 && Trains < maxTrainIncrement)
         {
             UIHoverManager.instance.ShowTip("Insufficient Funds!", Input.mousePosition);
+            AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
         }
 
         else if(Trains >= maxTrainIncrement)
         {
             UIHoverManager.instance.ShowTip("More Train Stations Required!", Input.mousePosition);
+            AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
         }
     }
 

@@ -80,6 +80,7 @@ public class TeraFactory : MonoBehaviour
         else
         {
             UIHoverManager.instance.ShowTip("Insufficient Pykerete in Stockpile!", Input.mousePosition);
+            AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
             return false;
         }
     }

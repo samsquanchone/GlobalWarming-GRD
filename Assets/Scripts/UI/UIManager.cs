@@ -149,7 +149,7 @@ public class UIManager : MonoBehaviour
 
            
         
-        objectData3.text = "Expected yield: " + gameObject.GetComponent<TreeObject>().m_yield + " Hectares";
+        objectData3.text = "Expected yield: " + gameObject.GetComponent<TreeObject>().m_yield + " Tons";
 
         objectData4.text = "Current growth Temperature: " + gameObject.GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().Average_Heat_Level;
         buttonText.text = "Harvest";

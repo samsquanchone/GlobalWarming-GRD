@@ -129,6 +129,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallingPineLeaves
       objectReference: {fileID: 0}
+    - target: {fileID: 2511296082605304271, guid: a6742c3c47b94e5449567b19e8ff0a6a,
+        type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a6742c3c47b94e5449567b19e8ff0a6a, type: 3}

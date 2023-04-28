@@ -43,6 +43,12 @@ public class TreeGrowth : MonoBehaviour
         }
         
 
+        if(MenuData.GetGameType())
+        {
+            AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.treePlanted, null);
+        }
+        
+
         
     }
 

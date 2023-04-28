@@ -73,6 +73,7 @@ public class BuildingManager : MonoBehaviour
         {
             //Create bool variable of a tag you want to check for in collision arrray
             bool hasBuilding = collider.tag == "Infrastrcture";
+            bool hasFactory = collider.tag == "TeraFactory";
             bool hasTree = collider.tag == "Tree";
             bool hasWater = collider.tag == "Water";
             bool hasCountry = collider.tag == "UNCountry";
@@ -84,22 +85,26 @@ public class BuildingManager : MonoBehaviour
             {
                 Debug.Log(collider.gameObject.name);
                 UIHoverManager.instance.ShowTip("Can only place on the Antarctica peninsula!", Input.mousePosition);
+                AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
                 return false;
             }
 
 
             //Check for collision
-            if (hasBuilding /*|| hasWater */ || hasTree && !hasCountry)
+            if (hasBuilding /*|| hasWater */ || hasTree || hasFactory && !hasCountry)
             {
                 //Could trigger UI here that indicates you can't build 
                 Debug.Log("Cant spawn");
                 UIHoverManager.instance.ShowTip("Insufficient Space!", Input.mousePosition);
+                AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
                 return false;
             }
 
             if(playerData.Money < buildingTypeSO.cost)
             {
                 GetComponent<BuildingManagerToolTip>().ShowMessage("Insufficient funds!");
+                AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
+                
                 return false;
             }
 

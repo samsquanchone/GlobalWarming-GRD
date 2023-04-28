@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FmodBanks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638183036793691506
+  lastModified: 638183158880178823
   FileSizes:
   - Name: 
-    Value: 2156
+    Value: 2198
   Exists: 1
 --- !u!114 &-7585268229164816979
 MonoBehaviour:
@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: FmodBanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638183036793666689
+  lastModified: 638183158880158868
   FileSizes: []
   Exists: 1
 --- !u!114 &-5531996601355245277
@@ -398,12 +398,13 @@ MonoBehaviour:
   - {fileID: -7585268229164816979}
   - {fileID: 5069560461059966963}
   - {fileID: 7379366434160282601}
+  - {fileID: 7400976169912241672}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6602957334252676675}
   StringsBanks:
   - {fileID: -8577037947143289805}
-  cacheTime: 638183036793691506
+  cacheTime: 638183158880178823
   cacheVersion: 131601
 --- !u!114 &1496076521249572782
 MonoBehaviour:
@@ -702,6 +703,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &7400976169912241672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/CantPurchase
+  m_EditorClassIdentifier: 
+  Path: event:/UI/CantPurchase
+  Guid:
+    Data1: 52906164
+    Data2: 1106300754
+    Data3: -1088750442
+    Data4: 903965271
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 508
 --- !u!114 &8504297338588686526
 MonoBehaviour:
   m_ObjectHideFlags: 0
