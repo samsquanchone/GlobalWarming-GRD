@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using HelperLibrary.UI;  //Namespace for some static classes that provide various easy to access functionality
 
 public enum DataSet {TREESPLANTED, MONEY, CO2, PYKRETEPRODUCED, POPULATION, TIMBER};
 
@@ -20,6 +21,8 @@ public class GraphDataManager : MonoBehaviour
 
     [SerializeField] private GameObject graphPanel;
     [SerializeField] private GameObject OpenGraphButtonObj;
+
+    [SerializeField] private GameObject closeButtonObj;
 
 
 
@@ -40,6 +43,8 @@ public class GraphDataManager : MonoBehaviour
        treesPlantedValueList = new List<float>();
        populationValueList = new List<float>();
        timberValueList = new List<float>();
+
+       closeButtonObj.GetComponent<Button_UI>().ClickFunc = () => { CloseGraph();}; //Set up delegate to close graph when the close button is pressed
 
         
     }

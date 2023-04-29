@@ -56,7 +56,13 @@ VisualEffect:
     m_Vector3f:
       m_Array: []
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 2.6082377, y: 0.42332652, z: 0.09558986, w: 0}
+        m_Name: FireColor
+        m_Overridden: 1
+      - m_Value: {x: 0.122641504, y: 0.08851014, z: 0.08851014, w: 0}
+        m_Name: SmokeColor
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
