@@ -81,17 +81,17 @@ public class AudioUIManager : MonoBehaviour
     private void LoadPlayerPrefAudioSettings()
     {
         //Load slider values from player prefs and set fmod bus values after they are set
-        masterVolumeSlider.value = PlayerPrefs.GetFloat("MasterBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.masterBus, PlayerPrefs.GetFloat("MasterBusVol"));
+        masterVolumeSlider.value = PlayerPrefs.GetFloat("MasterBusVol", 1f);
+        FmodRouting.ChangeBusVolume(FmodRouting.masterBus, PlayerPrefs.GetFloat("MasterBusVol", 1f));
 
-        musicVolumeSlider.value = PlayerPrefs.GetFloat("MusicBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.musicBus, PlayerPrefs.GetFloat("MusicBusVol"));
+        musicVolumeSlider.value = PlayerPrefs.GetFloat("MusicBusVol", 1f);
+        FmodRouting.ChangeBusVolume(FmodRouting.musicBus, PlayerPrefs.GetFloat("MusicBusVol", 1f));
 
-        sfxVolumeSlider.value = PlayerPrefs.GetFloat("SFXBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.sfxBus, PlayerPrefs.GetFloat("SFXBusVol"));
+        sfxVolumeSlider.value = PlayerPrefs.GetFloat("SFXBusVol", 1f);
+        FmodRouting.ChangeBusVolume(FmodRouting.sfxBus, PlayerPrefs.GetFloat("SFXBusVol", 1f));
 
-        uiVolumeSlider.value = PlayerPrefs.GetFloat("UIBusVol");
-        FmodRouting.ChangeBusVolume(FmodRouting.uiBus, PlayerPrefs.GetFloat("UIBusVol"));
+        uiVolumeSlider.value = PlayerPrefs.GetFloat("UIBusVol", 1f);
+        FmodRouting.ChangeBusVolume(FmodRouting.uiBus, PlayerPrefs.GetFloat("UIBusVol", 1f));
 
     }
 
