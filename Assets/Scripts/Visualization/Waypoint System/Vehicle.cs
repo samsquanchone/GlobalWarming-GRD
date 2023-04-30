@@ -36,7 +36,7 @@ public class Vehicle : MonoBehaviour
             //If target and this are in the same location
             if (Vector3.Distance(transform.position, TargetNode.transform.position) < 0.001f)
             {
-                int NewTargetNodeNumber = Random.Range(0, TargetNode.Neighbooring_Nodes.Length - 1);
+                int NewTargetNodeNumber = Random.Range(0, TargetNode.Neighbooring_Nodes.Length); //-1
                 try {
                     this.TargetNode = TargetNode.Neighbooring_Nodes[NewTargetNodeNumber];
                 }
