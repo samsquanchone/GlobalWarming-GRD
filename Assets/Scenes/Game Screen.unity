@@ -5360,7 +5360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 189}
+  m_AnchoredPosition: {x: -64.7, y: 163.1}
   m_SizeDelta: {x: 42.995, y: 33.327}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &249210846
@@ -10611,7 +10611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b535fe4b7a310d54c805e0a419a3d944, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dotSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 3}
+  dotSprite: {fileID: 21300000, guid: dc99136c081d173488d83b3f432dfaa4, type: 3}
 --- !u!1 &469897611
 GameObject:
   m_ObjectHideFlags: 0
@@ -32119,7 +32119,7 @@ MonoBehaviour:
   Lumbermill_Level_UI: {fileID: 1999036227}
   Harbour_Level_UI: {fileID: 746532244}
   Tera_Factory_Level_UI: {fileID: 554225010}
-  closePopUpButton: {fileID: 0}
+  closePopUpButton: {fileID: 249210846}
   Tile_Pressed: 1
 --- !u!1 &1401751901
 GameObject:

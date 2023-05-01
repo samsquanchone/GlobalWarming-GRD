@@ -44,7 +44,8 @@ public class WindowGraph : MonoBehaviour
    private bool isBarChartActive = true;
    private bool isLineChartActive = false;
 
-
+   Color tempLineColor;
+   Color tempBarColor;
    //Example graph
    IGraphVisual lineGraphVisual;
    IGraphVisual barChartVisual;
@@ -72,7 +73,7 @@ public class WindowGraph : MonoBehaviour
        //Intitialise different chart visuals (For multiple Displays) ---- Maybe handle data sets outside of this script 
 
        //Example graph
-       lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.green, new Color(1, 1, 1, .5f));
+       lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, tempLineColor, new Color(1, 1, 1, .5f));
        barChartVisual = new BarChartVisual(graphContainer, Color.red, .8f);
        
        //Money data Graphs
@@ -88,16 +89,16 @@ public class WindowGraph : MonoBehaviour
        IGraphVisual treesBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
 
        //Population planted Data graphs
-       IGraphVisual populationLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
+       IGraphVisual populationLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, new Color(120, 0, 128), new Color(176, 224, 230, .3f));
        IGraphVisual populationBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
 
        //Timber planted Data graphs
-       IGraphVisual timberLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
-       IGraphVisual timberBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
+       IGraphVisual timberLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, new Color(255, 248, 220), new Color(176, 224, 230, .3f));
+       IGraphVisual timberBarChartVisual = new BarChartVisual(graphContainer, new Color(255, 248, 220), .8f);
 
        //Timber planted Data graphs
-       IGraphVisual pykereteLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.blue, new Color(176, 224, 230, .3f));
-       IGraphVisual pykereteBarChartVisual = new BarChartVisual(graphContainer, Color.blue, .8f);
+       IGraphVisual pykereteLineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, Color.yellow, new Color(176, 224, 230, .3f));
+       IGraphVisual pykereteBarChartVisual = new BarChartVisual(graphContainer, Color.yellow, .8f);
 
        
        
