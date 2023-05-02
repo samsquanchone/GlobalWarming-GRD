@@ -9,6 +9,11 @@ public class EcsMenuManager : MonoBehaviour
     [SerializeField] private GameObject soundMenu;
     [SerializeField] private GameObject howToPlayMenu;
 
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -17,7 +22,7 @@ public class EcsMenuManager : MonoBehaviour
         }
     }
 
-    public void disableEscapeMenuButton()
+    public void DisableEscapeMenuButton()
     {
         escapeMenu.SetActive(false);
     }
@@ -29,17 +34,17 @@ public class EcsMenuManager : MonoBehaviour
         SceneManager.LoadScene(5);
     }
 
-    public void soundMenuOnButtonClick()
+    public void SoundMenuOnButtonClick()
     {
         soundMenu.gameObject.SetActive(!soundMenu.gameObject.activeSelf);
     }
 
-    public void howToPlayMenuOnButtonClick()
+    public void HowToPlayMenuOnButtonClick()
     {
         howToPlayMenu.gameObject.SetActive(!howToPlayMenu.gameObject.activeSelf);
     }
 
-    public void quitGame()
+    public void QuitGame()
     {
         Application.Quit();
     }
