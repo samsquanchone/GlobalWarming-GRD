@@ -1431,7 +1431,7 @@ GameObject:
   - component: {fileID: 374428821}
   - component: {fileID: 374428823}
   - component: {fileID: 374428822}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: RawImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2258,12 +2258,12 @@ RectTransform:
   - {fileID: 901172610}
   - {fileID: 1211927522}
   - {fileID: 1028800487}
-  m_Father: {fileID: 892252563}
+  m_Father: {fileID: 1819415533}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.333313, y: -77.162}
+  m_AnchoredPosition: {x: -8.536926, y: 261.30804}
   m_SizeDelta: {x: 154.16577, y: 51.894104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &728208305
@@ -2874,7 +2874,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 374428821}
-  - {fileID: 728208303}
   - {fileID: 443717201}
   - {fileID: 827126390}
   - {fileID: 105367559}
@@ -4919,6 +4918,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 728208303}
   - {fileID: 216775583}
   - {fileID: 1753151654}
   - {fileID: 256597698}
