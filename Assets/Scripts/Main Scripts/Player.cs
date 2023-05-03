@@ -359,7 +359,7 @@ public class Player : MonoBehaviour
         {
             //Win State
             GameManager.instance.GameWon();
-
+            Date_and_Time_System.instance.Stop_Speed();
 
         }
 
