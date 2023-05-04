@@ -43,7 +43,7 @@ public class PlayerInput : MonoBehaviour
         //  BuildingManager.instance.MousePressed(); //Run clicked functionality for building trees and factories
         else if (Input.GetMouseButtonDown(1) && !EventSystem.current.IsPointerOverGameObject())
         {
-            //var objHit = PlayerRayCast();
+            
 
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -52,7 +52,7 @@ public class PlayerInput : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 10000f))
             {
 
-               //If the object that is hit is of tag "UNCountry" get the dataScript for the selected country and send necessary parameters to the UIManager to set country pop up data
+               //If the object that is hit is of tag "UNCountry", pass the ray hit point and transform to the building manager, through the singleton reference
                if (hit.transform.gameObject.CompareTag("UNCountry"))
                {
                    BuildingManager.instance.SpawnBuilding(hit.point, hit.transform);
