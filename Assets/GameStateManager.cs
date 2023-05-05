@@ -15,10 +15,13 @@ public class GameStateManager : MonoBehaviour
     public void BackToMainMenu()
     {
         SceneManager.LoadScene(0);
+        GameWonAudio.Instance.StopGameWonAudio();
     }
 
     public void QuitGame()
     {
+        GameWonAudio.Instance.StopGameWonAudio();
         Application.Quit();
+        
     }
 }
