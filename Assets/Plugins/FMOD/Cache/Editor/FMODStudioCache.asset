@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FmodBanks/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638186518729618626
+  lastModified: 638189199587731242
   FileSizes:
   - Name: 
-    Value: 2198
+    Value: 2350
   Exists: 1
 --- !u!114 &-7585268229164816979
 MonoBehaviour:
@@ -74,6 +74,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2248
+--- !u!114 &-6638632402754137472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/GameLostMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/GameLostMusic
+  Guid:
+    Data1: -728662752
+    Data2: 1157422001
+    Data3: 1988364730
+    Data4: 58270203
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 135793
 --- !u!114 &-6602957334252676675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +116,7 @@ MonoBehaviour:
   Path: FmodBanks/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638186518730328285
+  lastModified: 638189199587711312
   FileSizes: []
   Exists: 1
 --- !u!114 &-5531996601355245277
@@ -399,13 +426,43 @@ MonoBehaviour:
   - {fileID: 5069560461059966963}
   - {fileID: 7379366434160282601}
   - {fileID: 7400976169912241672}
+  - {fileID: 2186131882031810986}
+  - {fileID: -6638632402754137472}
+  - {fileID: 1353244075607726213}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6602957334252676675}
   StringsBanks:
   - {fileID: -8577037947143289805}
-  cacheTime: 638186518730328285
+  cacheTime: 638189199587731242
   cacheVersion: 131601
+--- !u!114 &1353244075607726213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/FireworksAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/FireworksAmbience
+  Guid:
+    Data1: 979958003
+    Data2: 1198644343
+    Data3: 1550184584
+    Data4: 379484725
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 84664
 --- !u!114 &1496076521249572782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,6 +490,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 123525
+--- !u!114 &2186131882031810986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/FireAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/FireAmbience
+  Guid:
+    Data1: -300597219
+    Data2: 1191852980
+    Data3: 268909191
+    Data4: -839448579
+  Banks:
+  - {fileID: -6602957334252676675}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 109645
 --- !u!114 &2433961994618173430
 MonoBehaviour:
   m_ObjectHideFlags: 0

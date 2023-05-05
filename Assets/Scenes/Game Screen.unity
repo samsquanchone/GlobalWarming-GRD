@@ -39246,6 +39246,20 @@ MonoBehaviour:
       Data3: -1717507189
       Data4: 166407650
     Path: snapshot:/CameraHigh
+  gameLostMusicReference:
+    Guid:
+      Data1: -728662752
+      Data2: 1157422001
+      Data3: 1988364730
+      Data4: 58270203
+    Path: event:/Music/GameLostMusic
+  gameLostFireReference:
+    Guid:
+      Data1: -300597219
+      Data2: 1191852980
+      Data3: 268909191
+      Data4: -839448579
+    Path: event:/Ambience/FireAmbience
 --- !u!114 &1393637845
 MonoBehaviour:
   m_ObjectHideFlags: 0

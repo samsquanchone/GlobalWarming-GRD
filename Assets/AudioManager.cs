@@ -27,6 +27,12 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference cameraHighSnapShotReference;
     public EventInstance cameraHighSnapShotInstance {get; private set;}
 
+    [SerializeField] private EventReference gameLostMusicReference;
+    public EventInstance gameLostMusicInstance {get; private set;}
+
+      [SerializeField] private EventReference gameLostFireReference;
+    public EventInstance gameLostFireInstance {get; private set;}
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,12 +63,31 @@ public class AudioManager : MonoBehaviour
         gameMusicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         gameMusicInstance.release();
     }
+
+    public void StartLostGameMusic()
+    {
+        StopGameMusic();
+        gameLostMusicInstance = FMODUnity.RuntimeManager.CreateInstance(gameLostMusicReference);
+        gameLostFireInstance = FMODUnity.RuntimeManager.CreateInstance(gameLostFireReference);
+        gameLostMusicInstance.start();
+        gameLostFireInstance.start();
+    }
     
+    public void StopLostGameMusic()
+    {
+        
+        gameLostMusicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        gameLostFireInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
+        gameLostMusicInstance.release();
+        gameLostFireInstance.release();
+    }
 
     public void StopMenuMusic()
     {
        gameMusicInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
        gameMusicInstance.release();
+       
     }
 
     void StartAmbience()
@@ -90,6 +115,7 @@ public class AudioManager : MonoBehaviour
     {
         StopGameMusic();
         StopAmbience();
+        StopLostGameMusic();
     }
 
 

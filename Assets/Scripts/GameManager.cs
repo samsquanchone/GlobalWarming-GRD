@@ -21,9 +21,12 @@ public class GameManager : MonoBehaviour
    }
    public void GameLost()
    { 
+      Debug.Log("Lost");
       Debug.Log("Game Lost");
+      Date_and_Time_System.instance.Stop_Speed();
       GameLostVisualization();
       gameLostPanel.gameObject.SetActive(true);
+      AudioManager.instance.StartLostGameMusic();
    }
 
    public void GameWon()

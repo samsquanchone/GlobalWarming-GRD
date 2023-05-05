@@ -359,13 +359,15 @@ public class Player : MonoBehaviour
         {
             //Win State
             GameManager.instance.GameWon();
-            Date_and_Time_System.instance.Stop_Speed();
+            
 
         }
 
         else if (Monthly_Heat_Level_Increase > 0.1)
         {
+           
            GameManager.instance.GameLost();
+           
         }
     }
 
