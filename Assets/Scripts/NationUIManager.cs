@@ -61,7 +61,7 @@ public class NationUIManager : MonoBehaviour
             
     
 
-            this.Population_UI.text = (nationData.Cumilative_Population_From_Territories / 1000000).ToString() + " M";
+            this.Population_UI.text = (nationData.Cumilative_Population_From_Territories / 1000000).ToString("F0") + " M";
             this.Awareness_UI.text = (nationData.Awareness).ToString("F2") + " %";
             this.Total_GDP_UI.text = (nationData.GDP).ToString() + " M";
             this.GDP_Contribution_UI.text = (nationData.GDP_Contribution).ToString() + " M";
