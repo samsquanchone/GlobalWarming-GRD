@@ -10,7 +10,8 @@ public class NavMeshManager : MonoBehaviour
     public static NavMeshManager Instance { get; private set; }
 
     public float bergOffset = 0; //Used to increment berg stopping distance
-    float increment = 0.5f;
+
+    float increment = 0.7f;
     public Transform[] bergSpawnPoints;
 
 
@@ -31,6 +32,14 @@ public class NavMeshManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        if(!MenuData.GetGameType()) //Sam edit: IS A LOAD GAME: instantiate local variables from player data json save file
+        {
+            bergOffset = LoadNavData();
+        }
+    }
+
     public void IncreaseBergOffset()
     {
         bergOffset += increment;
@@ -42,5 +51,31 @@ public class NavMeshManager : MonoBehaviour
 
         return _offset;
     }
+
+    public void SaveNavData()
+    {
+        SaveableNavData navData = new SaveableNavData();
+        navData.offSet = bergOffset;
+
+        JSONManager.SaveNavJSON(navData, "NavAgentData");
+
+
+    }
+
+    public float LoadNavData()
+    {
+        SaveableNavData navData = JSONManager.LoadNavData("NavAgentData");
+        float _bergOffset = navData.offSet;
+
+        return _bergOffset;
+
+    }
     
 }
+
+[System.Serializable]
+public class SaveableNavData
+{
+    public float offSet;
+}
+

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Money: 100000
   Political_Power: 0
-  Timber: 0
+  Timber: 1000000000
   Pykerete: 10000000
   Transported_Timber_Waiting_To_Be_Processed: 0
   Logistics: 0

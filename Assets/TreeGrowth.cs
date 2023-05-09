@@ -109,6 +109,8 @@ public class TreeGrowth : MonoBehaviour
             Instantiate(treeCutVFX, this.transform.position, treeCutVFX.transform.rotation);
             TreeReplantManager.instance.ReplantTree(this.gameObject.GetComponent<SaveableObject>().objectType, this.gameObject.transform);
             AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.treeHarvestedPurchased, null);
+            GetComponent<ObjectNationInteraction>().nation.GetComponent<Tile>().RemoveActiveTree();
+
            
         }
     }
