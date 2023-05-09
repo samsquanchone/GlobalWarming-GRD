@@ -26,7 +26,7 @@ public class ObjectNationInteraction : MonoBehaviour
 
            
 
-            if(gameObject.tag == "Tree" && other.transform.gameObject.GetComponent<Tile>().Average_Heat_Level > GetComponent<TreeGrowth>().optimumTemperature &&  GetComponent<TreeGrowth>().monthsRemaining != GetComponent<TreeObject>().m_timeToGrow)
+            if(gameObject.tag == "Tree" && other.transform.gameObject.GetComponent<Tile>().Average_Heat_Level > GetComponent<TreeGrowth>().optimumTemperature && GetComponent<TreeObject>().shouldScale)
             {
                  GetComponent<TreeGrowth>().monthsRemaining = GetComponent<TreeGrowth>().monthsRemaining * 1.4f;
             }

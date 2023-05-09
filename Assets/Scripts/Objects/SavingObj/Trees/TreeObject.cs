@@ -37,6 +37,8 @@ public class TreeObject : SaveableObject
 
     public float initialGrowthTime;
 
+    public bool shouldScale{get; private set;} = true;
+
     
     private float GetGrowthTimeRemaining()
     {
@@ -54,8 +56,9 @@ public class TreeObject : SaveableObject
     public override void Save(int id)
     {
         //Set savestats of this object to be serialized, note if adding another variable add + "_" + newVar.ToString()
+        shouldScale = false;
         timeToGrow = GetGrowthTimeRemaining();
-        saveStats = timeToGrow.ToString();
+        saveStats = timeToGrow.ToString() + "_" + shouldScale.ToString();
         base.Save(id);
     }
 
@@ -63,6 +66,7 @@ public class TreeObject : SaveableObject
     {
         //Getting data from saved object in list, first variable is index 4 of values array, if another varaible is added it would be index 5 and so on
         timeToGrow = float.Parse(values[4]);
+        shouldScale = bool.Parse(values[5]);
         base.Load(values);
     }
 }

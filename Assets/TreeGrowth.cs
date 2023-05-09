@@ -39,7 +39,12 @@ public class TreeGrowth : MonoBehaviour
         {
             //Calculate base scale for tree to then implement 
             growthIncrement = new Vector3(this.gameObject.transform.localScale.x / monthsRemaining, this.gameObject.transform.localScale.y / monthsRemaining, this.gameObject.transform.localScale.z / monthsRemaining);
-            this.gameObject.transform.localScale = new Vector3(growthIncrement.x, growthIncrement.y, growthIncrement.z);
+
+
+            if(GetComponent<TreeObject>().shouldScale)
+            {
+                this.gameObject.transform.localScale = new Vector3(growthIncrement.x, growthIncrement.y, growthIncrement.z);
+            }
         }
         
 

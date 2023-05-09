@@ -36,15 +36,15 @@ public class TeraFactory : MonoBehaviour
             
                 case 0:
                 //Spawn small berg. Reduce global warming by agreed small berg amoun
-                if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025); Player.instance.RemoveAmountFromTimber(smallBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
+                if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
 
                 case 1:
-                if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, spawnPoint.position, bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005); Player.instance.RemoveAmountFromTimber(mediumBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
+                if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, spawnPoint.position, bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
 
                 case 2:
-                if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001); Player.instance.RemoveAmountFromTimber(largeBergPykretePrice); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
+                if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
             }
 
@@ -71,15 +71,19 @@ public class TeraFactory : MonoBehaviour
      //Check to see if player has enough pkyrete to build the specific berg
     private bool CanBuildBerg(int bergCost)
     {
-        if(bergCost <= Player.instance.GetPkyreteStockPile())
+        int timberBergCost = Player.instance.GetTimberStockPile() / 5; //Calculate fee in timber (20%)
+
+        if(bergCost <= Player.instance.GetPkyreteStockPile() && bergCost <= timberBergCost)
         {
             Player.instance.RemoveAmountFromPykereteStockPile(bergCost);
+            Player.instance.RemoveAmountFromTimber(timberBergCost);
+
             return true;
         }
 
         else
         {
-            UIHoverManager.instance.ShowTip("Insufficient Pykerete in Stockpile!", Input.mousePosition);
+            UIHoverManager.instance.ShowTip("Insufficient Pykerete OR Timber in Stockpile!", Input.mousePosition);
             AudioPlayback.PlayOneShot(AudioManager.instance.uiRefs.cantPurchase, null);
             return false;
         }
