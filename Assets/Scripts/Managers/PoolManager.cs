@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public enum PoolingObjectType{Money, Population};
+public enum PoolingObjectType{Money, Population, BergSmall, BergMed, BergLarge};
 
 
 public class PoolManager : MonoBehaviour

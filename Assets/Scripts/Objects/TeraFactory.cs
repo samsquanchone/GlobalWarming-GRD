@@ -36,15 +36,15 @@ public class TeraFactory : MonoBehaviour
             
                 case 0:
                 //Spawn small berg. Reduce global warming by agreed small berg amoun
-                if(CanBuildBerg(smallBergPykretePrice)){Instantiate(bergSmallPrefab, spawnPoint.position, bergSmallPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.000025); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
+                if(CanBuildBerg(smallBergPykretePrice)){GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.BergSmall); _obj.transform.position = spawnPoint.position; _obj.SetActive(true); Player.instance.MinusFromMonthlyHeatLevel(0.000035); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
 
                 case 1:
-                if(CanBuildBerg(mediumBergPykretePrice)){Instantiate(bergMediumPrefab, spawnPoint.position, bergMediumPrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.00005); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
+                if(CanBuildBerg(mediumBergPykretePrice)){GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.BergMed); _obj.transform.position = spawnPoint.position; _obj.SetActive(true); Player.instance.MinusFromMonthlyHeatLevel(0.00005); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
 
                 case 2:
-                if(CanBuildBerg(largeBergPykretePrice)){Instantiate(bergLargePrefab, spawnPoint.position, bergLargePrefab.transform.rotation); Player.instance.MinusFromMonthlyHeatLevel(0.0001); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
+                if(CanBuildBerg(largeBergPykretePrice)){GameObject _obj = PoolManager.instance.GetPoolObject(PoolingObjectType.BergLarge); _obj.transform.position = spawnPoint.position; _obj.SetActive(true); Player.instance.MinusFromMonthlyHeatLevel(0.0001); AudioPlayback.PlayOneShot(AudioManager.instance.objectRefs.pykreteProduced, null);}
                 break;
             }
 

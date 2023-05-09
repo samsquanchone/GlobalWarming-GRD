@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum BergSize {Small, Medium, Large};
+
 public class BergNavAgent : MonoBehaviour
 {
+    public BergSize bergSize;
     [SerializeField] GameObject boat;
     private UnityEngine.AI.NavMeshAgent navMeshAgent;
     [SerializeField] Transform location;
@@ -40,18 +44,19 @@ public class BergNavAgent : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         
      
         navMeshAgent.destination = location.position;
-        Debug.Log("Remaining distance" + navMeshAgent.remainingDistance);
+       
+
 
        if(navMeshAgent.remainingDistance <= 0 + NavMeshManager.Instance.GetBergOffset() && !navMeshAgent.pathPending)
        {
            
            NavMeshManager.Instance.IncreaseBergOffset(); //Increase berg offset
-           SpawnBerg();
+           SpawnBerg(this.bergSize);
        }
     }
 
@@ -70,11 +75,26 @@ public class BergNavAgent : MonoBehaviour
        navMeshAgent.speed = speedFast;
     }
 
-    void SpawnBerg()
+    void SpawnBerg(BergSize size)
     {
         Vector3 spawnPos = new Vector3 (this.transform.position.x, this.transform.position.y - 0.7f, this.transform.position.z);
         Instantiate(berg, spawnPos, berg.transform.rotation);
-        Destroy(this.gameObject);
+
+        switch(size)
+        {
+            case (BergSize.Small):
+            PoolManager.instance.CoolObject(this.gameObject, PoolingObjectType.BergSmall);
+            break;
+
+            case (BergSize.Medium):
+            PoolManager.instance.CoolObject(this.gameObject, PoolingObjectType.BergMed);
+            break;
+
+            case (BergSize.Large):
+            PoolManager.instance.CoolObject(this.gameObject, PoolingObjectType.BergLarge);
+            break;
+        }
+       // Destroy(this.gameObject);
     }
 
     void GetInitialTimeMode()

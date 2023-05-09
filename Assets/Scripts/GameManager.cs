@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
    public void GameWon()
    {
-      Debug.Log("Game won");
+      PersistentManagerScript.instance.Save();
       SceneManager.LoadScene(7);
    }
 
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
       {
             
 
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(0.3f);
                
            
       } 

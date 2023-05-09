@@ -179,9 +179,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bergSmallPrefab: {fileID: 3941055916623965778, guid: 3531a3253b07b5541bd0445208e0940e,
     type: 3}
-  bergMediumPrefab: {fileID: 3941055916623965778, guid: 3531a3253b07b5541bd0445208e0940e,
+  bergMediumPrefab: {fileID: 6442643587978020414, guid: 6c113d15c9c29a947a8368e87728c8eb,
     type: 3}
-  bergLargePrefab: {fileID: 3941055916623965778, guid: 3531a3253b07b5541bd0445208e0940e,
+  bergLargePrefab: {fileID: 6442643587978020414, guid: a441f3caf0c6d184c8735428fc98041f,
     type: 3}
   smallBergPykretePrice: 1000
   mediumBergPykretePrice: 3000
