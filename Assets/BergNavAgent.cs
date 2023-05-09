@@ -20,7 +20,7 @@ public class BergNavAgent : MonoBehaviour
     void Start()
     {
         
-        offSet = NavMeshManager.instance.GetBergOffset(); //Increase berg offset
+        offSet = NavMeshManager.Instance.GetBergOffset(); //Increase berg offset
         navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         navMeshAgent.stoppingDistance = offSet; //Get saved stopping distance
 
@@ -47,10 +47,10 @@ public class BergNavAgent : MonoBehaviour
         navMeshAgent.destination = location.position;
         Debug.Log("Remaining distance" + navMeshAgent.remainingDistance);
 
-       if(navMeshAgent.remainingDistance <= 0 + NavMeshManager.instance.GetBergOffset() && !navMeshAgent.pathPending)
+       if(navMeshAgent.remainingDistance <= 0 + NavMeshManager.Instance.GetBergOffset() && !navMeshAgent.pathPending)
        {
-           Debug.Log(NavMeshManager.instance.GetBergOffset());  
-           NavMeshManager.instance.IncreaseBergOffset(); //Increase berg offset
+           
+           NavMeshManager.Instance.IncreaseBergOffset(); //Increase berg offset
            SpawnBerg();
        }
     }

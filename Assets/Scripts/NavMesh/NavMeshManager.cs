@@ -7,7 +7,7 @@ using UnityEngine;
 public class NavMeshManager : MonoBehaviour
 {
     
-    public static NavMeshManager instance { get; private set; }
+    public static NavMeshManager Instance { get; private set; }
 
     public float bergOffset = 0; //Used to increment berg stopping distance
     float increment = 0.5f;
@@ -19,9 +19,9 @@ public class NavMeshManager : MonoBehaviour
     void Awake()
     {
         //Non-lazy instantiation of singleton 
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
 
@@ -30,7 +30,6 @@ public class NavMeshManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
 
     public void IncreaseBergOffset()
     {
@@ -43,8 +42,5 @@ public class NavMeshManager : MonoBehaviour
 
         return _offset;
     }
-
     
-
-
 }
