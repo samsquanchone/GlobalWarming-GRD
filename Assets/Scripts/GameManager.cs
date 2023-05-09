@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
    public static GameManager instance => m_instance;
    private static GameManager m_instance;
    [SerializeField] private GameObject gameLostPanel;
+    AsyncOperation loadingOperation;
 
    [SerializeField] private GameObject fireVFX; //Wanted the fire as a game mechanic but we had issues with country mesh not being generated in blender, so will have to just be used as a game over visual :(
     Nation[] All_Nations; 
@@ -44,4 +45,20 @@ public class GameManager : MonoBehaviour
          Instantiate(fireVFX, Mesh_Center, fireVFX.transform.rotation); //Spawn fire vfx on every nation
       }
    }
+
+    IEnumerator loadScene()
+    {
+      loadingOperation = SceneManager.LoadSceneAsync(7, LoadSceneMode.Single);
+      loadingOperation.allowSceneActivation = false;
+
+      while(!loadingOperation.isDone)
+      {
+            
+
+            yield return new WaitForSeconds(3f);
+               
+           
+      } 
+    } 
+
 }
