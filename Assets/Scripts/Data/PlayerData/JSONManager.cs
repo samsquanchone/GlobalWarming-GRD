@@ -182,6 +182,39 @@ public static class JSONManager
 
    }
 
+   public static void SaveNavJSON(SaveableNavData obj, string fileName)
+   {
+       string dir = Application.persistentDataPath + directory;
+       string file = fileName +  fileExt;
+
+       if(Directory.Exists(dir))
+       {
+           string json = JsonUtility.ToJson(obj);
+           File.WriteAllText(dir + file, json);
+       }
+   }
+
+   public static SaveableNavData LoadNavData(string fileName)
+   {
+        string file = fileName  + fileExt;
+        string fullPath = Application.persistentDataPath + directory + file;
+        SaveableNavData so = new SaveableNavData();
+
+        if(File.Exists(fullPath))
+        {
+            string json = File.ReadAllText(fullPath);
+            so = JsonUtility.FromJson<SaveableNavData>(json);
+        }
+
+        else 
+        {
+            Debug.Log("Save file does not exist");
+        }
+
+        return so;
+
+   }
+
    
 
 }

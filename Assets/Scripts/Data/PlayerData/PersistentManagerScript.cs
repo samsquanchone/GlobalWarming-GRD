@@ -80,6 +80,8 @@ public class PersistentManagerScript : MonoBehaviour
         Date_and_Time_System.instance.Save();
 
         GraphDataManager.instance.SaveGraphValues();
+
+        NavMeshManager.Instance.SaveNavData();
     }
 
     public void Load()

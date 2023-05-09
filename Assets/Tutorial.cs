@@ -10,6 +10,15 @@ public class Tutorial : MonoBehaviour
 
     [SerializeField] private List<GameObject> tutorialList;
 
+    void Start()
+    {
+        
+        if(MenuData.GetGameType()) //Sam edit: IS A NEW GAME: show the tutorial
+        {
+            tutorialList[0].SetActive(true);
+        }
+    }
+
     public void ShowNextTutorialWindow()
     {
         currentTutorialWindow = tutorialList[0];
