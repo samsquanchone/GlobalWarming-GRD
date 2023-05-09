@@ -11,12 +11,13 @@ public class Visualization : MonoBehaviour
 
     [SerializeField] Toggle Pop_Visualization_Toggle;
     [SerializeField] Toggle Money_Visualization_Toggle;
-
+    [SerializeField] Button Buy_Awareness;
 
     [SerializeField] bool Pop_Viz_Enabled = false;
     [SerializeField] bool Money_Viz_Enabled = false;
+    [SerializeField] bool Awareness_Enabled = false;
 
-
+    [SerializeField] Nation nation;
 
     Nation[] All_Nations; 
 
@@ -56,6 +57,18 @@ public class Visualization : MonoBehaviour
         }
 
         //Money Visualization
+        if (Money_Visualization_Toggle.isOn && Money_Viz_Enabled == false)
+        {
+            Money_Viz_Enabled = true;
+            Visualize_GDP();
+        }
+        else if (Money_Visualization_Toggle.isOn == false && Money_Viz_Enabled == true)
+        {
+            Money_Viz_Enabled = false;
+            Delete_Money_Visualization();
+        }
+
+        //AWARENESS
         if (Money_Visualization_Toggle.isOn && Money_Viz_Enabled == false)
         {
             Money_Viz_Enabled = true;
