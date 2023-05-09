@@ -30,6 +30,10 @@ public class NationUIManager : MonoBehaviour
 
     [SerializeField] private Button closePopUpButton;
 
+
+    [SerializeField] private Button Increase_Awareness_Button;
+    [SerializeField] public Nation Attached_Nation;
+
     public bool Tile_Pressed = true;
     Nation Last_Nation_Pressed;
     private void Start()
@@ -39,6 +43,7 @@ public class NationUIManager : MonoBehaviour
 
         Date_and_Time_System.instance.Month_Pass_Event.AddListener(() => Show_Nation_UI(Last_Nation_Pressed));
         closePopUpButton.onClick.AddListener(CloseNationUI);
+        Increase_Awareness_Button.onClick.AddListener(Increase_Awareness);
     }
 
     private void CloseNationUI()
@@ -47,11 +52,28 @@ public class NationUIManager : MonoBehaviour
         Tile_Pressed = false;
     }
 
-    
+    public void Increase_Awareness()
+    {
+        if(this.Attached_Nation != null)
+        {
+            if(Player.instance.Political_Power > 10)
+            {
+                Player.instance.Political_Power = Player.instance.Political_Power - 10;
+
+                this.Attached_Nation.Awareness += 0.01f;
+
+            }
+
+
+
+        }
+        
+    }
     public void Show_Nation_UI(Nation nationData)
     {
         if (Tile_Pressed && nationData != null)
         {
+            this.Attached_Nation = nationData;
             Nation_UI.renderMode = RenderMode.ScreenSpaceOverlay;
             Last_Nation_Pressed = nationData;
             Tile_Pressed = true;
@@ -61,7 +83,7 @@ public class NationUIManager : MonoBehaviour
             
     
 
-            this.Population_UI.text = (nationData.Cumilative_Population_From_Territories / 1000000).ToString() + " M";
+            this.Population_UI.text = (nationData.Cumilative_Population_From_Territories / 1000000).ToString("F0") + " M";
             this.Awareness_UI.text = (nationData.Awareness).ToString("F2") + " %";
             this.Total_GDP_UI.text = (nationData.GDP).ToString() + " M";
             this.GDP_Contribution_UI.text = (nationData.GDP_Contribution).ToString() + " M";
