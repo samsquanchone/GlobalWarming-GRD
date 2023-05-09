@@ -285,6 +285,11 @@ public class Tile : MonoBehaviour
 
     }
 
+    public void RemoveActiveTree()
+    {
+        activeTree_Amount--;
+    }
+
     //Sam addition: getters + setters for better memory management, should make your vars e.g. public in varName {get; private set;} to avoid memory issues
     public float GetPopulation()
     {
