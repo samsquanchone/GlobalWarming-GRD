@@ -115,7 +115,7 @@ public class BergNavAgent : MonoBehaviour
         }
     }
 
-    void OnDestory()
+    void OnDestroy()
     {
         Date_and_Time_System.instance.FastforwardEvent.RemoveListener(NormalSpeedNavAgent);
         Date_and_Time_System.instance.PauseEvent.RemoveListener(StopNavAgent);
