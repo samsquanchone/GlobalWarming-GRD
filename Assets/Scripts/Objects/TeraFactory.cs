@@ -71,9 +71,9 @@ public class TeraFactory : MonoBehaviour
      //Check to see if player has enough pkyrete to build the specific berg
     private bool CanBuildBerg(int bergCost)
     {
-        int timberBergCost = Player.instance.GetTimberStockPile() / 5; //Calculate fee in timber (20%)
+        int timberBergCost = bergCost / 5; //Calculate fee in timber (20%)
 
-        if(bergCost <= Player.instance.GetPkyreteStockPile() && bergCost <= timberBergCost)
+        if(bergCost <= Player.instance.GetPkyreteStockPile() && Player.instance.GetTimberStockPile() >= timberBergCost)
         {
             Player.instance.RemoveAmountFromPykereteStockPile(bergCost);
             Player.instance.RemoveAmountFromTimber(timberBergCost);
