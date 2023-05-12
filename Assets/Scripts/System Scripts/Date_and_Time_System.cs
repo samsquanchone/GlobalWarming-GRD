@@ -288,11 +288,19 @@ public class Date_and_Time_System : MonoBehaviour
     }
     
     //Sam memory management: you have an event system with listeners but these listeners are not unsubscribed from the event system, handling this on destory to avoid memory leaks 
-    void OnDestory()
+    void OnDestroy()
     {
         Stop_BUTTON.onClick.RemoveListener(Stop_Speed);
         Normal_Speed_BUTTON.onClick.RemoveListener(Normal_Speed);
         Fast_Speed_BUTTON.onClick.RemoveListener(Fast_Speed);
+    }
+
+    public SaveTimeData SaveTimeData
+    {
+        get => default;
+        set
+        {
+        }
     }
 }
 
@@ -302,3 +310,4 @@ public class SaveTimeData
     public int year;
     public int month;
 }
+
