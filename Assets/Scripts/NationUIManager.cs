@@ -56,9 +56,9 @@ public class NationUIManager : MonoBehaviour
     {
         if(this.Attached_Nation != null)
         {
-            if(Player.instance.Political_Power > 10)
+            if(Player.instance.Political_Power > 100)
             {
-                Player.instance.Political_Power = Player.instance.Political_Power - 10;
+                Player.instance.Political_Power = Player.instance.Political_Power - 100;
 
                 this.Attached_Nation.Awareness += 0.01f;
 

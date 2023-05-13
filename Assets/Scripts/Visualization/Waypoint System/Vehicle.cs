@@ -90,7 +90,7 @@ public class Vehicle : MonoBehaviour
     }
     
     //Sam addition: remove listeners from memory when vehicle destory / game ended
-    void OnDestory()
+    void OnDestroy()
     {
         Date_and_Time_System.instance.PlayEvent.RemoveListener(NormalSpeedVehical);
         Date_and_Time_System.instance.PauseEvent.RemoveListener(StopVehical);

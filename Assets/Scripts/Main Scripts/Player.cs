@@ -223,9 +223,9 @@ public class Player : MonoBehaviour
         }
 
         //Vehicle and Building Contribution Values
-        int Logistics_Increase_per_Train = 5; //in tons
-        int Logistics_Increase_per_Ship = 100;
-        float Logistics_Multiplayer_for_Ship_per_Harbour = 1.01f; // 1%
+        int Logistics_Increase_per_Train = 1; //in tons
+        int Logistics_Increase_per_Ship = 50;
+        float Logistics_Multiplayer_for_Ship_per_Harbour = 1.005f; // 0.5%
         float Logistics_Multiplayer_for_Train_per_Railway = 1.005f; // 0.5%
 
 

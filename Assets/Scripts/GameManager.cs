@@ -32,8 +32,7 @@ public class GameManager : MonoBehaviour
 
    public void GameWon()
    {
-      PersistentManagerScript.instance.Save();
-      SceneManager.LoadScene(7);
+        StartCoroutine("loadScene");
    }
 
    private void GameLostVisualization()
@@ -48,17 +47,17 @@ public class GameManager : MonoBehaviour
 
     IEnumerator loadScene()
     {
-      loadingOperation = SceneManager.LoadSceneAsync(7, LoadSceneMode.Single);
-      loadingOperation.allowSceneActivation = false;
+        PersistentManagerScript.instance.Save();
+        yield return new WaitForSeconds(0.3f);
 
-      while(!loadingOperation.isDone)
-      {
-            
+        //Do GC before changing scene, if we try to change scene with loads of stuff in scene, can cause some pcs to crash
+        System.GC.Collect();
+        System.GC.WaitForPendingFinalizers();
 
-            yield return new WaitForSeconds(0.3f);
-               
-           
-      } 
+        yield return new WaitForSeconds(0.3f);
+        SceneManager.LoadScene(7);
+
+
     } 
 
 }
