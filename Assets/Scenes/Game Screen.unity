@@ -14705,8 +14705,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Produce Small Berg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
+  m_fontAsset: {fileID: 11400000, guid: efbdf429969a5c640b30fe007e1947d3, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: efbdf429969a5c640b30fe007e1947d3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -25463,8 +25463,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Produce Large Berg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
+  m_fontAsset: {fileID: 11400000, guid: efbdf429969a5c640b30fe007e1947d3, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: efbdf429969a5c640b30fe007e1947d3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -33369,8 +33369,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
+  m_fontAsset: {fileID: 11400000, guid: efbdf429969a5c640b30fe007e1947d3, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: efbdf429969a5c640b30fe007e1947d3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -51278,7 +51278,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 0.35480544, b: 0.29874206, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
