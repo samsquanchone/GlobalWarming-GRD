@@ -259,10 +259,10 @@ public class Nation : MonoBehaviour
         if (this.Lumbermill_Level != 0 && this.Woodland_Count > 0)
         {
             //How much wood is required per level
-            int Woodland_Process_Capacity_per_Level = 1000;
+            int Woodland_Process_Capacity_per_Level = 500;
 
             //Wood to Timber conversion rate (in tons)
-            float Conversion_Rate = 0.25f;
+            float Conversion_Rate = 1f;
 
             int Nations_Monthly_Woodland_Process_Capacity = Lumbermill_Level * Woodland_Process_Capacity_per_Level;
 
