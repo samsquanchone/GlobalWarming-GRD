@@ -73,7 +73,7 @@ public class WindowGraph : MonoBehaviour
        //Intitialise different chart visuals (For multiple Displays) ---- Maybe handle data sets outside of this script 
 
        //Example graph
-       lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, tempLineColor, new Color(1, 1, 1, .5f));
+       lineGraphVisual = new LineGraphVisual(graphContainer, dotSprite, tempLineColor, Color.green);
        barChartVisual = new BarChartVisual(graphContainer, Color.red, .8f);
        
        //Money data Graphs

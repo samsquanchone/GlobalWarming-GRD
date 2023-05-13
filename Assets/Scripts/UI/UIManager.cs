@@ -262,8 +262,8 @@ public class UIManager : MonoBehaviour
     public void OpenPykretePanelFactoryPanel(GameObject gameObject)
     {
         pykreteFactoryData1.text = "Placed in: Antarctica";
-        pykreteFactoryData2.text = "Processed wood stockpile: " + Player.instance.GetPkyreteStockPile() + " Giga Tons";
-        pykreteFactoryData3.text = "Maximum capacity" + Player.instance.Total_Logistics_Capacity + "Tons";
+        pykreteFactoryData2.text = "Processed wood stockpile: \n" + Player.instance.GetPkyreteStockPile() + " Giga Tons";
+        pykreteFactoryData3.text = "";
         pykreteFactoryData4.text = "";
         
         pykreteFactoryPanel.SetActive(true);
