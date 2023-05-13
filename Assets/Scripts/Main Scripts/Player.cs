@@ -81,17 +81,17 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-       
 
-        if(!MenuData.GetGameType()) //Sam edit: IS A LOAD GAME: instantiate local variables from player data json save file
+
+        Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+        if (!MenuData.GetGameType()) //Sam edit: IS A LOAD GAME: instantiate local variables from player data json save file
         {
             Load();
         }
-
         else
-        {    
+        {
             //Sam: IS A NEW GAME: Can use SO values to easily set variables in inspector for debug puproses
-            
+
             this.Money = Attached_Player_Data.Money;
             this.Political_Power = Attached_Player_Data.Political_Power;
             this.Timber = Attached_Player_Data.Timber;
@@ -100,10 +100,14 @@ public class Player : MonoBehaviour
             this.Trains = Attached_Player_Data.Trains;
             this.Monthly_Heat_Level_Increase = Attached_Player_Data.Monthly_Heat_Level_Increase;
             this.Transported_Timber_Waiting_To_Be_Processed = Attached_Player_Data.Transported_Timber_Waiting_To_Be_Processed;
-             
+
+
+
+
         }
 
-        Date_and_Time_System.instance.Month_Pass_Event.AddListener(Calculate_On_Month_Pass);
+
+
     }
     //Button Load_Button;
    // Button Save_Button;
