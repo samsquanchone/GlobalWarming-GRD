@@ -185,8 +185,8 @@ public class Tile : MonoBehaviour
         tileData.climateSupport = Climate_Support;
         tileData.averageHeatLevel = Average_Heat_Level;
         tileData.population = Population;
-        tileData.harbourLevel = Harbour_Level;
-        tileData.railwayLevel = Railway_Level;
+        //tileData.harbourLevel = Harbour_Level;
+        //tileData.railwayLevel = Railway_Level;
 
         JSONManager.SaveTileJSON(tileData, gameObject.name);
         
@@ -200,8 +200,8 @@ public class Tile : MonoBehaviour
         this.Average_Heat_Level = tileData.averageHeatLevel;
         this.Population = tileData.population;
         this.Lumbermill_Level = tileData.lumbermillLevel;
-        this.Harbour_Level = tileData.harbourLevel;
-        this.Railway_Level = tileData.railwayLevel;
+       // this.Harbour_Level = tileData.harbourLevel;
+       // this.Railway_Level = tileData.railwayLevel;
     }
     
 
@@ -323,6 +323,6 @@ public class SaveTileData
     public float averageHeatLevel;
     public float population;
     public int lumbermillLevel;
-    public int harbourLevel;
-    public int railwayLevel;
+    //public int harbourLevel;
+   // public int railwayLevel;
 }
