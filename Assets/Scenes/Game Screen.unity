@@ -554,7 +554,7 @@ MonoBehaviour:
     dioxide level and trees planted by years. The graph can be switched between a
     bar and a line chart, and minimized/maximized.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -619,7 +619,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &20825889
@@ -2477,8 +2477,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 4: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3578,7 +3578,7 @@ MonoBehaviour:
   m_text: "Lumbermills, train stations and ports can be upgraded by clicking on them
     with left mouse click. You can purchase them with money.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -3643,7 +3643,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &127347732
@@ -4370,7 +4370,7 @@ MonoBehaviour:
     select a country and use right mouse click. To harvest a tree, click on the tree
     when its fully grown. \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -4435,7 +4435,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &157152244
@@ -5076,8 +5076,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 74%
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6139,8 +6139,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NONE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7055,8 +7055,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tera Factory
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7373,8 +7373,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2332M
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -7509,8 +7509,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 1:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9142,7 +9142,7 @@ MonoBehaviour:
     to Antarctica by ships. You will need at least 80% of the total logistic capacity
     to be provided by ships to build a pykrete berg.\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -9207,7 +9207,7 @@ MonoBehaviour:
   m_margin: {x: 3.556961, y: 4.427616, z: 11.058945, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &332574298
@@ -14705,8 +14705,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Produce Small Berg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: efbdf429969a5c640b30fe007e1947d3, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: efbdf429969a5c640b30fe007e1947d3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -15805,8 +15805,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: x
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -19937,8 +19937,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 3: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -20519,8 +20519,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Level 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -20929,7 +20929,7 @@ MonoBehaviour:
     depending on the heat level, the GDP (Gross Domestic Production), the GDP contribution,
     awareness, woodland and the constructed buildings.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -20994,7 +20994,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &753442233
@@ -21328,7 +21328,7 @@ MonoBehaviour:
 
     Good luck!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -21393,7 +21393,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 11.633667, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &766276612
@@ -22600,8 +22600,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 2: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -25463,8 +25463,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Produce Large Berg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: efbdf429969a5c640b30fe007e1947d3, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: efbdf429969a5c640b30fe007e1947d3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -27910,8 +27910,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10928 tons
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -29517,7 +29517,7 @@ MonoBehaviour:
     Assembly of the United Nations to stop Global Warming by storing carbon extracted
     from the atmosphere in pykrete bergs and transporting them to Antarctica's coastline.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -29582,7 +29582,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 11.633667, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1013472097
@@ -29807,8 +29807,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lumbermill
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -33369,8 +33369,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: efbdf429969a5c640b30fe007e1947d3, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: efbdf429969a5c640b30fe007e1947d3,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -40857,8 +40857,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 4: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -42410,8 +42410,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Total Avaliable Woodland
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -42821,8 +42821,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Railway
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -45866,8 +45866,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -45898,7 +45898,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 0
   m_fontSizeMax: 72
-  m_fontStyle: 4
+  m_fontStyle: 5
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -47385,7 +47385,7 @@ MonoBehaviour:
     by industry, population and awareness. With these you can grow and harvest five
     species of trees on various geographic locations.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -47450,7 +47450,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1695853037
@@ -48010,8 +48010,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Buildings
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -48209,8 +48209,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Harbour
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -48760,8 +48760,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 1:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -50702,8 +50702,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 3: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -51278,7 +51278,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 0.35480544, b: 0.29874206, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -51873,8 +51873,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Data 2: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -53517,8 +53517,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Population
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -53689,7 +53689,7 @@ MonoBehaviour:
     right, along with the supply routes, population and GDP distribution over the
     countries.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -53754,7 +53754,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1902753747
@@ -55686,8 +55686,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Awareness
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -56205,8 +56205,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 482939M
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -56341,8 +56341,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GDP Contribution
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -56367,13 +56367,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.6
+  m_fontSize: 7.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 0
   m_fontSizeMax: 72
-  m_fontStyle: 4
+  m_fontStyle: 5
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -56477,8 +56477,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Level 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -57823,8 +57823,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 345M
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -59972,7 +59972,7 @@ MonoBehaviour:
     game world with W/A/S/D keys or with arrow keys. Game is paused at the beginning,
     you can unpause with Space to start playing.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -60037,7 +60037,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2101625836
@@ -60926,7 +60926,7 @@ MonoBehaviour:
   m_text: You can move forward in time (and faster if >> is pressed!) or pause time
     as selected on the time panel. Month and year display the current time.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 597d894706bf62b41a5a0dd8108195d9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
   m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
     type: 2}
   m_fontSharedMaterials: []
@@ -60991,7 +60991,7 @@ MonoBehaviour:
   m_margin: {x: 5.2841034, y: 4.427616, z: 14.492455, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2138805839

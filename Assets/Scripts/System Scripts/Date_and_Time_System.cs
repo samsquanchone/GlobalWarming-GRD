@@ -106,10 +106,10 @@ public class Date_and_Time_System : MonoBehaviour
         {
             if (Normal_Time_Speed)
             {
-                Unchecked_Game_Timer += Time.deltaTime / 2;
+                Unchecked_Game_Timer += Time.deltaTime;
             }
             else if (Fast_Time_Speed) {
-                Unchecked_Game_Timer += Time.deltaTime;
+                Unchecked_Game_Timer += Time.deltaTime * 2f;
             }
         }
 
@@ -294,6 +294,14 @@ public class Date_and_Time_System : MonoBehaviour
         Normal_Speed_BUTTON.onClick.RemoveListener(Normal_Speed);
         Fast_Speed_BUTTON.onClick.RemoveListener(Fast_Speed);
     }
+
+    public SaveTimeData SaveTimeData
+    {
+        get => default;
+        set
+        {
+        }
+    }
 }
 
 [System.Serializable]
@@ -302,3 +310,4 @@ public class SaveTimeData
     public int year;
     public int month;
 }
+
