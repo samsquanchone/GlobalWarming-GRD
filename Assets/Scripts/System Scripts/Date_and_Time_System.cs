@@ -106,10 +106,10 @@ public class Date_and_Time_System : MonoBehaviour
         {
             if (Normal_Time_Speed)
             {
-                Unchecked_Game_Timer += Time.deltaTime / 2;
+                Unchecked_Game_Timer += Time.deltaTime;
             }
             else if (Fast_Time_Speed) {
-                Unchecked_Game_Timer += Time.deltaTime;
+                Unchecked_Game_Timer += Time.deltaTime * 2f;
             }
         }
 
