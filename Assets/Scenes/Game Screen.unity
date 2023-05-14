@@ -9240,7 +9240,7 @@ RectTransform:
   m_GameObject: {fileID: 332574295}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.90446377, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 817005610}
@@ -9248,7 +9248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 106.5, y: -48}
+  m_AnchoredPosition: {x: 106.5, y: -42.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &332574297
@@ -9273,12 +9273,12 @@ MonoBehaviour:
       m_Calls: []
   m_text: "After harvesting a tree, you would need a lumbermill to cut trees and
     produce timber. To make pykrete, you can send the timber via trains or ships
-    to Antarctica by building a port or a train station. \nPykrete is mainly transported
+    to Antarctica by building a port or a train station. \n\nPykrete is mainly transported
     to Antarctica by ships. You will need at least 80% of the total logistic capacity
-    to be provided by ships to build a pykrete berg.\n"
+    to be provided by ships to build a pykrete berg and 20% by trains.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 314b7adfc35dc294185e3912ef0d6058, type: 2}
-  m_sharedMaterial: {fileID: -711424164758922734, guid: 597d894706bf62b41a5a0dd8108195d9,
+  m_sharedMaterial: {fileID: -711424164758922734, guid: 314b7adfc35dc294185e3912ef0d6058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9342,7 +9342,7 @@ MonoBehaviour:
   m_margin: {x: 3.556961, y: 4.427616, z: 11.058945, w: -23.207474}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &332574298
@@ -19129,15 +19129,15 @@ MonoBehaviour:
     left in the nation, lumbermills will not work. Players must replenish available
     woodlands by growing trees on that tile.\r\n\nTera Factory\nTera Factories monthly
     convert timber send to pykrete and player can use the pykrete stockpile to create
-    pykrete bergs.\r                        Tera Factories can be built only on the
-    Antarctic Peninsula. Produced pykrete bergs reduce global warming speed.\r                                    
-    If there is not enough logistics level, overproduced pykrete will be stored on
-    pykrete stockpile of the player.\r\n\nThe player can also produce 3 kinds of
-    Pykrete berg.\r\n- Level 1 Pykrete berg costs 1000 pykrete to be produced and
-    reduces  0.000025 amount of global warming heat increase.\r\n- Level 2 Pykrete
-    berg costs 3000 pykrete to be produced and reduces  0.00005 amount of global
-    warming heat increase.\r\n- Level 3 Pykrete berg costs 5000 pykrete to be produced
-    and reduces  0.0001 amount of global warming heat increase.\r\n\n"
+    pykrete bergs.\r                           Tera Factories can be built only on
+    the Antarctic Peninsula. Produced pykrete bergs reduce global warming speed.\r                                         
+    To produce pykrete, you will need 20% of logistics to be provided by trains and
+    80% by ships.\n\nThe player can also produce 3 kinds of Pykrete berg.\r\n- Level
+    1 Pykrete berg costs 1000 pykrete to be produced and reduces  0.000025 amount
+    of global warming heat increase.\r\n- Level 2 Pykrete berg costs 3000 pykrete
+    to be produced and reduces  0.00005 amount of global warming heat increase.\r\n-
+    Level 3 Pykrete berg costs 5000 pykrete to be produced and reduces  0.0001 amount
+    of global warming heat increase.\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -23061,7 +23061,7 @@ RectTransform:
   m_GameObject: {fileID: 817005609}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.954678, y: 0.99106777, z: 0.99167746}
+  m_LocalScale: {x: 0.954678, y: 1.2032554, z: 0.99167746}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 665975594}

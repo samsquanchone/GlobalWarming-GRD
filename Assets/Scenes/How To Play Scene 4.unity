@@ -5381,15 +5381,15 @@ MonoBehaviour:
     left in the nation, lumbermills will not work. Players must replenish available
     woodlands by growing trees on that tile.\r\n\nTera Factory\nTera Factories monthly
     convert timber send to pykrete and player can use the pykrete stockpile to create
-    pykrete bergs.\r                        Tera Factories can be built only on the
-    Antarctic Peninsula. Produced pykrete bergs reduce global warming speed.\r                                    
-    If there is not enough logistics level, overproduced pykrete will be stored on
-    pykrete stockpile of the player.\r\n\nThe player can also produce 3 kinds of
-    Pykrete berg.\r\n- Level 1 Pykrete berg costs 1000 pykrete to be produced and
-    reduces  0.000025 amount of global warming heat increase.\r\n- Level 2 Pykrete
-    berg costs 3000 pykrete to be produced and reduces  0.00005 amount of global
-    warming heat increase.\r\n- Level 3 Pykrete berg costs 5000 pykrete to be produced
-    and reduces  0.0001 amount of global warming heat increase.\r\n\n"
+    pykrete bergs.\r                          Tera Factories can be built only on
+    the Antarctic Peninsula. Produced pykrete bergs reduce global warming speed.\r                                         
+    To produce pykrete, you would need 80% of logistics to be provided by ships and
+    20% by trains.\n\nThe player can also produce 3 kinds of Pykrete berg.\r\n- Level
+    1 Pykrete berg costs 1000 pykrete to be produced and reduces  0.000025 amount
+    of global warming heat increase.\r\n- Level 2 Pykrete berg costs 3000 pykrete
+    to be produced and reduces  0.00005 amount of global warming heat increase.\r\n-
+    Level 3 Pykrete berg costs 5000 pykrete to be produced and reduces  0.0001 amount
+    of global warming heat increase.\r\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
